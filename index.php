@@ -9,8 +9,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>Famiee</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="description" content="「famiee」プロジェクトとは、地方自治体が発行するパートナーシップ証明書に相当する証明書を、ブロックチェーン技術を用いて民間で発行することを目的としたプロジェクトです。">
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
     <link href="assets/css/gaia.css" rel="stylesheet"/>
+    
+    <!--OPG-->
+    <meta property="og:url" content="https://www.famiee.com" />
+    <meta property="og:image" content="https://staked.co.jp/assets/img/family.jpg" />
+
 
     <!--     Fonts and icons     -->
     <link href='https://fonts.googleapis.com/css?family=Cambo|Poppins:400,600' rel='stylesheet' type='text/css'>
@@ -56,7 +62,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="https://forms.gle/vmAKjyr2a4DFtpUx8" class="btn btn-danger btn-fill">コンタクト</a>
+                        <a href="https://forms.gle/vmAKjyr2a4DFtpUx8" target="_blank" class="btn btn-danger btn-fill">コンタクト</a>
                     </li>
                 </ul>
             </div>
@@ -172,7 +178,7 @@
                 <div class="content">
                     <div class="row">
                         <div class="title-area">
-                            <h2>参画企業</h2>
+                            <h2>賛同企業</h2>
                             <div class="separator separator-danger">✻</div>
                         </div>
                     </div>
@@ -184,36 +190,42 @@
                                     <div class="col-md-4">
                                         <div class="card card-member">
                                             <div class="content">
+                                                <a href= "https://staked.co.jp/" target="_blank">
                                                 <div class="avatar avatar-danger">
                                                     <img alt="..." src="assets/img/faces/staked.jpg"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title">Staked</h3>
                                                 </div>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="card card-member">
                                             <div class="content">
+                                                <a href= "https://www.hottolink.co.jp/" target="_blank">
                                                 <div class="avatar avatar-danger">
                                                     <img alt="..." class="img-circle" src="assets/img/faces/ホットリンク.jpg"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title">ホットリンク</h3>
                                                 </div>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="card card-member">
                                             <div class="content">
+                                            <a href= "https://withid.jp/" target="_blank">
                                                 <div class="avatar avatar-danger">
                                                     <img alt="..." class="img-circle" src="assets/img/faces/WithID.jpg"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title">WithID</h3>
                                                 </div>
+                                            </a>
                                             </div>
                                         </div>
                                     </div>
@@ -285,23 +297,6 @@
                                         </div>
                                     </div>
 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="section-our-team-freebie">
-        <div>
-            <div class="container">
-                <div class="content">
-                    <div class="team">
-                        <div class="row">
-                            <div class="col-md-10 col-md-offset-1">
-                                <div class="row">
                                     <div class="col-md-4">
                                         <div class="card card-member">
                                             <div class="content">
@@ -311,11 +306,12 @@
                                                 <div class="description">
                                                     <h3 class="title">川大揮</h3>
                                                     <p class="small-text">withID株式会社CEO</p>
-                                                    <p class="description">大学院時代からブロックチェーンに可能性を感じブロックチェーンに関わる学生団体の代表や、イスラエルのスタートアップBancorの日本代表を通して、日本でのブロックチェーンの普及活動を行う。最近は、ブロックチェーンを用いた権利証明や本人確認の仕組みに可能性を感じ、本人確認プラットホームであるwithIDというIDのプラットホームを立ち上げた。</p>
+                                                    <p class="description">大学院時代からブロックチェーンに可能性を感じブロックチェーンに関わる学生団体の代表やイスラエルのスタートアップBancorの日本代表を通して、日本でのブロックチェーンの普及活動を行う。最近は、ブロックチェーンを用いた権利証明や本人確認の仕組みに可能性を感じ、本人確認プラットホームであるwithIDというIDのプラットホームを立ち上げた。開発メンバー。</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+
                                     <div class="col-md-4">
                                         <div class="card card-member">
                                             <div class="content">
@@ -325,12 +321,41 @@
                                                 <div class="description">
                                                     <h3 class="title">渡辺創太</h3>
                                                     <p class="small-text">Staked株式会社 CEO</p>
-                                                    <p class="description">インド、中国、ロシアでのNPO活動を経て、2016年にブロックチェーンの可能性を感じ、シリコンバレーに渡航、現地のスタートアップであるChronicledでインターンシップを経て就職。帰国後、Staked株式会社を創業後、ブロックチェーンのプロトコル開発を行うと同時に啓蒙活動を行っている。</p>
+                                                    <p class="description">インド、中国、ロシアでのNPO活動を経て、2016年にブロックチェーンの可能性を感じ、シリコンバレーに渡航、現地のスタートアップであるChronicledでインターンシップを経て就職。帰国後、Staked株式会社を創業後、ブロックチェーンのプロトコル開発を行うと同時に啓蒙活動を行っている。東京大学大学院工学部ブロックチェー共同研究員。開発メンバー。</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
 
+                                    <div class="col-md-4">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <div class="avatar avatar-danger">
+                                                    <img alt="..." class="img-circle" src="assets/img/faces/mai.jpg"/>
+                                                </div>
+                                                <div class="description">
+                                                    <h3 class="title">藤本真衣</h3>
+                                                    <p class="small-text">Miss Bitcoin</p>
+                                                    <p class="description">ブロックチェーン分野における世界的な専門家とも親交が深く、“MissBitcoin”と呼ばれ親しまれている。 CryptoWeeklyの「THE 100 MOST INFLUENTIAL PEOPLE IN CRYPTO」に選出された。 ブロックチェーン業界に特化したPR会社「Gracone」をはじめ、日本初の暗号通貨による寄付サイト「KIZUNA」ブロックチェーン業界に特化した就職・転職支援会社「withB」を立ち上げる。</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <div class="avatar avatar-danger">
+                                                    <img alt="..." class="img-circle" src="assets/img/faces/竹中平蔵.jpg"/>
+                                                </div>
+                                                <div class="description">
+                                                    <h3 class="title">竹中平蔵</h3>
+                                                    <p class="small-text">特別アドバイザー</p>
+                                                    <p class="description">博士（経済学）。ハーバード大学客員准教授、慶應義塾大学総合政策学部教授などを経て、2001年小泉内閣で経済財政政策担当大臣を皮切りに、金融担当大臣、郵政民営化担当大臣兼務、総務大臣を歴任。東洋大学教授、慶應義塾大学名誉教授、アカデミーヒルズ理事長等を兼務。プロジェクト特別アドバイイザー。</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -338,9 +363,7 @@
                 </div>
             </div>
         </div>
-    </div>
-
-    
+    </div>    
 
     <div class="section section-small section-get-started">
         <div class="parallax filter">
@@ -392,21 +415,6 @@
                 <div class="col-md-3 col-sm-3">
                     <div class="info">
                         <h5 class="title">Latest News</h5>
-                        <nav>
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-twitter"></i> <b>Get Shit Done</b> The best kit in the market is here, just give it a try and let us...
-                                        <hr class="hr-small">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-twitter"></i> We've just been featured on <b> Awwwards Website</b>! Thank you everybody for...
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
                     </div>
                 </div>
                 <div class="col-md-2 col-md-offset-1 col-sm-3">
