@@ -224,7 +224,7 @@
                                                     <img alt="..." class="img-circle" src="assets/img/faces/WithID.jpg"/>
                                                 </div>
                                                 <div class="description">
-                                                    <h3 class="title">WithID</h3>
+                                                    <h3 class="title">withID</h3>
                                                 </div>
                                             </a>
                                             </div>
