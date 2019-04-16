@@ -22,7 +22,9 @@
     <!--OPG Facebook Twitter-->
     <meta property="fb:app_id" content="1320921668046539" />
 
-    <meta data-n-head="true" data-hid="twitterCard" property="twitter:card" content="summary_large_image">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@FamieeP" />
+
 
     <!--     Fonts and icons     -->
     <link href='https://fonts.googleapis.com/css?family=Cambo|Poppins:400,600' rel='stylesheet' type='text/css'>
