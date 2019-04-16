@@ -22,8 +22,8 @@
     <!--OPG Facebook Twitter-->
     <meta property="fb:app_id" content="1320921668046539" />
 
-    <meta name="twitter:card" content="summary_large_image" /> 
-    <meta name="twitter:site" content="@FamieeP" /> 
+    <meta data-n-head="true" data-hid="twitterCard" property="twitter:card" content="summary_large_image">
+
 
 
     <meta property="og:image" content="https://famiee.com/assets/img/sns.jpg" /> 
