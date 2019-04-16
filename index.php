@@ -87,12 +87,6 @@
                         <h2>多様な家族形態が当たり前のように認められる社会の実現のために</h2>
                         <div class="separator line-separator">♦</div>
                     </div>
-
-                    <div class="button-get-started">
-                        <a class="btn btn-white btn-fill btn-lg ">
-                            Download Coming Soon
-                        </a>
-                    </div>
                 </div>
 
             </div>
