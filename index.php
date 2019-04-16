@@ -89,7 +89,7 @@
                     </div>
 
                     <div class="button-get-started">
-                        <a href="#" target="_blank" class="btn btn-white btn-fill btn-lg ">
+                        <a class="btn btn-white btn-fill btn-lg ">
                             Download Coming Soon
                         </a>
                     </div>
