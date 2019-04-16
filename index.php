@@ -24,11 +24,6 @@
 
     <meta data-n-head="true" data-hid="twitterCard" property="twitter:card" content="summary_large_image">
 
-
-
-    <meta property="og:image" content="https://famiee.com/assets/img/sns.jpg" /> 
-
-
     <!--     Fonts and icons     -->
     <link href='https://fonts.googleapis.com/css?family=Cambo|Poppins:400,600' rel='stylesheet' type='text/css'>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
