@@ -75,7 +75,7 @@
     <div class="section section-header">
         <div class="parallax filter">
             <div class="image"
-                style="background-image: url('assets/img/family.png')">
+                style="background-image: url('assets/img/familyy.jpg')">
             </div>
             <div class="container">
                 <div class="content">
