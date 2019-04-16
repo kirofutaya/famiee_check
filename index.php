@@ -52,15 +52,15 @@
                 <ul class="nav navbar-nav navbar-right navbar-uppercase">
                     <li class="dropdown">
                         <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
-                            <i class="fa fa-share-alt"></i> シェア
+                            <i class="fa fa-share-alt"></i> SNSでシェア
                         </a>
                         <ul class="dropdown-menu dropdown-danger">
                             <li>
                                 <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.famiee.com%2F&amp;src=sdkpreparse" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a>
                             </li>
                             <li>
-                                <a href="https://twitter.com/share?url=https://www.famiee.com/&text=#Famieeプロジェクト
-"><i class="fa fa-twitter"></i> Twitter</a>
+                                <a href="https://twitter.com/share?url=https://www.famiee.com/&text=Famieeプロジェクト
+" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
                             </li>
                         </ul>
                     </li>
@@ -89,7 +89,7 @@
                     </div>
 
                     <div class="button-get-started">
-                        <a href="http://www.creative-tim.com/product/gaia-bootstrap-template" target="_blank" class="btn btn-white btn-fill btn-lg ">
+                        <a href="#" target="_blank" class="btn btn-white btn-fill btn-lg ">
                             Download Coming Soon
                         </a>
                     </div>
