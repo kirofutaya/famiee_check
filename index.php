@@ -52,14 +52,15 @@
                 <ul class="nav navbar-nav navbar-right navbar-uppercase">
                     <li class="dropdown">
                         <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
-                            <i class="fa fa-share-alt"></i> Share
+                            <i class="fa fa-share-alt"></i> シェア
                         </a>
                         <ul class="dropdown-menu dropdown-danger">
                             <li>
-                                <a href="#"><i class="fa fa-facebook-square"></i> Facebook</a>
+                                <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.famiee.com%2F&amp;src=sdkpreparse" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a>
                             </li>
                             <li>
-                                <a href="#"><i class="fa fa-twitter"></i> Twitter</a>
+                                <a href="https://twitter.com/share?url=https://www.famiee.com/&text=#Famieeプロジェクト
+"><i class="fa fa-twitter"></i> Twitter</a>
                             </li>
                         </ul>
                     </li>
@@ -428,7 +429,7 @@
                 </div>
 
                 <div class="button-get-started">
-                    <a href="https://forms.gle/vmAKjyr2a4DFtpUx8" class="btn btn-danger btn-fill btn-lg">コンタクト</a>
+                    <a href="https://forms.gle/vmAKjyr2a4DFtpUx8" target="_blank" class="btn btn-danger btn-fill">コンタクト</a>
                 </div>
             </div>
         </div>
@@ -473,13 +474,7 @@
                         <nav>
                             <ul>
                                 <li>
-                                    <a href="#" class="btn btn-social btn-facebook btn-simple">
-                                        <i class="fa fa-facebook-square"></i> Facebook
-                                    </a>
-                                </li>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn btn-social btn-twitter btn-simple">
+                                    <a href="https://twitter.com/FamieeP" class="btn btn-social btn-twitter btn-simple">
                                         <i class="fa fa-twitter"></i> Twitter
                                     </a>
                                 </li>
