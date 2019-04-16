@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-	<link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon.png">
+	<link rel="icon" type="image/ico" sizes="64x64" href="assets/img/favicon.ico">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#"></head>
