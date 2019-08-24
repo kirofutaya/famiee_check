@@ -323,6 +323,64 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="col-md-4">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <div class="avatar avatar-danger">
+                                                    <img alt="..." class="img-circle" src="assets/img/faces/nice.jpg"/>
+                                                </div>
+                                                <div class="description">
+                                                    <h3 class="title">村上乃須</h3>
+                                                    <p class="small-text">株式会社ホットリンク元役員秘書</p>
+                                                    <p class="description">社会課題を解決するための仕組みづくりに強い関心を持ち、「たくさんの家族の形が当たり前に認められ、誰もが家族を持つことができる社会を実現する」というアプローチに共感し、「famiee」の起ち上げに参画。<br/><br/><br/><br/><br/></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <div class="avatar avatar-danger">
+                                                    <img alt="..." class="img-circle" src="assets/img/faces/fumino.jpg"/>
+                                                </div>
+                                                <div class="description">
+                                                    <h3 class="title">杉山文野</h3>
+                                                    <p class="small-text">NPO法人東京レインボープライド共同代表理事</p>
+                                                    <p class="description">フェンシング元女子日本代表。
+                                                        早稲田大学大学院にてセクシュアリティを研究後、トランスジェンダーである自身の体験を織り交ぜた『ダブルハッピネス』を講談社より出版、話題をよんだ。
+                                                        日本初となる渋谷区・同性パートナーシップ条例制定に関わり、現在は渋谷区男女平等・多様性社会推進会議委員も務める。<br/><br/><br/><br/></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <div class="avatar avatar-danger">
+                                                    <img alt="..." class="img-circle" src="assets/img/faces/okajima.jpg"/>
+                                                </div>
+                                                <div class="description">
+                                                    <h3 class="title">岡島悦子</h3>
+                                                    <p class="small-text">株式会社プロノバ 代表取締役社長</p>
+                                                    <p class="description">三菱商事、Harvard Business School(MBA)、マッキンゼー、グロービスの経営陣を経て、2006年に経営チーム強化コンサルティングのプロノバを設立。丸井グループ等、上場企業５社未上場３社の社外取締役を務める。2018年50代で1児の母となったことから多様な働き方や家族のあり方についても啓蒙活動、社会課題解決への貢献を行なっている。<br/><br/><br/><br/></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <div class="avatar avatar-danger">
+                                                    <img alt="..." class="img-circle" src="assets/img/faces/fukushima.jpg"/>
+                                                </div>
+                                                <div class="description">
+                                                    <h3 class="title">福島良典</h3>
+                                                    <p class="small-text">株式会社LayerXの代表取締役社長</p>
+                                                    <p class="description">大学院在学中に『Gunosy（グノシー）』のサービスを開発し、2012年11月に株式会社Gunosyを創業、代表取締役に就任後、2013年11月代表取締役最高経営責任者に就任。同社は創業より約2年半というスピードで東証マザーズに上場、2017年12月には東証第一部へ市場変更する。2018年8月よりブロックチェーン領域の技術開発のために新たに設立した、株式会社LayerXの代表取締役社長に就任。2016年には『Forbes Asia』より『アジアを代表する「30歳未満」』に選出される。</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
 
                                     <div class="col-md-4">
                                         <div class="card card-member">
@@ -348,73 +406,11 @@
                                                 <div class="description">
                                                     <h3 class="title">竹中平蔵</h3>
                                                     <p class="small-text">特別アドバイザー / 慶應義塾大学名誉教授</p>
-                                                    <p class="description">博士（経済学）。ハーバード大学客員准教授、慶應義塾大学総合政策学部教授などを経て、2001年小泉内閣で経済財政政策担当大臣を皮切りに、金融担当大臣、郵政民営化担当大臣兼務、総務大臣を歴任。東洋大学教授、慶應義塾大学名誉教授、アカデミーヒルズ理事長等を兼務。プロジェクト特別アドバイイザー。</p>
+                                                    <p class="description">博士（経済学）。ハーバード大学客員准教授、慶應義塾大学総合政策学部教授などを経て、2001年小泉内閣で経済財政政策担当大臣を皮切りに、金融担当大臣、郵政民営化担当大臣兼務、総務大臣を歴任。東洋大学教授、慶應義塾大学名誉教授、アカデミーヒルズ理事長等を兼務。プロジェクト特別アドバイイザー。<br/><br/></p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-
-                                    <div class="col-md-4">
-                                        <div class="card card-member">
-                                            <div class="content">
-                                                <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="assets/img/faces/okajima.jpg"/>
-                                                </div>
-                                                <div class="description">
-                                                    <h3 class="title">岡島悦子</h3>
-                                                    <p class="small-text">株式会社プロノバ 代表取締役社長</p>
-                                                    <p class="description">三菱商事、Harvard Business School(MBA)、マッキンゼー、グロービスの経営陣を経て、2006年に経営チーム強化コンサルティングのプロノバを設立。丸井グループ等、上場企業５社未上場３社の社外取締役を務める。2018年50代で1児の母となったことから多様な働き方や家族のあり方についても啓蒙活動、社会課題解決への貢献を行なっている。</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-4">
-                                        <div class="card card-member">
-                                            <div class="content">
-                                                <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="assets/img/faces/fumino.jpg"/>
-                                                </div>
-                                                <div class="description">
-                                                    <h3 class="title">杉山文野</h3>
-                                                    <p class="small-text">NPO法人東京レインボープライド共同代表理事</p>
-                                                    <p class="description">フェンシング元女子日本代表。
-                                                        早稲田大学大学院にてセクシュアリティを研究後、トランスジェンダーである自身の体験を織り交ぜた『ダブルハッピネス』を講談社より出版、話題をよんだ。
-                                                        日本初となる渋谷区・同性パートナーシップ条例制定に関わり、現在は渋谷区男女平等・多様性社会推進会議委員も務める。</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="card card-member">
-                                            <div class="content">
-                                                <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="assets/img/faces/fukushima.jpg"/>
-                                                </div>
-                                                <div class="description">
-                                                    <h3 class="title">福島良典</h3>
-                                                    <p class="small-text">株式会社LayerXの代表取締役社長</p>
-                                                    <p class="description">大学院在学中に『Gunosy（グノシー）』のサービスを開発し、2012年11月に株式会社Gunosyを創業、代表取締役に就任後、2013年11月代表取締役最高経営責任者に就任。同社は創業より約2年半というスピードで東証マザーズに上場、2017年12月には東証第一部へ市場変更する。2018年8月よりブロックチェーン領域の技術開発のために新たに設立した、株式会社LayerXの代表取締役社長に就任。2016年には『Forbes Asia』より『アジアを代表する「30歳未満」』に選出される。</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-4">
-                                        <div class="card card-member">
-                                            <div class="content">
-                                                <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="assets/img/faces/nice.jpg"/>
-                                                </div>
-                                                <div class="description">
-                                                    <h3 class="title">村上乃須</h3>
-                                                    <p class="small-text">株式会社ホットリンク元役員秘書</p>
-                                                    <p class="description">社会課題を解決するための仕組みづくりに強い関心を持ち、「たくさんの家族の形が当たり前に認められ、誰もが家族を持つことができる社会を実現する」というアプローチに共感し、「famiee」の起ち上げに参画。</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
                                 </div>
                             </div>
                         </div>
