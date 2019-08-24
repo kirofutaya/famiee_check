@@ -77,7 +77,7 @@
     <div class="section section-header">
         <div class="parallax filter">
             <div class="image"
-                style="background-image: url('assets/img/family.jpg')">
+                style="background-image: url('https://user-images.githubusercontent.com/31148191/63639231-d5415480-c6cb-11e9-840b-e4f7def567dd.jpg')">
             </div>
             <div class="container">
                 <div class="content">
