@@ -3,13 +3,13 @@
  =========================================================
  * Gaia Bootstrap Template - v1.0.1
  =========================================================
- 
+
  * Product Page: https://www.creative-tim.com/product/gaia-bootstrap-template
  * Copyright 2017 Creative Tim (http://www.creative-tim.com)
  * Licensed under MIT (https://github.com/creativetimofficial/gaia-bootstrap-template/blob/master/LICENSE.md)
- 
+
  =========================================================
- 
+
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
  */
 
@@ -1966,6 +1966,12 @@ a,
   border-radius: 4px;
 }
 
+/* kiro追加 */
+.section-privacypolicy{
+  padding-top: 0;
+}
+/* kiro追加終り */
+
 .section-header,
 .section-header-blog,
 .section-presentation-page {
@@ -2467,12 +2473,14 @@ a,
 
 .section-get-started,
 .section-header-freebie,
-.section-our-team-freebie {
+.section-our-team-freebie,
+.section-privacypolicy {
   padding-bottom: 0;
 }
 .section-get-started .container,
 .section-header-freebie .container,
-.section-our-team-freebie .container {
+.section-our-team-freebie .container,
+.section-privacypolicy .container {
   position: relative;
   z-index: 100;
   display: block;
@@ -2481,29 +2489,34 @@ a,
 }
 .section-get-started .title-header,
 .section-header-freebie .title-header,
-.section-our-team-freebie .title-header {
+.section-our-team-freebie .title-header,
+.section-privacypolicy .title-header {
   text-transform: none;
 }
 .section-get-started .button-contact,
 .section-header-freebie .button-contact,
-.section-our-team-freebie .button-contact {
+.section-our-team-freebie .button-contact,
+.section-privacypolicy .button-contact {
   padding: 25px 0 17px;
 }
 .section-get-started .text-description,
 .section-header-freebie .text-description,
-.section-our-team-freebie .text-description {
+.section-our-team-freebie .text-description,
+.section-privacypolicy .text-description {
   color: #fff;
   margin: 40px auto;
   max-width: 760px;
 }
 .section-get-started .text-white,
 .section-header-freebie .text-white,
-.section-our-team-freebie .text-white {
+.section-our-team-freebie .text-white,
+.section-privacypolicy .text-white {
   color: #fff;
 }
 .section-get-started .text-gold,
 .section-header-freebie .text-gold,
-.section-our-team-freebie .text-gold {
+.section-our-team-freebie .text-gold,
+.section-privacypolicy .text-gold {
   color: #c5a47e;
 }
 .section-get-started .parallax,
@@ -2511,12 +2524,15 @@ a,
 .section-header-freebie .parallax,
 .section-header-freebie .static-image,
 .section-our-team-freebie .parallax,
-.section-our-team-freebie .static-image {
+.section-our-team-freebie .static-image,
+.section-privacypolicy .parallax,
+.section-privacypolicy .static-image {
   height: auto;
 }
 .section-get-started .image,
 .section-header-freebie .image,
-.section-our-team-freebie .image {
+.section-our-team-freebie .image,
+.section-privacypolicy .image {
   height: 100%;
 }
 
@@ -2586,7 +2602,8 @@ a,
   padding: 0;
 }
 
-.section-our-team-freebie .container {
+.section-our-team-freebie .container,
+.section-privacypolicy .container {
   margin-top: 14vh;
   margin-bottom: 50px;
 }
@@ -3358,6 +3375,8 @@ body {
 }
 
 @media (min-width: 768px) {
+  .br-sp{display: none;}
+
   .navbar-form {
     margin-top: 21px;
     margin-bottom: 21px;
@@ -3417,6 +3436,8 @@ body {
 }
 /*          Changes for small display      */
 @media (max-width: 767px) {
+  .br-sp{display: block;}
+
   .navbar-transparent {
     padding-top: 0;
     background-color: rgba(0, 0, 0, 0.45);
