@@ -250,6 +250,9 @@ a:hover {
   border-color: #e78b90;
 }
 
+.textalign-left{
+  text-align: left;
+}
 p.description {
   font-size: 16px;
   color: #777777;
