@@ -52,7 +52,7 @@
                     <span class="icon-bar bar2"></span>
                     <span class="icon-bar bar3"></span>
                 </button>
-                <a href="" class="navbar-brand">
+                <a href="https://www.famiee.com/" class="navbar-brand">
                     Famiee Project
                 </a>
             </div>

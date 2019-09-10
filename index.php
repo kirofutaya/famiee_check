@@ -47,7 +47,7 @@
                     <span class="icon-bar bar2"></span>
                     <span class="icon-bar bar3"></span>
                 </button>
-                <a href="" class="navbar-brand">
+                <a href="https://www.famiee.com/" class="navbar-brand">
                     Famiee Project
                 </a>
             </div>
@@ -140,7 +140,7 @@
     </div>
 
 <!-- 最新ニュース -->
-    <div class="section section-news"　id="news">
+    <div class="section section-news" id="news">
         <div class="container">
             <div class="row">
                 <div class="title-area">
@@ -520,11 +520,13 @@
                 <div class="col-md-3 col-sm-3">
                     <div class="info">
                         <h5 class="title">Latest News</h5>
-                        <ul>
-                            <li>
-                                <a href="https://www.famiee.com#news">News List</a>
-                            </li>
-                        </ul>
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="https://www.famiee.com#news">News List</a>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
                 <div class="col-md-2 col-md-offset-1 col-sm-3">
