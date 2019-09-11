@@ -2652,13 +2652,7 @@ a,
 
 /* Kiro追加分 */
 
-/* .clearfix::after{
-  content: "";
-  display: block;
-  clear: both;
-} */
 .item1, .item2{
-  /* float: left; */
   display: inline-block;
   vertical-align: middle;
 }
@@ -2721,7 +2715,7 @@ a,
 .msr_newslist01 li .pr,
 .msr_newslist01 li .news {
   display: inline-block;
-  background-color: #e94c7a;
+  background-color: #294c7a;
   border-radius: 1px;
   color: #FFFFFF;
   font-size: 16px;
