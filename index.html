@@ -4,6 +4,7 @@
 
 <head>
     <meta charset="utf-8" />
+    <meta name=“google-site-verification” content=“NOlXD9YuxOMrQEjZAWUj0nWV3-V7uhnucc3vL12XGks” />
     <script src="https://unpkg.com/glottologist"></script>
 	<link rel="icon" type="image/ico" sizes="64x64" href="assets/img/favicon.ico">
 
