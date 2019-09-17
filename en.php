@@ -864,8 +864,8 @@ glot.assign('mission', {
     })
 
 
-//翻訳を実行
-glot.render();
+//翻訳を実行（英語）
+glot.render('en');
 
 
 
