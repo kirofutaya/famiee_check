@@ -560,320 +560,319 @@
 const glot = new Glottologist();
 //glot-modelの属性値が「title」の文章を翻訳
 
-glot.assign('metadate', {
 
-ja: '「Famiee」プロジェクトは、LGBTカップルや事実婚カップル等、法的には婚姻関係と認められない多様な家族形態の人たちが、住んでいる地区に関わらず家族関係を証明することができるよう、ブロックチェーン技術を用いたパートナーシップ証明書の発行を目指します。さらに、多様な家族形態の人たちが等しく民間企業の家族向けサービスを受けることができるよう、パートナーシップ証明書を採用する民間企業を増やすための啓蒙活動を行い、これらの活動によって多様な家族形態が当たり前のように認められる社会の実現を目指します。',
-en: '',
-})
+    glot.assign('metadate', {
+        ja: '「Famiee」プロジェクトは、LGBTカップルや事実婚カップル等、法的には婚姻関係と認められない多様な家族形態の人たちが、住んでいる地区に関わらず家族関係を証明することができるよう、ブロックチェーン技術を用いたパートナーシップ証明書の発行を目指します。さらに、多様な家族形態の人たちが等しく民間企業の家族向けサービスを受けることができるよう、パートナーシップ証明書を採用する民間企業を増やすための啓蒙活動を行い、これらの活動によって多様な家族形態が当たり前のように認められる社会の実現を目指します。',
+        en: 'Famiee Project aims to issue a certificate of a same sex partnership using the blockchain system. Our goal is to enable anyone who cannot be recognized as married legally including LGBTQ+ couples to be accepted as a married couple, regardless of where you live. This is because anyone within diverse family forms should be able to receive private survices equally.',
+    })
+    
+    glot.assign('mission', {
+    
+        ja: '多様な家族形態が当たり前のように認められる社会の実現のために',
+        en: 'For the realization of a society where various family forms are recognized as a matter of course',
+    })
+    
+    glot.assign('survise', {
+    
+        ja: '私達のサービス',
+        en: 'Our servise',
+    })
+    
+    glot.assign('what', {
+    
+        ja: '私達は現在の法律上では夫婦・親子と認められない世界中の夫婦・親子が、家族としての当たり前の権利やサービスを受けられない、という課題を解決するために、ブロックチェーン技術を使って家族関係証明書を発行することで、彼ら彼女らが家族であることを社会的に認め、また、その証明書を受け入れる企業・団体を増やし、家族向けのサービスを受けられるようにする活動をしています。',
+        en: 'Under the current legal system, there are a lot of people who are not accepted as married couples, or parents and children. These people often suffer from inconvenience that they cannot receive normal rights and survices. By using blockchain system, and issuing certificates, they can socially be accepted as family. Also, we are now conducting an action to increase companies and organizations which accept our certificates, so that more people can receive variety of survices.',
+    })
+    
+    glot.assign('global', {
+    
+        ja: 'グローバル',
+        en: 'Global',
+    })
+    
+    glot.assign('Access', {
+    
+        ja: '認証された情報は自分たちだけが分かる形で保存され世界中のどこからでもアクセスすることができます。',
+        en: 'The information that is certificated will be saved, and is only accessible by the people themselves. You can it access from all over the world. ',
+    })
+    
+    glot.assign('Blockchain', {
+    
+        ja: 'ブロックチェーン',
+        en: 'Blockchain',
+    })
+    
+    glot.assign('BlockchainD', {
+    
+        ja: '改ざん不可能な形で、夫婦・親子関係の存在を証明します。',
+        en: 'It proves the relationships, with the form that cannot be manipulated by anybody else.',
+    })
+    
+    glot.assign('Network', {
+    
+        ja: 'ネットワーク',
+        en: 'Network',
+    })
+    
+    glot.assign('NetworkD', {
+    
+        ja: 'Famieeプロジェクトに参画している世界中の企業・団体で、家族としてのサービスを受けられます。',
+        en: 'You can receive survices as a family by all the companies and organizations that participate in Famiee Project. ',
+    })
+    
+    glot.assign('think', {
+    
+        ja: '想い',
+        en: 'Our goal',
+    })
+    
+    glot.assign('OneWord', {
+    
+        ja: '発起人からの一言',
+        en: 'Messege by the proposer',
+    })
+    
+    glot.assign('Word', {
+    
+        ja: '「家族」という概念は、近年、とても多様化してきています。LGBTのカップル、事実婚のカップル、精子・卵子提供を受けてできた親子、代理母の協力でできた親子、互いに支え合って生活するシングルマザー同士など、従来の概念での「夫婦」「親子」「家族」に当てはまらない新しいカタチの家族の形態が生まれてきています。しかし、従来の家族の概念に基づいて作られた社会制度の中で、新しい概念に基づき生きる人達は、多くの困難に直面しています。国の法律や社会通念をいきなり変えるのはできません。しかし、そのような変化を受容し、社会がそれに対応していくべきであるという先進的な考えを持つ個人、民間の企業・団体、そして行政機関が、それぞれの力の及ぶ範囲の中で変化を起こせる部分はあるはずです。そして、そのような小さな変化が積み重なって初めて、新しい社会通念ができ、国の法律が変わっていくのだと思います。そう、「行動する事」が大事なのです。多様な家族形態が当たり前に認められる社会が少しでも早く実現できるよう、皆様お一人お一人が、このプロジェクトの活動に賛同し、一緒に行動していただけると幸いです。',
+        en: 'The idea of "family" has been changing day by day. There are new family forms, such as LGBTQ+ couples, common law couples, children whose egg cells or sperm were donated, children that were born with a support of surrogate mothers, and single mothers who support each other. However, in this society which is formed by conventional concepts, people who live  based on new ideas suffer from many difficulties. Although it is hard to change the laws and social norms immediately, it is possible to make a change by people or organizations with innovative ideas, and those who are more accepting. By these small changes built up gradually, a new social norms can be created, and then the legal system can be changed. Yes, what is important is to take an action. I hope every one of you agree with this project, and take an action with us. ',
+        })
+    
+    glot.assign('Uchiyama', {
+    
+        ja: '内山幸樹',
+        en: 'Koki Uchiyama',
+    })
+    
+    glot.assign('partner', {
+    
+        ja: '賛同企業',
+        en: 'Supporting company',
+    })
+    
+    glot.assign('hottolink', {
+        
+        ja: 'ホットリンク',
+        en: 'HottoLink Inc.',
+    })
+    
+    glot.assign('member', {
+    
+        ja: 'メンバー',
+        en: 'Member',
+    })
+    
+    glot.assign('hottolinkK', {
+    
+        ja: '株式会社ホットリンク 代表取締役会長',
+        en: 'HottoLink Inc. Chairman & CEO',
+    })
+    
+    glot.assign('UchiyamaD', {
+    
+        ja: '東京大学大学院博士課程在学中に日本最初期の検索エンジンの開発に関り、以降２０年以上に渡り、ビッグデータ・AI・検索技術をベースにしたビジネスを多く立ち上げ、世界規模で展開。上場経験後、日本初の全寮制インターナショナル・ハイスクール UWC ISAKの立ち上げに関り、プロジェクトメンバーの柳沢らとの出会いで、自らの経験・知識・人脈が会社経営以外の社会課題解決にも少なからず力を発揮する事に気づき、様々な社会貢献活動を開始',
+        en: '',
+    })
+    
+    glot.assign('yanagisawa', {
+    
+        ja: '柳沢正和',
+        en: 'Masakazu Yanagisawa',
+    })
+    
+    glot.assign('NPO', {
+        ja: 'NPO法人グッドエイジングエールズ',
+        en: 'NPO corporation good aging yells',
+    })
+    
+    glot.assign('yanagisawaD', {
+        ja: 'LGBT支援の認定NPO法人グッド・エイジング・エールズ所属。学校法人インターナショナル・スクール・オブ・アジア軽井沢（UWC ISAK Japan)評議員、ヒューマン・ライツ・ウォッチ東京委員。work with prideプロジェクトに参画し、企業によるLGBT施策の取り組みを評価する「Pride指標」を立ち上げる。2016年の世界経済フォーラムではLGBTセッションでパネリストを務め、ファイナンシャル・タイムス「世界のLGBTエクゼクティブ100人」にも選出',
+        en: '',
+    })
+    
+    glot.assign('ishiwata', {
+    
+        ja: '石渡広一郎',
+        en: 'Koichiro Ishiwata',
+    })
+    
+    glot.assign('hottolinkKK', {
+    
+        ja: '株式会社ホットリンクCEO特別補佐',
+        en: 'HottoLink Inc. Special Assistant to CEO',
+    })
+    
+    glot.assign('ishiwataD', {
+    
+        ja: '音楽CD流通会社、芸能事務所を経て弁理士へ。独立後、縁あって株式会社ホットリンクの監査役に就任し、現在はCEO特別補佐を務める。中央集権に頼らない本人認証を可能にするブロックチェーン技術に着目し、さらに日本を始め世界でもまだ十分とはいえない多様性に対する不寛容に問題意識を持ち「famiee」の起ち上げから関わる。OneMile商標知的財産事務所。Arts and Lawメンバー。一般社団法人Thinking Entertainments共同代表',
+        en: '',
+    })
+    
+    glot.assign('kawa', {
+    
+        ja: '川大揮',
+        en: 'Taiki Kawa',
+    })
+    
+    glot.assign('withidK', {
+    
+        ja: 'withID株式会社CEO',
+        en: 'withID,inc. CEO',
+    })
+    
+    glot.assign('kawaD', {
+    
+        ja: '東京工業大学大学院在学中からブロックチェーンに可能性を感じブロックチェーンに関わる学生団体の代表やイスラエルのスタートアップBancorの日本代表を通して、日本でのブロックチェーンの普及活動を行う。最近は、ブロックチェーンを用いた権利証明や本人確認の仕組みに可能性を感じ、本人確認プラットホームであるwithIDというIDのプラットホームを立ち上げた。開発メンバー。',
+        en: '',
+    })
+    
+    glot.assign('watanabe', {
+    
+        ja: '渡辺創太',
+        en: 'Sota Watanabe',
+    })
+    
+    glot.assign('stakeD', {
+    
+        ja: 'Stake株式会社 CEO',
+        en: 'Stake, inc. CEO',
+    })
+    
+    glot.assign('watanabeD', {
+    
+        ja: 'インド、中国、ロシアでのNPO活動を経て、2016年にブロックチェーンの可能性を感じ、シリコンバレーに渡航、現地のスタートアップであるChronicledでインターンシップを経て就職。帰国後、Staked株式会社を創業。ブロックチェーンのプロトコル開発を行うと同時に啓蒙活動を行っている。東京大学大学院工学部ブロックチェーン共同研究員。開発メンバー。',
+        en: '',
+    })
+    
+    glot.assign('nice', {
+    
+        ja: '村上乃須',
+        en: 'Murakami Nice',
+    })
+    
+    glot.assign('hottolinkKKK', {
+    
+        ja: '株式会社ホットリンク元役員秘書',
+        en: 'HottoLink Inc. Former executive secretary',
+    })
+    
+    
+    glot.assign('niceD', {
+        
+        ja: '社会課題を解決するための仕組みづくりに強い関心を持ち、「たくさんの家族の形が当たり前に認められ、誰もが家族を持つことができる社会を実現する」というアプローチに共感し、「famiee」の起ち上げに参画。',
+        en: '',
+    })
+    
+    glot.assign('sugiyama', {
+        
+        ja: '杉山文野',
+        en: 'Fumino Sugiyama',
+    })
+    
+    glot.assign('NPO2', {
+        
+        ja: 'NPO法人東京レインボープライド共同代表理事',
+        en: 'NPO corporation TOKYO RAINBOW PRIDE Joint Representative Director',
+    })
+    
+    glot.assign('sugiyamaD', {
+    
+        ja: 'フェンシング元女子日本代表。早稲田大学大学院にてセクシュアリティを研究後、トランスジェンダーである自身の体験を織り交ぜた『ダブルハッピネス』を講談社より出版、話題をよんだ。日本初となる渋谷区・同性パートナーシップ条例制定に関わり、現在は渋谷区男女平等・多様性社会推進会議委員も務める。',
+        en: '',
+    })
+    
+    glot.assign('okajima', {
+    
+        ja: '岡島悦子',
+        en: 'Etuko Okajima',
+    })
+    
+    glot.assign('puronomaK', {
+    
+        ja: '株式会社プロノバ 代表取締役社長',
+        en: 'ProNova Inc. CEO',
+    })
+    
+    glot.assign('okajimaD', {
+    
+        ja: '三菱商事、Harvard Business School(MBA)、マッキンゼー、グロービスの経営陣を経て、2006年に経営チーム強化コンサルティングのプロノバを設立。丸井グループ等、上場企業５社未上場３社の社外取締役を務める。2018年50代で1児の母となったことから多様な働き方や家族のあり方についても啓蒙活動、社会課題解決への貢献を行なっている。',
+        en: '',
+    })
+    
+    glot.assign('fukushima', {
+    
+        ja: '福島良典',
+        en: 'Yoshinori Fukushima',
+    })
+    
+    
+    glot.assign('LayerXD', {
+    
+        ja: '株式会社LayerXの代表取締役社長',
+        en: 'LayerX CEO',
+    })
+    
+    glot.assign('fukushimaD', {
+    
+        ja: '大学院在学中に『Gunosy（グノシー）』のサービスを開発し、2012年11月に株式会社Gunosyを創業、代表取締役に就任後、2013年11月代表取締役最高経営責任者に就任。同社は創業より約2年半というスピードで東証マザーズに上場、2017年12月には東証第一部へ市場変更する。2018年8月よりブロックチェーン領域の技術開発のために新たに設立した、株式会社LayerXの代表取締役社長に就任。2016年には『Forbes Asia』より『アジアを代表する「30歳未満」』に選出される',
+        en: '',
+    })
+    
+    glot.assign('mai', {
+    
+        ja: '藤本真衣',
+        en: 'Fujimoto Mai',
+    })
+    
+    
+    glot.assign('maiD', {
+    
+        ja: 'ブロックチェーン分野における世界的な専門家とも親交が深く、“MissBitcoin”と呼ばれ親しまれている。 CryptoWeeklyの「THE 100 MOST INFLUENTIAL PEOPLE IN CRYPTO」に選出された。 ブロックチェーン業界に特化したPR会社「Gracone」をはじめ、日本初の暗号通貨による寄付サイト「KIZUNA」ブロックチェーン業界に特化した就職・転職支援会社「withB」を立ち上げる。',
+        en: '',
+    })
+    
+    glot.assign('take', {
+    
+        ja: '竹中平蔵',
+        en: 'Heizo Takenaka',
+    })
+    
+    glot.assign('keio', {
+    
+    ja: '特別アドバイザー / 慶應義塾大学名誉教授',
+    en: 'Special Advisor / Professor Emeritus, Keio University',
+    })
+    
+    glot.assign('takeD', {
+        
+        ja: '博士（経済学）。ハーバード大学客員准教授、慶應義塾大学総合政策学部教授などを経て、2001年小泉内閣で経済財政政策担当大臣を皮切りに、金融担当大臣、郵政民営化担当大臣兼務、総務大臣を歴任。東洋大学教授、慶應義塾大学名誉教授、アカデミーヒルズ理事長等を兼務。プロジェクト特別アドバイイザー。',
+        en: '',
+    })
+    
+    glot.assign('want', {
+    
+        ja: '賛同企業募集中！',
+        en: '',
+    })
+    
+    glot.assign('wantD', {
+    
+        ja: 'Famieeプロジェクトでは想いを共にする個人・企業を募集しております。ご興味のある方は「コンタクト」よりお問い合わせください。',
+        en: '',
+    })
+    
+    glot.assign('contact', {
+    
+        ja: 'コンタクト',
+        en: 'Contact',
+    })
+    
+    glot.assign('', {
+    
+        ja: '',
+        en: '',
+    })
 
-glot.assign('mission', {
-
-    ja: '多様な家族形態が当たり前のように認められる社会の実現のために',
-    en: 'For the realization of a society where various family forms are recognized as a matter of course',
-})
-
-glot.assign('survise', {
-
-    ja: '私達のサービス',
-    en: 'Our servise',
-})
-
-glot.assign('what', {
-
-ja: '私達は現在の法律上では夫婦・親子と認められない世界中の夫婦・親子が、家族としての当たり前の権利やサービスを受けられない、という課題を解決するために、ブロックチェーン技術を使って家族関係証明書を発行することで、彼ら彼女らが家族であることを社会的に認め、また、その証明書を受け入れる企業・団体を増やし、家族向けのサービスを受けられるようにする活動をしています。',
-en: '',
-})
-
-glot.assign('global', {
-
-    ja: 'グローバル',
-    en: 'Global',
-})
-
-glot.assign('Access', {
-
-    ja: '認証された情報は自分たちだけが分かる形で保存され世界中のどこからでもアクセスすることができます。',
-    en: '',
-})
-
-glot.assign('Blockchain', {
-
-    ja: 'ブロックチェーン',
-    en: 'Blockchain',
-})
-
-glot.assign('BlockchainD', {
-
-ja: '改ざん不可能な形で、夫婦・親子関係の存在を証明します。',
-en: '',
-})
-
-glot.assign('Network', {
-
-ja: 'ネットワーク',
-en: '',
-})
-
-glot.assign('NetworkD', {
-
-ja: 'Famieeプロジェクトに参画している世界中の企業・団体で、家族としてのサービスを受けられます。',
-en: '',
-})
-
-glot.assign('think', {
-
-ja: '想い',
-en: '',
-})
-
-glot.assign('OneWord', {
-
-ja: '発起人からの一言',
-en: '',
-})
-
-glot.assign('Word', {
-
-ja: '「家族」という概念は、近年、とても多様化してきています。LGBTのカップル、事実婚のカップル、精子・卵子提供を受けてできた親子、代理母の協力でできた親子、互いに支え合って生活するシングルマザー同士など、従来の概念での「夫婦」「親子」「家族」に当てはまらない新しいカタチの家族の形態が生まれてきています。しかし、従来の家族の概念に基づいて作られた社会制度の中で、新しい概念に基づき生きる人達は、多くの困難に直面しています。国の法律や社会通念をいきなり変えるのはできません。しかし、そのような変化を受容し、社会がそれに対応していくべきであるという先進的な考えを持つ個人、民間の企業・団体、そして行政機関が、それぞれの力の及ぶ範囲の中で変化を起こせる部分はあるはずです。そして、そのような小さな変化が積み重なって初めて、新しい社会通念ができ、国の法律が変わっていくのだと思います。そう、「行動する事」が大事なのです。多様な家族形態が当たり前に認められる社会が少しでも早く実現できるよう、皆様お一人お一人が、このプロジェクトの活動に賛同し、一緒に行動していただけると幸いです。',
-en: '',
-})
-
-glot.assign('Uchiyama', {
-
-ja: '内山幸樹',
-en: '',
-})
-
-glot.assign('partner', {
-
-ja: '賛同企業',
-en: '',
-})
-
-glot.assign('hottolink', {
-
-ja: 'ホットリンク',
-en: 'hottolink',
-})
-
-glot.assign('member', {
-
-ja: 'メンバー',
-en: '',
-})
-
-glot.assign('hottolinkK', {
-
-ja: '株式会社ホットリンク 代表取締役会長',
-en: '',
-})
-
-glot.assign('UchiyamaD', {
-
-ja: '東京大学大学院博士課程在学中に日本最初期の検索エンジンの開発に関り、以降２０年以上に渡り、ビッグデータ・AI・検索技術をベースにしたビジネスを多く立ち上げ、世界規模で展開。上場経験後、日本初の全寮制インターナショナル・ハイスクール UWC ISAKの立ち上げに関り、プロジェクトメンバーの柳沢らとの出会いで、自らの経験・知識・人脈が会社経営以外の社会課題解決にも少なからず力を発揮する事に気づき、様々な社会貢献活動を開始',
-en: '',
-})
-
-glot.assign('yanagisawa', {
-
-ja: '柳沢正和',
-en: '',
-})
-
-glot.assign('NPO', {
-
-ja: 'NPO法人グッドエイジングエールズ',
-en: '',
-})
-
-glot.assign('yanagisawaD', {
-
-ja: 'LGBT支援の認定NPO法人グッド・エイジング・エールズ所属。学校法人インターナショナル・スクール・オブ・アジア軽井沢（UWC ISAK Japan)評議員、ヒューマン・ライツ・ウォッチ東京委員。work with prideプロジェクトに参画し、企業によるLGBT施策の取り組みを評価する「Pride指標」を立ち上げる。2016年の世界経済フォーラムではLGBTセッションでパネリストを務め、ファイナンシャル・タイムス「世界のLGBTエクゼクティブ100人」にも選出',
-en: '',
-})
-
-glot.assign('ishiwata', {
-
-ja: '石渡広一郎',
-en: '',
-})
-
-glot.assign('hottolinkKK', {
-
-ja: '株式会社ホットリンクCEO特別補佐',
-en: '',
-})
-
-glot.assign('ishiwataD', {
-
-ja: '音楽CD流通会社、芸能事務所を経て弁理士へ。独立後、縁あって株式会社ホットリンクの監査役に就任し、現在はCEO特別補佐を務める。中央集権に頼らない本人認証を可能にするブロックチェーン技術に着目し、さらに日本を始め世界でもまだ十分とはいえない多様性に対する不寛容に問題意識を持ち「famiee」の起ち上げから関わる。OneMile商標知的財産事務所。Arts and Lawメンバー。一般社団法人Thinking Entertainments共同代表',
-en: '',
-})
-
-glot.assign('kawa', {
-
-ja: '川大揮',
-en: '',
-})
-
-glot.assign('withidK', {
-
-ja: 'withID株式会社CEO',
-en: '',
-})
-
-glot.assign('kawaD', {
-
-ja: '東京工業大学大学院在学中からブロックチェーンに可能性を感じブロックチェーンに関わる学生団体の代表やイスラエルのスタートアップBancorの日本代表を通して、日本でのブロックチェーンの普及活動を行う。最近は、ブロックチェーンを用いた権利証明や本人確認の仕組みに可能性を感じ、本人確認プラットホームであるwithIDというIDのプラットホームを立ち上げた。開発メンバー。',
-en: '',
-})
-
-glot.assign('watanabe', {
-
-ja: '渡辺創太',
-en: '',
-})
-
-glot.assign('stakeD', {
-
-ja: 'Stake株式会社 CEO',
-en: '',
-})
-
-glot.assign('watanabeD', {
-
-ja: 'インド、中国、ロシアでのNPO活動を経て、2016年にブロックチェーンの可能性を感じ、シリコンバレーに渡航、現地のスタートアップであるChronicledでインターンシップを経て就職。帰国後、Staked株式会社を創業。ブロックチェーンのプロトコル開発を行うと同時に啓蒙活動を行っている。東京大学大学院工学部ブロックチェーン共同研究員。開発メンバー。',
-en: '',
-})
-
-glot.assign('nice', {
-
-ja: '村上乃須',
-en: '',
-})
-
-glot.assign('hottolinkKKK', {
-
-ja: '株式会社ホットリンク元役員秘書',
-en: '',
-})
-
-
-glot.assign('niceD', {
-
-ja: '社会課題を解決するための仕組みづくりに強い関心を持ち、「たくさんの家族の形が当たり前に認められ、誰もが家族を持つことができる社会を実現する」というアプローチに共感し、「famiee」の起ち上げに参画。',
-en: '',
-})
-
-glot.assign('sugiyama', {
-
-ja: '杉山文野',
-en: '',
-})
-
-glot.assign('NPO2', {
-
-ja: 'NPO法人東京レインボープライド共同代表理事',
-en: '',
-})
-
-glot.assign('sugiyamaD', {
-
-ja: 'フェンシング元女子日本代表。早稲田大学大学院にてセクシュアリティを研究後、トランスジェンダーである自身の体験を織り交ぜた『ダブルハッピネス』を講談社より出版、話題をよんだ。日本初となる渋谷区・同性パートナーシップ条例制定に関わり、現在は渋谷区男女平等・多様性社会推進会議委員も務める。',
-en: '',
-})
-
-glot.assign('okajima', {
-
-ja: '岡島悦子',
-en: '',
-})
-
-glot.assign('puronomaK', {
-
-ja: '株式会社プロノバ 代表取締役社長',
-en: '',
-})
-
-glot.assign('okajimaD', {
-
-ja: '三菱商事、Harvard Business School(MBA)、マッキンゼー、グロービスの経営陣を経て、2006年に経営チーム強化コンサルティングのプロノバを設立。丸井グループ等、上場企業５社未上場３社の社外取締役を務める。2018年50代で1児の母となったことから多様な働き方や家族のあり方についても啓蒙活動、社会課題解決への貢献を行なっている。',
-en: '',
-})
-
-glot.assign('fukushima', {
-
-ja: '福島良典',
-en: '',
-})
-
-
-glot.assign('LayerXD', {
-
-ja: '株式会社LayerXの代表取締役社長',
-en: '',
-})
-
-glot.assign('fukushimaD', {
-
-ja: '大学院在学中に『Gunosy（グノシー）』のサービスを開発し、2012年11月に株式会社Gunosyを創業、代表取締役に就任後、2013年11月代表取締役最高経営責任者に就任。同社は創業より約2年半というスピードで東証マザーズに上場、2017年12月には東証第一部へ市場変更する。2018年8月よりブロックチェーン領域の技術開発のために新たに設立した、株式会社LayerXの代表取締役社長に就任。2016年には『Forbes Asia』より『アジアを代表する「30歳未満」』に選出される',
-en: '',
-})
-
-glot.assign('mai', {
-
-ja: '藤本真衣',
-en: '',
-})
-
-
-glot.assign('maiD', {
-
-ja: 'ブロックチェーン分野における世界的な専門家とも親交が深く、“MissBitcoin”と呼ばれ親しまれている。 CryptoWeeklyの「THE 100 MOST INFLUENTIAL PEOPLE IN CRYPTO」に選出された。 ブロックチェーン業界に特化したPR会社「Gracone」をはじめ、日本初の暗号通貨による寄付サイト「KIZUNA」ブロックチェーン業界に特化した就職・転職支援会社「withB」を立ち上げる。',
-en: '',
-})
-
-glot.assign('take', {
-
-ja: '',
-en: '',
-})
-
-glot.assign('keio', {
-
-ja: '特別アドバイザー / 慶應義塾大学名誉教授',
-en: '',
-})
-
-glot.assign('takeD', {
-
-ja: '博士（経済学）。ハーバード大学客員准教授、慶應義塾大学総合政策学部教授などを経て、2001年小泉内閣で経済財政政策担当大臣を皮切りに、金融担当大臣、郵政民営化担当大臣兼務、総務大臣を歴任。東洋大学教授、慶應義塾大学名誉教授、アカデミーヒルズ理事長等を兼務。プロジェクト特別アドバイイザー。',
-en: '',
-})
-
-glot.assign('want', {
-
-ja: '賛同企業募集中！',
-en: '',
-})
-
-glot.assign('wantD', {
-
-ja: 'Famieeプロジェクトでは想いを共にする個人・企業を募集しております。ご興味のある方は「コンタクト」よりお問い合わせください。',
-en: '',
-})
-
-glot.assign('contact', {
-
-ja: 'コンタクト',
-en: 'Contact',
-})
-
-glot.assign('', {
-
-ja: '',
-en: '',
-})
 
 //翻訳を実行
 glot.render();
