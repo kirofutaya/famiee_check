@@ -380,7 +380,7 @@
                                                 <div class="description">
                                                     <h3 class="title" glot-model="nice">村上乃須</h3>
                                                     <p class="small-text" glot-model="hottolinkKKK">株式会社ホットリンク元役員秘書</p>
-                                                    <p class="description"glot-model="niceD">社会課題を解決するための仕組みづくりに強い関心を持ち、「たくさんの家族の形が当たり前に認められ、誰もが家族を持つことができる社会を実現する」というアプローチに共感し、「famiee」の起ち上げに参画。<br/><br/><br/><br/><br/></p>
+                                                    <p class="description"glot-model="niceD">社会課題を解決するための仕組みづくりに強い関心を持ち、「たくさんの家族の形が当たり前に認められ、誰もが家族を持つことができる社会を実現する」というアプローチに共感し、「famiee」の起ち上げに参画。<br><br><br><br><br></p>
                                                 </div>
                                             </div>
                                         </div>
@@ -410,7 +410,7 @@
                                                 <div class="description">
                                                     <h3 class="title" glot-model="okajima">岡島悦子</h3>
                                                     <p class="small-text" glot-model="puronomaK">株式会社プロノバ 代表取締役社長</p>
-                                                    <p class="description" glot-model="okajimaD">三菱商事、Harvard Business School(MBA)、マッキンゼー、グロービスの経営陣を経て、2006年に経営チーム強化コンサルティングのプロノバを設立。丸井グループ等、上場企業５社未上場３社の社外取締役を務める。2018年50代で1児の母となったことから多様な働き方や家族のあり方についても啓蒙活動、社会課題解決への貢献を行なっている。<br/><br/><br/><br/></p>
+                                                    <p class="description" glot-model="okajimaD">三菱商事、Harvard Business School(MBA)、マッキンゼー、グロービスの経営陣を経て、2006年に経営チーム強化コンサルティングのプロノバを設立。丸井グループ等、上場企業５社未上場３社の社外取締役を務める。2018年50代で1児の母となったことから多様な働き方や家族のあり方についても啓蒙活動、社会課題解決への貢献を行なっている。<br><br><br><br></p>
                                                 </div>
                                             </div>
                                         </div>
@@ -489,92 +489,70 @@
     </div>
 
 
-    <!-- フッター -->
-        <div class="section section-small section-get-started">
-            <div class="parallax filter">
-                <div class="image"
-                    style="background-image: url('assets/img/office.jpg')">
-                </div>
-                <div class="container">
-                    <div class="title-area">
-                        <h2 class="text-white" glot-model="want" >賛同企業募集中！</h2>
-                        <div class="separator line-separator">♦</div>
-                        <p class="description" glot-model="wantD"> Famieeプロジェクトでは想いを共にする個人・企業を募集しております。ご興味のある方は「コンタクト」よりお問い合わせください。</p>
+    <footer class="footer footer-big footer-color-black" data-color="black">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-sm-3">
+                    <div class="info">
+                        <h5 class="title">Company</h5>
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="https://www.famiee.com">Home</a>
+                                </li>
+                                <li>
+                                    <a href="./PrivacyPolicy.html">Privacy Policy</a>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
-
-                    <div class="button-get-started">
-                        <a href="https://forms.gle/vmAKjyr2a4DFtpUx8" target="_blank" class="btn btn-danger btn-fill" glot-model="contact">コンタクト
-                        </a>
+                </div>
+                <div class="col-md-3 col-md-offset-1 col-sm-3">
+                    <div class="info">
+                        <h5 class="title"> Help and Support</h5>
+                         <nav>
+                            <ul>
+                                <li>
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdkd6T2Gp3D9m0NXIYa4utQ7_cxBVkTNLZsO7O-oEeWKMiGRg/viewform">Contact Us</a>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
+                <div class="col-md-3 col-sm-3">
+                    <div class="info">
+                        <h5 class="title">Latest News</h5>
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="https://www.famiee.com#news">News List</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-md-2 col-md-offset-1 col-sm-3">
+                    <div class="info">
+                        <h5 class="title">Follow us on</h5>
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="https://twitter.com/FamieeP"  class="btn btn-social btn-twitter btn-simple">
+                                        <i class="fa fa-twitter"></i> Twitter
+                                    </a>
+                                </li>
+                                <a class="twitter-timeline" data-lang="ja" data-width="350" data-height="300" data-theme="light" data-link-color="#981CEB" href="https://twitter.com/FamieeP?ref_src=twsrc%5Etfw">Tweets by FamieeP</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="copyright">
+                 © <script> document.write(new Date().getFullYear()) </script> Famiee Project
             </div>
         </div>
-
-
-        <footer class="footer footer-big footer-color-black" data-color="black">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-2 col-sm-3">
-                        <div class="info">
-                            <h5 class="title">Company</h5>
-                            <nav>
-                                <ul>
-                                    <li>
-                                        <a href="https://www.famiee.com">Home</a>
-                                    </li>
-                                    <li>
-                                        <a href="./PrivacyPolicy.html">Privacy Policy</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-md-offset-1 col-sm-3">
-                        <div class="info">
-                            <h5 class="title"> Help and Support</h5>
-                             <nav>
-                                <ul>
-                                    <li>
-                                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdkd6T2Gp3D9m0NXIYa4utQ7_cxBVkTNLZsO7O-oEeWKMiGRg/viewform">Contact Us</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-3">
-                        <div class="info">
-                            <h5 class="title">Latest News</h5>
-                            <nav>
-                                <ul>
-                                    <li>
-                                        <a href="https://www.famiee.com#news">News List</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-md-offset-1 col-sm-3">
-                        <div class="info">
-                            <h5 class="title">Follow us on</h5>
-                            <nav>
-                                <ul>
-                                    <li>
-                                        <a href="https://twitter.com/FamieeP"  class="btn btn-social btn-twitter btn-simple">
-                                            <i class="fa fa-twitter"></i> Twitter
-                                        </a>
-                                    </li>
-                                    <a class="twitter-timeline" data-lang="ja" data-width="350" data-height="300" data-theme="light" data-link-color="#981CEB" href="https://twitter.com/FamieeP?ref_src=twsrc%5Etfw">Tweets by FamieeP</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-                <hr>
-                <div class="copyright">
-                     © <script> document.write(new Date().getFullYear()) </script> Famiee Project
-                </div>
-            </div>
-        </footer>
+    </footer>
 
 </body>
 
@@ -782,7 +760,7 @@ glot.assign('mission', {
 
     glot.assign('niceD', {
 
-        ja: '社会課題を解決するための仕組みづくりに強い関心を持ち、「たくさんの家族の形が当たり前に認められ、誰もが家族を持つことができる社会を実現する」というアプローチに共感し、「famiee」の起ち上げに参画。',
+        ja: '社会課題を解決するための仕組みづくりに強い関心を持ち、「たくさんの家族の形が当たり前に認められ、誰もが家族を持つことができる社会を実現する」というアプローチに共感し、「famiee」の起ち上げに参画。<br><br><br><br><br>',
         en: '',
     })
 
@@ -800,7 +778,7 @@ glot.assign('mission', {
 
     glot.assign('sugiyamaD', {
 
-        ja: 'フェンシング元女子日本代表。早稲田大学大学院にてセクシュアリティを研究後、トランスジェンダーである自身の体験を織り交ぜた『ダブルハッピネス』を講談社より出版、話題をよんだ。日本初となる渋谷区・同性パートナーシップ条例制定に関わり、現在は渋谷区男女平等・多様性社会推進会議委員も務める。',
+        ja: 'フェンシング元女子日本代表。早稲田大学大学院にてセクシュアリティを研究後、トランスジェンダーである自身の体験を織り交ぜた『ダブルハッピネス』を講談社より出版、話題をよんだ。日本初となる渋谷区・同性パートナーシップ条例制定に関わり、現在は渋谷区男女平等・多様性社会推進会議委員も務める。<br/><br/><br/><br/>',
         en: '',
     })
 
@@ -818,7 +796,7 @@ glot.assign('mission', {
 
     glot.assign('okajimaD', {
 
-        ja: '三菱商事、Harvard Business School(MBA)、マッキンゼー、グロービスの経営陣を経て、2006年に経営チーム強化コンサルティングのプロノバを設立。丸井グループ等、上場企業５社未上場３社の社外取締役を務める。2018年50代で1児の母となったことから多様な働き方や家族のあり方についても啓蒙活動、社会課題解決への貢献を行なっている。',
+        ja: '三菱商事、Harvard Business School(MBA)、マッキンゼー、グロービスの経営陣を経て、2006年に経営チーム強化コンサルティングのプロノバを設立。丸井グループ等、上場企業５社未上場３社の社外取締役を務める。2018年50代で1児の母となったことから多様な働き方や家族のあり方についても啓蒙活動、社会課題解決への貢献を行なっている。<br><br><br><br>',
         en: '',
     })
 
@@ -868,7 +846,7 @@ glot.assign('mission', {
 
     glot.assign('takeD', {
 
-        ja: '博士（経済学）。ハーバード大学客員准教授、慶應義塾大学総合政策学部教授などを経て、2001年小泉内閣で経済財政政策担当大臣を皮切りに、金融担当大臣、郵政民営化担当大臣兼務、総務大臣を歴任。東洋大学教授、慶應義塾大学名誉教授、アカデミーヒルズ理事長等を兼務。プロジェクト特別アドバイイザー。',
+        ja: '博士（経済学）。ハーバード大学客員准教授、慶應義塾大学総合政策学部教授などを経て、2001年小泉内閣で経済財政政策担当大臣を皮切りに、金融担当大臣、郵政民営化担当大臣兼務、総務大臣を歴任。東洋大学教授、慶應義塾大学名誉教授、アカデミーヒルズ理事長等を兼務。プロジェクト特別アドバイイザー。<br/><br/>',
         en: '',
     })
 
