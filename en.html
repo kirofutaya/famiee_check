@@ -498,7 +498,10 @@
                         <nav>
                             <ul>
                                 <li>
-                                    <a href="#">Home</a>
+                                    <a href="https://www.famiee.com">Home</a>
+                                </li>
+                                <li>
+                                    <a href="./PrivacyPolicy.html">Privacy Policy</a>
                                 </li>
                             </ul>
                         </nav>
@@ -510,7 +513,7 @@
                          <nav>
                             <ul>
                                 <li>
-                                    <a href="#">Contact Us</a>
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdkd6T2Gp3D9m0NXIYa4utQ7_cxBVkTNLZsO7O-oEeWKMiGRg/viewform">Contact Us</a>
                                 </li>
                             </ul>
                         </nav>
@@ -519,6 +522,13 @@
                 <div class="col-md-3 col-sm-3">
                     <div class="info">
                         <h5 class="title">Latest News</h5>
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="https://www.famiee.com#news">News List</a>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
                 <div class="col-md-2 col-md-offset-1 col-sm-3">
@@ -527,10 +537,11 @@
                         <nav>
                             <ul>
                                 <li>
-                                    <a href="https://twitter.com/FamieeP" class="btn btn-social btn-twitter btn-simple">
+                                    <a href="https://twitter.com/FamieeP"  class="btn btn-social btn-twitter btn-simple">
                                         <i class="fa fa-twitter"></i> Twitter
                                     </a>
                                 </li>
+                                <a class="twitter-timeline" data-lang="ja" data-width="350" data-height="300" data-theme="light" data-link-color="#981CEB" href="https://twitter.com/FamieeP?ref_src=twsrc%5Etfw">Tweets by FamieeP</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                             </ul>
                         </nav>
                     </div>
