@@ -2736,6 +2736,18 @@ a,
   vertical-align: middle;
 }
 
+/* Supporter Section */
+.supporterList{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.supporterList p.affiliation{
+  margin: 0;
+  padding: 5px 0 10px;
+  color: grey;
+}
+
 /* END Kiro追加分 */
 
 

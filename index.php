@@ -34,6 +34,20 @@
     <link href='https://fonts.googleapis.com/css?family=Cambo|Poppins:400,600' rel='stylesheet' type='text/css'>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/css/fonts/pe-icon-7-stroke.css" rel="stylesheet">
+
+    <!-- JavaScript -->
+      <!--   core js files    -->
+      <script src="assets/js/jquery.min.js" type="text/javascript"></script>
+      <script src="assets/js/bootstrap.js" type="text/javascript"></script>
+
+      <!--  js library for devices recognition -->
+      <script type="text/javascript" src="assets/js/modernizr.js"></script>
+
+      <!--  script for google maps   -->
+      <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+      <!--   file where we handle all the script from the Gaia - Bootstrap Template   -->
+      <script type="text/javascript" src="assets/js/gaia.js"></script>
 </head>
 
 <body>
@@ -468,6 +482,42 @@
         </div>
     </div>
 
+<!-- Supporter Section  added by Kiro -->
+
+<div class="section">
+    <div class="container">
+        <div class="row">
+            <div class="title-area">
+                <h2>賛同者</h2>
+                <div class="separator separator-danger">✻</div>
+                <ul class='supporterList'>
+                  <!-- ここの中身はscriptを使ってspreadsheetの内容から自動作成 -->
+                <ul>
+            </div>
+        </div>
+
+              <script>
+                $(function () {
+                  //JSONデータを読み込みます
+                    $.getJSON("https://script.google.com/macros/s/AKfycbz2eBR-2hcEdJFEqpFfE3182AY27vFlDY-ZKe-yZbs8-YXYlFZF/exec", function (data) {
+                      //JSONの中のデータの個数を変数化し、1件以上の場合は出力します（0件の場合返り値が無いため）
+                      var infoCount = data.length;
+                      //1件以上ある場合
+                      if (infoCount >= '1') {
+                        $(data).each(function () {
+                          $('<li><h3 class="supporterName">' + this.name + '</span>' + '<p class="affiliation">' + this.affiliation + '</p></li>').appendTo('ul.supporterList');
+                        })
+                      }
+                    })
+                  });
+              </script>
+
+    </div>
+</div>
+
+
+<!-- Contact -->
+
     <div class="section section-small section-get-started">
         <div class="parallax filter">
             <div class="image"
@@ -489,6 +539,7 @@
     </div>
 
 
+<!-- footer -->
     <footer class="footer footer-big footer-color-black" data-color="black">
         <div class="container">
             <div class="row">
@@ -901,19 +952,6 @@ glot.render();
         glot.render('zh');
       })
     </script>
-
-<!--   core js files    -->
-<script src="assets/js/jquery.min.js" type="text/javascript"></script>
-<script src="assets/js/bootstrap.js" type="text/javascript"></script>
-
-<!--  js library for devices recognition -->
-<script type="text/javascript" src="assets/js/modernizr.js"></script>
-
-<!--  script for google maps   -->
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
-
-<!--   file where we handle all the script from the Gaia - Bootstrap Template   -->
-<script type="text/javascript" src="assets/js/gaia.js"></script>
 
 
 </html>
