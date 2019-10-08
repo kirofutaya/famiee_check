@@ -944,7 +944,7 @@ glot.assign('mission', {
 
 
 //翻訳を実行
-glot.render();
+// glot.render();
 
       /**
       **言語切り替え用のイベント処理

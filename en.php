@@ -34,6 +34,20 @@
     <link href='https://fonts.googleapis.com/css?family=Cambo|Poppins:400,600' rel='stylesheet' type='text/css'>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/css/fonts/pe-icon-7-stroke.css" rel="stylesheet">
+
+    <!-- JavaScript -->
+      <!--   core js files    -->
+      <script src="assets/js/jquery.min.js" type="text/javascript"></script>
+      <script src="assets/js/bootstrap.js" type="text/javascript"></script>
+
+      <!--  js library for devices recognition -->
+      <script type="text/javascript" src="assets/js/modernizr.js"></script>
+
+      <!--  script for google maps   -->
+      <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+      <!--   file where we handle all the script from the Gaia - Bootstrap Template   -->
+      <script type="text/javascript" src="assets/js/gaia.js"></script>
 </head>
 
 <body>
@@ -145,7 +159,7 @@
         <div class="container">
             <div class="row">
                 <div class="title-area">
-                  <h2>最新ニュース</h2>
+                  <h2 glot-model="News" >最新ニュース</h2>
                   <div class="separator separator-danger">✻</div>
                 </div>
 
@@ -158,7 +172,7 @@
                         <div class="pr">PR</div>
                         </div>
                         <div class="item2">
-                        <div class="pr-text">福島良典氏が一般社団法人Ｆａｍｉｅｅの技術アドバイザーに就任</div>
+                        <div class="pr-text" glot-model="fukushimaNews" >福島良典氏が一般社団法人Famieeの技術アドバイザーに就任</div>
                         </div>
                       </div>
                     </a>
@@ -171,7 +185,7 @@
                         <div class="pr">PR</div>
                         </div>
                         <div class="item2">
-                        <div class="pr-text">「多様な家族形態が当たり前のように認められる社会の実現を目指して」一般社団法人Famiee設立のお知らせ</div>
+                        <div class="pr-text" glot-model="establishNews" >「多様な家族形態が当たり前のように認められる社会の実現を目指して」一般社団法人Famiee設立のお知らせ</div>
                         </div>
                       </div>
                     </a>
@@ -380,7 +394,7 @@
                                                 <div class="description">
                                                     <h3 class="title" glot-model="nice">村上乃須</h3>
                                                     <p class="small-text" glot-model="hottolinkKKK">株式会社ホットリンク元役員秘書</p>
-                                                    <p class="description"glot-model="niceD">社会課題を解決するための仕組みづくりに強い関心を持ち、「たくさんの家族の形が当たり前に認められ、誰もが家族を持つことができる社会を実現する」というアプローチに共感し、「famiee」の起ち上げに参画。<br/><br/><br/><br/><br/></p>
+                                                    <p class="description"glot-model="niceD">社会課題を解決するための仕組みづくりに強い関心を持ち、「たくさんの家族の形が当たり前に認められ、誰もが家族を持つことができる社会を実現する」というアプローチに共感し、「famiee」の起ち上げに参画。<br><br><br><br><br></p>
                                                 </div>
                                             </div>
                                         </div>
@@ -410,7 +424,7 @@
                                                 <div class="description">
                                                     <h3 class="title" glot-model="okajima">岡島悦子</h3>
                                                     <p class="small-text" glot-model="puronomaK">株式会社プロノバ 代表取締役社長</p>
-                                                    <p class="description" glot-model="okajimaD">三菱商事、Harvard Business School(MBA)、マッキンゼー、グロービスの経営陣を経て、2006年に経営チーム強化コンサルティングのプロノバを設立。丸井グループ等、上場企業５社未上場３社の社外取締役を務める。2018年50代で1児の母となったことから多様な働き方や家族のあり方についても啓蒙活動、社会課題解決への貢献を行なっている。<br/><br/><br/><br/></p>
+                                                    <p class="description" glot-model="okajimaD">三菱商事、Harvard Business School(MBA)、マッキンゼー、グロービスの経営陣を経て、2006年に経営チーム強化コンサルティングのプロノバを設立。丸井グループ等、上場企業５社未上場３社の社外取締役を務める。2018年50代で1児の母となったことから多様な働き方や家族のあり方についても啓蒙活動、社会課題解決への貢献を行なっている。<br><br><br><br></p>
                                                 </div>
                                             </div>
                                         </div>
@@ -468,6 +482,41 @@
         </div>
     </div>
 
+<!-- Supporter Section  added by Kiro -->
+<!--
+<div class="section">
+    <div class="container">
+        <div class="row">
+            <div class="title-area">
+                <h2>賛同者</h2>
+                <div class="separator separator-danger">✻</div>
+                <ul class='supporterList'>
+                <ul>
+            </div>
+        </div>
+
+        <script>
+          $(function () {
+            //JSONデータを読み込みます
+              $.getJSON("https://script.google.com/macros/s/AKfycbz2eBR-2hcEdJFEqpFfE3182AY27vFlDY-ZKe-yZbs8-YXYlFZF/exec", function (data) {
+                //JSONの中のデータの個数を変数化し、1件以上の場合は出力します（0件の場合返り値が無いため）
+                var infoCount = data.length;
+                //1件以上ある場合
+                if (infoCount >= '1') {
+                  $(data).each(function () {
+                    $('<li><h3 class="supporterName">' + this.name + '</span>' + '<p class="affiliation">' + this.affiliation + '</p></li>').appendTo('ul.supporterList');
+                  })
+                }
+              })
+            });
+        </script>
+
+    </div>
+</div> -->
+
+
+<!-- Contact -->
+
     <div class="section section-small section-get-started">
         <div class="parallax filter">
             <div class="image"
@@ -477,7 +526,7 @@
                 <div class="title-area">
                     <h2 class="text-white" glot-model="want" >賛同企業募集中！</h2>
                     <div class="separator line-separator">♦</div>
-                    <p class="description" glot-model="wantD"> Famieeプロジェクトでは想いを共にする個人・企業を募集しております。ご興味のある方は「コンタクト」よりお問い合わせください。</p>
+                    <p class="description" glot-model="wantD" > Famieeプロジェクトでは想いを共にする個人・企業を募集しております。ご興味のある方は「コンタクト」よりお問い合わせください。</p>
                 </div>
 
                 <div class="button-get-started">
@@ -489,6 +538,7 @@
     </div>
 
 
+<!-- footer -->
     <footer class="footer footer-big footer-color-black" data-color="black">
         <div class="container">
             <div class="row">
@@ -556,6 +606,7 @@
 
 </body>
 
+
 <script src="https://unpkg.com/glottologist"></script>
 <script>
 const glot = new Glottologist();
@@ -570,7 +621,7 @@ glot.assign('metadate', {
 glot.assign('mission', {
 
         ja: '多様な家族形態が当たり前のように認められる社会の実現のために',
-        en: 'For the realization of a society where various family forms are recognized as a matter of course',
+        en: 'To create an inclusive world that completely embraces diverse forms of family.',
     })
 
     glot.assign('survise', {
@@ -582,7 +633,7 @@ glot.assign('mission', {
     glot.assign('what', {
 
         ja: '私達は現在の法律上では夫婦・親子と認められない世界中の夫婦・親子が、家族としての当たり前の権利やサービスを受けられない、という課題を解決するために、ブロックチェーン技術を使って家族関係証明書を発行することで、彼ら彼女らが家族であることを社会的に認め、また、その証明書を受け入れる企業・団体を増やし、家族向けのサービスを受けられるようにする活動をしています。',
-        en: 'Under the current legal system, there are a lot of people who are not accepted as married couples, or parents and children. These people often suffer from inconvenience that they cannot receive normal rights and survices. By using blockchain system, and issuing certificates, they can socially be accepted as family. Also, we are now conducting an action to increase companies and organizations which accept our certificates, so that more people can receive variety of survices.',
+        en: 'Famiee wants to create an inclusive world that completely embraces diverse forms of family using blockchain and the power of the crowd.<br><br>Many countries have not legalized same-sex marriage. Started in Japan and run by volunteers, Famiee has created a way for same-sex couples to have many of the important spousal and familial benefits available to married couples. Famiee achieves this through a simple blockchain technology-based service that issues same-sex partners a certificate that unlocks access to a powerful network of large corporations and providers — from insurance companies to banks, hospitals and more — who share our mission of inclusivity.<br><br>How it works? Couples apply for the Famiee certificate using our phone app. Once verified, Famiee issues them a digital certificate which can be printed out or shown to our network of partners who recognize this digital certificate as proof of marital status. Through the Famiee certificate, same-sex couples can enjoy the protection and care that might otherwise only be available to opposite-sex couples. With Famiee, we can change the world now for same-sex families.',
     })
 
     glot.assign('global', {
@@ -619,6 +670,23 @@ glot.assign('mission', {
 
         ja: 'Famieeプロジェクトに参画している世界中の企業・団体で、家族としてのサービスを受けられます。',
         en: 'You can receive survices as a family by all the companies and organizations that participate in Famiee Project. ',
+    })
+
+    glot.assign('News', {
+        ja: '最新ニュース',
+        en: 'News',
+    })
+
+    glot.assign('fukushimaNews', {
+
+        ja: '福島良典氏が一般社団法人Famieeの技術アドバイザーに就任',
+        en: 'Yoshinori Fukushima was inaugurated as Technology Adviser of General Incorporated Association Famiee.',
+    })
+
+    glot.assign('establishNews', {
+
+        ja: '「多様な家族形態が当たり前のように認められる社会の実現を目指して」一般社団法人Famiee設立のお知らせ',
+        en: '"To create an inclusive world that completely embraces diverse forms of family."<br>General Incorporated Association Famiee was established',
     })
 
     glot.assign('think', {
@@ -704,7 +772,7 @@ glot.assign('mission', {
     })
 
     glot.assign('ishiwataD', {
-z
+
         ja: '音楽CD流通会社、芸能事務所を経て弁理士へ。独立後、縁あって株式会社ホットリンクの監査役に就任し、現在はCEO特別補佐を務める。中央集権に頼らない本人認証を可能にするブロックチェーン技術に着目し、さらに日本を始め世界でもまだ十分とはいえない多様性に対する不寛容に問題意識を持ち「famiee」の起ち上げから関わる。OneMile商標知的財産事務所。Arts and Lawメンバー。一般社団法人Thinking Entertainments共同代表',
         en: '',
     })
@@ -760,7 +828,7 @@ z
 
     glot.assign('niceD', {
 
-        ja: '社会課題を解決するための仕組みづくりに強い関心を持ち、「たくさんの家族の形が当たり前に認められ、誰もが家族を持つことができる社会を実現する」というアプローチに共感し、「famiee」の起ち上げに参画。',
+        ja: '社会課題を解決するための仕組みづくりに強い関心を持ち、「たくさんの家族の形が当たり前に認められ、誰もが家族を持つことができる社会を実現する」というアプローチに共感し、「famiee」の起ち上げに参画。<br><br><br><br><br>',
         en: '',
     })
 
@@ -778,7 +846,7 @@ z
 
     glot.assign('sugiyamaD', {
 
-        ja: 'フェンシング元女子日本代表。早稲田大学大学院にてセクシュアリティを研究後、トランスジェンダーである自身の体験を織り交ぜた『ダブルハッピネス』を講談社より出版、話題をよんだ。日本初となる渋谷区・同性パートナーシップ条例制定に関わり、現在は渋谷区男女平等・多様性社会推進会議委員も務める。',
+        ja: 'フェンシング元女子日本代表。早稲田大学大学院にてセクシュアリティを研究後、トランスジェンダーである自身の体験を織り交ぜた『ダブルハッピネス』を講談社より出版、話題をよんだ。日本初となる渋谷区・同性パートナーシップ条例制定に関わり、現在は渋谷区男女平等・多様性社会推進会議委員も務める。<br/><br/><br/><br/>',
         en: '',
     })
 
@@ -796,7 +864,7 @@ z
 
     glot.assign('okajimaD', {
 
-        ja: '三菱商事、Harvard Business School(MBA)、マッキンゼー、グロービスの経営陣を経て、2006年に経営チーム強化コンサルティングのプロノバを設立。丸井グループ等、上場企業５社未上場３社の社外取締役を務める。2018年50代で1児の母となったことから多様な働き方や家族のあり方についても啓蒙活動、社会課題解決への貢献を行なっている。',
+        ja: '三菱商事、Harvard Business School(MBA)、マッキンゼー、グロービスの経営陣を経て、2006年に経営チーム強化コンサルティングのプロノバを設立。丸井グループ等、上場企業５社未上場３社の社外取締役を務める。2018年50代で1児の母となったことから多様な働き方や家族のあり方についても啓蒙活動、社会課題解決への貢献を行なっている。<br><br><br><br>',
         en: '',
     })
 
@@ -825,7 +893,6 @@ z
         en: 'Fujimoto Mai',
     })
 
-
     glot.assign('maiD', {
 
         ja: 'ブロックチェーン分野における世界的な専門家とも親交が深く、“MissBitcoin”と呼ばれ親しまれている。 CryptoWeeklyの「THE 100 MOST INFLUENTIAL PEOPLE IN CRYPTO」に選出された。 ブロックチェーン業界に特化したPR会社「Gracone」をはじめ、日本初の暗号通貨による寄付サイト「KIZUNA」ブロックチェーン業界に特化した就職・転職支援会社「withB」を立ち上げる。',
@@ -846,21 +913,22 @@ z
 
     glot.assign('takeD', {
 
-        ja: '博士（経済学）。ハーバード大学客員准教授、慶應義塾大学総合政策学部教授などを経て、2001年小泉内閣で経済財政政策担当大臣を皮切りに、金融担当大臣、郵政民営化担当大臣兼務、総務大臣を歴任。東洋大学教授、慶應義塾大学名誉教授、アカデミーヒルズ理事長等を兼務。プロジェクト特別アドバイイザー。',
+        ja: '博士（経済学）。ハーバード大学客員准教授、慶應義塾大学総合政策学部教授などを経て、2001年小泉内閣で経済財政政策担当大臣を皮切りに、金融担当大臣、郵政民営化担当大臣兼務、総務大臣を歴任。東洋大学教授、慶應義塾大学名誉教授、アカデミーヒルズ理事長等を兼務。プロジェクト特別アドバイイザー。<br/><br/>',
         en: '',
     })
 
     glot.assign('want', {
 
         ja: '賛同企業募集中！',
-        en: '',
+        en: 'Recruting Supporters',
     })
 
     glot.assign('wantD', {
 
         ja: 'Famieeプロジェクトでは想いを共にする個人・企業を募集しております。ご興味のある方は「コンタクト」よりお問い合わせください。',
-        en: '',
+        en: 'Famiee project always needs individuals and companies who share our vision.',
     })
+
 
     glot.assign('contact', {
 
@@ -875,10 +943,8 @@ z
     })
 
 
-//翻訳を実行（英語）
+//翻訳を実行
 glot.render('en');
-
-
 
       /**
       **言語切り替え用のイベント処理
@@ -901,19 +967,5 @@ glot.render('en');
         glot.render('zh');
       })
     </script>
-
-<!--   core js files    -->
-<script src="assets/js/jquery.min.js" type="text/javascript"></script>
-<script src="assets/js/bootstrap.js" type="text/javascript"></script>
-
-<!--  js library for devices recognition -->
-<script type="text/javascript" src="assets/js/modernizr.js"></script>
-
-<!--  script for google maps   -->
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
-
-<!--   file where we handle all the script from the Gaia - Bootstrap Template   -->
-<script type="text/javascript" src="assets/js/gaia.js"></script>
-
 
 </html>
