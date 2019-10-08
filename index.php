@@ -483,7 +483,7 @@
     </div>
 
 <!-- Supporter Section  added by Kiro -->
-
+<!--
 <div class="section">
     <div class="container">
         <div class="row">
@@ -512,7 +512,7 @@
         </script>
 
     </div>
-</div>
+</div> -->
 
 
 <!-- Contact -->
