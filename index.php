@@ -484,14 +484,13 @@
 
 <!-- Supporter Section  added by Kiro -->
 
-<div class="section">
+<!-- <div class="section">
     <div class="container">
         <div class="row">
             <div class="title-area">
                 <h2>賛同者</h2>
                 <div class="separator separator-danger">✻</div>
                 <ul class='supporterList'>
-                  <!-- ここの中身はscriptを使ってspreadsheetの内容から自動作成 -->
                 <ul>
             </div>
         </div>
@@ -514,7 +513,7 @@
 
     </div>
 </div>
-
+ -->
 
 <!-- Contact -->
 
@@ -621,7 +620,7 @@ glot.assign('metadate', {
 glot.assign('mission', {
 
         ja: '多様な家族形態が当たり前のように認められる社会の実現のために',
-        en: 'For the realization of a society where various family forms are recognized as a matter of course',
+        en: 'To create an inclusive world that completely embraces diverse forms of family.',
     })
 
     glot.assign('survise', {
@@ -927,30 +926,30 @@ glot.assign('mission', {
 
 
 //翻訳を実行
-glot.render();
-
-
-
-      /**
-      **言語切り替え用のイベント処理
-      **/
-      const ja = document.getElementById('ja');
-      const en = document.getElementById('en');
-      const zh = document.getElementById('zh');
-      ja.addEventListener('click', e => {
-        e.preventDefault();
-        glot.render('ja');
-      })
-
-      en.addEventListener('click', e => {
-        e.preventDefault()
-        glot.render('en');
-      })
-
-      zh.addEventListener('click', e => {
-        e.preventDefault()
-        glot.render('zh');
-      })
+// glot.render();
+//
+//
+//
+//       /**
+//       **言語切り替え用のイベント処理
+//       **/
+//       const ja = document.getElementById('ja');
+//       const en = document.getElementById('en');
+//       const zh = document.getElementById('zh');
+//       ja.addEventListener('click', e => {
+//         e.preventDefault();
+//         glot.render('ja');
+//       })
+//
+//       en.addEventListener('click', e => {
+//         e.preventDefault()
+//         glot.render('en');
+//       })
+//
+//       zh.addEventListener('click', e => {
+//         e.preventDefault()
+//         glot.render('zh');
+//       })
     </script>
 
 
