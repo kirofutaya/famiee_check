@@ -159,7 +159,7 @@
         <div class="container">
             <div class="row">
                 <div class="title-area">
-                  <h2 glot-model="News">最新ニュース</h2>
+                  <h2 glot-model="News" >最新ニュース</h2>
                   <div class="separator separator-danger">✻</div>
                 </div>
 
@@ -172,7 +172,7 @@
                         <div class="pr">PR</div>
                         </div>
                         <div class="item2">
-                        <div class="pr-text" glot-model="fukushimaNews">福島良典氏が一般社団法人Famieeの技術アドバイザーに就任</div>
+                        <div class="pr-text" glot-model="fukushimaNews" >福島良典氏が一般社団法人Famieeの技術アドバイザーに就任</div>
                         </div>
                       </div>
                     </a>
@@ -185,7 +185,7 @@
                         <div class="pr">PR</div>
                         </div>
                         <div class="item2">
-                        <div class="pr-text" glot-model="establishNews">「多様な家族形態が当たり前のように認められる社会の実現を目指して」一般社団法人Famiee設立のお知らせ</div>
+                        <div class="pr-text" glot-model="establishNews" >「多様な家族形態が当たり前のように認められる社会の実現を目指して」一般社団法人Famiee設立のお知らせ</div>
                         </div>
                       </div>
                     </a>
@@ -484,7 +484,7 @@
 
 <!-- Supporter Section  added by Kiro -->
 
-<!-- <div class="section">
+<div class="section">
     <div class="container">
         <div class="row">
             <div class="title-area">
@@ -495,25 +495,25 @@
             </div>
         </div>
 
-              <script>
-                $(function () {
-                  //JSONデータを読み込みます
-                    $.getJSON("https://script.google.com/macros/s/AKfycbz2eBR-2hcEdJFEqpFfE3182AY27vFlDY-ZKe-yZbs8-YXYlFZF/exec", function (data) {
-                      //JSONの中のデータの個数を変数化し、1件以上の場合は出力します（0件の場合返り値が無いため）
-                      var infoCount = data.length;
-                      //1件以上ある場合
-                      if (infoCount >= '1') {
-                        $(data).each(function () {
-                          $('<li><h3 class="supporterName">' + this.name + '</span>' + '<p class="affiliation">' + this.affiliation + '</p></li>').appendTo('ul.supporterList');
-                        })
-                      }
-                    })
-                  });
-              </script>
+        <script>
+          $(function () {
+            //JSONデータを読み込みます
+              $.getJSON("https://script.google.com/macros/s/AKfycbz2eBR-2hcEdJFEqpFfE3182AY27vFlDY-ZKe-yZbs8-YXYlFZF/exec", function (data) {
+                //JSONの中のデータの個数を変数化し、1件以上の場合は出力します（0件の場合返り値が無いため）
+                var infoCount = data.length;
+                //1件以上ある場合
+                if (infoCount >= '1') {
+                  $(data).each(function () {
+                    $('<li><h3 class="supporterName">' + this.name + '</span>' + '<p class="affiliation">' + this.affiliation + '</p></li>').appendTo('ul.supporterList');
+                  })
+                }
+              })
+            });
+        </script>
 
     </div>
 </div>
- -->
+
 
 <!-- Contact -->
 
@@ -524,9 +524,9 @@
             </div>
             <div class="container">
                 <div class="title-area">
-                    <h2 class="text-white" glot-model="want">賛同企業募集中！</h2>
+                    <h2 class="text-white" glot-model="want" >賛同企業募集中！</h2>
                     <div class="separator line-separator">♦</div>
-                    <p class="description" glot-model="wantD"> Famieeプロジェクトでは想いを共にする個人・企業を募集しております。ご興味のある方は「コンタクト」よりお問い合わせください。</p>
+                    <p class="description" glot-model="wantD" > Famieeプロジェクトでは想いを共にする個人・企業を募集しております。ご興味のある方は「コンタクト」よりお問い合わせください。</p>
                 </div>
 
                 <div class="button-get-started">
@@ -606,6 +606,7 @@
 
 </body>
 
+
 <script src="https://unpkg.com/glottologist"></script>
 <script>
 const glot = new Glottologist();
@@ -632,9 +633,7 @@ glot.assign('mission', {
     glot.assign('what', {
 
         ja: '私達は現在の法律上では夫婦・親子と認められない世界中の夫婦・親子が、家族としての当たり前の権利やサービスを受けられない、という課題を解決するために、ブロックチェーン技術を使って家族関係証明書を発行することで、彼ら彼女らが家族であることを社会的に認め、また、その証明書を受け入れる企業・団体を増やし、家族向けのサービスを受けられるようにする活動をしています。',
-        en: 'Famiee wants to create an inclusive world that completely embraces diverse forms of family using blockchain and the power of the crowd.<br><br>
-        Many countries have not legalized same-sex marriage. Started in Japan and run by volunteers, Famiee has created a way for same-sex couples to have many of the important spousal and familial benefits available to married couples. Famiee achieves this through a simple blockchain technology-based service that issues same-sex partners a certificate that unlocks access to a powerful network of large corporations and providers — from insurance companies to banks, hospitals and more — who share our mission of inclusivity.<br><br>
-        How it works? Couples apply for the Famiee certificate using our phone app. Once verified, Famiee issues them a digital certificate which can be printed out or shown to our network of partners who recognize this digital certificate as proof of marital status. Through the Famiee certificate, same-sex couples can enjoy the protection and care that might otherwise only be available to opposite-sex couples. With Famiee, we can change the world now for same-sex families.',
+        en: 'Famiee wants to create an inclusive world that completely embraces diverse forms of family using blockchain and the power of the crowd.<br><br>Many countries have not legalized same-sex marriage. Started in Japan and run by volunteers, Famiee has created a way for same-sex couples to have many of the important spousal and familial benefits available to married couples. Famiee achieves this through a simple blockchain technology-based service that issues same-sex partners a certificate that unlocks access to a powerful network of large corporations and providers — from insurance companies to banks, hospitals and more — who share our mission of inclusivity.<br><br>How it works? Couples apply for the Famiee certificate using our phone app. Once verified, Famiee issues them a digital certificate which can be printed out or shown to our network of partners who recognize this digital certificate as proof of marital status. Through the Famiee certificate, same-sex couples can enjoy the protection and care that might otherwise only be available to opposite-sex couples. With Famiee, we can change the world now for same-sex families.',
     })
 
     glot.assign('global', {
@@ -674,7 +673,6 @@ glot.assign('mission', {
     })
 
     glot.assign('News', {
-
         ja: '最新ニュース',
         en: 'News',
     })
@@ -682,13 +680,13 @@ glot.assign('mission', {
     glot.assign('fukushimaNews', {
 
         ja: '福島良典氏が一般社団法人Famieeの技術アドバイザーに就任',
-        en: 'Yoshinori Fukushima was　inaugurated as Technology Adviser of General Incorporated Association Famiee',
+        en: 'Yoshinori Fukushima was inaugurated as Technology Adviser of General Incorporated Association Famiee.',
     })
 
     glot.assign('establishNews', {
 
         ja: '「多様な家族形態が当たり前のように認められる社会の実現を目指して」一般社団法人Famiee設立のお知らせ',
-        en: '"To create an inclusive world that completely embraces diverse forms of family." General Incorporated Association Famiee was established',
+        en: '"To create an inclusive world that completely embraces diverse forms of family."<br>General Incorporated Association Famiee was established',
     })
 
     glot.assign('think', {
@@ -895,7 +893,6 @@ glot.assign('mission', {
         en: 'Fujimoto Mai',
     })
 
-
     glot.assign('maiD', {
 
         ja: 'ブロックチェーン分野における世界的な専門家とも親交が深く、“MissBitcoin”と呼ばれ親しまれている。 CryptoWeeklyの「THE 100 MOST INFLUENTIAL PEOPLE IN CRYPTO」に選出された。 ブロックチェーン業界に特化したPR会社「Gracone」をはじめ、日本初の暗号通貨による寄付サイト「KIZUNA」ブロックチェーン業界に特化した就職・転職支援会社「withB」を立ち上げる。',
@@ -949,8 +946,6 @@ glot.assign('mission', {
 //翻訳を実行
 glot.render();
 
-
-
       /**
       **言語切り替え用のイベント処理
       **/
@@ -972,6 +967,5 @@ glot.render();
         glot.render('zh');
       })
     </script>
-
 
 </html>
