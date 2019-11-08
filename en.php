@@ -48,6 +48,12 @@
 
       <!--   file where we handle all the script from the Gaia - Bootstrap Template   -->
       <script type="text/javascript" src="assets/js/gaia.js"></script>
+
+
+      <!-- Language -->
+      <link rel="alternate" hreflang="ja" href="https://www.famiee.com/">
+      <link rel="alternate" hreflang="en" href="https://www.famiee.com/en.html">
+      <link rel="alternate" hreflang="x-default" href="https://www.famiee.com/en.html">
 </head>
 
 <body>
@@ -77,8 +83,20 @@
                                 <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.famiee.com%2F&amp;src=sdkpreparse" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a>
                             </li>
                             <li>
-                                <a href="https://twitter.com/share?url=https://www.famiee.com/&text=Famieeプロジェクト
-" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
+                                <a href="https://twitter.com/share?url=https://www.famiee.com/&text=Famieeプロジェクト" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
+                            Language
+                        </a>
+                        <ul class="dropdown-menu dropdown-danger">
+                            <li>
+                                <a href="https://www.famiee.com/en.html">ENGLISH</a>
+                            </li>
+                            <li>
+                                <a href="https://www.famiee.com/">JAPANESE</a>
                             </li>
                         </ul>
                     </li>
@@ -117,7 +135,7 @@
         <div class="container">
             <div class="row">
                 <div class="title-area">
-                    <h2 glot-model="survise">私達のサービス</h2>
+                    <h2 glot-model="service">私達のサービス</h2>
                     <div class="separator separator-danger">✻</div>
                     <p class="description" glot-model="what" >私達は現在の法律上では夫婦・親子と認められない世界中の夫婦・親子が、家族としての当たり前の権利やサービスを受けられない、という課題を解決するために、ブロックチェーン技術を使って家族関係証明書を発行することで、彼ら彼女らが家族であることを社会的に認め、また、その証明書を受け入れる企業・団体を増やし、家族向けのサービスを受けられるようにする活動をしています。</p>
                 </div>
@@ -468,7 +486,7 @@
                                                 <div class="description">
                                                     <h3 class="title" glot-model="take">竹中平蔵</h3>
                                                     <p class="small-text" glot-model="keio">特別アドバイザー / 慶應義塾大学名誉教授</p>
-                                                    <p class="description" glot-model="takeD">博士（経済学）。ハーバード大学客員准教授、慶應義塾大学総合政策学部教授などを経て、2001年小泉内閣で経済財政政策担当大臣を皮切りに、金融担当大臣、郵政民営化担当大臣兼務、総務大臣を歴任。東洋大学教授、慶應義塾大学名誉教授、アカデミーヒルズ理事長等を兼務。プロジェクト特別アドバイイザー。<br/><br/></p>
+                                                    <p class="description" glot-model="takeD">博士（経済学）。ハーバード大学客員准教授、慶應義塾大学総合政策学部教授などを経て、2001年小泉内閣で経済財政政策担当大臣を皮切りに、金融担当大臣、郵政民営化担当大臣兼務、総務大臣を歴任。東洋大学教授、慶應義塾大学名誉教授、アカデミーヒルズ理事長等を兼務。プロジェクト特別アドバイザー。<br/><br/></p>
                                                 </div>
                                             </div>
                                         </div>
@@ -483,8 +501,8 @@
     </div>
 
 <!-- Supporter Section  added by Kiro -->
-<!--
-<div class="section">
+
+<!-- <div class="section">
     <div class="container">
         <div class="row">
             <div class="title-area">
@@ -624,10 +642,10 @@ glot.assign('mission', {
         en: 'To create an inclusive world that completely embraces diverse forms of family.',
     })
 
-    glot.assign('survise', {
+    glot.assign('service', {
 
         ja: '私達のサービス',
-        en: 'Our servise',
+        en: 'Our service',
     })
 
     glot.assign('what', {
@@ -680,13 +698,13 @@ glot.assign('mission', {
     glot.assign('fukushimaNews', {
 
         ja: '福島良典氏が一般社団法人Famieeの技術アドバイザーに就任',
-        en: 'Yoshinori Fukushima was inaugurated as Technology Adviser of General Incorporated Association Famiee.',
+        en: 'Yoshinori Fukushima, who is CEO of LayerX Inc., was inaugurated as Technical Adviser of Famiee. LayerX Inc. is a company getting most attention in Japan in the field of blockchain.',
     })
 
     glot.assign('establishNews', {
 
         ja: '「多様な家族形態が当たり前のように認められる社会の実現を目指して」一般社団法人Famiee設立のお知らせ',
-        en: '"To create an inclusive world that completely embraces diverse forms of family."<br>General Incorporated Association Famiee was established',
+        en: 'Famiee was established as General Incorporated Association.<br>The vision is "To create an inclusive world that completely embraces diverse forms of family."',
     })
 
     glot.assign('think', {
@@ -698,7 +716,7 @@ glot.assign('mission', {
     glot.assign('OneWord', {
 
         ja: '発起人からの一言',
-        en: 'Messege by the proposer',
+        en: 'Message by the proposer',
     })
 
     glot.assign('Word', {
@@ -913,7 +931,7 @@ glot.assign('mission', {
 
     glot.assign('takeD', {
 
-        ja: '博士（経済学）。ハーバード大学客員准教授、慶應義塾大学総合政策学部教授などを経て、2001年小泉内閣で経済財政政策担当大臣を皮切りに、金融担当大臣、郵政民営化担当大臣兼務、総務大臣を歴任。東洋大学教授、慶應義塾大学名誉教授、アカデミーヒルズ理事長等を兼務。プロジェクト特別アドバイイザー。<br/><br/>',
+        ja: '博士（経済学）。ハーバード大学客員准教授、慶應義塾大学総合政策学部教授などを経て、2001年小泉内閣で経済財政政策担当大臣を皮切りに、金融担当大臣、郵政民営化担当大臣兼務、総務大臣を歴任。東洋大学教授、慶應義塾大学名誉教授、アカデミーヒルズ理事長等を兼務。プロジェクト特別アドバイザー。<br/><br/>',
         en: '',
     })
 
