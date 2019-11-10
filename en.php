@@ -984,6 +984,6 @@ glot.render('en');
         e.preventDefault()
         glot.render('zh');
       })
-    </script>
+</script>
 
 </html>
