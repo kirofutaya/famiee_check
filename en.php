@@ -27,7 +27,7 @@
     <meta property="fb:app_id" content="1320921668046539" />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@FamieeP" />
+    <meta name="twitter:site" content="@FamieeProject" />
 
 
     <!--     Fonts and icons     -->
@@ -83,7 +83,7 @@
                                 <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.famiee.com%2F&amp;src=sdkpreparse" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a>
                             </li>
                             <li>
-                                <a href="https://twitter.com/share?url=https://www.famiee.com/&text=Famieeプロジェクト" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
+                                <a href="https://twitter.com/FamieeProject" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
                             </li>
                         </ul>
                     </li>
@@ -354,7 +354,7 @@
                                                 <div class="description">
                                                     <h3 class="title" glot-model="yanagisawa">柳沢正和</h3>
                                                     <p class="small-text" glot-model="NPO" >NPO法人グッドエイジングエールズ</p>
-                                                    <p class="description" glot-model="yanagisawaD" >LGBT支援の認定NPO法人グッド・エイジング・エールズ所属。学校法人インターナショナル・スクール・オブ・アジア軽井沢（UWC ISAK Japan)評議員、ヒューマン・ライツ・ウォッチ東京委員。work with prideプロジェクトに参画し、企業によるLGBT施策の取り組みを評価する「Pride指標」を立ち上げる。2016年の世界経済フォーラムではLGBTセッションでパネリストを務め、ファイナンシャル・タイムス「世界のLGBTエクゼクティブ100人」にも選出</p>
+                                                    <p class="description" glot-model="yanagisawaD">LGBT支援の認定NPO法人グッド・エイジング・エールズ所属。学校法人インターナショナル・スクール・オブ・アジア軽井沢（UWC ISAK Japan)評議員、ヒューマン・ライツ・ウォッチ東京委員。work with prideプロジェクトに参画し、企業によるLGBT施策の取り組みを評価する「Pride指標」を立ち上げる。2016年の世界経済フォーラムではLGBTセッションでパネリストを務め、ファイナンシャル・タイムス「世界のLGBTエクゼクティブ100人」にも選出</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -568,9 +568,6 @@
                                 <li>
                                     <a href="https://www.famiee.com">Home</a>
                                 </li>
-                                <li>
-                                    <a href="./PrivacyPolicy.html">Privacy Policy</a>
-                                </li>
                             </ul>
                         </nav>
                     </div>
@@ -605,11 +602,12 @@
                         <nav>
                             <ul>
                                 <li>
-                                    <a href="https://twitter.com/FamieeP"  class="btn btn-social btn-twitter btn-simple">
+                                    <a href="https://twitter.com/FamieeProject"  class="btn btn-social btn-twitter btn-simple">
                                         <i class="fa fa-twitter"></i> Twitter
                                     </a>
                                 </li>
-                                <a class="twitter-timeline" data-lang="ja" data-width="350" data-height="300" data-theme="light" data-link-color="#981CEB" href="https://twitter.com/FamieeP?ref_src=twsrc%5Etfw">Tweets by FamieeP</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                <!-- Twitter TimeLine -->
+                                <a class="twitter-timeline" data-width="300" data-height="350" href="https://twitter.com/FamieeProject?ref_src=twsrc%5Etfw">Tweets by FamieeProject</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                             </ul>
                         </nav>
                     </div>
@@ -768,13 +766,15 @@ glot.assign('mission', {
     })
 
     glot.assign('NPO', {
-        ja: 'NPO法人グッドエイジングエールズ',
+        ja: 'NGO法人グッドエイジングエールズ',
         en: 'NPO corporation good aging yells',
     })
 
     glot.assign('yanagisawaD', {
         ja: 'LGBT支援の認定NPO法人グッド・エイジング・エールズ所属。学校法人インターナショナル・スクール・オブ・アジア軽井沢（UWC ISAK Japan)評議員、ヒューマン・ライツ・ウォッチ東京委員。work with prideプロジェクトに参画し、企業によるLGBT施策の取り組みを評価する「Pride指標」を立ち上げる。2016年の世界経済フォーラムではLGBTセッションでパネリストを務め、ファイナンシャル・タイムス「世界のLGBTエクゼクティブ100人」にも選出',
-        en: '',
+        en: 'Masa Yanagisawa is Deutsche Bank’s director of Japan equity sales and a Japanese LGBT+ rights activist.<br>
+        He came out on the TEDxTokyo stage in 2012 while giving a talk on acceptance: “Wow, this is the biggest coming out in Japan,” he said, smiling shyly.<br>
+        Yanagisawa has been honored by the Financial Times for his work with other members of the Japanese financial industry to develop LGBT+ friendly workplaces and raise public awareness, and he has been instrumental in helping secure corporate sponsorships for LGBT+ events in Japan, including the Tokyo Pride Parade.',
     })
 
     glot.assign('ishiwata', {
@@ -828,7 +828,7 @@ glot.assign('mission', {
     glot.assign('watanabeD', {
 
         ja: 'インド、中国、ロシアでのNPO活動を経て、2016年にブロックチェーンの可能性を感じ、シリコンバレーに渡航、現地のスタートアップであるChronicledでインターンシップを経て就職。帰国後、Staked株式会社を創業。ブロックチェーンのプロトコル開発を行うと同時に啓蒙活動を行っている。東京大学大学院工学部ブロックチェーン共同研究員。開発メンバー。',
-        en: '',
+        en: 'Sota is CEO of Stake Technologies. He is a blockchain researcher at the university of Tokyo and a Polkadot official ambassador in Tokyo. He previously worked at Chronicled, a blockchain startup in San Francisco.',
     })
 
     glot.assign('nice', {
