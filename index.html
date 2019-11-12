@@ -211,7 +211,6 @@
                     </a>
                   </li>
                 </ul>
-
             </div>
         </div>
     </div>
@@ -249,77 +248,12 @@
         </div>
     </div>
 
+
+
     <div class="section section-our-team-freebie">
-        <div class="parallax filter filter-color-black">
-            <div class="image" style="background-image:url('assets/img/header2.jpg')">
-            </div>
-            <div class="container">
-                <div class="content">
-                    <div class="row">
-                        <div class="title-area">
-                            <h2 glot-model="partner">賛同企業</h2>
-                            <div class="separator separator-danger">✻</div>
-                        </div>
-                    </div>
-
-                    <div class="team">
-                        <div class="row">
-                            <div class="col-md-10 col-md-offset-1">
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <div class="card card-member">
-                                            <div class="content">
-                                                <a href= "https://staked.co.jp/" target="_blank">
-                                                <div class="avatar avatar-danger">
-                                                    <img alt="..." src="assets/img/faces/staked.jpg"/>
-                                                </div>
-                                                <div class="description">
-                                                    <h3 class="title">Staked</h3>
-                                                </div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="card card-member">
-                                            <div class="content">
-                                                <a href= "https://www.hottolink.co.jp/" target="_blank">
-                                                <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="assets/img/faces/ホットリンク.jpg"/>
-                                                </div>
-                                                <div class="description">
-                                                    <h3 class="title" glot-model="hottolink">ホットリンク</h3>
-                                                </div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="card card-member">
-                                            <div class="content">
-                                            <a href= "https://withid.jp/" target="_blank">
-                                                <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="assets/img/faces/WithID.jpg"/>
-                                                </div>
-                                                <div class="description">
-                                                    <h3 class="title">withID</h3>
-                                                </div>
-                                            </a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="section-our-team-freebie">
-        <div>
+      <div class="parallax filter filter-color-black">
+          <div class="image" style="background-color:#ffe500">
+          </div>
             <div class="container">
                 <div class="content">
                     <div class="row">
@@ -333,6 +267,7 @@
                         <div class="row">
                             <div class="col-md-10 col-md-offset-1">
                                 <div class="row">
+
                                     <div class="col-md-4">
                                         <div class="card card-member">
                                             <div class="content">
@@ -413,7 +348,7 @@
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title" glot-model="nice">村上乃須</h3>
-                                                    <p class="small-text" glot-model="hottolinkKKK">株式会社ホットリンク元役員秘書</p>
+                                                    <p class="small-text" glot-model="hottolinkKKK">株式会社ホットリンク　ダイバーシティ推進担当</p>
                                                     <p class="description"glot-model="niceD">社会課題を解決するための仕組みづくりに強い関心を持ち、「たくさんの家族の形が当たり前に認められ、誰もが家族を持つことができる社会を実現する」というアプローチに共感し、「famiee」の起ち上げに参画。<br><br><br><br><br></p>
                                                 </div>
                                             </div>
@@ -435,34 +370,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
-                                        <div class="card card-member">
-                                            <div class="content">
-                                                <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="assets/img/faces/okajima.jpg"/>
-                                                </div>
-                                                <div class="description">
-                                                    <h3 class="title" glot-model="okajima">岡島悦子</h3>
-                                                    <p class="small-text" glot-model="puronomaK">株式会社プロノバ 代表取締役社長</p>
-                                                    <p class="description" glot-model="okajimaD">三菱商事、Harvard Business School(MBA)、マッキンゼー、グロービスの経営陣を経て、2006年に経営チーム強化コンサルティングのプロノバを設立。丸井グループ等、上場企業５社未上場３社の社外取締役を務める。2018年50代で1児の母となったことから多様な働き方や家族のあり方についても啓蒙活動、社会課題解決への貢献を行なっている。<br><br><br><br></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="card card-member">
-                                            <div class="content">
-                                                <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="assets/img/faces/fukushima.jpg"/>
-                                                </div>
-                                                <div class="description">
-                                                    <h3 class="title"glot-model="fukushima" >福島良典</h3>
-                                                    <p class="small-text" glot-model="LayerXD">株式会社LayerXの代表取締役社長</p>
-                                                    <p class="description" glot-model="fukushimaD">大学院在学中に『Gunosy（グノシー）』のサービスを開発し、2012年11月に株式会社Gunosyを創業、代表取締役に就任後、2013年11月代表取締役最高経営責任者に就任。同社は創業より約2年半というスピードで東証マザーズに上場、2017年12月には東証第一部へ市場変更する。2018年8月よりブロックチェーン領域の技術開発のために新たに設立した、株式会社LayerXの代表取締役社長に就任。2016年には『Forbes Asia』より『アジアを代表する「30歳未満」』に選出される。</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
 
                                     <div class="col-md-4">
                                         <div class="card card-member">
@@ -473,26 +380,167 @@
                                                 <div class="description">
                                                     <h3 class="title" glot-model="mai">藤本真衣</h3>
                                                     <p class="small-text">Miss Bitcoin</p>
-                                                    <p class="description" glot-model="maiD">ブロックチェーン分野における世界的な専門家とも親交が深く、“MissBitcoin”と呼ばれ親しまれている。 CryptoWeeklyの「THE 100 MOST INFLUENTIAL PEOPLE IN CRYPTO」に選出された。 ブロックチェーン業界に特化したPR会社「Gracone」をはじめ、日本初の暗号通貨による寄付サイト「KIZUNA」ブロックチェーン業界に特化した就職・転職支援会社「withB」を立ち上げる。</p>
+                                                    <p class="description" glot-model="maiD">ブロックチェーン分野における世界的な専門家とも親交が深く、“MissBitcoin”と呼ばれ親しまれている。 CryptoWeeklyの「THE 100 MOST INFLUENTIAL PEOPLE IN CRYPTO」に選出された。 ブロックチェーン業界に特化したPR会社「Gracone」をはじめ、日本初の暗号通貨による寄付サイト「KIZUNA」ブロックチェーン業界に特化した就職・転職支援会社「withB」を立ち上げる。<br><br><br></p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
 
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="parallax filter filter-color-black">
+            <div class="image" style="background-color:#ffe500">
+            </div>
+              <div class="container">
+                  <div class="content">
+                      <div class="row">
+                          <div class="title-area">
+                              <h2 glot-model="adviser" >アドバイザー</h2>
+                              <div class="separator separator-danger">✻</div>
+                          </div>
+                      </div>
+
+                      <div class="team">
+                          <div class="row">
+                              <div class="col-md-10 col-md-offset-1">
+                                  <div class="row">
+
+                                      <div class="col-md-4">
+                                          <div class="card card-member">
+                                              <div class="content">
+                                                  <div class="avatar avatar-danger">
+                                                      <img alt="..." class="img-circle" src="assets/img/faces/okajima.jpg"/>
+                                                  </div>
+                                                  <div class="description">
+                                                      <h3 class="title" glot-model="okajima">岡島悦子</h3>
+                                                      <p class="small-text" glot-model="puronomaK">株式会社プロノバ 代表取締役社長</p>
+                                                      <p class="description" glot-model="okajimaD">三菱商事、Harvard Business School(MBA)、マッキンゼー、グロービスの経営陣を経て、2006年に経営チーム強化コンサルティングのプロノバを設立。丸井グループ等、上場企業５社未上場３社の社外取締役を務める。2018年50代で1児の母となったことから多様な働き方や家族のあり方についても啓蒙活動、社会課題解決への貢献を行なっている。<br><br><br><br></p>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <div class="col-md-4">
+                                          <div class="card card-member">
+                                              <div class="content">
+                                                  <div class="avatar avatar-danger">
+                                                      <img alt="..." class="img-circle" src="assets/img/faces/fukushima.jpg"/>
+                                                  </div>
+                                                  <div class="description">
+                                                      <h3 class="title"glot-model="fukushima" >福島良典</h3>
+                                                      <p class="small-text" glot-model="LayerXD">株式会社LayerXの代表取締役社長</p>
+                                                      <p class="description" glot-model="fukushimaD">大学院在学中に『Gunosy（グノシー）』のサービスを開発し、2012年11月に株式会社Gunosyを創業、代表取締役に就任後、2013年11月代表取締役最高経営責任者に就任。同社は創業より約2年半というスピードで東証マザーズに上場、2017年12月には東証第一部へ市場変更する。2018年8月よりブロックチェーン領域の技術開発のために新たに設立した、株式会社LayerXの代表取締役社長に就任。2016年には『Forbes Asia』より『アジアを代表する「30歳未満」』に選出される。</p>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+
+                                      <div class="col-md-4">
+                                          <div class="card card-member">
+                                              <div class="content">
+                                                  <div class="avatar avatar-danger">
+                                                      <img alt="..." class="img-circle" src="assets/img/faces/竹中平蔵.jpg"/>
+                                                  </div>
+                                                  <div class="description">
+                                                      <h3 class="title" glot-model="take">竹中平蔵</h3>
+                                                      <p class="small-text" glot-model="keio">特別アドバイザー / 慶應義塾大学名誉教授</p>
+                                                      <p class="description" glot-model="takeD">博士（経済学）。ハーバード大学客員准教授、慶應義塾大学総合政策学部教授などを経て、2001年小泉内閣で経済財政政策担当大臣を皮切りに、金融担当大臣、郵政民営化担当大臣兼務、総務大臣を歴任。東洋大学教授、慶應義塾大学名誉教授、アカデミーヒルズ理事長等を兼務。プロジェクト特別アドバイザー。<br><br><br></p>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+
+                                      <div class="col-md-4">
+                                          <div class="card card-member">
+                                              <div class="content">
+                                                  <div class="avatar avatar-danger">
+                                                      <img alt="..." class="img-circle" src="assets/img/faces/song_mihyon.jpg"/>
+                                                  </div>
+                                                  <div class="description">
+                                                      <h3 class="title" glot-model="song">宋美玄</h3>
+                                                      <p class="small-text" glot-model="doctor">産婦人科専門医・医学博士・FMF認定超音波医</p>
+                                                      <p class="description" glot-model="songD">2001年大阪大学医学部医学科卒業。大学卒業後、大阪大学医学部附属病院、りんくう総合医療センターなどを経て川崎医科大学講師就任。2009年ロンドンのFetal Medicine Foundationへ留学。胎児超音波の研鑽を積む。2015年川崎医科大学医学研究科博士課程卒業。周産期医療、女性医療に従事する傍ら、テレビ、インターネット、雑誌、書籍で情報発信を行う。産婦人科医の視点から社会問題の解決、ヘルスリテラシーの向上を目的とし活動中。<br><br><br><br></p>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+    </div>
+
+    <div class="section section-our-team-freebie">
+      <div>
+        <!-- <div class="parallax filter filter-color-black">
+            <div class="image" style="background-image:url('assets/img/header2.jpg')">
+            </div> -->
+            <div class="container">
+                <div class="content">
+                    <div class="row">
+                        <div class="title-area">
+                            <h2 glot-model="partner">賛同企業</h2>
+                            <div class="separator separator-danger">✻</div>
+                        </div>
+                    </div>
+
+                    <div class="team">
+                        <div class="row">
+                            <div class="col-md-10 col-md-offset-1">
+                                <div class="row">
                                     <div class="col-md-4">
                                         <div class="card card-member">
                                             <div class="content">
+                                                <a href= "https://staked.co.jp/" target="_blank">
                                                 <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="assets/img/faces/竹中平蔵.jpg"/>
+                                                    <img alt="..." src="assets/img/faces/staked.jpg"/>
                                                 </div>
                                                 <div class="description">
-                                                    <h3 class="title" glot-model="take">竹中平蔵</h3>
-                                                    <p class="small-text" glot-model="keio">特別アドバイザー / 慶應義塾大学名誉教授</p>
-                                                    <p class="description" glot-model="takeD">博士（経済学）。ハーバード大学客員准教授、慶應義塾大学総合政策学部教授などを経て、2001年小泉内閣で経済財政政策担当大臣を皮切りに、金融担当大臣、郵政民営化担当大臣兼務、総務大臣を歴任。東洋大学教授、慶應義塾大学名誉教授、アカデミーヒルズ理事長等を兼務。プロジェクト特別アドバイザー。<br/><br/></p>
+                                                    <h3 class="title">Staked</h3>
                                                 </div>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="col-md-4">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <a href= "https://www.hottolink.co.jp/" target="_blank">
+                                                <div class="avatar avatar-danger">
+                                                    <img alt="..." class="img-circle" src="assets/img/faces/ホットリンク.jpg"/>
+                                                </div>
+                                                <div class="description">
+                                                    <h3 class="title" glot-model="hottolink">ホットリンク</h3>
+                                                </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                            <a href= "https://withid.jp/" target="_blank">
+                                                <div class="avatar avatar-danger">
+                                                    <img alt="..." class="img-circle" src="assets/img/faces/WithID.jpg"/>
+                                                </div>
+                                                <div class="description">
+                                                    <h3 class="title">withID</h3>
+                                                </div>
+                                            </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -501,7 +549,6 @@
             </div>
         </div>
     </div>
-
 <!-- Supporter Section  added by Kiro -->
 
 <!-- <div class="section">
@@ -841,8 +888,8 @@ glot.assign('mission', {
 
     glot.assign('hottolinkKKK', {
 
-        ja: '株式会社ホットリンク元役員秘書',
-        en: 'HottoLink Inc. Former executive secretary',
+        ja: '株式会社ホットリンク　ダイバーシティ推進担当',
+        en: 'HottoLink Inc. Diversity promotion',
     })
 
 
@@ -915,7 +962,7 @@ glot.assign('mission', {
 
     glot.assign('maiD', {
 
-        ja: 'ブロックチェーン分野における世界的な専門家とも親交が深く、“MissBitcoin”と呼ばれ親しまれている。 CryptoWeeklyの「THE 100 MOST INFLUENTIAL PEOPLE IN CRYPTO」に選出された。 ブロックチェーン業界に特化したPR会社「Gracone」をはじめ、日本初の暗号通貨による寄付サイト「KIZUNA」ブロックチェーン業界に特化した就職・転職支援会社「withB」を立ち上げる。',
+        ja: 'ブロックチェーン分野における世界的な専門家とも親交が深く、“MissBitcoin”と呼ばれ親しまれている。 CryptoWeeklyの「THE 100 MOST INFLUENTIAL PEOPLE IN CRYPTO」に選出された。 ブロックチェーン業界に特化したPR会社「Gracone」をはじめ、日本初の暗号通貨による寄付サイト「KIZUNA」ブロックチェーン業界に特化した就職・転職支援会社「withB」を立ち上げる。<br><br><br>',
         en: '',
     })
 
@@ -933,8 +980,32 @@ glot.assign('mission', {
 
     glot.assign('takeD', {
 
-        ja: '博士（経済学）。ハーバード大学客員准教授、慶應義塾大学総合政策学部教授などを経て、2001年小泉内閣で経済財政政策担当大臣を皮切りに、金融担当大臣、郵政民営化担当大臣兼務、総務大臣を歴任。東洋大学教授、慶應義塾大学名誉教授、アカデミーヒルズ理事長等を兼務。プロジェクト特別アドバイザー。<br/><br/>',
+        ja: '博士（経済学）。ハーバード大学客員准教授、慶應義塾大学総合政策学部教授などを経て、2001年小泉内閣で経済財政政策担当大臣を皮切りに、金融担当大臣、郵政民営化担当大臣兼務、総務大臣を歴任。東洋大学教授、慶應義塾大学名誉教授、アカデミーヒルズ理事長等を兼務。プロジェクト特別アドバイザー。<br><br><br>',
         en: '',
+    })
+
+    glot.assign('song', {
+
+        ja: '宋美玄',
+        en: 'Song Mihyon',
+    })
+
+    glot.assign('doctor', {
+
+        ja: '産婦人科専門医・医学博士・FMF認定超音波医',
+        en: 'Obstetrician, MD, FMF certified ultrasonographer',
+    })
+
+    glot.assign('songD', {
+
+        ja: '2001年大阪大学医学部医学科卒業。大学卒業後、大阪大学医学部附属病院、りんくう総合医療センターなどを経て川崎医科大学講師就任。2009年ロンドンのFetal Medicine Foundationへ留学。胎児超音波の研鑽を積む。2015年川崎医科大学医学研究科博士課程卒業。周産期医療、女性医療に従事する傍ら、テレビ、インターネット、雑誌、書籍で情報発信を行う。産婦人科医の視点から社会問題の解決、ヘルスリテラシーの向上を目的とし活動中。<br><br><br><br>',
+        en: '',
+    })
+
+    glot.assign('adviser', {
+
+        ja: 'アドバイザー',
+        en: 'Adviser',
     })
 
     glot.assign('want', {
