@@ -961,7 +961,7 @@ glot.assign('mission', {
     glot.assign('maiD', {
 
         ja: 'ブロックチェーン分野における世界的な専門家とも親交が深く、“MissBitcoin”と呼ばれ親しまれている。 CryptoWeeklyの「THE 100 MOST INFLUENTIAL PEOPLE IN CRYPTO」に選出された。 ブロックチェーン業界に特化したPR会社「Gracone」をはじめ、日本初の暗号通貨による寄付サイト「KIZUNA」ブロックチェーン業界に特化した就職・転職支援会社「withB」を立ち上げる。',
-        en: '',
+        en: 'She is familiar with global experts in the blockchain field and is known as “MissBitcoin”. Selected as "THE 100 MOST INFLUENTIAL PEOPLE IN CRYPTO" by CryptoWeekly. She started Gracone Inc., a PR company specialized in the blockchain industry in 2014 and launched the Japan\'s first donation platform KIZUNA, that can send money with cryptocurrency. In 2018, started withB Inc., a career-change / employment support company specialized in the blockchain. Also, she has been working for Binance Charity Foundation as one of the Binance Children Ambassador since 2018.',
     })
 
     glot.assign('take', {
