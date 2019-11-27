@@ -516,7 +516,7 @@
                                           <div class="content">
                                               <a href= "https://www.microsoft.com/ja-jp/mscorp" target="_blank">
                                               <div class="avatar avatar-danger">
-                                                  <img alt="..." class="img-circle imgMicrosoft" src="assets/img/faces/microsoft.webp"/>
+                                                  <img alt="..." class="img-circle imgMicrosoft" src="assets/img/faces/microsoft.png"/>
                                               </div>
                                               <div class="description">
                                                   <h3 class="title" glot-model="microsoft">日本マイクロソフト</h3>
