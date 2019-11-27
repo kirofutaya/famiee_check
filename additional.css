@@ -2660,6 +2660,13 @@ a,
 
 /* Kiro追加分 */
 
+/* service section */
+.m-0{margin: 0}
+.mt-40{
+  margin-top: 40px
+}
+
+/* news section */
 .item1, .item2{
   display: inline-block;
   vertical-align: middle;
