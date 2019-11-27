@@ -123,7 +123,7 @@
                     <div class="title-area">
                         <h1 class="title-modern">Famiee Project</h1>
                         <p>Mission</p>
-                        <h2 glot-model="mission">多様な家族形態が当たり前のように認められる社会の実現のために</h2>
+                        <h3 glot-model="mission">多様な家族形態が当たり前のように認められる社会の実現のために</h2>
                         <div class="separator line-separator">♦</div>
                     </div>
                 </div>
@@ -139,7 +139,8 @@
                 <div class="title-area">
                     <h2 glot-model="service">私達のサービス</h2>
                     <div class="separator separator-danger">✻</div>
-                    <p class="description" glot-model="what" >私達は現在の法律上では夫婦・親子と認められない世界中の夫婦・親子が、家族としての当たり前の権利やサービスを受けられない、という課題を解決するために、ブロックチェーン技術を使って家族関係証明書を発行することで、彼ら彼女らが家族であることを社会的に認め、また、その証明書を受け入れる企業・団体を増やし、家族向けのサービスを受けられるようにする活動をしています。</p>
+                    <p class="description" glot-model="what" >私達は現在の法律上では夫婦・親子と認められない世界中の夫婦・親子が、家族としての当たり前の権利やサービスを受けられない、という課題を解決するために、ブロックチェーン技術を使って家族関係証明書を発行することで、彼ら彼女らが家族であることを社会的に認め、また、その証明書を受け入れる企業・団体を増やし、家族向けのサービスを受けられるようにする活動（※）をしています。</p>
+                    <p glot-model="hidden1" class="small text-muted">※・社内での家族向けの福利厚生の対象になる（慶弔休暇、介護休暇、家族手当、etc.）<br>・住宅ローンの際に、夫婦として収入合算して査定される<br>・生命保険の受取人になれる<br>・航空会社のマイルの家族交換サービスの対象に<br>・携帯電話の家族割引の対象に<br>・病院での手術の同意書にサインできる<br>・夫婦用の公営住宅に応募できる etc.</p>
                 </div>
             </div>
             <div class="row">
@@ -184,6 +185,19 @@
                 </div>
 
                 <ul class="msr_newslist01">
+                  <li>
+                    <a href="20190917news.docx" target="_blank">
+                      <div class="clearfix">
+                        <div class="item1">
+                        <time datetime="2019-9-17">2019.09.17</time>
+                        <div class="pr">PR</div>
+                        </div>
+                        <div class="item2">
+                        <div class="pr-text">民間によるパートナーシップ証明書発行委員会の参加募集のプレスリリース</div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
                   <li>
                     <a href="https://prtimes.jp/main/html/rd/p/000000002.000047881.html" target="_blank">
                       <div class="clearfix">
@@ -311,6 +325,9 @@
                                         </div>
                                     </div>
 
+                                  </div>
+                                  <div class="row">
+
                                     <div class="col-md-4">
                                         <div class="card card-member">
                                             <div class="content">
@@ -349,11 +366,15 @@
                                                 <div class="description">
                                                     <h3 class="title" glot-model="nice">村上乃須</h3>
                                                     <p class="small-text" glot-model="hottolinkKKK">株式会社ホットリンク　ダイバーシティ推進担当</p>
-                                                    <p class="description"glot-model="niceD">社会課題を解決するための仕組みづくりに強い関心を持ち、「たくさんの家族の形が当たり前に認められ、誰もが家族を持つことができる社会を実現する」というアプローチに共感し、「famiee」の起ち上げに参画。<br><br><br><br><br></p>
+                                                    <p class="description"glot-model="niceD">社会課題を解決するための仕組みづくりに強い関心を持ち、「たくさんの家族の形が当たり前に認められ、誰もが家族を持つことができる社会を実現する」というアプローチに共感し、「famiee」の起ち上げに参画。<br><br><br><br></p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+
+                                  </div>
+                                  <div class="row">
+
                                     <div class="col-md-4">
                                         <div class="card card-member">
                                             <div class="content">
@@ -441,6 +462,7 @@
                                           </div>
                                       </div>
 
+
                                       <div class="col-md-4">
                                           <div class="card card-member">
                                               <div class="content">
@@ -455,6 +477,10 @@
                                               </div>
                                           </div>
                                       </div>
+
+                                    </div>
+
+                                    <div class="row">
 
                                       <div class="col-md-4">
                                           <div class="card card-member">
@@ -496,53 +522,71 @@
 
                     <div class="team">
                         <div class="row">
-                            <div class="col-md-10 col-md-offset-1">
+                            <!-- <div class="col-md-10"> -->
                                 <div class="row">
-                                    <div class="col-md-4">
-                                        <div class="card card-member">
-                                            <div class="content">
-                                                <a href= "https://staked.co.jp/" target="_blank">
-                                                <div class="avatar avatar-danger">
-                                                    <img alt="..." src="assets/img/faces/staked.jpg"/>
-                                                </div>
-                                                <div class="description">
-                                                    <h3 class="title">Staked</h3>
-                                                </div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="card card-member">
-                                            <div class="content">
-                                                <a href= "https://www.hottolink.co.jp/" target="_blank">
-                                                <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="assets/img/faces/ホットリンク.jpg"/>
-                                                </div>
-                                                <div class="description">
-                                                    <h3 class="title" glot-model="hottolink">ホットリンク</h3>
-                                                </div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="card card-member">
-                                            <div class="content">
-                                            <a href= "https://withid.jp/" target="_blank">
-                                                <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="assets/img/faces/WithID.jpg"/>
-                                                </div>
-                                                <div class="description">
-                                                    <h3 class="title">withID</h3>
-                                                </div>
-                                            </a>
-                                            </div>
-                                        </div>
-                                    </div>
+
+                                  <div class="col-md-3">
+                                      <div class="card card-member">
+                                          <div class="content">
+                                              <a href= "https://www.microsoft.com/ja-jp/mscorp" target="_blank">
+                                              <div class="avatar avatar-danger">
+                                                  <img alt="..." class="img-circle imgMicrosoft" src="assets/img/faces/microsoft.webp"/>
+                                              </div>
+                                              <div class="description">
+                                                  <h3 class="title" glot-model="microsoft">日本マイクロソフト</h3>
+                                              </div>
+                                              </a>
+                                          </div>
+                                      </div>
+                                  </div>
+
+                                  <div class="col-md-3">
+                                      <div class="card card-member">
+                                          <div class="content">
+                                              <a href= "https://www.hottolink.co.jp/" target="_blank">
+                                              <div class="avatar avatar-danger">
+                                                  <img alt="..." class="img-circle" src="assets/img/faces/ホットリンク.jpg"/>
+                                              </div>
+                                              <div class="description">
+                                                  <h3 class="title" glot-model="hottolink">ホットリンク</h3>
+                                              </div>
+                                              </a>
+                                          </div>
+                                      </div>
+                                  </div>
+
+                                  <div class="col-md-3">
+                                      <div class="card card-member">
+                                          <div class="content">
+                                              <a href= "https://staked.co.jp/" target="_blank">
+                                              <div class="avatar avatar-danger">
+                                                  <img alt="..." class="img-circle" src="assets/img/faces/staked.jpg"/>
+                                              </div>
+                                              <div class="description">
+                                                  <h3 class="title">Staked</h3>
+                                              </div>
+                                              </a>
+                                          </div>
+                                      </div>
+                                  </div>
+
+                                  <div class="col-md-3">
+                                      <div class="card card-member">
+                                          <div class="content">
+                                          <a href= "https://withid.jp/" target="_blank">
+                                              <div class="avatar avatar-danger">
+                                                  <img alt="..." class="img-circle" src="assets/img/faces/WithID.jpg"/>
+                                              </div>
+                                              <div class="description">
+                                                  <h3 class="title">withID</h3>
+                                              </div>
+                                          </a>
+                                          </div>
+                                      </div>
+                                  </div>
 
                                 </div>
-                            </div>
+                            <!-- </div> -->
                         </div>
                     </div>
                 </div>
@@ -699,8 +743,14 @@ glot.assign('mission', {
 
     glot.assign('what', {
 
-        ja: '私達は現在の法律上では夫婦・親子と認められない世界中の夫婦・親子が、家族としての当たり前の権利やサービスを受けられない、という課題を解決するために、ブロックチェーン技術を使って家族関係証明書を発行することで、彼ら彼女らが家族であることを社会的に認め、また、その証明書を受け入れる企業・団体を増やし、家族向けのサービスを受けられるようにする活動をしています。',
+        ja: '私達は現在の法律上では夫婦・親子と認められない世界中の夫婦・親子が、家族としての当たり前の権利やサービスを受けられない、という課題を解決するために、ブロックチェーン技術を使って家族関係証明書を発行することで、彼ら彼女らが家族であることを社会的に認め、また、その証明書を受け入れる企業・団体を増やし、家族向けのサービスを受けられるようにする活動（※）をしています。',
         en: 'Famiee wants to create an inclusive world that completely embraces diverse forms of family using blockchain and the power of the crowd.<br><br>Many countries have not legalized same-sex marriage. Started in Japan and run by volunteers, Famiee has created a way for same-sex couples to have many of the important spousal and familial benefits available to married couples. Famiee achieves this through a simple blockchain technology-based service that issues same-sex partners a certificate that unlocks access to a powerful network of large corporations and providers — from insurance companies to banks, hospitals and more — who share our mission of inclusivity.<br><br>How it works? Couples apply for the Famiee certificate using our phone app. Once verified, Famiee issues them a digital certificate which can be printed out or shown to our network of partners who recognize this digital certificate as proof of marital status. Through the Famiee certificate, same-sex couples can enjoy the protection and care that might otherwise only be available to opposite-sex couples. With Famiee, we can change the world now for same-sex families.',
+    })
+
+    glot.assign('hidden1', {
+
+        ja: '※・社内での家族向けの福利厚生の対象になる（慶弔休暇、介護休暇、家族手当、etc.）<br>・住宅ローンの際に、夫婦として収入合算して査定される<br>・生命保険の受取人になれる<br>・航空会社のマイルの家族交換サービスの対象に<br>・携帯電話の家族割引の対象に<br>・病院での手術の同意書にサインできる<br>・夫婦用の公営住宅に応募できる etc.',
+        en: '',
     })
 
     glot.assign('global', {
@@ -784,6 +834,12 @@ glot.assign('mission', {
 
         ja: '賛同企業',
         en: 'Supporting company',
+    })
+
+    glot.assign('microsoft', {
+
+        ja: '日本マイクロソフト',
+        en: 'Microsoft Japan Co., Ltd.',
     })
 
     glot.assign('hottolink', {
@@ -895,7 +951,7 @@ glot.assign('mission', {
 
     glot.assign('niceD', {
 
-        ja: '社会課題を解決するための仕組みづくりに強い関心を持ち、「たくさんの家族の形が当たり前に認められ、誰もが家族を持つことができる社会を実現する」というアプローチに共感し、「famiee」の起ち上げに参画。<br><br><br><br><br>',
+        ja: '社会課題を解決するための仕組みづくりに強い関心を持ち、「たくさんの家族の形が当たり前に認められ、誰もが家族を持つことができる社会を実現する」というアプローチに共感し、「famiee」の起ち上げに参画。<br><br><br><br>',
         en: '',
     })
 

@@ -123,7 +123,7 @@
                     <div class="title-area">
                         <h1 class="title-modern">Famiee Project</h1>
                         <p>Mission</p>
-                        <h2 glot-model="mission">多様な家族形態が当たり前のように認められる社会の実現のために</h2>
+                        <h3 glot-model="mission">多様な家族形態が当たり前のように認められる社会の実現のために</h2>
                         <div class="separator line-separator">♦</div>
                     </div>
                 </div>
@@ -268,7 +268,7 @@
                             <div class="col-md-10 col-md-offset-1">
                                 <div class="row">
 
-                                    <div class="col-md-4">
+                                    <div class="col-md-4" >
                                         <div class="card card-member">
                                             <div class="content">
                                                 <div class="avatar avatar-danger">
@@ -311,6 +311,9 @@
                                         </div>
                                     </div>
 
+                                  </div>
+                                  <div class="row">
+
                                     <div class="col-md-4">
                                         <div class="card card-member">
                                             <div class="content">
@@ -349,11 +352,15 @@
                                                 <div class="description">
                                                     <h3 class="title" glot-model="nice">村上乃須</h3>
                                                     <p class="small-text" glot-model="hottolinkKKK">株式会社ホットリンク　ダイバーシティ推進担当</p>
-                                                    <p class="description"glot-model="niceD">社会課題を解決するための仕組みづくりに強い関心を持ち、「たくさんの家族の形が当たり前に認められ、誰もが家族を持つことができる社会を実現する」というアプローチに共感し、「famiee」の起ち上げに参画。<br><br><br><br><br></p>
+                                                    <p class="description"glot-model="niceD">社会課題を解決するための仕組みづくりに強い関心を持ち、「たくさんの家族の形が当たり前に認められ、誰もが家族を持つことができる社会を実現する」というアプローチに共感し、「famiee」の起ち上げに参画。<br><br><br><br></p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+
+                                  </div>
+                                  <div class="row">
+
                                     <div class="col-md-4">
                                         <div class="card card-member">
                                             <div class="content">
@@ -441,6 +448,7 @@
                                           </div>
                                       </div>
 
+
                                       <div class="col-md-4">
                                           <div class="card card-member">
                                               <div class="content">
@@ -455,6 +463,10 @@
                                               </div>
                                           </div>
                                       </div>
+
+                                    </div>
+
+                                    <div class="row">
 
                                       <div class="col-md-4">
                                           <div class="card card-member">
@@ -496,53 +508,71 @@
 
                     <div class="team">
                         <div class="row">
-                            <div class="col-md-10 col-md-offset-1">
+                            <!-- <div class="col-md-10"> -->
                                 <div class="row">
-                                    <div class="col-md-4">
-                                        <div class="card card-member">
-                                            <div class="content">
-                                                <a href= "https://staked.co.jp/" target="_blank">
-                                                <div class="avatar avatar-danger">
-                                                    <img alt="..." src="assets/img/faces/staked.jpg"/>
-                                                </div>
-                                                <div class="description">
-                                                    <h3 class="title">Staked</h3>
-                                                </div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="card card-member">
-                                            <div class="content">
-                                                <a href= "https://www.hottolink.co.jp/" target="_blank">
-                                                <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="assets/img/faces/ホットリンク.jpg"/>
-                                                </div>
-                                                <div class="description">
-                                                    <h3 class="title" glot-model="hottolink">ホットリンク</h3>
-                                                </div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="card card-member">
-                                            <div class="content">
-                                            <a href= "https://withid.jp/" target="_blank">
-                                                <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="assets/img/faces/WithID.jpg"/>
-                                                </div>
-                                                <div class="description">
-                                                    <h3 class="title">withID</h3>
-                                                </div>
-                                            </a>
-                                            </div>
-                                        </div>
-                                    </div>
+
+                                  <div class="col-md-3">
+                                      <div class="card card-member">
+                                          <div class="content">
+                                              <a href= "https://www.microsoft.com/ja-jp/mscorp" target="_blank">
+                                              <div class="avatar avatar-danger">
+                                                  <img alt="..." class="img-circle imgMicrosoft" src="assets/img/faces/microsoft.webp"/>
+                                              </div>
+                                              <div class="description">
+                                                  <h3 class="title" glot-model="microsoft">日本マイクロソフト</h3>
+                                              </div>
+                                              </a>
+                                          </div>
+                                      </div>
+                                  </div>
+
+                                  <div class="col-md-3">
+                                      <div class="card card-member">
+                                          <div class="content">
+                                              <a href= "https://www.hottolink.co.jp/" target="_blank">
+                                              <div class="avatar avatar-danger">
+                                                  <img alt="..." class="img-circle" src="assets/img/faces/ホットリンク.jpg"/>
+                                              </div>
+                                              <div class="description">
+                                                  <h3 class="title" glot-model="hottolink">ホットリンク</h3>
+                                              </div>
+                                              </a>
+                                          </div>
+                                      </div>
+                                  </div>
+
+                                  <div class="col-md-3">
+                                      <div class="card card-member">
+                                          <div class="content">
+                                              <a href= "https://staked.co.jp/" target="_blank">
+                                              <div class="avatar avatar-danger">
+                                                  <img alt="..." class="img-circle" src="assets/img/faces/staked.jpg"/>
+                                              </div>
+                                              <div class="description">
+                                                  <h3 class="title">Staked</h3>
+                                              </div>
+                                              </a>
+                                          </div>
+                                      </div>
+                                  </div>
+
+                                  <div class="col-md-3">
+                                      <div class="card card-member">
+                                          <div class="content">
+                                          <a href= "https://withid.jp/" target="_blank">
+                                              <div class="avatar avatar-danger">
+                                                  <img alt="..." class="img-circle" src="assets/img/faces/WithID.jpg"/>
+                                              </div>
+                                              <div class="description">
+                                                  <h3 class="title">withID</h3>
+                                              </div>
+                                          </a>
+                                          </div>
+                                      </div>
+                                  </div>
 
                                 </div>
-                            </div>
+                            <!-- </div> -->
                         </div>
                     </div>
                 </div>
@@ -697,8 +727,14 @@ glot.assign('mission', {
 
     glot.assign('what', {
 
-        ja: '私達は現在の法律上では夫婦・親子と認められない世界中の夫婦・親子が、家族としての当たり前の権利やサービスを受けられない、という課題を解決するために、ブロックチェーン技術を使って家族関係証明書を発行することで、彼ら彼女らが家族であることを社会的に認め、また、その証明書を受け入れる企業・団体を増やし、家族向けのサービスを受けられるようにする活動をしています。',
+        ja: '私達は現在の法律上では夫婦・親子と認められない世界中の夫婦・親子が、家族としての当たり前の権利やサービスを受けられない、という課題を解決するために、ブロックチェーン技術を使って家族関係証明書を発行することで、彼ら彼女らが家族であることを社会的に認め、また、その証明書を受け入れる企業・団体を増やし、家族向けのサービスを受けられるようにする活動（※）をしています。',
         en: 'Famiee wants to create an inclusive world that completely embraces diverse forms of family using blockchain and the power of the crowd.<br><br>Many countries have not legalized same-sex marriage. Started in Japan and run by volunteers, Famiee has created a way for same-sex couples to have many of the important spousal and familial benefits available to married couples. Famiee achieves this through a simple blockchain technology-based service that issues same-sex partners a certificate that unlocks access to a powerful network of large corporations and providers — from insurance companies to banks, hospitals and more — who share our mission of inclusivity.<br><br>How it works? Couples apply for the Famiee certificate using our phone app. Once verified, Famiee issues them a digital certificate which can be printed out or shown to our network of partners who recognize this digital certificate as proof of marital status. Through the Famiee certificate, same-sex couples can enjoy the protection and care that might otherwise only be available to opposite-sex couples. With Famiee, we can change the world now for same-sex families.',
+    })
+
+    glot.assign('hidden1', {
+
+        ja: '※・社内での家族向けの福利厚生の対象になる（慶弔休暇、介護休暇、家族手当、etc.）<br>・住宅ローンの際に、夫婦として収入合算して査定される<br>・生命保険の受取人になれる<br>・航空会社のマイルの家族交換サービスの対象に<br>・携帯電話の家族割引の対象に<br>・病院での手術の同意書にサインできる<br>・夫婦用の公営住宅に応募できる etc.',
+        en: '',
     })
 
     glot.assign('global', {
@@ -784,6 +820,12 @@ glot.assign('mission', {
         en: 'Supporting company',
     })
 
+    glot.assign('microsoft', {
+
+        ja: '日本マイクロソフト',
+        en: 'Microsoft Japan Co., Ltd.',
+    })
+
     glot.assign('hottolink', {
 
         ja: 'ホットリンク',
@@ -815,13 +857,13 @@ glot.assign('mission', {
     })
 
     glot.assign('NPO', {
-        ja: 'NGO法人グッドエイジングエールズ',
-        en: 'NGO corporation good aging yells',
+        ja: 'NPO法人グッドエイジングエールズ',
+        en: 'NPO corporation good aging yells',
     })
 
     glot.assign('yanagisawaD', {
         ja: 'LGBT支援の認定NPO法人グッド・エイジング・エールズ所属。学校法人インターナショナル・スクール・オブ・アジア軽井沢（UWC ISAK Japan)評議員、ヒューマン・ライツ・ウォッチ東京委員。work with prideプロジェクトに参画し、企業によるLGBT施策の取り組みを評価する「Pride指標」を立ち上げる。2016年の世界経済フォーラムではLGBTセッションでパネリストを務め、ファイナンシャル・タイムス「世界のLGBTエクゼクティブ100人」にも選出',
-        en: 'Masa Yanagisawa is Deutsche Bank’s director of Japan equity sales and a Japanese LGBT+ rights activist.<br>He came out on the TEDxTokyo stage in 2012 while giving a talk on acceptance: “Wow, this is the biggest coming out in Japan,” he said, smiling shyly.<br>Yanagisawa has been honored by the Financial Times for his work with other members of the Japanese financial industry to develop LGBT+ friendly workplaces and raise public awareness, and he has been instrumental in helping secure corporate sponsorships for LGBT+ events in Japan, including the Tokyo Pride Parade.',
+        en: '',
     })
 
     glot.assign('ishiwata', {
@@ -875,7 +917,7 @@ glot.assign('mission', {
     glot.assign('watanabeD', {
 
         ja: 'インド、中国、ロシアでのNPO活動を経て、2016年にブロックチェーンの可能性を感じ、シリコンバレーに渡航、現地のスタートアップであるChronicledでインターンシップを経て就職。帰国後、Staked株式会社を創業。ブロックチェーンのプロトコル開発を行うと同時に啓蒙活動を行っている。東京大学大学院工学部ブロックチェーン共同研究員。開発メンバー。',
-        en: 'Sota is CEO of Stake Technologies. He is a blockchain researcher at the university of Tokyo and a Polkadot official ambassador in Tokyo. He previously worked at Chronicled, a blockchain startup in San Francisco.',
+        en: '',
     })
 
     glot.assign('nice', {
@@ -893,7 +935,7 @@ glot.assign('mission', {
 
     glot.assign('niceD', {
 
-        ja: '社会課題を解決するための仕組みづくりに強い関心を持ち、「たくさんの家族の形が当たり前に認められ、誰もが家族を持つことができる社会を実現する」というアプローチに共感し、「famiee」の起ち上げに参画。<br><br><br><br><br>',
+        ja: '社会課題を解決するための仕組みづくりに強い関心を持ち、「たくさんの家族の形が当たり前に認められ、誰もが家族を持つことができる社会を実現する」というアプローチに共感し、「famiee」の起ち上げに参画。<br><br><br><br>',
         en: '',
     })
 
@@ -960,7 +1002,7 @@ glot.assign('mission', {
 
     glot.assign('maiD', {
 
-        ja: 'ブロックチェーン分野における世界的な専門家とも親交が深く、“MissBitcoin”と呼ばれ親しまれている。 CryptoWeeklyの「THE 100 MOST INFLUENTIAL PEOPLE IN CRYPTO」に選出された。 ブロックチェーン業界に特化したPR会社「Gracone」をはじめ、日本初の暗号通貨による寄付サイト「KIZUNA」ブロックチェーン業界に特化した就職・転職支援会社「withB」を立ち上げる。',
+        ja: 'ブロックチェーン分野における世界的な専門家とも親交が深く、“MissBitcoin”と呼ばれ親しまれている。 CryptoWeeklyの「THE 100 MOST INFLUENTIAL PEOPLE IN CRYPTO」に選出された。 ブロックチェーン業界に特化したPR会社「Gracone」をはじめ、日本初の暗号通貨による寄付サイト「KIZUNA」ブロックチェーン業界に特化した就職・転職支援会社「withB」を立ち上げる。<br><br><br>',
         en: 'She is familiar with global experts in the blockchain field and is known as “MissBitcoin”. Selected as "THE 100 MOST INFLUENTIAL PEOPLE IN CRYPTO" by CryptoWeekly. She started Gracone Inc., a PR company specialized in the blockchain industry in 2014 and launched the Japan\'s first donation platform KIZUNA, that can send money with cryptocurrency. In 2018, started withB Inc., a career-change / employment support company specialized in the blockchain. Also, she has been working for Binance Charity Foundation as one of the Binance Children Ambassador since 2018.',
     })
 
@@ -982,12 +1024,6 @@ glot.assign('mission', {
         en: '',
     })
 
-    glot.assign('adviser', {
-
-        ja: 'アドバイザー',
-        en: 'Adviser',
-    })
-
     glot.assign('song', {
 
         ja: '宋美玄',
@@ -1004,6 +1040,12 @@ glot.assign('mission', {
 
         ja: '2001年大阪大学医学部医学科卒業。大学卒業後、大阪大学医学部附属病院、りんくう総合医療センターなどを経て川崎医科大学講師就任。2009年ロンドンのFetal Medicine Foundationへ留学。胎児超音波の研鑽を積む。2015年川崎医科大学医学研究科博士課程卒業。周産期医療、女性医療に従事する傍ら、テレビ、インターネット、雑誌、書籍で情報発信を行う。産婦人科医の視点から社会問題の解決、ヘルスリテラシーの向上を目的とし活動中。<br><br><br><br>',
         en: '',
+    })
+
+    glot.assign('adviser', {
+
+        ja: 'アドバイザー',
+        en: 'Adviser',
     })
 
     glot.assign('want', {
@@ -1030,7 +1072,6 @@ glot.assign('mission', {
         ja: '',
         en: '',
     })
-
 
 //翻訳を実行
 glot.render('en');
