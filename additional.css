@@ -2333,6 +2333,12 @@ a,
   width: 120px;
   height: 120px;
 }
+/* kiro_add */
+.img-circle{
+  width: 110px !important;
+  height: 110px !important;
+}
+/* kiro_add_end */
 
 .description {
   margin-bottom: 20px;
@@ -2752,8 +2758,23 @@ a,
 .imgMicrosoft {
   padding: 21.5px 0;
 }
+
+/* member section */
 .height300{
   height: 300px;
+}
+.height365{
+  height: 365px;
+}
+
+/* modal */
+.modal-dialog-centered {
+transform: translate(0, 50%) !important;
+-ms-transform: translate(0, 50%) !important; /* IE 9 */
+-webkit-transform: translate(0, 50%) !important; /* Safari and Chrome */
+}
+.modal-body{
+  padding: 30px;
 }
 
 /* END Kiro追加分 */
@@ -2837,6 +2858,9 @@ a,
   }
 }
 @media (max-width: 992px) {
+  .br-md{
+    display: none;
+  }
   .section-with-hover .project .over-area {
     opacity: 1;
     -webkit-transition: background 0.25s, opacity 0.25s 0.25s;

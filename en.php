@@ -4,7 +4,8 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta name=“google-site-verification” content=“NOlXD9YuxOMrQEjZAWUj0nWV3-V7uhnucc3vL12XGks” />
+    <meta name=“google-site-verification” content=“NOlX
+    D9YuxOMrQEjZAWUj0nWV3-V7uhnucc3vL12XGks” />
     <script src="https://unpkg.com/glottologist"></script>
 	<link rel="icon" type="image/ico" sizes="64x64" href="assets/img/favicon.ico">
 
@@ -250,7 +251,7 @@
 
 
 
-    <div class="section section-our-team-freebie">
+<div class="section section-our-team-freebie">
       <div class="parallax filter filter-color-black">
           <div class="image" style="background-color:#ffe500">
           </div>
@@ -263,25 +264,48 @@
                         </div>
                     </div>
 
+<!-- 内山 -->
                     <div class="team">
                         <div class="row">
                             <div class="col-md-10 col-md-offset-1">
+
                                 <div class="row">
 
                                     <div class="col-md-4" >
                                         <div class="card card-member">
-                                            <div class="content">
+                                            <div class="content" >
                                                 <div class="avatar avatar-danger">
                                                     <img alt="..." class="img-circle" src="assets/img/faces/uchiyama.jpg"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title" glot-model="Uchiyama">内山幸樹</h3>
                                                     <p class="small-text" glot-model="hottolinkK" >株式会社ホットリンク 代表取締役会長</p>
-                                                    <p class="description" glot-model="UchiyamaD" >東京大学大学院博士課程在学中に日本最初期の検索エンジンの開発に関り、以降２０年以上に渡り、ビッグデータ・AI・検索技術をベースにしたビジネスを多く立ち上げ、世界規模で展開。上場経験後、日本初の全寮制インターナショナル・ハイスクール UWC ISAKの立ち上げに関り、プロジェクトメンバーの柳沢らとの出会いで、自らの経験・知識・人脈が会社経営以外の社会課題解決にも少なからず力を発揮する事に気づき、様々な社会貢献活動を開始</p>
+                                                    <br class="br-md"><br class="br-md">
+                                                    <a class="btn btn-primary" data-toggle="modal" data-target="#modal_uchiyama">Profile</a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+
+                                    <div class="modal fade" id="modal_uchiyama" tabindex="-1" role="dialog" aria-labelledby="uchiyamaLabel" aria-hidden="true">
+                                      <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                            <h3 class="modal-title" style="color: black" id="uchiyamaLabel">Koki Uchiyama</h3>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            </button>
+                                          </div>
+                                          <div class="modal-body">
+                                            <h5 class="small-text" style="color: black" glot-model="hottolinkK" >株式会社ホットリンク 代表取締役会長</h5>
+                                            <p class="description  text-left" glot-model="UchiyamaD" >東京大学大学院博士課程在学中に日本最初期の検索エンジンの開発に関り、以降２０年以上に渡り、ビッグデータ・AI・検索技術をベースにしたビジネスを多く立ち上げ、世界規模で展開。上場経験後、日本初の全寮制インターナショナル・ハイスクール UWC ISAKの立ち上げに関り、プロジェクトメンバーの柳沢らとの出会いで、自らの経験・知識・人脈が会社経営以外の社会課題解決にも少なからず力を発揮する事に気づき、様々な社会貢献活動を開始</p>
+                                          </div>
+                                          <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+<!-- 柳沢 -->
                                     <div class="col-md-4">
                                         <div class="card card-member">
                                             <div class="content">
@@ -291,11 +315,33 @@
                                                 <div class="description">
                                                     <h3 class="title" glot-model="yanagisawa">柳沢正和</h3>
                                                     <p class="small-text" glot-model="NPO" >NPO法人グッドエイジングエールズ</p>
-                                                    <p class="description" glot-model="yanagisawaD" >LGBT支援の認定NPO法人グッド・エイジング・エールズ所属。学校法人インターナショナル・スクール・オブ・アジア軽井沢（UWC ISAK Japan)評議員、ヒューマン・ライツ・ウォッチ東京委員。work with prideプロジェクトに参画し、企業によるLGBT施策の取り組みを評価する「Pride指標」を立ち上げる。2016年の世界経済フォーラムではLGBTセッションでパネリストを務め、ファイナンシャル・タイムス「世界のLGBTエクゼクティブ100人」にも選出</p>
+                                                    <br class="br-md"><br class="br-md">
+                                                    <a class="btn btn-primary" data-toggle="modal" data-target="#modal_yanagisawa">Profile</a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="modal fade" id="modal_yanagisawa" tabindex="-1" role="dialog" aria-labelledby="yanagisawaLabel" aria-hidden="true">
+                                      <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                            <h3 class="modal-title" style="color: black" id="yanagisawaLabel">Masakazu Yanagisawa</h3>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            </button>
+                                          </div>
+                                          <div class="modal-body">
+                                            <h5 class="small-text" style="color: black" glot-model="NPO" >NPO法人グッドエイジングエールズ</h5>
+                                            <p class="description text-left" glot-model="yanagisawaD" >LGBT支援の認定NPO法人グッド・エイジング・エールズ所属。学校法人インターナショナル・スクール・オブ・アジア軽井沢（UWC ISAK Japan)評議員、ヒューマン・ライツ・ウォッチ東京委員。work with prideプロジェクトに参画し、企業によるLGBT施策の取り組みを評価する「Pride指標」を立ち上げる。2016年の世界経済フォーラムではLGBTセッションでパネリストを務め、ファイナンシャル・タイムス「世界のLGBTエクゼクティブ100人」にも選出</p>
+                                          </div>
+                                          <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+
+
+<!-- 石渡 -->
                                     <div class="col-md-4">
                                         <div class="card card-member">
                                             <div class="content">
@@ -305,15 +351,37 @@
                                                 <div class="description">
                                                     <h3 class="title" glot-model="ishiwata">石渡広一郎</h3>
                                                     <p class="small-text" glot-model="hottolinkKK">株式会社ホットリンクCEO特別補佐</p>
-                                                    <p class="description"glot-model="ishiwataD">音楽CD流通会社、芸能事務所を経て弁理士へ。独立後、縁あって株式会社ホットリンクの監査役に就任し、現在はCEO特別補佐を務める。中央集権に頼らない本人認証を可能にするブロックチェーン技術に着目し、さらに日本を始め世界でもまだ十分とはいえない多様性に対する不寛容に問題意識を持ち「famiee」の起ち上げから関わる。OneMile商標知的財産事務所。Arts and Lawメンバー。一般社団法人Thinking Entertainments共同代表</p>
+                                                    <a class="btn btn-primary" data-toggle="modal" data-target="#modal_ishiwata">Profile</a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="modal fade" id="modal_ishiwata" tabindex="-1" role="dialog" aria-labelledby="ishiwataLabel" aria-hidden="true">
+                                      <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                            <h3 class="modal-title" style="color: black" id="ishiwataLabel">Hiroichiro Ishiwata</h3>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            </button>
+                                          </div>
+                                          <div class="modal-body">
+                                            <h5 class="small-text" style="color: black" glot-model="hottolinkKK">株式会社ホットリンクCEO特別補佐</h5>
+                                            <p class="description text-left"glot-model="ishiwataD">音楽CD流通会社、芸能事務所を経て弁理士へ。独立後、縁あって株式会社ホットリンクの監査役に就任し、現在はCEO特別補佐を務める。中央集権に頼らない本人認証を可能にするブロックチェーン技術に着目し、さらに日本を始め世界でもまだ十分とはいえない多様性に対する不寛容に問題意識を持ち「famiee」の起ち上げから関わる。OneMile商標知的財産事務所。Arts and Lawメンバー。一般社団法人Thinking Entertainments共同代表</p>
+                                          </div>
+                                          <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
 
                                   </div>
+
+
+
                                   <div class="row">
 
+<!-- 川 -->
                                     <div class="col-md-4">
                                         <div class="card card-member">
                                             <div class="content">
@@ -323,12 +391,31 @@
                                                 <div class="description">
                                                     <h3 class="title" glot-model="kawa">川大揮</h3>
                                                     <p class="small-text" glot-model="withidK">withID株式会社CEO</p>
-                                                    <p class="description" glot-model="kawaD">東京工業大学大学院在学中からブロックチェーンに可能性を感じブロックチェーンに関わる学生団体の代表やイスラエルのスタートアップBancorの日本代表を通して、日本でのブロックチェーンの普及活動を行う。最近は、ブロックチェーンを用いた権利証明や本人確認の仕組みに可能性を感じ、本人確認プラットホームであるwithIDというIDのプラットホームを立ち上げた。開発メンバー。</p>
+                                                    <a class="btn btn-primary" data-toggle="modal" data-target="#modal_kawa">Profile</a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="modal fade" id="modal_kawa" tabindex="-1" role="dialog" aria-labelledby="kawaLabel" aria-hidden="true">
+                                      <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                            <h3 class="modal-title" style="color: black" id="kawaLabel">Taiki Kawa</h3>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            </button>
+                                          </div>
+                                          <div class="modal-body">
+                                            <h5 class="small-text" style="color: black" glot-model="withidK">withID株式会社CEO</h5>
+                                            <p class="description text-left" glot-model="kawaD">東京工業大学大学院在学中からブロックチェーンに可能性を感じブロックチェーンに関わる学生団体の代表やイスラエルのスタートアップBancorの日本代表を通して、日本でのブロックチェーンの普及活動を行う。最近は、ブロックチェーンを用いた権利証明や本人確認の仕組みに可能性を感じ、本人確認プラットホームであるwithIDというIDのプラットホームを立ち上げた。開発メンバー。</p>
+                                          </div>
+                                          <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
 
+<!-- 渡辺 -->
                                     <div class="col-md-4">
                                         <div class="card card-member">
                                             <div class="content">
@@ -338,11 +425,32 @@
                                                 <div class="description">
                                                     <h3 class="title" glot-model="watanabe">渡辺創太</h3>
                                                     <p class="small-text" glot-model="stakeD">Stake株式会社 CEO</p>
-                                                    <p class="description" glot-model="watanabeD">インド、中国、ロシアでのNPO活動を経て、2016年にブロックチェーンの可能性を感じ、シリコンバレーに渡航、現地のスタートアップであるChronicledでインターンシップを経て就職。帰国後、Staked株式会社を創業。ブロックチェーンのプロトコル開発を行うと同時に啓蒙活動を行っている。東京大学大学院工学部ブロックチェーン共同研究員。開発メンバー。</p>
+                                                    <a class="btn btn-primary" data-toggle="modal" data-target="#modal_watanabe">Profile</a>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                      </div>
+                                        <div class="modal fade" id="modal_watanabe" tabindex="-1" role="dialog" aria-labelledby="watanabeLabel" aria-hidden="true">
+                                          <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                              <div class="modal-header">
+                                                <h3 class="modal-title" style="color: black" id="watanabeLabel">Sota Watanabe</h3>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                </button>
+                                              </div>
+                                              <div class="modal-body">
+                                                <h5 class="small-text" style="color: black" glot-model="stakeD">Stake株式会社 CEO</h5>
+                                                <p class="description text-left" glot-model="watanabeD">インド、中国、ロシアでのNPO活動を経て、2016年にブロックチェーンの可能性を感じ、シリコンバレーに渡航、現地のスタートアップであるChronicledでインターンシップを経て就職。帰国後、Staked株式会社を創業。ブロックチェーンのプロトコル開発を行うと同時に啓蒙活動を行っている。東京大学大学院工学部ブロックチェーン共同研究員。開発メンバー。</p>
+                                              </div>
+                                              <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+
+
+<!-- 村上 -->
                                     <div class="col-md-4">
                                         <div class="card card-member">
                                             <div class="content">
@@ -352,15 +460,35 @@
                                                 <div class="description">
                                                     <h3 class="title" glot-model="nice">村上乃須</h3>
                                                     <p class="small-text" glot-model="hottolinkKKK">株式会社ホットリンク　ダイバーシティ推進担当</p>
-                                                    <p class="description"glot-model="niceD">社会課題を解決するための仕組みづくりに強い関心を持ち、「たくさんの家族の形が当たり前に認められ、誰もが家族を持つことができる社会を実現する」というアプローチに共感し、「famiee」の起ち上げに参画。<br><br><br><br></p>
+                                                    <a class="btn btn-primary" data-toggle="modal" data-target="#modal_murakami">Profile</a>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                      </div>
+                                        <div class="modal fade" id="modal_murakami" tabindex="-1" role="dialog" aria-labelledby="murakamiLabel" aria-hidden="true">
+                                          <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                              <div class="modal-header">
+                                                <h3 class="modal-title" style="color: black" id="murakamiLabel">Nice Murakami</h3>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                </button>
+                                              </div>
+                                              <div class="modal-body">
+                                                <h5 class="small-text" style="color: black" glot-model="hottolinkKKK">株式会社ホットリンク　ダイバーシティ推進担当</h5>
+                                                <p class="description text-left"glot-model="niceD">社会課題を解決するための仕組みづくりに強い関心を持ち、「たくさんの家族の形が当たり前に認められ、誰もが家族を持つことができる社会を実現する」というアプローチに共感し、「famiee」の起ち上げに参画。<br><br><br><br></p>
+                                              </div>
+                                              <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
 
                                   </div>
                                   <div class="row">
 
+
+<!-- 杉山 -->
                                     <div class="col-md-4">
                                         <div class="card card-member">
                                             <div class="content">
@@ -370,14 +498,33 @@
                                                 <div class="description">
                                                     <h3 class="title" glot-model="sugiyama">杉山文野</h3>
                                                     <p class="small-text" glot-model="NPO2">NPO法人東京レインボープライド共同代表理事</p>
-                                                    <p class="description" glot-model="sugiyamaD">フェンシング元女子日本代表。
+                                                    <a class="btn btn-primary" data-toggle="modal" data-target="#modal_sugiyama">Profile</a>
+                                                </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                            <div class="modal fade" id="modal_sugiyama" tabindex="-1" role="dialog" aria-labelledby="sugiyamaLabel" aria-hidden="true">
+                                              <div class="modal-dialog modal-dialog-centered" role="document">
+                                                <div class="modal-content">
+                                                  <div class="modal-header">
+                                                    <h3 class="modal-title" style="color: black" id="sugiyamaLabel">Fumino Sugiyama</h3>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    </button>
+                                                  </div>
+                                                  <div class="modal-body">
+                                                    <h5 class="small-text" style="color: black" glot-model="NPO2">NPO法人東京レインボープライド共同代表理事</h5>
+                                                    <p class="description text-left" glot-model="sugiyamaD">フェンシング元女子日本代表。
                                                         早稲田大学大学院にてセクシュアリティを研究後、トランスジェンダーである自身の体験を織り交ぜた『ダブルハッピネス』を講談社より出版、話題をよんだ。
                                                         日本初となる渋谷区・同性パートナーシップ条例制定に関わり、現在は渋谷区男女平等・多様性社会推進会議委員も務める。<br/><br/><br/><br/></p>
+                                                  </div>
+                                                  <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                  </div>
                                                 </div>
+                                              </div>
                                             </div>
-                                        </div>
-                                    </div>
 
+<!-- 藤本 -->
                                     <div class="col-md-4">
                                         <div class="card card-member">
                                             <div class="content">
@@ -387,21 +534,42 @@
                                                 <div class="description">
                                                     <h3 class="title" glot-model="mai">藤本真衣</h3>
                                                     <p class="small-text">Miss Bitcoin</p>
-                                                    <p class="description" glot-model="maiD">ブロックチェーン分野における世界的な専門家とも親交が深く、“MissBitcoin”と呼ばれ親しまれている。 CryptoWeeklyの「THE 100 MOST INFLUENTIAL PEOPLE IN CRYPTO」に選出された。 ブロックチェーン業界に特化したPR会社「Gracone」をはじめ、日本初の暗号通貨による寄付サイト「KIZUNA」ブロックチェーン業界に特化した就職・転職支援会社「withB」を立ち上げる。<br><br><br></p>
+                                                    <br class="br-md">
+                                                    <a class="btn btn-primary" data-toggle="modal" data-target="#modal_fujimoto">Profile</a>
                                                 </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                            <div class="modal fade" id="modal_fujimoto" tabindex="-1" role="dialog" aria-labelledby="fujimotoLabel" aria-hidden="true">
+                                              <div class="modal-dialog modal-dialog-centered" role="document">
+                                                <div class="modal-content">
+                                                  <div class="modal-header">
+                                                    <h3 class="modal-title" style="color: black" id="fujimotoLabel">Mai Fujimoto</h3>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    </button>
+                                                  </div>
+                                                  <div class="modal-body">
+                                                    <h5 class="small-text" style="color: black">Miss Bitcoin</h5>
+                                                    <p class="description text-left" glot-model="maiD">ブロックチェーン分野における世界的な専門家とも親交が深く、“MissBitcoin”と呼ばれ親しまれている。 CryptoWeeklyの「THE 100 MOST INFLUENTIAL PEOPLE IN CRYPTO」に選出された。 ブロックチェーン業界に特化したPR会社「Gracone」をはじめ、日本初の暗号通貨による寄付サイト「KIZUNA」ブロックチェーン業界に特化した就職・転職支援会社「withB」を立ち上げる。<br><br><br></p>
+                                                  </div>
+                                                  <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                  </div>
+                                                </div>
+                                              </div>
                                             </div>
-                                        </div>
-                                    </div>
 
-
-                                </div>
-                            </div>
-                        </div>
+                                  　　</div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+</div>
 
+
+
+<!-- Adviser -->
         <div class="parallax filter filter-color-black">
             <div class="image" style="background-color:#ffe500">
             </div>
@@ -413,12 +581,12 @@
                               <div class="separator separator-danger">✻</div>
                           </div>
                       </div>
-
-                      <div class="team">
-                          <div class="row">
-                              <div class="col-md-10 col-md-offset-1">
+                  <div class="team">
+                      <div class="row">
+                          <div class="col-md-10 col-md-offset-1">
                                   <div class="row">
 
+<!-- 岡島 -->
                                       <div class="col-md-4">
                                           <div class="card card-member">
                                               <div class="content">
@@ -428,11 +596,33 @@
                                                   <div class="description">
                                                       <h3 class="title" glot-model="okajima">岡島悦子</h3>
                                                       <p class="small-text" glot-model="puronomaK">株式会社プロノバ 代表取締役社長</p>
-                                                      <p class="description" glot-model="okajimaD">三菱商事、Harvard Business School(MBA)、マッキンゼー、グロービスの経営陣を経て、2006年に経営チーム強化コンサルティングのプロノバを設立。丸井グループ等、上場企業５社未上場３社の社外取締役を務める。2018年50代で1児の母となったことから多様な働き方や家族のあり方についても啓蒙活動、社会課題解決への貢献を行なっている。<br><br><br><br></p>
+                                                      <br class="br-md">
+                                                      <a class="btn btn-primary" data-toggle="modal" data-target="#modal_okajima">Profile</a>
                                                   </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                              <div class="modal fade" id="modal_okajima" tabindex="-1" role="dialog" aria-labelledby="okajimaLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                  <div class="modal-content">
+                                                    <div class="modal-header">
+                                                      <h3 class="modal-title" style="color: black" id="okajimaLabel">Etuko Okajima</h3>
+                                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                      </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                      <h5 class="small-text" style="color: black" glot-model="puronomaK">株式会社プロノバ 代表取締役社長</h5>
+                                                      <p class="description text-left" glot-model="okajimaD">三菱商事、Harvard Business School(MBA)、マッキンゼー、グロービスの経営陣を経て、2006年に経営チーム強化コンサルティングのプロノバを設立。丸井グループ等、上場企業５社未上場３社の社外取締役を務める。2018年50代で1児の母となったことから多様な働き方や家族のあり方についても啓蒙活動、社会課題解決への貢献を行なっている。<br><br><br><br></p>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                    </div>
+                                                  </div>
+                                                </div>
                                               </div>
-                                          </div>
-                                      </div>
+
+
+<!-- 福島   -->
                                       <div class="col-md-4">
                                           <div class="card card-member">
                                               <div class="content">
@@ -442,13 +632,33 @@
                                                   <div class="description">
                                                       <h3 class="title"glot-model="fukushima" >福島良典</h3>
                                                       <p class="small-text" glot-model="LayerXD">株式会社LayerXの代表取締役社長</p>
-                                                      <p class="description" glot-model="fukushimaD">大学院在学中に『Gunosy（グノシー）』のサービスを開発し、2012年11月に株式会社Gunosyを創業、代表取締役に就任後、2013年11月代表取締役最高経営責任者に就任。同社は創業より約2年半というスピードで東証マザーズに上場、2017年12月には東証第一部へ市場変更する。2018年8月よりブロックチェーン領域の技術開発のために新たに設立した、株式会社LayerXの代表取締役社長に就任。2016年には『Forbes Asia』より『アジアを代表する「30歳未満」』に選出される。</p>
+                                                      <br class="br-md">
+                                                      <a class="btn btn-primary" data-toggle="modal" data-target="#modal_fukushima">Profile</a>
                                                   </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                              <div class="modal fade" id="modal_fukushima" tabindex="-1" role="dialog" aria-labelledby="fukushimaLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                  <div class="modal-content">
+                                                    <div class="modal-header">
+                                                      <h3 class="modal-title" style="color: black" id="fukushimaLabel">Yoshinori Fukushima</h3>
+                                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                      </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                      <h5 class="small-text" style="color: black" glot-model="LayerXD">株式会社LayerXの代表取締役社長</h5>
+                                                      <p class="description text-left" glot-model="fukushimaD">大学院在学中に『Gunosy（グノシー）』のサービスを開発し、2012年11月に株式会社Gunosyを創業、代表取締役に就任後、2013年11月代表取締役最高経営責任者に就任。同社は創業より約2年半というスピードで東証マザーズに上場、2017年12月には東証第一部へ市場変更する。2018年8月よりブロックチェーン領域の技術開発のために新たに設立した、株式会社LayerXの代表取締役社長に就任。2016年には『Forbes Asia』より『アジアを代表する「30歳未満」』に選出される。</p>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                    </div>
+                                                  </div>
+                                                </div>
                                               </div>
-                                          </div>
-                                      </div>
 
 
+<!-- 竹中 -->
                                       <div class="col-md-4">
                                           <div class="card card-member">
                                               <div class="content">
@@ -458,16 +668,36 @@
                                                   <div class="description">
                                                       <h3 class="title" glot-model="take">竹中平蔵</h3>
                                                       <p class="small-text" glot-model="keio">特別アドバイザー / 慶應義塾大学名誉教授</p>
-                                                      <p class="description" glot-model="takeD">博士（経済学）。ハーバード大学客員准教授、慶應義塾大学総合政策学部教授などを経て、2001年小泉内閣で経済財政政策担当大臣を皮切りに、金融担当大臣、郵政民営化担当大臣兼務、総務大臣を歴任。東洋大学教授、慶應義塾大学名誉教授、アカデミーヒルズ理事長等を兼務。プロジェクト特別アドバイザー。<br><br><br><br><br></p>
+                                                      <a class="btn btn-primary" data-toggle="modal" data-target="#modal_takenaka">Profile</a>
                                                   </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                              <div class="modal fade" id="modal_takenaka" tabindex="-1" role="dialog" aria-labelledby="takenakaLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                  <div class="modal-content">
+                                                    <div class="modal-header">
+                                                      <h3 class="modal-title" style="color: black" id="takenakaLabel">Heizo Takenaka</h3>
+                                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                      </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                      <h5 class="small-text" style="color: black" glot-model="keio">特別アドバイザー / 慶應義塾大学名誉教授</h5>
+                                                      <p class="description text-left" glot-model="takeD">博士（経済学）。ハーバード大学客員准教授、慶應義塾大学総合政策学部教授などを経て、2001年小泉内閣で経済財政政策担当大臣を皮切りに、金融担当大臣、郵政民営化担当大臣兼務、総務大臣を歴任。東洋大学教授、慶應義塾大学名誉教授、アカデミーヒルズ理事長等を兼務。プロジェクト特別アドバイザー。<br><br><br><br><br></p>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                    </div>
+                                                  </div>
+                                                </div>
                                               </div>
-                                          </div>
-                                      </div>
+
 
                                     </div>
 
                                     <div class="row">
 
+<!-- 宋 -->
                                       <div class="col-md-4">
                                           <div class="card card-member">
                                               <div class="content">
@@ -477,13 +707,32 @@
                                                   <div class="description">
                                                       <h3 class="title" glot-model="song">宋美玄</h3>
                                                       <p class="small-text" glot-model="doctor">産婦人科専門医・医学博士・FMF認定超音波医</p>
-                                                      <p class="description" glot-model="songD">2001年大阪大学医学部医学科卒業。大学卒業後、大阪大学医学部附属病院、りんくう総合医療センターなどを経て川崎医科大学講師就任。2009年ロンドンのFetal Medicine Foundationへ留学。胎児超音波の研鑽を積む。2015年川崎医科大学医学研究科博士課程卒業。周産期医療、女性医療に従事する傍ら、テレビ、インターネット、雑誌、書籍で情報発信を行う。産婦人科医の視点から社会問題の解決、ヘルスリテラシーの向上を目的とし活動中。<br><br><br><br></p>
+                                                      <a class="btn btn-primary" data-toggle="modal" data-target="#modal_song">Profile</a>
                                                   </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                              <div class="modal fade" id="modal_song" tabindex="-1" role="dialog" aria-labelledby="songLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                  <div class="modal-content">
+                                                    <div class="modal-header">
+                                                      <h3 class="modal-title" style="color: black" id="songLabel">Song Mihyon</h3>
+                                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                      </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                      <h5 class="small-text" style="color: black" glot-model="doctor">産婦人科専門医・医学博士・FMF認定超音波医</h5>
+                                                      <p class="description text-left" glot-model="songD">2001年大阪大学医学部医学科卒業。大学卒業後、大阪大学医学部附属病院、りんくう総合医療センターなどを経て川崎医科大学講師就任。2009年ロンドンのFetal Medicine Foundationへ留学。胎児超音波の研鑽を積む。2015年川崎医科大学医学研究科博士課程卒業。周産期医療、女性医療に従事する傍ら、テレビ、インターネット、雑誌、書籍で情報発信を行う。産婦人科医の視点から社会問題の解決、ヘルスリテラシーの向上を目的とし活動中。<br><br><br><br></p>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                    </div>
+                                                  </div>
+                                                </div>
                                               </div>
-                                          </div>
-                                      </div>
 
-                                  </div>
+
+                                    </div>
                               </div>
                           </div>
                       </div>
@@ -985,7 +1234,7 @@ glot.assign('mission', {
     glot.assign('LayerXD', {
 
         ja: '株式会社LayerXの代表取締役社長',
-        en: 'LayerX CEO',
+        en: 'LayerX Inc. CEO',
     })
 
     glot.assign('fukushimaD', {
@@ -1021,7 +1270,7 @@ glot.assign('mission', {
     glot.assign('takeD', {
 
         ja: '博士（経済学）。ハーバード大学客員准教授、慶應義塾大学総合政策学部教授などを経て、2001年小泉内閣で経済財政政策担当大臣を皮切りに、金融担当大臣、郵政民営化担当大臣兼務、総務大臣を歴任。東洋大学教授、慶應義塾大学名誉教授、アカデミーヒルズ理事長等を兼務。プロジェクト特別アドバイザー。<br><br><br><br><br>',
-        en: '',
+        en: 'PhD in Economics.<br>1981, Visiting Scholar, Harvard and University of Pennsylvania.1990, Associate Professor and 1996, Professor, Policy Management, Keio University.<br>In 2001, Prime Minister Junichiro Koizumi named Professor Takenaka the Minister for Economic/Fiscal Policy, in which position he chaired the Council on Economic and Fiscal Policy and steered macroeconomic policy. In 2002, named the Minister for both Financial Services and Economic/Fiscal Policy.<br>Currently, Professor Emeritus of Keio University, Professor Toyo University and President of academyhills.',
     })
 
     glot.assign('song', {
