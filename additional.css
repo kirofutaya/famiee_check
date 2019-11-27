@@ -2775,11 +2775,22 @@ a,
 }
 
 /* modal */
-.modal-dialog-centered {
-transform: translate(0, 50%) !important;
--ms-transform: translate(0, 50%) !important; /* IE 9 */
--webkit-transform: translate(0, 50%) !important; /* Safari and Chrome */
+.modal-dialog{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
+  margin: auto;
+  pointer-events: none;
 }
+.modal-content{
+    pointer-events: all
+}
+/* .modal-dialog-centered {
+transform: translate(0, 50%) !important;
+-ms-transform: translate(0, 50%) !important;
+-webkit-transform: translate(0, 50%) !important;
+} */
 .modal-body{
   padding: 30px;
 }
