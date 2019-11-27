@@ -193,7 +193,7 @@
                         <div class="pr">PR</div>
                         </div>
                         <div class="item2">
-                        <div class="pr-text">民間によるパートナーシップ証明書発行委員会の参加募集のプレスリリース</div>
+                        <div class="pr-text">民間によるパートナーシップ証明書検討委員会への参加公募のお知らせ</div>
                         </div>
                       </div>
                     </a>
@@ -522,10 +522,10 @@
 
                     <div class="team">
                         <div class="row">
-                            <!-- <div class="col-md-10"> -->
+                            <div class="col-md-10">
                                 <div class="row">
 
-                                  <div class="col-md-3">
+                                  <!-- <div class="col-md-3">
                                       <div class="card card-member">
                                           <div class="content">
                                               <a href= "https://www.microsoft.com/ja-jp/mscorp" target="_blank">
@@ -538,9 +538,9 @@
                                               </a>
                                           </div>
                                       </div>
-                                  </div>
+                                  </div> -->
 
-                                  <div class="col-md-3">
+                                  <div class="col-md-4">
                                       <div class="card card-member">
                                           <div class="content">
                                               <a href= "https://www.hottolink.co.jp/" target="_blank">
@@ -555,7 +555,7 @@
                                       </div>
                                   </div>
 
-                                  <div class="col-md-3">
+                                  <div class="col-md-4">
                                       <div class="card card-member">
                                           <div class="content">
                                               <a href= "https://staked.co.jp/" target="_blank">
@@ -570,7 +570,7 @@
                                       </div>
                                   </div>
 
-                                  <div class="col-md-3">
+                                  <div class="col-md-4">
                                       <div class="card card-member">
                                           <div class="content">
                                           <a href= "https://withid.jp/" target="_blank">
@@ -586,7 +586,8 @@
                                   </div>
 
                                 </div>
-                            <!-- </div> -->
+                            </div>
+
                         </div>
                     </div>
                 </div>
