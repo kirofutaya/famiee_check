@@ -139,8 +139,8 @@
                 <div class="title-area">
                     <h2 glot-model="service">私達のサービス</h2>
                     <div class="separator separator-danger">✻</div>
-                    <p class="description" glot-model="what" >私達は現在の法律上では夫婦・親子と認められない世界中の夫婦・親子が、家族としての当たり前の権利やサービスを受けられない、という課題を解決するために、ブロックチェーン技術を使って家族関係証明書を発行することで、彼ら彼女らが家族であることを社会的に認め、また、その証明書を受け入れる企業・団体を増やし、家族向けのサービスを受けられるようにする活動（※）をしています。</p>
-                    <p glot-model="hidden1" class="small text-muted">※・社内での家族向けの福利厚生の対象になる（慶弔休暇、介護休暇、家族手当、etc.）<br>・住宅ローンの際に、夫婦として収入合算して査定される<br>・生命保険の受取人になれる<br>・航空会社のマイルの家族交換サービスの対象に<br>・携帯電話の家族割引の対象に<br>・病院での手術の同意書にサインできる<br>・夫婦用の公営住宅に応募できる etc.</p>
+                    <p class="description text-left" glot-model="what" >私達は現在の法律上では夫婦・親子と認められない世界中の夫婦・親子が、家族としての当たり前の権利やサービスを受けられない、という課題を解決するために、ブロックチェーン技術を使って家族関係証明書を発行することで、彼ら彼女らが家族であることを社会的に認め、また、その証明書を受け入れる企業・団体を増やし、家族向けのサービスを受けられるようにする活動（※）をしています。</p>
+                    <p glot-model="hidden1" class="small text-muted">※<br>・社内での家族向けの福利厚生の対象になる（慶弔休暇、介護休暇、家族手当、etc.）<br>・住宅ローンの際に、夫婦として収入合算して査定される<br>・生命保険の受取人になれる<br>・航空会社のマイルの家族交換サービスの対象に<br>・携帯電話の家族割引の対象に<br>・病院での手術の同意書にサインできる<br>・夫婦用の公営住宅に応募できる<br>etc.</p>
                 </div>
             </div>
             <div class="row">
@@ -150,7 +150,7 @@
                             <i class="pe-7s-global"></i>
                         </div>
                         <h3 glot-model="global" >グローバル</h3>
-                        <p class="description" glot-model="Access" >認証された情報は自分たちだけが分かる形で保存され世界中のどこからでもアクセスすることができます。</p>
+                        <p class="description text-left" glot-model="Access" >認証された情報は自分たちだけが分かる形で保存され世界中のどこからでもアクセスすることができます。</p>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -159,7 +159,7 @@
                             <i class="pe-7s-settings"></i>
                         </div>
                         <h3 glot-model="Blockchain" >ブロックチェーン</h3>
-                        <p class="description" glot-model="BlockchainD" >改ざん不可能な形で、夫婦・親子関係の存在を証明します。</p>
+                        <p class="description text-left" glot-model="BlockchainD" >改ざん不可能な形で、夫婦・親子関係の存在を証明します。</p>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -168,7 +168,7 @@
                             <i class="pe-7s-user-female"></i>
                         </div>
                         <h3 glot-model="Network">ネットワーク</h3>
-                        <p class="description" glot-model="NetworkD">Famieeプロジェクトに参画している世界中の企業・団体で、家族としてのサービスを受けられます。</p>
+                        <p class="description text-left" glot-model="NetworkD">Famieeプロジェクトに参画している世界中の企業・団体で、家族としてのサービスを受けられます。</p>
                     </div>
                 </div>
             </div>
@@ -249,7 +249,7 @@
 
             <div class="nav nav-text">
                 <div class="tab-pane" id="testimonial3">
-                    <p class="description" glot-model="Word" > 「家族」という概念は、近年、とても多様化してきています。LGBTのカップル、事実婚のカップル、精子・卵子提供を受けてできた親子、代理母の協力でできた親子、互いに支え合って生活するシングルマザー同士など、従来の概念での「夫婦」「親子」「家族」に当てはまらない新しいカタチの家族の形態が生まれてきています。
+                    <p class="description text-left" glot-model="Word" > 「家族」という概念は、近年、とても多様化してきています。LGBTのカップル、事実婚のカップル、精子・卵子提供を受けてできた親子、代理母の協力でできた親子、互いに支え合って生活するシングルマザー同士など、従来の概念での「夫婦」「親子」「家族」に当てはまらない新しいカタチの家族の形態が生まれてきています。
                         しかし、従来の家族の概念に基づいて作られた社会制度の中で、新しい概念に基づき生きる人達は、多くの困難に直面しています。
 
                         国の法律や社会通念をいきなり変えるのはできません。しかし、そのような変化を受容し、社会がそれに対応していくべきであるという先進的な考えを持つ個人、民間の企業・団体、そして行政機関が、それぞれの力の及ぶ範囲の中で変化を起こせる部分はあるはずです。そして、そのような小さな変化が積み重なって初めて、新しい社会通念ができ、国の法律が変わっていくのだと思います。そう、「行動する事」が大事なのです。
@@ -291,7 +291,7 @@
                                                 <div class="description">
                                                     <h3 class="title" glot-model="Uchiyama">内山幸樹</h3>
                                                     <p class="small-text" glot-model="hottolinkK" >株式会社ホットリンク 代表取締役会長</p>
-                                                    <p class="description" glot-model="UchiyamaD" >東京大学大学院博士課程在学中に日本最初期の検索エンジンの開発に関り、以降２０年以上に渡り、ビッグデータ・AI・検索技術をベースにしたビジネスを多く立ち上げ、世界規模で展開。上場経験後、日本初の全寮制インターナショナル・ハイスクール UWC ISAKの立ち上げに関り、プロジェクトメンバーの柳沢らとの出会いで、自らの経験・知識・人脈が会社経営以外の社会課題解決にも少なからず力を発揮する事に気づき、様々な社会貢献活動を開始</p>
+                                                    <p class="description text-justify" glot-model="UchiyamaD" >東京大学大学院博士課程在学中に日本最初期の検索エンジンの開発に関り、以降２０年以上に渡り、ビッグデータ・AI・検索技術をベースにしたビジネスを多く立ち上げ、世界規模で展開。上場経験後、日本初の全寮制インターナショナル・ハイスクール UWC ISAKの立ち上げに関り、プロジェクトメンバーの柳沢らとの出会いで、自らの経験・知識・人脈が会社経営以外の社会課題解決にも少なからず力を発揮する事に気づき、様々な社会貢献活動を開始</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -305,7 +305,7 @@
                                                 <div class="description">
                                                     <h3 class="title" glot-model="yanagisawa">柳沢正和</h3>
                                                     <p class="small-text" glot-model="NPO" >NPO法人グッドエイジングエールズ</p>
-                                                    <p class="description" glot-model="yanagisawaD" >LGBT支援の認定NPO法人グッド・エイジング・エールズ所属。学校法人インターナショナル・スクール・オブ・アジア軽井沢（UWC ISAK Japan)評議員、ヒューマン・ライツ・ウォッチ東京委員。work with prideプロジェクトに参画し、企業によるLGBT施策の取り組みを評価する「Pride指標」を立ち上げる。2016年の世界経済フォーラムではLGBTセッションでパネリストを務め、ファイナンシャル・タイムス「世界のLGBTエクゼクティブ100人」にも選出</p>
+                                                    <p class="description text-justify" glot-model="yanagisawaD" >LGBT支援の認定NPO法人グッド・エイジング・エールズ所属。学校法人インターナショナル・スクール・オブ・アジア軽井沢（UWC ISAK Japan)評議員、ヒューマン・ライツ・ウォッチ東京委員。work with prideプロジェクトに参画し、企業によるLGBT施策の取り組みを評価する「Pride指標」を立ち上げる。2016年の世界経済フォーラムではLGBTセッションでパネリストを務め、ファイナンシャル・タイムス「世界のLGBTエクゼクティブ100人」にも選出</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -319,7 +319,7 @@
                                                 <div class="description">
                                                     <h3 class="title" glot-model="ishiwata">石渡広一郎</h3>
                                                     <p class="small-text" glot-model="hottolinkKK">株式会社ホットリンクCEO特別補佐</p>
-                                                    <p class="description"glot-model="ishiwataD">音楽CD流通会社、芸能事務所を経て弁理士へ。独立後、縁あって株式会社ホットリンクの監査役に就任し、現在はCEO特別補佐を務める。中央集権に頼らない本人認証を可能にするブロックチェーン技術に着目し、さらに日本を始め世界でもまだ十分とはいえない多様性に対する不寛容に問題意識を持ち「famiee」の起ち上げから関わる。OneMile商標知的財産事務所。Arts and Lawメンバー。一般社団法人Thinking Entertainments共同代表</p>
+                                                    <p class="description text-justify" glot-model="ishiwataD">音楽CD流通会社、芸能事務所を経て弁理士へ。独立後、縁あって株式会社ホットリンクの監査役に就任し、現在はCEO特別補佐を務める。中央集権に頼らない本人認証を可能にするブロックチェーン技術に着目し、さらに日本を始め世界でもまだ十分とはいえない多様性に対する不寛容に問題意識を持ち「famiee」の起ち上げから関わる。OneMile商標知的財産事務所。Arts and Lawメンバー。一般社団法人Thinking Entertainments共同代表</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -337,7 +337,7 @@
                                                 <div class="description">
                                                     <h3 class="title" glot-model="kawa">川大揮</h3>
                                                     <p class="small-text" glot-model="withidK">withID株式会社CEO</p>
-                                                    <p class="description" glot-model="kawaD">東京工業大学大学院在学中からブロックチェーンに可能性を感じブロックチェーンに関わる学生団体の代表やイスラエルのスタートアップBancorの日本代表を通して、日本でのブロックチェーンの普及活動を行う。最近は、ブロックチェーンを用いた権利証明や本人確認の仕組みに可能性を感じ、本人確認プラットホームであるwithIDというIDのプラットホームを立ち上げた。開発メンバー。</p>
+                                                    <p class="description text-justify" glot-model="kawaD">東京工業大学大学院在学中からブロックチェーンに可能性を感じブロックチェーンに関わる学生団体の代表やイスラエルのスタートアップBancorの日本代表を通して、日本でのブロックチェーンの普及活動を行う。最近は、ブロックチェーンを用いた権利証明や本人確認の仕組みに可能性を感じ、本人確認プラットホームであるwithIDというIDのプラットホームを立ち上げた。開発メンバー。</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -352,7 +352,7 @@
                                                 <div class="description">
                                                     <h3 class="title" glot-model="watanabe">渡辺創太</h3>
                                                     <p class="small-text" glot-model="stakeD">Stake株式会社 CEO</p>
-                                                    <p class="description" glot-model="watanabeD">インド、中国、ロシアでのNPO活動を経て、2016年にブロックチェーンの可能性を感じ、シリコンバレーに渡航、現地のスタートアップであるChronicledでインターンシップを経て就職。帰国後、Staked株式会社を創業。ブロックチェーンのプロトコル開発を行うと同時に啓蒙活動を行っている。東京大学大学院工学部ブロックチェーン共同研究員。開発メンバー。</p>
+                                                    <p class="description text-justify" glot-model="watanabeD">インド、中国、ロシアでのNPO活動を経て、2016年にブロックチェーンの可能性を感じ、シリコンバレーに渡航、現地のスタートアップであるChronicledでインターンシップを経て就職。帰国後、Staked株式会社を創業。ブロックチェーンのプロトコル開発を行うと同時に啓蒙活動を行っている。東京大学大学院工学部ブロックチェーン共同研究員。開発メンバー。</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -366,7 +366,7 @@
                                                 <div class="description">
                                                     <h3 class="title" glot-model="nice">村上乃須</h3>
                                                     <p class="small-text" glot-model="hottolinkKKK">株式会社ホットリンク　ダイバーシティ推進担当</p>
-                                                    <p class="description"glot-model="niceD">社会課題を解決するための仕組みづくりに強い関心を持ち、「たくさんの家族の形が当たり前に認められ、誰もが家族を持つことができる社会を実現する」というアプローチに共感し、「famiee」の起ち上げに参画。<br><br><br><br></p>
+                                                    <p class="description  text-justify" glot-model="niceD">社会課題を解決するための仕組みづくりに強い関心を持ち、「たくさんの家族の形が当たり前に認められ、誰もが家族を持つことができる社会を実現する」というアプローチに共感し、「famiee」の起ち上げに参画。<br><br><br><br></p>
                                                 </div>
                                             </div>
                                         </div>
@@ -384,9 +384,7 @@
                                                 <div class="description">
                                                     <h3 class="title" glot-model="sugiyama">杉山文野</h3>
                                                     <p class="small-text" glot-model="NPO2">NPO法人東京レインボープライド共同代表理事</p>
-                                                    <p class="description" glot-model="sugiyamaD">フェンシング元女子日本代表。
-                                                        早稲田大学大学院にてセクシュアリティを研究後、トランスジェンダーである自身の体験を織り交ぜた『ダブルハッピネス』を講談社より出版、話題をよんだ。
-                                                        日本初となる渋谷区・同性パートナーシップ条例制定に関わり、現在は渋谷区男女平等・多様性社会推進会議委員も務める。<br/><br/><br/><br/></p>
+                                                    <p class="description text-justify" glot-model="sugiyamaD">フェンシング元女子日本代表。早稲田大学大学院にてセクシュアリティを研究後、トランスジェンダーである自身の体験を織り交ぜた『ダブルハッピネス』を講談社より出版、話題をよんだ。日本初となる渋谷区・同性パートナーシップ条例制定に関わり、現在は渋谷区男女平等・多様性社会推進会議委員も務める。<br class="br-md"><br class="br-md"></p>
                                                 </div>
                                             </div>
                                         </div>
@@ -401,7 +399,7 @@
                                                 <div class="description">
                                                     <h3 class="title" glot-model="mai">藤本真衣</h3>
                                                     <p class="small-text">Miss Bitcoin</p>
-                                                    <p class="description" glot-model="maiD">ブロックチェーン分野における世界的な専門家とも親交が深く、“MissBitcoin”と呼ばれ親しまれている。 CryptoWeeklyの「THE 100 MOST INFLUENTIAL PEOPLE IN CRYPTO」に選出された。 ブロックチェーン業界に特化したPR会社「Gracone」をはじめ、日本初の暗号通貨による寄付サイト「KIZUNA」ブロックチェーン業界に特化した就職・転職支援会社「withB」を立ち上げる。<br><br><br></p>
+                                                    <p class="description text-justify" glot-model="maiD">ブロックチェーン分野における世界的な専門家とも親交が深く、“MissBitcoin”と呼ばれ親しまれている。 CryptoWeeklyの「THE 100 MOST INFLUENTIAL PEOPLE IN CRYPTO」に選出された。 ブロックチェーン業界に特化したPR会社「Gracone」をはじめ、日本初の暗号通貨による寄付サイト「KIZUNA」ブロックチェーン業界に特化した就職・転職支援会社「withB」を立ち上げる。</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -442,7 +440,7 @@
                                                   <div class="description">
                                                       <h3 class="title" glot-model="okajima">岡島悦子</h3>
                                                       <p class="small-text" glot-model="puronomaK">株式会社プロノバ 代表取締役社長</p>
-                                                      <p class="description" glot-model="okajimaD">三菱商事、Harvard Business School(MBA)、マッキンゼー、グロービスの経営陣を経て、2006年に経営チーム強化コンサルティングのプロノバを設立。丸井グループ等、上場企業５社未上場３社の社外取締役を務める。2018年50代で1児の母となったことから多様な働き方や家族のあり方についても啓蒙活動、社会課題解決への貢献を行なっている。<br><br><br><br></p>
+                                                      <p class="description text-justify" glot-model="okajimaD">三菱商事、Harvard Business School(MBA)、マッキンゼー、グロービスの経営陣を経て、2006年に経営チーム強化コンサルティングのプロノバを設立。丸井グループ等、上場企業５社未上場３社の社外取締役を務める。2018年50代で1児の母となったことから多様な働き方や家族のあり方についても啓蒙活動、社会課題解決への貢献を行なっている。<br><br><br><br></p>
                                                   </div>
                                               </div>
                                           </div>
@@ -456,7 +454,7 @@
                                                   <div class="description">
                                                       <h3 class="title"glot-model="fukushima" >福島良典</h3>
                                                       <p class="small-text" glot-model="LayerXD">株式会社LayerXの代表取締役社長</p>
-                                                      <p class="description" glot-model="fukushimaD">大学院在学中に『Gunosy（グノシー）』のサービスを開発し、2012年11月に株式会社Gunosyを創業、代表取締役に就任後、2013年11月代表取締役最高経営責任者に就任。同社は創業より約2年半というスピードで東証マザーズに上場、2017年12月には東証第一部へ市場変更する。2018年8月よりブロックチェーン領域の技術開発のために新たに設立した、株式会社LayerXの代表取締役社長に就任。2016年には『Forbes Asia』より『アジアを代表する「30歳未満」』に選出される。</p>
+                                                      <p class="description text-justify" glot-model="fukushimaD">大学院在学中に『Gunosy（グノシー）』のサービスを開発し、2012年11月に株式会社Gunosyを創業、代表取締役に就任後、2013年11月代表取締役最高経営責任者に就任。同社は創業より約2年半というスピードで東証マザーズに上場、2017年12月には東証第一部へ市場変更する。2018年8月よりブロックチェーン領域の技術開発のために新たに設立した、株式会社LayerXの代表取締役社長に就任。2016年には『Forbes Asia』より『アジアを代表する「30歳未満」』に選出される。</p>
                                                   </div>
                                               </div>
                                           </div>
@@ -472,7 +470,7 @@
                                                   <div class="description">
                                                       <h3 class="title" glot-model="take">竹中平蔵</h3>
                                                       <p class="small-text" glot-model="keio">特別アドバイザー / 慶應義塾大学名誉教授</p>
-                                                      <p class="description" glot-model="takeD">博士（経済学）。ハーバード大学客員准教授、慶應義塾大学総合政策学部教授などを経て、2001年小泉内閣で経済財政政策担当大臣を皮切りに、金融担当大臣、郵政民営化担当大臣兼務、総務大臣を歴任。東洋大学教授、慶應義塾大学名誉教授、アカデミーヒルズ理事長等を兼務。プロジェクト特別アドバイザー。<br><br><br><br><br></p>
+                                                      <p class="description text-justify" glot-model="takeD">博士（経済学）。ハーバード大学客員准教授、慶應義塾大学総合政策学部教授などを経て、2001年小泉内閣で経済財政政策担当大臣を皮切りに、金融担当大臣、郵政民営化担当大臣兼務、総務大臣を歴任。東洋大学教授、慶應義塾大学名誉教授、アカデミーヒルズ理事長等を兼務。プロジェクト特別アドバイザー。<br><br><br><br></p>
                                                   </div>
                                               </div>
                                           </div>
@@ -491,7 +489,7 @@
                                                   <div class="description">
                                                       <h3 class="title" glot-model="song">宋美玄</h3>
                                                       <p class="small-text" glot-model="doctor">産婦人科専門医・医学博士・FMF認定超音波医</p>
-                                                      <p class="description" glot-model="songD">2001年大阪大学医学部医学科卒業。大学卒業後、大阪大学医学部附属病院、りんくう総合医療センターなどを経て川崎医科大学講師就任。2009年ロンドンのFetal Medicine Foundationへ留学。胎児超音波の研鑽を積む。2015年川崎医科大学医学研究科博士課程卒業。周産期医療、女性医療に従事する傍ら、テレビ、インターネット、雑誌、書籍で情報発信を行う。産婦人科医の視点から社会問題の解決、ヘルスリテラシーの向上を目的とし活動中。<br><br><br><br></p>
+                                                      <p class="description text-justify" glot-model="songD">2001年大阪大学医学部医学科卒業。大学卒業後、大阪大学医学部附属病院、りんくう総合医療センターなどを経て川崎医科大学講師就任。2009年ロンドンのFetal Medicine Foundationへ留学。胎児超音波の研鑽を積む。2015年川崎医科大学医学研究科博士課程卒業。周産期医療、女性医療に従事する傍ら、テレビ、インターネット、雑誌、書籍で情報発信を行う。産婦人科医の視点から社会問題の解決、ヘルスリテラシーの向上を目的とし活動中。</p>
                                                   </div>
                                               </div>
                                           </div>
@@ -934,7 +932,7 @@ glot.assign('mission', {
     glot.assign('watanabeD', {
 
         ja: 'インド、中国、ロシアでのNPO活動を経て、2016年にブロックチェーンの可能性を感じ、シリコンバレーに渡航、現地のスタートアップであるChronicledでインターンシップを経て就職。帰国後、Staked株式会社を創業。ブロックチェーンのプロトコル開発を行うと同時に啓蒙活動を行っている。東京大学大学院工学部ブロックチェーン共同研究員。開発メンバー。',
-        en: '',
+        en: 'He is a blockchain researcher at the university of Tokyo and a Polkadot official ambassador in Tokyo. He previously worked at Chronicled, a blockchain startup in San Francisco.',
     })
 
     glot.assign('nice', {
@@ -970,7 +968,7 @@ glot.assign('mission', {
 
     glot.assign('sugiyamaD', {
 
-        ja: 'フェンシング元女子日本代表。早稲田大学大学院にてセクシュアリティを研究後、トランスジェンダーである自身の体験を織り交ぜた『ダブルハッピネス』を講談社より出版、話題をよんだ。日本初となる渋谷区・同性パートナーシップ条例制定に関わり、現在は渋谷区男女平等・多様性社会推進会議委員も務める。<br/><br/><br/><br/>',
+        ja: 'フェンシング元女子日本代表。早稲田大学大学院にてセクシュアリティを研究後、トランスジェンダーである自身の体験を織り交ぜた『ダブルハッピネス』を講談社より出版、話題をよんだ。日本初となる渋谷区・同性パートナーシップ条例制定に関わり、現在は渋谷区男女平等・多様性社会推進会議委員も務める。<br class="br-md"><br class="br-md">',
         en: '',
     })
 
@@ -1019,7 +1017,7 @@ glot.assign('mission', {
 
     glot.assign('maiD', {
 
-        ja: 'ブロックチェーン分野における世界的な専門家とも親交が深く、“MissBitcoin”と呼ばれ親しまれている。 CryptoWeeklyの「THE 100 MOST INFLUENTIAL PEOPLE IN CRYPTO」に選出された。 ブロックチェーン業界に特化したPR会社「Gracone」をはじめ、日本初の暗号通貨による寄付サイト「KIZUNA」ブロックチェーン業界に特化した就職・転職支援会社「withB」を立ち上げる。<br><br><br>',
+        ja: 'ブロックチェーン分野における世界的な専門家とも親交が深く、“MissBitcoin”と呼ばれ親しまれている。 CryptoWeeklyの「THE 100 MOST INFLUENTIAL PEOPLE IN CRYPTO」に選出された。 ブロックチェーン業界に特化したPR会社「Gracone」をはじめ、日本初の暗号通貨による寄付サイト「KIZUNA」ブロックチェーン業界に特化した就職・転職支援会社「withB」を立ち上げる。',
         en: 'She is familiar with global experts in the blockchain field and is known as “MissBitcoin”. Selected as "THE 100 MOST INFLUENTIAL PEOPLE IN CRYPTO" by CryptoWeekly. She started Gracone Inc., a PR company specialized in the blockchain industry in 2014 and launched the Japan\'s first donation platform KIZUNA, that can send money with cryptocurrency. In 2018, started withB Inc., a career-change / employment support company specialized in the blockchain. Also, she has been working for Binance Charity Foundation as one of the Binance Children Ambassador since 2018.',
     })
 
@@ -1037,7 +1035,7 @@ glot.assign('mission', {
 
     glot.assign('takeD', {
 
-        ja: '博士（経済学）。ハーバード大学客員准教授、慶應義塾大学総合政策学部教授などを経て、2001年小泉内閣で経済財政政策担当大臣を皮切りに、金融担当大臣、郵政民営化担当大臣兼務、総務大臣を歴任。東洋大学教授、慶應義塾大学名誉教授、アカデミーヒルズ理事長等を兼務。プロジェクト特別アドバイザー。<br><br><br><br><br>',
+        ja: '博士（経済学）。ハーバード大学客員准教授、慶應義塾大学総合政策学部教授などを経て、2001年小泉内閣で経済財政政策担当大臣を皮切りに、金融担当大臣、郵政民営化担当大臣兼務、総務大臣を歴任。東洋大学教授、慶應義塾大学名誉教授、アカデミーヒルズ理事長等を兼務。プロジェクト特別アドバイザー。<br><br><br><br>',
         en: '',
     })
 
@@ -1055,7 +1053,7 @@ glot.assign('mission', {
 
     glot.assign('songD', {
 
-        ja: '2001年大阪大学医学部医学科卒業。大学卒業後、大阪大学医学部附属病院、りんくう総合医療センターなどを経て川崎医科大学講師就任。2009年ロンドンのFetal Medicine Foundationへ留学。胎児超音波の研鑽を積む。2015年川崎医科大学医学研究科博士課程卒業。周産期医療、女性医療に従事する傍ら、テレビ、インターネット、雑誌、書籍で情報発信を行う。産婦人科医の視点から社会問題の解決、ヘルスリテラシーの向上を目的とし活動中。<br><br><br><br>',
+        ja: '2001年大阪大学医学部医学科卒業。大学卒業後、大阪大学医学部附属病院、りんくう総合医療センターなどを経て川崎医科大学講師就任。2009年ロンドンのFetal Medicine Foundationへ留学。胎児超音波の研鑽を積む。2015年川崎医科大学医学研究科博士課程卒業。周産期医療、女性医療に従事する傍ら、テレビ、インターネット、雑誌、書籍で情報発信を行う。産婦人科医の視点から社会問題の解決、ヘルスリテラシーの向上を目的とし活動中。',
         en: '',
     })
 

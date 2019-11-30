@@ -2658,8 +2658,16 @@ a,
 
 
 
-/* Kiro追加分 */
+/* Kiro追加 */
 
+/* background-color */
+/* .navbar, .section, body{
+  background-color: #feeeed;
+}
+
+.navbar-transparent{
+  background: transparent;
+} */
 /* service section */
 .m-0{margin: 0}
 .mt-40{
@@ -2797,7 +2805,7 @@ transform: translate(0, 50%) !important;
   padding: 30px;
 }
 
-/* END Kiro追加分 */
+/* END Kiro追加 */
 
 
 
