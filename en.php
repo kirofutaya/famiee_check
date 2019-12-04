@@ -125,7 +125,7 @@
                     <div class="title-area">
                         <h1 class="title-modern">Famiee Project</h1>
                         <p>Mission</p>
-                        <h3 glot-model="mission">多様な家族形態が当たり前のように認められる社会の実現のために</h2>
+                        <h3>To create an inclusive world that completely embraces diverse forms of family.</h2>
                         <div class="separator line-separator">♦</div>
                     </div>
                 </div>
@@ -139,7 +139,7 @@
         <div class="container">
             <div class="row">
                 <div class="title-area">
-                    <h2 glot-model="service">私達のサービス</h2>
+                    <h2>Our Service</h2>
                     <div class="separator separator-danger">✻</div>
                     <p class="description text-justify">
                       Famiee wants to create an inclusive world that completely embraces diverse forms of family using blockchain and the power of the crowd.
@@ -162,8 +162,8 @@
                         <div class="icon text-danger">
                             <i class="pe-7s-global"></i>
                         </div>
-                        <h3 glot-model="global" >グローバル</h3>
-                        <p class="description text-justify" glot-model="Access" >認証された情報は自分たちだけが分かる形で保存され世界中のどこからでもアクセスすることができます。</p>
+                        <h3>Global</h3>
+                        <p class="description text-justify">The information that is certificated will be saved, and is only accessible by the people themselves. You can it access from all over the world.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -171,8 +171,8 @@
                         <div class="icon text-danger">
                             <i class="pe-7s-settings"></i>
                         </div>
-                        <h3 glot-model="Blockchain" >ブロックチェーン</h3>
-                        <p class="description text-justify" glot-model="BlockchainD" >改ざん不可能な形で、夫婦・親子関係の存在を証明します。</p>
+                        <h3>Blockchain</h3>
+                        <p class="description text-justify">It proves the relationships, with the form that cannot be manipulated by anybody else.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -180,8 +180,8 @@
                         <div class="icon text-danger">
                             <i class="pe-7s-user-female"></i>
                         </div>
-                        <h3 glot-model="Network">ネットワーク</h3>
-                        <p class="description text-justify" glot-model="NetworkD">Famieeプロジェクトに参画している世界中の企業・団体で、家族としてのサービスを受けられます。</p>
+                        <h3>Network</h3>
+                        <p class="description text-justify">You can receive survices as a family by all the companies and organizations that participate in Famiee Project.</p>
                     </div>
                 </div>
             </div>
@@ -193,7 +193,7 @@
         <div class="container">
             <div class="row">
                 <div class="title-area">
-                  <h2 glot-model="News" >最新ニュース</h2>
+                  <h2>News</h2>
                   <div class="separator separator-danger">✻</div>
                 </div>
 
@@ -206,7 +206,7 @@
                         <div class="pr">PR</div>
                         </div>
                         <div class="item2">
-                        <div class="pr-text" glot-model="fukushimaNews" >福島良典氏が一般社団法人Famieeの技術アドバイザーに就任</div>
+                        <div class="pr-text">Yoshinori Fukushima, who is CEO of LayerX Inc., was inaugurated as Technical Adviser of Famiee. LayerX Inc. is a company getting most attention in Japan in the field of blockchain.</div>
                         </div>
                       </div>
                     </a>
@@ -219,7 +219,7 @@
                         <div class="pr">PR</div>
                         </div>
                         <div class="item2">
-                        <div class="pr-text" glot-model="establishNews" >「多様な家族形態が当たり前のように認められる社会の実現を目指して」一般社団法人Famiee設立のお知らせ</div>
+                        <div class="pr-text">Famiee was established as General Incorporated Association.<br>The vision is "To create an inclusive world that completely embraces diverse forms of family."</div>
                         </div>
                       </div>
                     </a>
@@ -234,7 +234,7 @@
         <div class="container">
             <div class="title-area">
                 <h5 class="subtitle text-gray">Our goal</h5>
-                <h2>Message by the proposer</h2>
+                <h2>Message from Founder</h2>
                 <div class="separator separator-danger">∎</div>
             </div>
 
@@ -771,11 +771,9 @@
                     </div>
 
                     <div class="team">
-                        <div class="row">
-                            <!-- <div class="col-md-10"> -->
                                 <div class="row">
 
-                                  <!-- <div class="col-md-3">
+                                  <div class="col-md-3">
                                       <div class="card card-member">
                                           <div class="content">
                                               <a href= "https://www.microsoft.com/ja-jp/mscorp" target="_blank">
@@ -788,9 +786,9 @@
                                               </a>
                                           </div>
                                       </div>
-                                  </div> -->
+                                  </div>
 
-                                  <div class="col-md-4">
+                                  <div class="col-md-3">
                                       <div class="card card-member">
                                           <div class="content">
                                               <a href= "https://www.hottolink.co.jp/" target="_blank">
@@ -805,7 +803,7 @@
                                       </div>
                                   </div>
 
-                                  <div class="col-md-4">
+                                  <div class="col-md-3">
                                       <div class="card card-member">
                                           <div class="content">
                                               <a href= "https://staked.co.jp/" target="_blank">
@@ -820,7 +818,7 @@
                                       </div>
                                   </div>
 
-                                  <div class="col-md-4">
+                                  <div class="col-md-3">
                                       <div class="card card-member">
                                           <div class="content">
                                           <a href= "https://withid.jp/" target="_blank">
@@ -836,9 +834,7 @@
                                   </div>
 
                                 </div>
-                            <!-- </div> -->
                         </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -905,7 +901,7 @@
             <div class="row">
                 <div class="col-md-2 col-sm-3">
                     <div class="info">
-                        <h5 class="title">Company</h5>
+                        <h5 class="title"> About</h5>
                         <nav>
                             <ul>
                                 <li>
@@ -933,7 +929,11 @@
                         <nav>
                             <ul>
                                 <li>
-                                    <a href="https://www.famiee.com#news">News List</a>
+                                    <a href="https://www.famiee.com/en.html#news"><b>News List</b></a>
+                                    <hr class="hr-small">
+                                    <a href="https://prtimes.jp/main/html/rd/p/000000002.000047881.html" target="_blank"><b>2019.09.02</b><br>Yoshinori Fukushima, who is CEO of LayerX Inc., was inaugurated as Technical Adviser of Famiee. LayerX Inc. is a company getting most attention in Japan in the field of blockchain.</a>
+                                    <hr class="hr-small">
+                                    <a href="https://prtimes.jp/main/html/rd/p/000000001.000047881.html" target="_blank"><b>2019.08.21</b><br>Famiee was established as General Incorporated Association.The vision is "To create an inclusive world that completely embraces diverse forms of family."</a>
                                 </li>
                             </ul>
                         </nav>

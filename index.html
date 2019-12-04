@@ -520,10 +520,9 @@
 
                     <div class="team">
                         <div class="row">
-                            <div class="col-md-10 col-md-offset-1">
                                 <div class="row">
 
-                                  <!-- <div class="col-md-3">
+                                  <div class="col-md-3">
                                       <div class="card card-member">
                                           <div class="content">
                                               <a href= "https://www.microsoft.com/ja-jp/mscorp" target="_blank">
@@ -536,9 +535,9 @@
                                               </a>
                                           </div>
                                       </div>
-                                  </div> -->
+                                  </div>
 
-                                  <div class="col-md-4">
+                                  <div class="col-md-3">
                                       <div class="card card-member">
                                           <div class="content">
                                               <a href= "https://www.hottolink.co.jp/" target="_blank">
@@ -553,7 +552,7 @@
                                       </div>
                                   </div>
 
-                                  <div class="col-md-4">
+                                  <div class="col-md-3">
                                       <div class="card card-member">
                                           <div class="content">
                                               <a href= "https://staked.co.jp/" target="_blank">
@@ -568,7 +567,7 @@
                                       </div>
                                   </div>
 
-                                  <div class="col-md-4">
+                                  <div class="col-md-3">
                                       <div class="card card-member">
                                           <div class="content">
                                           <a href= "https://withid.jp/" target="_blank">
@@ -585,8 +584,6 @@
 
                                 </div>
                             </div>
-
-                        </div>
                     </div>
                 </div>
             </div>
@@ -654,7 +651,7 @@
             <div class="row">
                 <div class="col-md-2 col-sm-3">
                     <div class="info">
-                        <h5 class="title">Company</h5>
+                        <h5 class="title">About</h5>
                         <nav>
                             <ul>
                                 <li>
@@ -686,6 +683,10 @@
                             <ul>
                                 <li>
                                     <a href="https://www.famiee.com#news">News List</a>
+                                    <hr class="hr-small">
+                                    <a href="20190917news.docx" target="_blank"><b>2019.09.17</b><br>民間によるパートナーシップ証明書検討委員会への参加公募のお知らせ</a>
+                                    <hr class="hr-small">
+                                    <a href="https://prtimes.jp/main/html/rd/p/000000002.000047881.html" target="_blank"><b>2019.09.02</b><br>福島良典氏が一般社団法人Famieeの技術アドバイザーに就任</a>
                                 </li>
                             </ul>
                         </nav>
