@@ -539,7 +539,7 @@
                                                   </div>
                                                   <div class="modal-body">
                                                     <h5 class="small-text" style="color: black">Miss Bitcoin</h5>
-                                                    <p class="description text-left text-justify">She is familiar with global experts in the blockchain field and is known as “MissBitcoin”. Selected as "THE 100 MOST INFLUENTIAL PEOPLE IN CRYPTO" by CryptoWeekly. She started Gracone Inc., a PR company specialized in the blockchain industry in 2014 and launched the Japan's first donation platform KIZUNA, that can send money with cryptocurrency. In 2018, started withB Inc., a career-change / employment support company specialized in the blockchain. Also, she has been working for Binance Charity Foundation as one of the Binance Children Ambassador since 2018.</p>
+                                                    <p class="description text-left text-justify">More popularly known in the world  as “Miss Bitcoin”, Mai has been involved in Crypto since 2011, making lots of accomplishments during her career.<br><br>She is most interested in using CryptoCurrency and Blockchain for the SDGs.She launched a donation platform called KIZUNA in 2017 and helping BINANCE Charity Foundation as an ambassador.<br><br>She is active as a KOL who works to spread the entire blockchain industry as twitter and youtuber. At the same time, she is a serial entrepreneur that launches five companies, and is also active as an advisor for more than 10 companies including Japanese listed companies.</p>
                                                   </div>
                                                   <div class="modal-footer">
                                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -881,13 +881,13 @@
             </div>
             <div class="container">
                 <div class="title-area">
-                    <h2 class="text-white" glot-model="want" >賛同企業募集中！</h2>
+                    <h2 class="text-white" >Recruting Supporters</h2>
                     <div class="separator line-separator">♦</div>
-                    <p class="description" glot-model="wantD" > Famieeプロジェクトでは想いを共にする個人・企業を募集しております。ご興味のある方は「コンタクト」よりお問い合わせください。</p>
+                    <p class="description">Famiee project always needs individuals and companies who share our vision.</p>
                 </div>
 
                 <div class="button-get-started">
-                    <a href="https://forms.gle/vmAKjyr2a4DFtpUx8" target="_blank" class="btn btn-danger btn-fill" glot-model="contact">コンタクト
+                    <a href="https://forms.gle/vmAKjyr2a4DFtpUx8" target="_blank" class="btn btn-danger btn-fill">CONTACT
                     </a>
                 </div>
             </div>

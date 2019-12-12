@@ -384,7 +384,7 @@
                                                 <div class="description">
                                                     <h3 class="title" glot-model="sugiyama">杉山文野</h3>
                                                     <p class="small-text" glot-model="NPO2">NPO法人東京レインボープライド共同代表理事</p>
-                                                    <p class="description text-justify" glot-model="sugiyamaD">フェンシング元女子日本代表。早稲田大学大学院にてセクシュアリティを研究後、トランスジェンダーである自身の体験を織り交ぜた『ダブルハッピネス』を講談社より出版、話題をよんだ。日本初となる渋谷区・同性パートナーシップ条例制定に関わり、現在は渋谷区男女平等・多様性社会推進会議委員も務める。<br class="br-md"><br class="br-md"></p>
+                                                    <p class="description text-justify" glot-model="sugiyamaD">フェンシング元女子日本代表。早稲田大学大学院にてセクシュアリティを研究後、トランスジェンダーである自身の体験を織り交ぜた『ダブルハッピネス』を講談社より出版、話題をよんだ。日本初となる渋谷区・同性パートナーシップ条例制定に関わり、現在は渋谷区男女平等・多様性社会推進会議委員も務める。<br class="br-md"><br class="br-md"><br class="br-md"><br class="br-md"><br class="br-md"><br class="br-md"><br class="br-md"><br class="br-md"><br class="br-md"><br class="br-md"></p>
                                                 </div>
                                             </div>
                                         </div>
@@ -399,7 +399,7 @@
                                                 <div class="description">
                                                     <h3 class="title" glot-model="mai">藤本真衣</h3>
                                                     <p class="small-text">Miss Bitcoin</p>
-                                                    <p class="description text-justify" glot-model="maiD">ブロックチェーン分野における世界的な専門家とも親交が深く、“MissBitcoin”と呼ばれ親しまれている。 CryptoWeeklyの「THE 100 MOST INFLUENTIAL PEOPLE IN CRYPTO」に選出された。 ブロックチェーン業界に特化したPR会社「Gracone」をはじめ、日本初の暗号通貨による寄付サイト「KIZUNA」ブロックチェーン業界に特化した就職・転職支援会社「withB」を立ち上げる。</p>
+                                                    <p class="description text-justify" glot-model="maiD">MissBitcoinとして世界中で知られる藤本真衣は、2011年から暗号通貨業界に携わり、キャリアの中で多くの成果を上げています。<br><br>暗号通貨とBlockchainをSDGsに活用することに最も関心があり、2017年には寄付プラットフォームKIZUNAを立ち上げ、BINANCE Charity Foundationの大使としても活動しています。<br><br>twitterやyoutubeでブロックチェーン業界全体の普及に務めるKOLとして活躍すると同時に、5つの会社を立ち上げるシリアルアントレプレナーであり、GMOなどの日本の上場会社やLayerXなどの有力IT企業を含む１０社以上の顧問としても活躍している。</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -969,7 +969,7 @@ glot.assign('mission', {
 
     glot.assign('sugiyamaD', {
 
-        ja: 'フェンシング元女子日本代表。早稲田大学大学院にてセクシュアリティを研究後、トランスジェンダーである自身の体験を織り交ぜた『ダブルハッピネス』を講談社より出版、話題をよんだ。日本初となる渋谷区・同性パートナーシップ条例制定に関わり、現在は渋谷区男女平等・多様性社会推進会議委員も務める。<br class="br-md"><br class="br-md">',
+        ja: 'フェンシング元女子日本代表。早稲田大学大学院にてセクシュアリティを研究後、トランスジェンダーである自身の体験を織り交ぜた『ダブルハッピネス』を講談社より出版、話題をよんだ。日本初となる渋谷区・同性パートナーシップ条例制定に関わり、現在は渋谷区男女平等・多様性社会推進会議委員も務める。<br class="br-md"><br class="br-md"><br class="br-md"><br class="br-md"><br class="br-md"><br class="br-md"><br class="br-md"><br class="br-md"><br class="br-md"><br class="br-md">',
         en: '',
     })
 
@@ -1018,8 +1018,8 @@ glot.assign('mission', {
 
     glot.assign('maiD', {
 
-        ja: 'ブロックチェーン分野における世界的な専門家とも親交が深く、“MissBitcoin”と呼ばれ親しまれている。 CryptoWeeklyの「THE 100 MOST INFLUENTIAL PEOPLE IN CRYPTO」に選出された。 ブロックチェーン業界に特化したPR会社「Gracone」をはじめ、日本初の暗号通貨による寄付サイト「KIZUNA」ブロックチェーン業界に特化した就職・転職支援会社「withB」を立ち上げる。',
-        en: 'She is familiar with global experts in the blockchain field and is known as “MissBitcoin”. Selected as "THE 100 MOST INFLUENTIAL PEOPLE IN CRYPTO" by CryptoWeekly. She started Gracone Inc., a PR company specialized in the blockchain industry in 2014 and launched the Japan\'s first donation platform KIZUNA, that can send money with cryptocurrency. In 2018, started withB Inc., a career-change / employment support company specialized in the blockchain. Also, she has been working for Binance Charity Foundation as one of the Binance Children Ambassador since 2018.',
+        ja: 'MissBitcoinとして世界中で知られる藤本真衣は、2011年から暗号通貨業界に携わり、キャリアの中で多くの成果を上げています。<br><br>暗号通貨とBlockchainをSDGsに活用することに最も関心があり、2017年には寄付プラットフォームKIZUNAを立ち上げ、BINANCE Charity Foundationの大使としても活動しています。<br><br>twitterやyoutubeでブロックチェーン業界全体の普及に務めるKOLとして活躍すると同時に、5つの会社を立ち上げるシリアルアントレプレナーであり、GMOなどの日本の上場会社やLayerXなどの有力IT企業を含む１０社以上の顧問としても活躍している。',
+        en: 'More popularly known in the world  as “Miss Bitcoin”, Mai has been involved in Crypto since 2011, making lots of accomplishments during her career.<br><br>She is most interested in using CryptoCurrency and Blockchain for the SDGs.She launched a donation platform called KIZUNA in 2017 and helping BINANCE Charity Foundation as an ambassador.<br><br>She is active as a KOL who works to spread the entire blockchain industry as twitter and youtuber. At the same time, she is a serial entrepreneur that launches five companies, and is also active as an advisor for more than 10 companies including Japanese listed companies.',
     })
 
     glot.assign('take', {
