@@ -502,92 +502,119 @@
                   </div>
               </div>
           </div>
+
+          <div class="parallax filter filter-color-black">
+            <div class="image" style="background-color:#ffe500">
+            </div>
+              <!-- <div class="image" style="background-image:url('assets/img/header2.jpg')">
+              </div> -->
+              <div class="container">
+                  <div class="content">
+                      <div class="row">
+                          <div class="title-area">
+                              <h2 glot-model="partner">支援企業・団体</h2>
+                              <div class="separator separator-danger">✻</div>
+                          </div>
+                      </div>
+
+                      <div class="team">
+                                  <div class="row">
+
+                                    <div class="col-md-4">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <a href= "https://www.microsoft.com/ja-jp/mscorp" target="_blank">
+                                                <div class="avatar avatar-danger" style="max-width:150px">
+                                                    <img alt="..." class="img-circle imgMicrosoft" src="assets/img/faces/microsoft.png"/>
+                                                </div>
+                                                <div class="description">
+                                                    <h3 class="title" glot-model="microsoft">日本マイクロソフト</h3>
+                                                </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                            <a href= "https://www.jurists.co.jp/" target="_blank">
+                                                <div class="avatar avatar-danger" style="max-width:150px">
+                                                    <img alt="..." style="padding:42.35px 0" src="assets/img/faces/nishimuraasahi.png"/>
+                                                </div>
+                                                <div class="description">
+                                                    <h3 class="title">西村あさひ法律事務所</h3>
+                                                </div>
+                                            </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <a href= "https://www.hottolink.co.jp/" target="_blank">
+                                                <div class="avatar avatar-danger">
+                                                    <img alt="..." class="img-circle" src="assets/img/faces/ホットリンク.jpg"/>
+                                                </div>
+                                                <div class="description">
+                                                    <h3 class="title" glot-model="hottolink">ホットリンク</h3>
+                                                </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                                <div class="row">
+
+                                    <div class="col-md-4">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <a href= "https://staked.co.jp/" target="_blank">
+                                                <div class="avatar avatar-danger">
+                                                    <img alt="..." class="img-circle" src="assets/img/faces/staked.jpg"/>
+                                                </div>
+                                                <div class="description">
+                                                    <h3 class="title">Staked</h3>
+                                                </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="col-md-4">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                            <a href= "https://withid.jp/" target="_blank">
+                                                <div class="avatar avatar-danger">
+                                                    <img alt="..." class="img-circle" src="assets/img/faces/WithID.jpg"/>
+                                                </div>
+                                                <div class="description">
+                                                    <h3 class="title">withID</h3>
+                                                </div>
+                                            </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                  </div>
+
+
+
+                      </div>
+                  </div>
+              </div>
+          </div>
     </div>
 
     <div class="section section-our-team-freebie">
       <div>
-        <!-- <div class="parallax filter filter-color-black">
-            <div class="image" style="background-image:url('assets/img/header2.jpg')">
-            </div> -->
-            <div class="container">
-                <div class="content">
-                    <div class="row">
-                        <div class="title-area">
-                            <h2 glot-model="partner">賛同企業</h2>
-                            <div class="separator separator-danger">✻</div>
-                        </div>
-                    </div>
 
-                    <div class="team">
-                        <div class="row">
-                                <div class="row">
-
-                                  <div class="col-md-3">
-                                      <div class="card card-member">
-                                          <div class="content">
-                                              <a href= "https://www.microsoft.com/ja-jp/mscorp" target="_blank">
-                                              <div class="avatar avatar-danger">
-                                                  <img alt="..." class="img-circle imgMicrosoft" src="assets/img/faces/microsoft.png"/>
-                                              </div>
-                                              <div class="description">
-                                                  <h3 class="title" glot-model="microsoft">日本マイクロソフト</h3>
-                                              </div>
-                                              </a>
-                                          </div>
-                                      </div>
-                                  </div>
-
-                                  <div class="col-md-3">
-                                      <div class="card card-member">
-                                          <div class="content">
-                                              <a href= "https://www.hottolink.co.jp/" target="_blank">
-                                              <div class="avatar avatar-danger">
-                                                  <img alt="..." class="img-circle" src="assets/img/faces/ホットリンク.jpg"/>
-                                              </div>
-                                              <div class="description">
-                                                  <h3 class="title" glot-model="hottolink">ホットリンク</h3>
-                                              </div>
-                                              </a>
-                                          </div>
-                                      </div>
-                                  </div>
-
-                                  <div class="col-md-3">
-                                      <div class="card card-member">
-                                          <div class="content">
-                                              <a href= "https://staked.co.jp/" target="_blank">
-                                              <div class="avatar avatar-danger">
-                                                  <img alt="..." class="img-circle" src="assets/img/faces/staked.jpg"/>
-                                              </div>
-                                              <div class="description">
-                                                  <h3 class="title">Staked</h3>
-                                              </div>
-                                              </a>
-                                          </div>
-                                      </div>
-                                  </div>
-
-                                  <div class="col-md-3">
-                                      <div class="card card-member">
-                                          <div class="content">
-                                          <a href= "https://withid.jp/" target="_blank">
-                                              <div class="avatar avatar-danger">
-                                                  <img alt="..." class="img-circle" src="assets/img/faces/WithID.jpg"/>
-                                              </div>
-                                              <div class="description">
-                                                  <h3 class="title">withID</h3>
-                                              </div>
-                                          </a>
-                                          </div>
-                                      </div>
-                                  </div>
-
-                                </div>
-                            </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 <!-- Supporter Section  added by Kiro -->
 
@@ -597,6 +624,8 @@
             <div class="title-area">
                 <h2>賛同者</h2>
                 <div class="separator separator-danger">✻</div>
+                <h3>Founding Sponsors</h3>
+                <br>
                 <ul class='supporterList'>
                 <ul>
             </div>
