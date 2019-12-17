@@ -272,8 +272,10 @@
                 <div class="content">
                     <div class="row">
                         <div class="title-area">
-                            <h2 glot-model="member" >メンバー</h2>
+                            <h2>プロジェクトメンバー</h2>
                             <div class="separator separator-danger">✻</div>
+                            <br><br>
+                            <h2>＊ メンバー ＊</h2>
                         </div>
                     </div>
 
@@ -421,8 +423,7 @@
                   <div class="content">
                       <div class="row">
                           <div class="title-area">
-                              <h2 glot-model="adviser" >アドバイザー</h2>
-                              <div class="separator separator-danger">✻</div>
+                              <h2 glot-model="adviser" >＊ アドバイザー ＊</h2>
                           </div>
                       </div>
 
@@ -512,8 +513,7 @@
                   <div class="content">
                       <div class="row">
                           <div class="title-area">
-                              <h2 glot-model="partner">支援企業・団体</h2>
-                              <div class="separator separator-danger">✻</div>
+                              <h2 glot-model="partner">＊ 支援企業・団体 ＊</h2>
                           </div>
                       </div>
 
@@ -1145,4 +1145,3 @@ glot.assign('mission', {
     </script>
 
 </html>
- 
