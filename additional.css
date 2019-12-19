@@ -2758,6 +2758,16 @@ a,
 }
 
 /* Supporter Section */
+.foundingsupporterList{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.foundingsupporterList p.affiliation{
+  margin: 0;
+  padding: 5px 0 10px;
+  color: grey;
+}
 .supporterList{
   list-style: none;
   margin: 0;
@@ -2768,6 +2778,7 @@ a,
   padding: 5px 0 10px;
   color: grey;
 }
+
 
 /* team section */
 .imgMicrosoft {

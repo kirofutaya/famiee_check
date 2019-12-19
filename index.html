@@ -624,10 +624,16 @@
             <div class="title-area">
                 <h2>賛同者</h2>
                 <div class="separator separator-danger">✻</div>
-                <h3>Founding Sponsors</h3>
+                <h3><b>＊ Founding Sponsors ＊</b></h3>
+                <br>
+                <ul class='foundingsupporterList'>
+                </ul>
+                <br>
+                <br>
+                <h3><b>＊ 賛同企業・賛同者 ＊</b></h3>
                 <br>
                 <ul class='supporterList'>
-                <ul>
+                </ul>
             </div>
         </div>
 
@@ -640,7 +646,8 @@
                 //1件以上ある場合
                 if (infoCount >= '1') {
                   $(data).each(function () {
-                    $('<li><h3 class="supporterName">' + this.name + '</span>' + '<p class="affiliation">' + this.affiliation + '</p></li>').appendTo('ul.supporterList');
+                    $('<li><h3 class="supporterName">' + this.founding + '</span>' + '<p class="affiliation">' + this.affiliation_f + '</p></li>').appendTo('ul.foundingsupporterList');
+                    $('<li><h3 class="supporterName">' + this.support + '</span>' + '<p class="affiliation">' + this.affiliation_s + '</p></li>').appendTo('ul.supporterList');
                   })
                 }
               })
