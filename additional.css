@@ -67,7 +67,7 @@ h6,
 .content-blog p {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-family: "Cambo", "Times New Roman", serif;
+  font-family: "Cambo", "Times New Roman",'Noto Serif JP', serif;
 }
 h1 a,
 .h1 a,
@@ -83,7 +83,7 @@ h6 a,
 .h6 a,
 .content-blog p a {
   font-size: inherit;
-  font-family: "Cambo", "Times New Roman", serif;
+  font-family: "Cambo", "Times New Roman",'Noto Serif JP', serif;
 }
 
 .content-blog {
@@ -2759,25 +2759,42 @@ a,
 
 /* Supporter Section */
 .foundingsupporterList{
+  font-family: 'Noto Serif JP';
   list-style: none;
   margin: 0;
   padding: 0;
 }
+span.supporterName{
+  font-size: 1.4rem;
+}
 .foundingsupporterList p.affiliation{
+  font-family: 'Noto Serif JP';
   margin: 0;
   padding: 5px 0 10px;
   color: grey;
 }
 .supporterList{
   list-style: none;
+  font-family:'Noto Serif JP';
   margin: 0;
   padding: 0;
 }
 .supporterList p.affiliation{
+  font-family: 'Noto Serif JP';
   margin: 0;
   padding: 5px 0 10px;
   color: grey;
 }
+
+.weight900 {font-weight: 900;}
+/* .weight800 {font-weight: 800;} */
+.weight700 {font-weight: 700;}
+.weight600 {font-weight: 600;}
+.weight500 {font-weight: 500;}
+.weight400 {font-weight: 400;}
+.weight300 {font-weight: 300;}
+.weight200 {font-weight: 200;}
+/* .weight100 {font-weight: 100;} */
 
 
 /* team section */
