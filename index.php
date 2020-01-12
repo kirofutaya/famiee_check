@@ -32,8 +32,10 @@
 
     <!--     Fonts and icons     -->
     <link href='https://fonts.googleapis.com/css?family=Cambo|Poppins:400,600' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP:200,300,400,500,600,700,900&display=swap&subset=japanese" rel="stylesheet">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/css/fonts/pe-icon-7-stroke.css" rel="stylesheet">
+
 
     <!-- JavaScript -->
       <!--   core js files    -->
@@ -537,13 +539,14 @@
 
                                     <div class="col-md-4">
                                         <div class="card card-member">
-                                            <div class="content">
+                                            <div class="content" style="height:216px;">
                                             <a href= "https://www.jurists.co.jp/" target="_blank">
-                                                <div class="avatar avatar-danger" style="max-width:150px">
+                                                <!-- <div class="avatar avatar-danger" style="max-width:150px">
                                                     <img alt="..." style="padding:42.35px 0" src="assets/img/faces/nishimuraasahi.png"/>
-                                                </div>
+                                                </div> -->
+                                                <!-- ロゴの掲載許可が出たら、以上のコメントアウトを解禁。h3のスタイルを削除。 -->
                                                 <div class="description">
-                                                    <h3 class="title">西村あさひ法律事務所</h3>
+                                                    <h3 class="title" style="padding-top:55px">西村あさひ法律事務所</h3>
                                                 </div>
                                             </a>
                                             </div>
@@ -614,8 +617,8 @@
 
     <div class="section section-our-team-freebie">
       <div>
-
     </div>
+
 <!-- Supporter Section  added by Kiro -->
 
 <div class="section">
@@ -645,10 +648,61 @@
                 var infoCount = data.length;
                 //1件以上ある場合
                 if (infoCount >= '1') {
+
+                  var investmentList = [];
+
                   $(data).each(function () {
-                    $('<li><h3 class="supporterName">' + this.founding + '</span>' + '<p class="affiliation">' + this.affiliation_f + '</p></li>').appendTo('ul.foundingsupporterList');
-                    $('<li><h3 class="supporterName">' + this.support + '</span>' + '<p class="affiliation">' + this.affiliation_s + '</p></li>').appendTo('ul.supporterList');
+
                   })
+
+
+
+
+
+                  $(data).each(function () {
+                    if (this.type == "founder") {
+                      switch( this.rank ) {
+                        case 1:
+                          $('<li><span class="supporterName weight900">' + this.Name + '</span>' + '<p class="affiliation">' + this.Affiliation + '</p></li>').appendTo('ul.foundingsupporterList');
+                          break;
+
+
+                        case 2:
+                          $('<li><span class="supporterName weight700">' + this.Name + '</span>' + '<p class="affiliation">' + this.Affiliation + '</p></li>').appendTo('ul.foundingsupporterList');
+                          break;
+
+
+                        case 3:
+                          $('<li><span class="supporterName weight600">' + this.Name + '</span>' + '<p class="affiliation">' + this.Affiliation + '</p></li>').appendTo('ul.foundingsupporterList');
+                          break;
+
+
+                        case 4:
+                          $('<li><span class="supporterName weight500">' + this.Name + '</span>' + '<p class="affiliation">' + this.Affiliation + '</p></li>').appendTo('ul.foundingsupporterList');
+                          break;
+
+                        case 5:
+                          $('<li><span class="supporterName weight400">' + this.Name + '</span>' + '<p class="affiliation">' + this.Affiliation + '</p></li>').appendTo('ul.foundingsupporterList');
+                          break;
+
+
+                        case 6:
+                          $('<li><span class="supporterName weight300">' + this.Name + '</span>' + '<p class="affiliation">' + this.Affiliation + '</p></li>').appendTo('ul.foundingsupporterList');
+                          break;
+
+
+                        default:
+                          $('<li><span class="supporterName weight200">' + this.Name + '</span>' + '<p class="affiliation">' + this.Affiliation + '</p></li>').appendTo('ul.foundingsupporterList');
+                          break;
+
+                      };
+
+                    }else if (this.type == "supporter") {
+                      $('<li><span class="supporterName weight200">' + this.Name + '</span>' + '<p class="affiliation">' + this.Affiliation + '</p></li>').appendTo('ul.supporterList');
+                    }
+
+                  })
+
                 }
               })
             });
