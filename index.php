@@ -526,10 +526,10 @@
                                         <div class="card card-member">
                                             <div class="content">
                                                 <a href= "https://www.microsoft.com/ja-jp/mscorp" target="_blank">
-                                                <div class="avatar avatar-danger" style="max-width:150px">
+                                                <!-- <div class="avatar avatar-danger" style="max-width:150px">
                                                     <img alt="..." class="img-circle imgMicrosoft" src="assets/img/faces/microsoft.png"/>
-                                                </div>
-                                                <div class="description">
+                                                </div> -->
+                                                <div class="description" style="padding:53px">
                                                     <h3 class="title" glot-model="microsoft">日本マイクロソフト</h3>
                                                 </div>
                                                 </a>
@@ -537,21 +537,21 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-md-4">
+                                    <!-- <div class="col-md-4">
                                         <div class="card card-member">
                                             <div class="content" style="height:216px;">
                                             <a href= "https://www.jurists.co.jp/" target="_blank">
-                                                <!-- <div class="avatar avatar-danger" style="max-width:150px">
+                                                <div class="avatar avatar-danger" style="max-width:150px">
                                                     <img alt="..." style="padding:42.35px 0" src="assets/img/faces/nishimuraasahi.png"/>
-                                                </div> -->
-                                                <!-- ロゴの掲載許可が出たら、以上のコメントアウトを解禁。h3のスタイルを削除。 -->
+                                                </div>
+                                                ロゴの掲載許可が出たら、以上のコメントアウトを解禁。h3のスタイルを削除。
                                                 <div class="description">
                                                     <h3 class="title" style="padding-top:55px">西村あさひ法律事務所</h3>
                                                 </div>
                                             </a>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
 
                                     <div class="col-md-4">
                                         <div class="card card-member">
@@ -568,10 +568,7 @@
                                         </div>
                                     </div>
 
-                                </div>
 
-
-                                <div class="row">
 
                                     <div class="col-md-4">
                                         <div class="card card-member">
@@ -587,6 +584,12 @@
                                             </div>
                                         </div>
                                     </div>
+
+
+                                  </div>
+
+
+                                  <div class="row">
 
 
 
