@@ -656,7 +656,7 @@
         <script>
           $(function () {
             //JSONデータを読み込みます
-              $.getJSON("https://script.google.com/macros/s/AKfycbz2eBR-2hcEdJFEqpFfE3182AY27vFlDY-ZKe-yZbs8-YXYlFZF/exec", function (data) {
+              $.getJSON("https://script.google.com/macros/s/AKfycbzEFeNTTuBSWm7Tm_3fMDCAw4dMlvKLe1O6YW23gAOPzD-Lyo4/exec", function (data) {
                 //JSONの中のデータの個数を変数化し、1件以上の場合は出力します（0件の場合返り値が無いため）
                 var infoCount = data.length;
                 //1件以上ある場合
@@ -671,7 +671,7 @@
 
                   $(data).each(function () {
                     if (this.type == "founder") {
-                      switch( this.rank ) {
+                      switch( this.num ) {
                         case 1:
                           $('<li><span class="supporterName weight900">' + this.Name + '</span>' + '<p class="affiliation">' + this.Affiliation + '</p></li>').appendTo('ul.foundingsupporterList');
                           break;
