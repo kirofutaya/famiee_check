@@ -143,7 +143,7 @@
                     <h2 glot-model="service">私達のサービス</h2>
                     <div class="separator separator-danger">✻</div>
                     <p class="description text-left" glot-model="what" >私達は現在の法律上では夫婦・親子と認められない世界中の夫婦・親子が、家族としての当たり前の権利やサービスを受けられない、という課題を解決するために、ブロックチェーン技術を使って家族関係証明書を発行することで、彼ら彼女らが家族であることを社会的に認め、また、その証明書を受け入れる企業・団体を増やし、家族向けのサービスを受けられるようにする活動（※）をしています。</p>
-                    <p glot-model="hidden1" class="small text-muted">※<br>・社内での家族向けの福利厚生の対象になる（慶弔休暇、介護休暇、家族手当、etc.）<br>・住宅ローンの際に、夫婦として収入合算して査定される<br>・生命保険の受取人になれる<br>・航空会社のマイルの家族交換サービスの対象に<br>・携帯電話の家族割引の対象に<br>・病院での手術の同意書にサインできる<br>・夫婦用の公営住宅に応募できる<br>etc.</p>
+                    <p glot-model="hidden1" class="small text-muted">※・社内での家族向けの福利厚生の対象になる<br class="br-sp">（慶弔休暇、介護休暇、家族手当、etc.）<br>・住宅ローンの際に、夫婦として収入合算して査定される<br>・生命保険の受取人になれる<br>・航空会社のマイルの家族交換サービスの対象に<br>・携帯電話の家族割引の対象に<br>・病院での手術の同意書にサインできる<br>・夫婦用の公営住宅に応募できる　etc.</p>
                 </div>
             </div>
             <div class="row">
@@ -177,6 +177,48 @@
             </div>
         </div>
     </div>
+
+<!-- Accepting Company Section -->
+<div class="section section-our-team-freebie">
+    <div class="parallax filter filter-color-black">
+      <div class="image" style="background-color:#ffe500">
+      </div>
+        <div class="image" style="background-image:url('assets/img/header2.jpg')">
+        </div>
+        <div class="container">
+            <div class="content">
+                <div class="row">
+                    <div class="title-area">
+                        <h2 glot-model="partner">証明書受け入れ企業</h2>
+                        <div class="separator separator-danger">✻</div>
+                        <h5 class="subtitle">以下の企業様において、Famieeの証明書をご利用いただいております。</h5>
+                    </div>
+                </div>
+
+                <div class="team">
+                            <div class="row">
+                              <div class="col-md-4 col-md-offset-4">
+                                  <div class="card card-member">
+                                      <div class="content">
+                                          <a href= "https://www.istyle.co.jp/" target="_blank">
+                                          <div class="avatar avatar-danger" style="max-width:150px">
+                                              <img alt="..." src="assets/img/faces/istyle_logo.jpg"/>
+                                          </div>
+                                          <div class="description">
+                                              <h3 class="title" glot-model="microsoft">株式会社アイスタイル 様</h3>
+                                          </div>
+                                          </a>
+                                      </div>
+                                  </div>
+                              </div>
+                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- END Accepting Company Section -->
 
 <!-- News Section -->
     <div class="section section-news" id="news">
