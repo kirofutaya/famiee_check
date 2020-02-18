@@ -196,22 +196,110 @@
                 </div>
 
                 <div class="team">
-                            <div class="row">
-                              <div class="col-md-4 col-md-offset-4">
+
+                    <!-- row1 -->
+                    <div class="row">
+                              <div class="col-md-4">
                                   <div class="card card-member">
                                       <div class="content">
                                           <a href= "https://www.istyle.co.jp/" target="_blank">
-                                          <div class="avatar avatar-danger" style="max-width:150px">
+                                          <div class="avatar avatar-danger" style="padding:0.7rem 0">
                                               <img alt="..." src="assets/img/faces/istyle_logo.jpg"/>
                                           </div>
                                           <div class="description">
-                                              <h3 class="title" glot-model="microsoft">株式会社アイスタイル 様</h3>
+                                              <h3 class="title" style="font-size: 1.2rem">株式会社アイスタイル 様</h3>
                                           </div>
                                           </a>
                                       </div>
                                   </div>
                               </div>
-                            </div>
+
+
+                              <div class="col-md-4">
+                                  <div class="card card-member">
+                                      <div class="content">
+                                          <a href= "https://jobrainbow.jp/" target="_blank">
+                                          <div class="avatar avatar-danger" style="padding:1.85rem 0">
+                                              <img alt="..." src="assets/img/faces/jobrainbow_for_white.png"/>
+                                          </div>
+                                          <div class="description">
+                                              <h3 class="title" style="font-size: 1.2rem">株式会社JobRainbow 様</h3>
+                                          </div>
+                                          </a>
+                                      </div>
+                                  </div>
+                              </div>
+
+
+                              <div class="col-md-4" style="height:182px">
+                                  <div class="card card-member">
+                                      <div class="content">
+                                          <a href= "https://www.mizuho-fg.co.jp/index.html" target="_blank">
+                                          <div class="avatar avatar-danger" style="padding:1.2rem 0;">
+                                              <img alt="..." src="assets/img/faces/mizuho.jpg"/>
+                                          </div>
+                                          <div class="description">
+                                            <h3 class="title" style="font-size:1.1rem">株式会社みずほフィナンシャルグループ 様</h3>
+                                              <!-- <h3 class="title" style="font-size:1.1rem;padding:1.5rem 0 0.1rem 0">株式会社みずほフィナンシャルグループ 様</h3> -->
+                                          </div>
+                                          </a>
+                                      </div>
+                                  </div>
+                              </div>
+                      </div>
+
+                      <!-- row2 -->
+                      <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card card-member">
+                                        <div class="content">
+                                            <a href= "https://www.netyear.net/" target="_blank">
+                                            <div class="avatar avatar-danger" style="">
+                                                <img alt="..." src="assets/img/faces/netyear.png"/>
+                                            </div>
+                                            <div class="description">
+                                                <h3 class="title" style="font-size: 1.2rem">ネットイヤーグループ株式会社 様</h3>
+                                            </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-md-4">
+                                    <div class="card card-member">
+                                        <div class="content">
+                                            <a href= "https://www.hottolink.co.jp/" target="_blank">
+                                            <div class="avatar avatar-danger" style="padding:4.5px 0">
+                                                <img alt="..." src="assets/img/faces/hottolink_logo_L.png"/>
+                                            </div>
+                                            <div class="description">
+                                                <h3 class="title" style="font-size: 1.2rem">株式会社ホットリンク 様</h3>
+                                            </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-md-4" style="height:182px">
+                                    <div class="card card-member">
+                                        <div class="content">
+                                            <a href="https://www.ibjapan.jp/" target="_blank">
+                                            <div class="avatar avatar-danger" style="padding:9px 0">
+                                                <img alt="..." src="assets/img/faces/IBJ_logo.png"/>
+                                            </div>
+                                            <div class="description">
+                                              <h3 class="title" style="font-size:1.2rem">株式会社IBJ 様</h3>
+                                            </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <!-- END row2 -->
+
+
                 </div>
             </div>
         </div>
