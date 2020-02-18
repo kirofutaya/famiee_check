@@ -231,7 +231,7 @@
                               </div>
 
 
-                              <div class="col-md-4" style="height:182px">
+                              <div class="col-md-4">
                                   <div class="card card-member">
                                       <div class="content">
                                           <a href= "https://www.mizuho-fg.co.jp/index.html" target="_blank">
@@ -254,7 +254,7 @@
                                     <div class="card card-member">
                                         <div class="content">
                                             <a href= "https://www.netyear.net/" target="_blank">
-                                            <div class="avatar avatar-danger" style="">
+                                            <div class="avatar avatar-danger" style="padding:4px 0">
                                                 <img alt="..." src="assets/img/faces/netyear.png"/>
                                             </div>
                                             <div class="description">
@@ -270,7 +270,7 @@
                                     <div class="card card-member">
                                         <div class="content">
                                             <a href= "https://www.hottolink.co.jp/" target="_blank">
-                                            <div class="avatar avatar-danger" style="padding:4.5px 0">
+                                            <div class="avatar avatar-danger" style="padding:8.5px 0">
                                                 <img alt="..." src="assets/img/faces/hottolink_logo_L.png"/>
                                             </div>
                                             <div class="description">
@@ -282,11 +282,11 @@
                                 </div>
 
 
-                                <div class="col-md-4" style="height:182px">
+                                <div class="col-md-4">
                                     <div class="card card-member">
                                         <div class="content">
                                             <a href="https://www.ibjapan.jp/" target="_blank">
-                                            <div class="avatar avatar-danger" style="padding:9px 0">
+                                            <div class="avatar avatar-danger" style="padding:13px 0">
                                                 <img alt="..." src="assets/img/faces/IBJ_logo.png"/>
                                             </div>
                                             <div class="description">
