@@ -189,9 +189,9 @@
             <div class="content">
                 <div class="row">
                     <div class="title-area">
-                        <h2 glot-model="partner">証明書受け入れ企業</h2>
+                        <h2 glot-model="partner">導入決定企業様</h2>
                         <div class="separator separator-danger">✻</div>
-                        <h5 class="subtitle">以下の企業様において、Famieeの証明書をご利用いただいております。</h5>
+                        <h5 class="subtitle">社内の福利厚生手続きにFamieeの証明書をご利用していただいております。</h5>
                     </div>
                 </div>
 
