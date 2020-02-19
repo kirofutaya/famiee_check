@@ -191,7 +191,7 @@
                     <div class="title-area">
                         <h2 glot-model="partner">導入決定企業様</h2>
                         <div class="separator separator-danger">✻</div>
-                        <h5 class="subtitle">社内の福利厚生手続きにFamieeの証明書をご利用していただいております。</h5>
+                        <h5 class="subtitle">社内の福利厚生手続きにFamieeの証明書を<br class="br-sp">ご利用していただいております。</h5>
                     </div>
                 </div>
 
@@ -593,7 +593,7 @@
                                                   </div>
                                                   <div class="description">
                                                       <h3 class="title"glot-model="fukushima" >福島良典</h3>
-                                                      <p class="small-text" glot-model="LayerXD">株式会社LayerXの代表取締役社長</p>
+                                                      <p class="small-text" glot-model="LayerXD">株式会社LayerX代表取締役社長</p>
                                                       <p class="description text-justify" glot-model="fukushimaD">大学院在学中に『Gunosy（グノシー）』のサービスを開発し、2012年11月に株式会社Gunosyを創業、代表取締役に就任後、2013年11月代表取締役最高経営責任者に就任。同社は創業より約2年半というスピードで東証マザーズに上場、2017年12月には東証第一部へ市場変更する。2018年8月よりブロックチェーン領域の技術開発のために新たに設立した、株式会社LayerXの代表取締役社長に就任。2016年には『Forbes Asia』より『アジアを代表する「30歳未満」』に選出される。</p>
                                                   </div>
                                               </div>
