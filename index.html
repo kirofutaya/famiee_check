@@ -751,12 +751,12 @@
                                     <div class="col-md-4">
                                         <div class="card card-member">
                                             <div class="content">
-                                                <a href="https://www.ibjapan.jp/" target="_blank">
-                                                <div class="avatar avatar-danger">
-                                                    <img alt="..." style="padding:31.8px 0" src="assets/img/faces/IBJ_logo.png"/>
+                                                <a href= "https://jobrainbow.jp/" target="_blank">
+                                                <div class="avatar avatar-danger" style="padding:44.25px 0">
+                                                    <img alt="..." src="assets/img/faces/jobrainbow_for_white.png"/>
                                                 </div>
                                                 <div class="description">
-                                                  <h3 class="title" style="font-size:1.2rem">IBJ</h3>
+                                                    <h3 class="title" style="font-size: 1.2rem">JobRainbow</h3>
                                                 </div>
                                                 </a>
                                             </div>
