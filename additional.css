@@ -2771,13 +2771,16 @@ a,
   margin: 0;
   padding: 0;
 }
+.foundingsupporterList li{
+  padding: 0 0 10px;
+}
 span.supporterName{
   font-size: 1.4rem;
 }
 .foundingsupporterList p.affiliation{
   font-family: 'Noto Serif JP';
   margin: 0;
-  padding: 5px 0 10px;
+  padding: 1px 0 10px;
   color: grey;
 }
 .supporterList{
@@ -2786,10 +2789,13 @@ span.supporterName{
   margin: 0;
   padding: 0;
 }
+.supporterList li{
+  padding: 0 0 10px;
+}
 .supporterList p.affiliation{
   font-family: 'Noto Serif JP';
   margin: 0;
-  padding: 5px 0 10px;
+  padding: 1px 0 10px;
   color: grey;
 }
 
