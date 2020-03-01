@@ -2675,12 +2675,16 @@ a,
 .navbar-transparent{
   background: transparent;
 } */
+
 /* service section */
 .m-0{margin: 0}
 .mt-40{
   margin-top: 40px
 }
 
+.syomeisyo-btn{
+  font-size: 18px;
+}
 
 /* news section */
 .item1, .item2{
@@ -3033,8 +3037,9 @@ footer .info ul{
     font-size: 4em !important;
   }
 }
+
 @media (max-width: 768px) {
-  /* kiro追加分(news欄のために使用) */
+  /* kiro追加分 */
   .item1, .item2{
     width: auto
   }
@@ -3042,6 +3047,11 @@ footer .info ul{
     display: block;
     padding-top: 10px;
   }
+
+  .syomeisyo-btn{
+    font-size: 14px;
+  }
+
   /* END kiro追加分 */
 
 
