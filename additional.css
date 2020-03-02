@@ -2890,6 +2890,11 @@ footer .info ul{
   }
 }
 @media (min-width: 992px) {
+  /* kiro追加（PCサイズの時だけ何かしたい時） */
+  .content.pd-b-md-205 {
+    padding-bottom: 205px;
+  }
+  /* kiro追加end */
   .section-we-made-1 .row {
     margin: 0;
   }
