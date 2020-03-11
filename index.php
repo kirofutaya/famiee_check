@@ -204,7 +204,7 @@
                     <div class="title-area">
                         <h2 glot-model="partner">導入決定企業様</h2>
                         <div class="separator separator-danger">✻</div>
-                        <h5 class="subtitle">社内の福利厚生手続きにFamieeの証明書を<br class="br-sp">ご利用していただいております。</h5>
+                        <h5 class="subtitle">社内の福利厚生手続きにFamieeの証明書を<br class="br-sp">ご利用していただく予定です。</h5>
                     </div>
                 </div>
 
