@@ -780,11 +780,26 @@
                                         <div class="card card-member">
                                             <div class="content">
                                                 <a href= "https://jobrainbow.jp/" target="_blank">
-                                                <div class="avatar avatar-danger" style="padding:44.25px 0">
+                                                <div class="avatar avatar-danger" style="padding:42.25px 0">
                                                     <img alt="..." src="assets/img/faces/jobrainbow_for_white.png"/>
                                                 </div>
                                                 <div class="description">
-                                                    <h3 class="title" style="font-size: 1.2rem">JobRainbow</h3>
+                                                    <h3 class="title">JobRainbow</h3>
+                                                </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <a>
+                                                <div class="avatar avatar-danger">
+                                                    <img alt="..." src="assets/img/faces/sova.jpg"/>
+                                                </div>
+                                                <div class="description">
+                                                    <h3 class="title">SoVa</h3>
                                                 </div>
                                                 </a>
                                             </div>
