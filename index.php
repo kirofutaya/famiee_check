@@ -59,6 +59,13 @@
 
 <body>
 
+<!-- ローディング -->
+<div id="is-loading">
+ <div id="loading">
+  <p>LOADING</p>
+ </div>
+</div>
+
     <nav class="navbar navbar-default navbar-transparent navbar-fixed-top" color-on-scroll="200">
         <!-- if you want to keep the navbar hidden you can add this class to the navbar "navbar-burger"-->
         <div class="container">
@@ -618,7 +625,7 @@
                                                 <div class="description">
                                                     <h3 class="title">管原秀太</h3>
                                                     <p class="small-text">ザンシン株式会社 CEO</p>
-                                                    <p class="description text-justify">2017年、文部科学省主催の国家プロジェクトメンバーとして、シリコンバレーへ渡る。現地でブロックチェーンに関するテクノロジーに可能性を感じ、帰国後、東京大学ブロックチェーン起業家支援プログラムに１期生として参画。同プログラムで最優秀賞を受賞。ブロックチェーン専門のIT企業にて開発経験を積んだのち、ザンシン株式会社を設立。開発メンバー。</p>
+                                                    <p class="description text-justify">2017年、文部科学省主催の国家プロジェクトメンバーとして、シリコンバレーへ渡る。現地でブロックチェーンに関するテクノロジーに可能性を感じ、帰国後、東京大学ブロックチェーン起業家支援プログラムに１期生として参画。同プログラムで最優秀賞を受賞。ブロックチェーン専門のIT企業にて開発経験を積んだのち、ザåンシン株式会社を設立。開発メンバー。</p>
                                                 </div>
                                             </div>
                                         </div>
