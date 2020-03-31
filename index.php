@@ -63,11 +63,11 @@
 <body>
 
 <!-- ローディング -->
-<!-- <div class="is-loading2">
+<div class="is-loading2">
  <div class="loading2">
   <p>LOADING</p>
  </div>
-</div> -->
+</div>
 
 
     <nav class="navbar navbar-default navbar-transparent navbar-fixed-top" color-on-scroll="200">
