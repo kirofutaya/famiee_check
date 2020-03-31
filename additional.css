@@ -2676,7 +2676,7 @@ a,
   background: transparent;
 } */
 /* loading */
-#is-loading {
+.is-loading2 {
  display: block;
  position: fixed;
  width: 100%;
@@ -2686,7 +2686,7 @@ a,
  background: rgb(213,130,53);
  z-index: 9999;
 }
-#loading {
+.loading2 {
  display: none;
  position: fixed;
  letter-spacing: 2px;
