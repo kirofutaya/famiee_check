@@ -888,7 +888,7 @@
     </div>
 
 <!-- Supporter Section -->
-<!-- <div class="section">
+<div class="section">
     <div class="container">
         <div class="row">
             <div class="title-area">
@@ -973,7 +973,7 @@
         </script>
 
     </div>
-</div> -->
+</div>
 <!-- End Supporter Section -->
 
 
