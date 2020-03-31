@@ -50,6 +50,9 @@
       <!--   file where we handle all the script from the Gaia - Bootstrap Template   -->
       <script type="text/javascript" src="assets/js/gaia.js"></script>
 
+      <!--   additional js files    -->
+      <script type="text/javascript" src="additional.js"></script>
+
 
       <!-- Language -->
       <link rel="alternate" hreflang="ja" href="https://www.famiee.com/">
