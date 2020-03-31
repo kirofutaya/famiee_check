@@ -117,10 +117,12 @@
 
     <div class="section section-header">
         <div class="parallax filter">
-          <div class="image"
-              style="background-image: url('assets/img/family2.png')">
-            <!-- <div class="image"
-                style="background-image: url('https://user-images.githubusercontent.com/31148191/63639231-d5415480-c6cb-11e9-840b-e4f7def567dd.jpg')"> -->
+          <!-- <div class="image"
+              style="background-image: url('assets/img/family2.png')"> -->
+          <!-- <div class="image"
+              style="background-image: url('assets/img/rainbow2.jpg')"> -->
+            <div class="image"
+                style="background-image: url('https://user-images.githubusercontent.com/31148191/63639231-d5415480-c6cb-11e9-840b-e4f7def567dd.jpg')">
             </div>
             <div class="container">
                 <div class="content">
@@ -311,6 +313,57 @@
                                 </div>
                         </div>
                         <!-- END row2 -->
+
+                        <!-- row3 -->
+                        <div class="row">
+                                  <div class="col-md-4">
+                                      <div class="card card-member">
+                                          <div class="content">
+                                              <a href= "https://www.medical-net.com/" target="_blank">
+                                              <div class="avatar avatar-danger">
+                                                  <img alt="..." src="assets/img/faces/medicalnet_logo.jpg"/>
+                                              </div>
+                                              <div class="description">
+                                                  <h3 class="title" style="font-size: 1.2rem">株式会社メディカルネット 様</h3>
+                                              </div>
+                                              </a>
+                                          </div>
+                                      </div>
+                                  </div>
+
+
+                                  <div class="col-md-4">
+                                      <div class="card card-member">
+                                          <div class="content">
+                                              <a href= "https://raksul.com/" target="_blank">
+                                              <div class="avatar avatar-danger" style="padding:29px 0">
+                                                  <img alt="..." src="assets/img/faces/raksul_logo.png"/>
+                                              </div>
+                                              <div class="description">
+                                                  <h3 class="title" style="font-size: 1.2rem">ラクスル株式会社 様</h3>
+                                              </div>
+                                              </a>
+                                          </div>
+                                      </div>
+                                  </div>
+
+
+                                  <div class="col-md-4">
+                                      <div class="card card-member">
+                                          <div class="content">
+                                              <a href="https://fureasu.jp/" target="_blank">
+                                              <div class="avatar avatar-danger"style="padding:32px 0">
+                                                  <img alt="..." src="assets/img/faces/fureasu_logo.png"/>
+                                              </div>
+                                              <div class="description">
+                                                <h3 class="title" style="font-size:1.2rem">株式会社フレアス 様</h3>
+                                              </div>
+                                              </a>
+                                          </div>
+                                      </div>
+                                  </div>
+                          </div>
+                          <!-- END row3 -->
 
 
                 </div>

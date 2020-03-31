@@ -3044,7 +3044,7 @@ footer .info ul{
 }
 
 @media (max-width: 768px) {
-  /* kiro追加分 */
+  /* kiro追加分（スマホ表示のときのみ何かしたいときはここに） */
   .item1, .item2{
     width: auto
   }
@@ -3055,6 +3055,9 @@ footer .info ul{
 
   .syomeisyo-btn{
     font-size: 14px;
+  }
+  .footer .container{
+    margin-top: 0;
   }
 
   /* END kiro追加分 */
