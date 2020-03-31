@@ -63,17 +63,12 @@
 <body>
 
 <!-- ローディング -->
-<div class="is-loading2">
+<!-- <div class="is-loading2">
  <div class="loading2">
   <p>LOADING</p>
  </div>
-</div>
-<!--
-<div id="is-loading">
- <div id="loading">
-  <p>LOADING</p>
- </div>
 </div> -->
+
 
     <nav class="navbar navbar-default navbar-transparent navbar-fixed-top" color-on-scroll="200">
         <!-- if you want to keep the navbar hidden you can add this class to the navbar "navbar-burger"-->
