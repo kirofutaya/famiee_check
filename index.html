@@ -134,7 +134,7 @@
     <div class="section section-header">
         <div class="parallax filter">
           <div class="image"
-              style="background-image: url('img/family2.png')">
+              style="background-image: url('img/family.png')">
           <!-- <div class="image"
               style="background-image: url('img/rainbow2.jpg')"> -->
             <!-- <div class="image"

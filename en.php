@@ -7,22 +7,22 @@
     <meta name=“google-site-verification” content=“NOlX
     D9YuxOMrQEjZAWUj0nWV3-V7uhnucc3vL12XGks” />
     <script src="https://unpkg.com/glottologist"></script>
-	<link rel="icon" type="image/ico" sizes="64x64" href="assets/img/favicon.ico">
+	<link rel="icon" type="image/ico" sizes="64x64" href="img/favicon.ico">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#"></head>
     <title>Famiee</title>
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://www.famiee.com/assets/img/sns.jpg">
+    <meta property="og:image" content="https://www.famiee.com/img/sns.jpg">
     <meta property="og:url" content="https://www.famiee.com/" />
     <meta property="og:title" content="Famiee Project" />
     <meta property="og:description" content="「Famiee」プロジェクトは、LGBTカップルや事実婚カップル等、法的には婚姻関係と認められない多様な家族形態の人たちが、住んでいる地区に関わらず家族関係を証明することができるよう、ブロックチェーン技術を用いたパートナーシップ証明書の発行を目指します。さらに、多様な家族形態の人たちが等しく民間企業の家族向けサービスを受けることができるよう、パートナーシップ証明書を採用する民間企業を増やすための啓蒙活動を行い、これらの活動によって多様な家族形態が当たり前のように認められる社会の実現を目指します。" />
 
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="description" content="「Famiee」プロジェクトは、LGBTカップルや事実婚カップル等、法的には婚姻関係と認められない多様な家族形態の人たちが、住んでいる地区に関わらず家族関係を証明することができるよう、ブロックチェーン技術を用いたパートナーシップ証明書の発行を目指します。さらに、多様な家族形態の人たちが等しく民間企業の家族向けサービスを受けることができるよう、パートナーシップ証明書を採用する民間企業を増やすための啓蒙活動を行い、これらの活動によって多様な家族形態が当たり前のように認められる社会の実現を目指します。">
-    <link href="assets/css/bootstrap.css" rel="stylesheet" />
-    <link href="assets/css/gaia.css" rel="stylesheet"/>
-    <link href="./additional.css" rel="stylesheet"/>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/gaia.css" rel="stylesheet"/>
+    <!-- <link href="./additional.css" rel="stylesheet"/> -->
 
     <!--OPG Facebook Twitter-->
     <meta property="fb:app_id" content="1320921668046539" />
@@ -34,21 +34,24 @@
     <!--     Fonts and icons     -->
     <link href='https://fonts.googleapis.com/css?family=Cambo|Poppins:400,600' rel='stylesheet' type='text/css'>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/css/fonts/pe-icon-7-stroke.css" rel="stylesheet">
+    <link href="css/fonts/pe-icon-7-stroke.css" rel="stylesheet">
 
     <!-- JavaScript -->
       <!--   core js files    -->
-      <script src="assets/js/jquery.min.js" type="text/javascript"></script>
-      <script src="assets/js/bootstrap.js" type="text/javascript"></script>
+      <script src="js/jquery.min.js" type="text/javascript"></script>
+      <script src="js/bootstrap.js" type="text/javascript"></script>
 
       <!--  js library for devices recognition -->
-      <script type="text/javascript" src="assets/js/modernizr.js"></script>
+      <script type="text/javascript" src="js/modernizr.js"></script>
 
       <!--  script for google maps   -->
       <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
 
       <!--   file where we handle all the script from the Gaia - Bootstrap Template   -->
-      <script type="text/javascript" src="assets/js/gaia.js"></script>
+      <script type="text/javascript" src="js/gaia.js"></script>
+
+      <!--   additional js files    -->
+      <script type="text/javascript" src="js/additional.js"></script>
 
 
       <!-- Language -->
@@ -241,7 +244,7 @@
             <ul class="nav nav-text" role="tablist">
                 <li>
                         <div class="image-clients">
-                            <img alt="..." class="img-circle" src="assets/img/faces/uchiyama.jpg"/>
+                            <img alt="..." class="img-circle" src="img/faces/uchiyama.jpg"/>
                         </div>
                 </li>
             </ul>
@@ -283,7 +286,7 @@
                                         <div class="card card-member">
                                             <div class="content" >
                                                 <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="assets/img/faces/uchiyama.jpg"/>
+                                                    <img alt="..." class="img-circle" src="img/faces/uchiyama.jpg"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title">Koki Uchiyama</h3>
@@ -318,7 +321,7 @@
                                         <div class="card card-member">
                                             <div class="content">
                                                 <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="assets/img/faces/yanagisawa.jpg"/>
+                                                    <img alt="..." class="img-circle" src="img/faces/yanagisawa.jpg"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title">Masakazu Yanagisawa</h3>
@@ -354,7 +357,7 @@
                                         <div class="card card-member">
                                             <div class="content">
                                                 <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="assets/img/faces/ishiwata.jpg"/>
+                                                    <img alt="..." class="img-circle" src="img/faces/ishiwata.jpg"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title">Hiroichiro Ishiwata</h3>
@@ -377,7 +380,7 @@
                                         <div class="card card-member">
                                             <div class="content">
                                                 <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="assets/img/faces/kawa.jpg"/>
+                                                    <img alt="..." class="img-circle" src="img/faces/kawa.jpg"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title">Taiki Kawa</h3>
@@ -411,7 +414,7 @@
                                         <div class="card card-member">
                                             <div class="content">
                                                 <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="assets/img/faces/sota.jpg"/>
+                                                    <img alt="..." class="img-circle" src="img/faces/sota.jpg"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title">Sota Watanabe</h3>
@@ -446,7 +449,7 @@
                                         <div class="card card-member">
                                             <div class="content">
                                                 <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="assets/img/faces/nice.jpg"/>
+                                                    <img alt="..." class="img-circle" src="img/faces/nice.jpg"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title">Nice Murakami</h3>
@@ -484,7 +487,7 @@
                                         <div class="card card-member">
                                             <div class="content">
                                                 <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="assets/img/faces/fumino.jpg"/>
+                                                    <img alt="..." class="img-circle" src="img/faces/fumino.jpg"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title">Fumino Sugiyama</h3>
@@ -518,7 +521,7 @@
                                         <div class="card card-member">
                                             <div class="content">
                                                 <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="assets/img/faces/mai.jpg"/>
+                                                    <img alt="..." class="img-circle" src="img/faces/mai.jpg"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title">Mai Fujimoto</h3>
@@ -580,7 +583,7 @@
                                           <div class="card card-member">
                                               <div class="content">
                                                   <div class="avatar avatar-danger">
-                                                      <img alt="..." class="img-circle" src="assets/img/faces/okajima.jpg"/>
+                                                      <img alt="..." class="img-circle" src="img/faces/okajima.jpg"/>
                                                   </div>
                                                   <div class="description">
                                                       <h3 class="title">Etuko Okajima</h3>
@@ -616,7 +619,7 @@
                                           <div class="card card-member">
                                               <div class="content">
                                                   <div class="avatar avatar-danger">
-                                                      <img alt="..." class="img-circle" src="assets/img/faces/fukushima.jpg"/>
+                                                      <img alt="..." class="img-circle" src="img/faces/fukushima.jpg"/>
                                                   </div>
                                                   <div class="description">
                                                       <h3 class="title">Yoshinori Fukushima</h3>
@@ -652,7 +655,7 @@
                                           <div class="card card-member">
                                               <div class="content">
                                                   <div class="avatar avatar-danger">
-                                                      <img alt="..." class="img-circle" src="assets/img/faces/竹中平蔵.jpg"/>
+                                                      <img alt="..." class="img-circle" src="img/faces/竹中平蔵.jpg"/>
                                                   </div>
                                                   <div class="description">
                                                       <h3 class="title">Heizo Takenaka</h3>
@@ -674,7 +677,7 @@
                                           <div class="card card-member">
                                               <div class="content">
                                                   <div class="avatar avatar-danger">
-                                                      <img alt="..." class="img-circle" src="assets/img/faces/song_mihyon.jpg"/>
+                                                      <img alt="..." class="img-circle" src="img/faces/song_mihyon.jpg"/>
                                                   </div>
                                                   <div class="description">
                                                       <h3 class="title">Song Mihyon</h3>
@@ -759,7 +762,7 @@
     <div class="section section-our-team-freebie">
       <div>
         <!-- <div class="parallax filter filter-color-black">
-            <div class="image" style="background-image:url('assets/img/header2.jpg')">
+            <div class="image" style="background-image:url('img/header2.jpg')">
             </div> -->
             <div class="container">
                 <div class="content">
@@ -778,7 +781,7 @@
                                           <div class="content">
                                               <a href= "https://www.microsoft.com/ja-jp/mscorp" target="_blank">
                                               <div class="avatar avatar-danger">
-                                                  <img alt="..." class="img-circle imgMicrosoft" src="assets/img/faces/microsoft.png"/>
+                                                  <img alt="..." class="img-circle imgMicrosoft" src="img/faces/microsoft.png"/>
                                               </div>
                                               <div class="description">
                                                   <h3 class="title" glot-model="microsoft">日本マイクロソフト</h3>
@@ -793,7 +796,7 @@
                                           <div class="content">
                                               <a href= "https://www.hottolink.co.jp/" target="_blank">
                                               <div class="avatar avatar-danger">
-                                                  <img alt="..." class="img-circle" src="assets/img/faces/ホットリンク.jpg"/>
+                                                  <img alt="..." class="img-circle" src="img/faces/ホットリンク.jpg"/>
                                               </div>
                                               <div class="description">
                                                   <h3 class="title" glot-model="hottolink">ホットリンク</h3>
@@ -808,7 +811,7 @@
                                           <div class="content">
                                               <a href= "https://staked.co.jp/" target="_blank">
                                               <div class="avatar avatar-danger">
-                                                  <img alt="..." class="img-circle" src="assets/img/faces/staked.jpg"/>
+                                                  <img alt="..." class="img-circle" src="img/faces/staked.jpg"/>
                                               </div>
                                               <div class="description">
                                                   <h3 class="title">Staked</h3>
@@ -823,7 +826,7 @@
                                           <div class="content">
                                           <a href= "https://withid.jp/" target="_blank">
                                               <div class="avatar avatar-danger">
-                                                  <img alt="..." class="img-circle" src="assets/img/faces/WithID.jpg"/>
+                                                  <img alt="..." class="img-circle" src="img/faces/WithID.jpg"/>
                                               </div>
                                               <div class="description">
                                                   <h3 class="title">withID</h3>
@@ -877,7 +880,7 @@
     <div class="section section-small section-get-started">
         <div class="parallax filter">
             <div class="image"
-                style="background-image: url('assets/img/office.jpg')">
+                style="background-image: url('img/office.jpg')">
             </div>
             <div class="container">
                 <div class="title-area">
