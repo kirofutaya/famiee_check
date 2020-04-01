@@ -401,7 +401,7 @@
 
                 <ul class="msr_newslist01">
                   <li>
-                    <a href="20190917news.docx" target="_blank">
+                    <a href="https://drive.google.com/open?id=1-30u1z-pWRo-hwx83cTjGgA0rPejZhY1" target="_blank">
                       <div class="clearfix">
                         <div class="item1">
                         <time datetime="2019-9-17">2019.09.17</time>
