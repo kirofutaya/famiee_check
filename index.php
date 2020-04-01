@@ -5,22 +5,22 @@
     <meta charset="utf-8" />
     <meta name=“google-site-verification” content=“NOlXD9YuxOMrQEjZAWUj0nWV3-V7uhnucc3vL12XGks” />
     <script src="https://unpkg.com/glottologist"></script>
-	<link rel="icon" type="image/ico" sizes="64x64" href="assets/img/favicon.ico">
+	<link rel="icon" type="image/ico" sizes="64x64" href="img/favicon.ico">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#"></head>
     <title>Famiee</title>
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://www.famiee.com/assets/img/sns.jpg">
+    <meta property="og:image" content="https://www.famiee.com/img/sns.jpg">
     <meta property="og:url" content="https://www.famiee.com/" />
     <meta property="og:title" content="Famiee Project" />
     <meta property="og:description" content="「Famiee」プロジェクトは、LGBTカップルや事実婚カップル等、法的には婚姻関係と認められない多様な家族形態の人たちが、住んでいる地区に関わらず家族関係を証明することができるよう、ブロックチェーン技術を用いたパートナーシップ証明書の発行を目指します。さらに、多様な家族形態の人たちが等しく民間企業の家族向けサービスを受けることができるよう、パートナーシップ証明書を採用する民間企業を増やすための啓蒙活動を行い、これらの活動によって多様な家族形態が当たり前のように認められる社会の実現を目指します。" />
 
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="description" content="「Famiee」プロジェクトは、LGBTカップルや事実婚カップル等、法的には婚姻関係と認められない多様な家族形態の人たちが、住んでいる地区に関わらず家族関係を証明することができるよう、ブロックチェーン技術を用いたパートナーシップ証明書の発行を目指します。さらに、多様な家族形態の人たちが等しく民間企業の家族向けサービスを受けることができるよう、パートナーシップ証明書を採用する民間企業を増やすための啓蒙活動を行い、これらの活動によって多様な家族形態が当たり前のように認められる社会の実現を目指します。">
-    <link href="assets/css/bootstrap.css" rel="stylesheet" />
-    <link href="assets/css/gaia.css" rel="stylesheet"/>
-    <link href="./additional.css" rel="stylesheet"/>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/gaia.css" rel="stylesheet"/>
+    <!-- <link href="./additional.css" rel="stylesheet"/> -->
 
     <!--OPG Facebook Twitter-->
     <meta property="fb:app_id" content="1320921668046539" />
@@ -33,25 +33,25 @@
     <link href='https://fonts.googleapis.com/css?family=Cambo|Poppins:400,600' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP:200,300,400,500,600,700,900&display=swap&subset=japanese" rel="stylesheet">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/css/fonts/pe-icon-7-stroke.css" rel="stylesheet">
+    <link href="css/fonts/pe-icon-7-stroke.css" rel="stylesheet">
 
 
     <!-- JavaScript -->
       <!--   core js files    -->
-      <script src="assets/js/jquery.min.js" type="text/javascript"></script>
-      <script src="assets/js/bootstrap.js" type="text/javascript"></script>
+      <script src="js/jquery.min.js" type="text/javascript"></script>
+      <script src="js/bootstrap.js" type="text/javascript"></script>
 
       <!--  js library for devices recognition -->
-      <script type="text/javascript" src="assets/js/modernizr.js"></script>
+      <script type="text/javascript" src="js/modernizr.js"></script>
 
       <!--  script for google maps   -->
       <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
 
       <!--   file where we handle all the script from the Gaia - Bootstrap Template   -->
-      <script type="text/javascript" src="assets/js/gaia.js"></script>
+      <script type="text/javascript" src="js/gaia.js"></script>
 
       <!--   additional js files    -->
-      <script type="text/javascript" src="additional.js"></script>
+      <script type="text/javascript" src="js/additional.js"></script>
 
 
       <!-- Language -->
@@ -68,7 +68,12 @@
   <p>LOADING</p>
  </div>
 </div>
-
+<!--
+<div id="is-loading">
+ <div id="loading">
+  <p>LOADING</p>
+ </div>
+</div> -->
 
     <nav class="navbar navbar-default navbar-transparent navbar-fixed-top" color-on-scroll="200">
         <!-- if you want to keep the navbar hidden you can add this class to the navbar "navbar-burger"-->
@@ -129,9 +134,9 @@
     <div class="section section-header">
         <div class="parallax filter">
           <div class="image"
-              style="background-image: url('assets/img/family2.png')">
+              style="background-image: url('img/family2.png')">
           <!-- <div class="image"
-              style="background-image: url('assets/img/rainbow2.jpg')"> -->
+              style="background-image: url('img/rainbow2.jpg')"> -->
             <!-- <div class="image"
                 style="background-image: url('https://user-images.githubusercontent.com/31148191/63639231-d5415480-c6cb-11e9-840b-e4f7def567dd.jpg')"> -->
             </div>
@@ -209,7 +214,7 @@
     <div class="parallax filter filter-color-black">
       <div class="image" style="background-color:#ffe500">
       </div>
-        <div class="image" style="background-image:url('assets/img/header2.jpg')">
+        <div class="image" style="background-image:url('img/header2.jpg')">
         </div>
         <div class="container">
             <div class="content">
@@ -230,7 +235,7 @@
                                       <div class="content">
                                           <a href= "https://www.istyle.co.jp/" target="_blank">
                                           <div class="avatar avatar-danger" style="padding:0.7rem 0">
-                                              <img alt="..." src="assets/img/faces/istyle_logo.jpg"/>
+                                              <img alt="..." src="img/faces/istyle_logo.jpg"/>
                                           </div>
                                           <div class="description">
                                               <h3 class="title" style="font-size: 1.2rem">株式会社アイスタイル 様</h3>
@@ -246,7 +251,7 @@
                                       <div class="content">
                                           <a href= "https://jobrainbow.jp/" target="_blank">
                                           <div class="avatar avatar-danger" style="padding:1.85rem 0">
-                                              <img alt="..." src="assets/img/faces/jobrainbow_for_white.png"/>
+                                              <img alt="..." src="img/faces/jobrainbow_for_white.png"/>
                                           </div>
                                           <div class="description">
                                               <h3 class="title" style="font-size: 1.2rem">株式会社JobRainbow 様</h3>
@@ -262,7 +267,7 @@
                                       <div class="content">
                                           <a href= "https://www.mizuho-fg.co.jp/index.html" target="_blank">
                                           <div class="avatar avatar-danger" style="padding:1.2rem 0;">
-                                              <img alt="..." src="assets/img/faces/mizuho.jpg"/>
+                                              <img alt="..." src="img/faces/mizuho.jpg"/>
                                           </div>
                                           <div class="description">
                                             <h3 class="title" style="font-size:1.1rem">株式会社みずほフィナンシャルグループ 様</h3>
@@ -281,7 +286,7 @@
                                         <div class="content">
                                             <a href= "https://www.netyear.net/" target="_blank">
                                             <div class="avatar avatar-danger" style="padding:4px 0">
-                                                <img alt="..." src="assets/img/faces/netyear.png"/>
+                                                <img alt="..." src="img/faces/netyear.png"/>
                                             </div>
                                             <div class="description">
                                                 <h3 class="title" style="font-size: 1.2rem">ネットイヤーグループ株式会社 様</h3>
@@ -297,7 +302,7 @@
                                         <div class="content">
                                             <a href= "https://www.hottolink.co.jp/" target="_blank">
                                             <div class="avatar avatar-danger" style="padding:8.5px 0">
-                                                <img alt="..." src="assets/img/faces/hottolink_logo_L.png"/>
+                                                <img alt="..." src="img/faces/hottolink_logo_L.png"/>
                                             </div>
                                             <div class="description">
                                                 <h3 class="title" style="font-size: 1.2rem">株式会社ホットリンク 様</h3>
@@ -313,7 +318,7 @@
                                         <div class="content">
                                             <a href="https://www.ibjapan.jp/" target="_blank">
                                             <div class="avatar avatar-danger" style="padding:13px 0">
-                                                <img alt="..." src="assets/img/faces/IBJ_logo.png"/>
+                                                <img alt="..." src="img/faces/IBJ_logo.png"/>
                                             </div>
                                             <div class="description">
                                               <h3 class="title" style="font-size:1.2rem">株式会社IBJ 様</h3>
@@ -332,7 +337,7 @@
                                           <div class="content">
                                               <a href= "https://www.medical-net.com/" target="_blank">
                                               <div class="avatar avatar-danger">
-                                                  <img alt="..." src="assets/img/faces/medicalnet_logo.jpg"/>
+                                                  <img alt="..." src="img/faces/medicalnet_logo.jpg"/>
                                               </div>
                                               <div class="description">
                                                   <h3 class="title" style="font-size: 1.2rem">株式会社メディカルネット 様</h3>
@@ -348,7 +353,7 @@
                                           <div class="content">
                                               <a href= "https://raksul.com/" target="_blank">
                                               <div class="avatar avatar-danger" style="padding:29px 0">
-                                                  <img alt="..." src="assets/img/faces/raksul_logo.png"/>
+                                                  <img alt="..." src="img/faces/raksul_logo.png"/>
                                               </div>
                                               <div class="description">
                                                   <h3 class="title" style="font-size: 1.2rem">ラクスル株式会社 様</h3>
@@ -364,7 +369,7 @@
                                           <div class="content">
                                               <a href="https://fureasu.jp/" target="_blank">
                                               <div class="avatar avatar-danger"style="padding:32px 0">
-                                                  <img alt="..." src="assets/img/faces/fureasu_logo.png"/>
+                                                  <img alt="..." src="img/faces/fureasu_logo.png"/>
                                               </div>
                                               <div class="description">
                                                 <h3 class="title" style="font-size:1.2rem">株式会社フレアス 様</h3>
@@ -453,7 +458,7 @@
             <ul class="nav nav-text" role="tablist">
                 <li>
                         <div class="image-clients">
-                            <img alt="..." class="img-circle" src="assets/img/faces/uchiyama.jpg"/>
+                            <img alt="..." class="img-circle" src="img/faces/uchiyama.jpg"/>
                         </div>
                 </li>
             </ul>
@@ -501,7 +506,7 @@
                                         <div class="card card-member">
                                             <div class="content">
                                                 <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="assets/img/faces/uchiyama.jpg"/>
+                                                    <img alt="..." class="img-circle" src="img/faces/uchiyama.jpg"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title" glot-model="Uchiyama">内山幸樹</h3>
@@ -515,7 +520,7 @@
                                         <div class="card card-member">
                                             <div class="content">
                                                 <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="assets/img/faces/yanagisawa.jpg"/>
+                                                    <img alt="..." class="img-circle" src="img/faces/yanagisawa.jpg"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title" glot-model="yanagisawa">柳沢正和</h3>
@@ -529,7 +534,7 @@
                                         <div class="card card-member">
                                             <div class="content">
                                                 <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="assets/img/faces/ishiwata.jpg"/>
+                                                    <img alt="..." class="img-circle" src="img/faces/ishiwata.jpg"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title" glot-model="ishiwata">石渡広一郎</h3>
@@ -547,7 +552,7 @@
                                         <div class="card card-member">
                                             <div class="content">
                                                 <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="assets/img/faces/kawa.png"/>
+                                                    <img alt="..." class="img-circle" src="img/faces/kawa.png"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title" glot-model="kawa">川大揮</h3>
@@ -562,7 +567,7 @@
                                         <div class="card card-member">
                                             <div class="content">
                                                 <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="assets/img/faces/sota.jpg"/>
+                                                    <img alt="..." class="img-circle" src="img/faces/sota.jpg"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title" glot-model="watanabe">渡辺創太</h3>
@@ -576,7 +581,7 @@
                                         <div class="card card-member">
                                             <div class="content">
                                                 <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="assets/img/faces/nice.jpg"/>
+                                                    <img alt="..." class="img-circle" src="img/faces/nice.jpg"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title" glot-model="nice">村上乃須</h3>
@@ -594,7 +599,7 @@
                                         <div class="card card-member">
                                             <div class="content">
                                                 <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="assets/img/faces/fumino.jpg"/>
+                                                    <img alt="..." class="img-circle" src="img/faces/fumino.jpg"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title" glot-model="sugiyama">杉山文野</h3>
@@ -609,7 +614,7 @@
                                         <div class="card card-member">
                                             <div class="content">
                                                 <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="assets/img/faces/mai.jpg"/>
+                                                    <img alt="..." class="img-circle" src="img/faces/mai.jpg"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title" glot-model="mai">藤本真衣</h3>
@@ -624,7 +629,7 @@
                                         <div class="card card-member">
                                             <div class="content pd-b-md-205">
                                                 <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="assets/img/faces/sugawara.png"/>
+                                                    <img alt="..." class="img-circle" src="img/faces/sugawara.png"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title">管原秀太</h3>
@@ -667,7 +672,7 @@
                                           <div class="card card-member">
                                               <div class="content">
                                                   <div class="avatar avatar-danger">
-                                                      <img alt="..." class="img-circle" src="assets/img/faces/okajima.jpg"/>
+                                                      <img alt="..." class="img-circle" src="img/faces/okajima.jpg"/>
                                                   </div>
                                                   <div class="description">
                                                       <h3 class="title" glot-model="okajima">岡島悦子</h3>
@@ -681,7 +686,7 @@
                                           <div class="card card-member">
                                               <div class="content">
                                                   <div class="avatar avatar-danger">
-                                                      <img alt="..." class="img-circle" src="assets/img/faces/fukushima.jpg"/>
+                                                      <img alt="..." class="img-circle" src="img/faces/fukushima.jpg"/>
                                                   </div>
                                                   <div class="description">
                                                       <h3 class="title"glot-model="fukushima" >福島良典</h3>
@@ -697,7 +702,7 @@
                                           <div class="card card-member">
                                               <div class="content">
                                                   <div class="avatar avatar-danger">
-                                                      <img alt="..." class="img-circle" src="assets/img/faces/竹中平蔵.jpg"/>
+                                                      <img alt="..." class="img-circle" src="img/faces/竹中平蔵.jpg"/>
                                                   </div>
                                                   <div class="description">
                                                       <h3 class="title" glot-model="take">竹中平蔵</h3>
@@ -716,7 +721,7 @@
                                           <div class="card card-member">
                                               <div class="content">
                                                   <div class="avatar avatar-danger">
-                                                      <img alt="..." class="img-circle" src="assets/img/faces/song_mihyon.jpg"/>
+                                                      <img alt="..." class="img-circle" src="img/faces/song_mihyon.jpg"/>
                                                   </div>
                                                   <div class="description">
                                                       <h3 class="title" glot-model="song">宋美玄</h3>
@@ -740,7 +745,7 @@
           <div class="parallax filter filter-color-black">
             <div class="image" style="background-color:#ffe500">
             </div>
-              <!-- <div class="image" style="background-image:url('assets/img/header2.jpg')">
+              <!-- <div class="image" style="background-image:url('img/header2.jpg')">
               </div> -->
               <div class="container">
                   <div class="content">
@@ -760,7 +765,7 @@
                                             <div class="content">
                                                 <a href= "https://www.microsoft.com/ja-jp/mscorp" target="_blank">
                                                 <div class="avatar avatar-danger" style="max-width:150px">
-                                                    <img alt="..." class="img-circle imgMicrosoft" src="assets/img/faces/microsoft.png"/>
+                                                    <img alt="..." class="img-circle imgMicrosoft" src="img/faces/microsoft.png"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title" glot-model="microsoft">日本マイクロソフト</h3>
@@ -775,7 +780,7 @@
                                             <div class="content" style="height:216px;">
                                             <a href= "https://www.jurists.co.jp/" target="_blank">
                                                 <div class="avatar avatar-danger" style="max-width:150px">
-                                                    <img alt="..." style="padding:42.35px 0" src="assets/img/faces/nishimuraasahi.png"/>
+                                                    <img alt="..." style="padding:42.35px 0" src="img/faces/nishimuraasahi.png"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title">西村あさひ法律事務所</h3>
@@ -790,7 +795,7 @@
                                             <div class="content">
                                                 <a href= "https://www.hottolink.co.jp/" target="_blank">
                                                 <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="assets/img/faces/ホットリンク.jpg"/>
+                                                    <img alt="..." class="img-circle" src="img/faces/ホットリンク.jpg"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title" glot-model="hottolink">ホットリンク</h3>
@@ -807,7 +812,7 @@
                                             <div class="content">
                                                 <a href= "https://staked.co.jp/" target="_blank">
                                                 <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="assets/img/faces/staked.jpg"/>
+                                                    <img alt="..." class="img-circle" src="img/faces/staked.jpg"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title">Staked</h3>
@@ -830,7 +835,7 @@
                                             <div class="content">
                                             <a href= "https://withid.jp/" target="_blank">
                                                 <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="assets/img/faces/WithID.jpg"/>
+                                                    <img alt="..." class="img-circle" src="img/faces/WithID.jpg"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title">withID</h3>
@@ -845,7 +850,7 @@
                                             <div class="content">
                                                 <a href= "https://jobrainbow.jp/" target="_blank">
                                                 <div class="avatar avatar-danger" style="padding:42.25px 0">
-                                                    <img alt="..." src="assets/img/faces/jobrainbow_for_white.png"/>
+                                                    <img alt="..." src="img/faces/jobrainbow_for_white.png"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title">JobRainbow</h3>
@@ -860,7 +865,7 @@
                                             <div class="content">
                                                 <a>
                                                 <div class="avatar avatar-danger">
-                                                    <img alt="..." src="assets/img/faces/sova.jpg"/>
+                                                    <img alt="..." src="img/faces/sova.jpg"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title">SoVa</h3>
@@ -981,7 +986,7 @@
     <div class="section section-small section-get-started">
         <div class="parallax filter">
             <div class="image"
-                style="background-image: url('assets/img/office.jpg')">
+                style="background-image: url('img/office.jpg')">
             </div>
             <div class="container">
                 <div class="title-area">
