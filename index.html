@@ -599,7 +599,7 @@
                                         <div class="card card-member">
                                             <div class="content">
                                                 <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="img/faces/fumino.jpg"/>
+                                                    <img alt="..." class="img-circle" src="img/faces/fumino.png"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title" glot-model="sugiyama">杉山文野</h3>
