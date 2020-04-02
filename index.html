@@ -63,14 +63,8 @@
 <body>
 
 <!-- ローディング -->
-<div class="is-loading2">
+<!-- <div class="is-loading2">
  <div class="loading2">
-  <p>LOADING</p>
- </div>
-</div>
-<!--
-<div id="is-loading">
- <div id="loading">
   <p>LOADING</p>
  </div>
 </div> -->
@@ -136,7 +130,7 @@
           <div class="image"
               style="background-image: url('img/family.png')">
           <!-- <div class="image"
-              style="background-image: url('img/rainbow2.jpg')"> -->
+              style="background-image: url('img/rainbow7.jpg')"> -->
             <!-- <div class="image"
                 style="background-image: url('https://user-images.githubusercontent.com/31148191/63639231-d5415480-c6cb-11e9-840b-e4f7def567dd.jpg')"> -->
             </div>
