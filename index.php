@@ -228,7 +228,7 @@
                                   <div class="card card-member">
                                       <div class="content">
                                           <a href= "https://www.istyle.co.jp/" target="_blank">
-                                          <div class="avatar avatar-danger" style="padding:0.7rem 0">
+                                          <div class="avatar " style="padding:0.7rem 0">
                                               <img alt="..." src="img/faces/istyle_logo.jpg"/>
                                           </div>
                                           <div class="description">
@@ -244,8 +244,8 @@
                                   <div class="card card-member">
                                       <div class="content">
                                           <a href= "https://jobrainbow.jp/" target="_blank">
-                                          <div class="avatar avatar-danger" style="padding:1.85rem 0">
-                                              <img alt="..." src="img/faces/jobrainbow_for_white.png"/>
+                                          <div style="padding:23.5px 0">
+                                              <img alt="..." style="width:130px"src="img/faces/jobrainbow_for_white.png"/>
                                           </div>
                                           <div class="description">
                                               <h3 class="title" style="font-size: 1.2rem">株式会社JobRainbow 様</h3>
@@ -260,12 +260,11 @@
                                   <div class="card card-member">
                                       <div class="content">
                                           <a href= "https://www.mizuho-fg.co.jp/index.html" target="_blank">
-                                          <div class="avatar avatar-danger" style="padding:1.2rem 0;">
-                                              <img alt="..." src="img/faces/mizuho.jpg"/>
+                                          <div style="padding:8px 0;">
+                                              <img alt="..." style="width:150px;"src="img/faces/mizuho.jpg"/>
                                           </div>
                                           <div class="description">
                                             <h3 class="title" style="font-size:1.1rem">株式会社みずほフィナンシャルグループ 様</h3>
-                                              <!-- <h3 class="title" style="font-size:1.1rem;padding:1.5rem 0 0.1rem 0">株式会社みずほフィナンシャルグループ 様</h3> -->
                                           </div>
                                           </a>
                                       </div>
@@ -279,7 +278,7 @@
                                     <div class="card card-member">
                                         <div class="content">
                                             <a href= "https://www.netyear.net/" target="_blank">
-                                            <div class="avatar avatar-danger" style="padding:4px 0">
+                                            <div class="avatar " style="padding:4px 0">
                                                 <img alt="..." src="img/faces/netyear.png"/>
                                             </div>
                                             <div class="description">
@@ -295,8 +294,8 @@
                                     <div class="card card-member">
                                         <div class="content">
                                             <a href= "https://www.hottolink.co.jp/" target="_blank">
-                                            <div class="avatar avatar-danger" style="padding:8.5px 0">
-                                                <img alt="..." src="img/faces/hottolink_logo_L.png"/>
+                                            <div style="padding:12px 0">
+                                                <img alt="..." style="width: 100px" src="img/faces/hottolink_logo_L.png"/>
                                             </div>
                                             <div class="description">
                                                 <h3 class="title" style="font-size: 1.2rem">株式会社ホットリンク 様</h3>
@@ -311,8 +310,8 @@
                                     <div class="card card-member">
                                         <div class="content">
                                             <a href="https://www.ibjapan.jp/" target="_blank">
-                                            <div class="avatar avatar-danger" style="padding:13px 0">
-                                                <img alt="..." src="img/faces/IBJ_logo.png"/>
+                                            <div style="padding:17px 0">
+                                                <img alt="..." style="width: 100px" src="img/faces/IBJ_logo.png"/>
                                             </div>
                                             <div class="description">
                                               <h3 class="title" style="font-size:1.2rem">株式会社IBJ 様</h3>
@@ -330,8 +329,8 @@
                                       <div class="card card-member">
                                           <div class="content">
                                               <a href= "https://www.medical-net.com/" target="_blank">
-                                              <div class="avatar avatar-danger">
-                                                  <img alt="..." src="img/faces/medicalnet_logo.jpg"/>
+                                              <div>
+                                                  <img alt="..." style="width:110px" src="img/faces/medicalnet_logo.jpg"/>
                                               </div>
                                               <div class="description">
                                                   <h3 class="title" style="font-size: 1.2rem">株式会社メディカルネット 様</h3>
@@ -346,7 +345,7 @@
                                       <div class="card card-member">
                                           <div class="content">
                                               <a href= "https://raksul.com/" target="_blank">
-                                              <div class="avatar avatar-danger" style="padding:29px 0">
+                                              <div class="avatar " style="padding:29px 0">
                                                   <img alt="..." src="img/faces/raksul_logo.png"/>
                                               </div>
                                               <div class="description">
@@ -362,7 +361,7 @@
                                       <div class="card card-member">
                                           <div class="content">
                                               <a href="https://fureasu.jp/" target="_blank">
-                                              <div class="avatar avatar-danger"style="padding:32px 0">
+                                              <div class="avatar " style="padding:32px 0">
                                                   <img alt="..." src="img/faces/fureasu_logo.png"/>
                                               </div>
                                               <div class="description">
@@ -374,6 +373,27 @@
                                   </div>
                           </div>
                           <!-- END row3 -->
+
+                          <!-- row4 -->
+                          <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <a href= "https://www.sompo-japan.co.jp/" target="_blank">
+                                                <div style="padding:24px 0">
+                                                    <img alt="..." style="width: 140px" src="img/faces/sompojapan_logo.png"/>
+                                                </div>
+                                                <div class="description">
+                                                    <h3 class="title" style="font-size: 1.2rem">損害保険ジャパン株式会社 様</h3>
+                                                </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                            </div>
+                            <!-- END row4 -->
+
 
 
                 </div>
@@ -499,7 +519,7 @@
                                     <div class="col-md-4">
                                         <div class="card card-member">
                                             <div class="content">
-                                                <div class="avatar avatar-danger">
+                                                <div class="avatar ">
                                                     <img alt="..." class="img-circle" src="img/faces/uchiyama.jpg"/>
                                                 </div>
                                                 <div class="description">
@@ -513,7 +533,7 @@
                                     <div class="col-md-4">
                                         <div class="card card-member">
                                             <div class="content">
-                                                <div class="avatar avatar-danger">
+                                                <div class="avatar ">
                                                     <img alt="..." class="img-circle" src="img/faces/yanagisawa.jpg"/>
                                                 </div>
                                                 <div class="description">
@@ -527,7 +547,7 @@
                                     <div class="col-md-4">
                                         <div class="card card-member">
                                             <div class="content">
-                                                <div class="avatar avatar-danger">
+                                                <div class="avatar ">
                                                     <img alt="..." class="img-circle" src="img/faces/ishiwata.jpg"/>
                                                 </div>
                                                 <div class="description">
@@ -545,7 +565,7 @@
                                     <div class="col-md-4">
                                         <div class="card card-member">
                                             <div class="content">
-                                                <div class="avatar avatar-danger">
+                                                <div class="avatar ">
                                                     <img alt="..." class="img-circle" src="img/faces/kawa.png"/>
                                                 </div>
                                                 <div class="description">
@@ -560,7 +580,7 @@
                                     <div class="col-md-4">
                                         <div class="card card-member">
                                             <div class="content">
-                                                <div class="avatar avatar-danger">
+                                                <div class="avatar ">
                                                     <img alt="..." class="img-circle" src="img/faces/sota.jpg"/>
                                                 </div>
                                                 <div class="description">
@@ -574,7 +594,7 @@
                                     <div class="col-md-4">
                                         <div class="card card-member">
                                             <div class="content">
-                                                <div class="avatar avatar-danger">
+                                                <div class="avatar ">
                                                     <img alt="..." class="img-circle" src="img/faces/nice.jpg"/>
                                                 </div>
                                                 <div class="description">
@@ -592,7 +612,7 @@
                                     <div class="col-md-4">
                                         <div class="card card-member">
                                             <div class="content">
-                                                <div class="avatar avatar-danger">
+                                                <div class="avatar ">
                                                     <img alt="..." class="img-circle" src="img/faces/fumino.png"/>
                                                 </div>
                                                 <div class="description">
@@ -607,7 +627,7 @@
                                     <div class="col-md-4">
                                         <div class="card card-member">
                                             <div class="content">
-                                                <div class="avatar avatar-danger">
+                                                <div class="avatar ">
                                                     <img alt="..." class="img-circle" src="img/faces/mai.jpg"/>
                                                 </div>
                                                 <div class="description">
@@ -622,7 +642,7 @@
                                     <!-- <div class="col-md-4">
                                         <div class="card card-member">
                                             <div class="content pd-b-md-205">
-                                                <div class="avatar avatar-danger">
+                                                <div class="avatar ">
                                                     <img alt="..." class="img-circle" src="img/faces/sugawara.png"/>
                                                 </div>
                                                 <div class="description">
@@ -665,7 +685,7 @@
                                       <div class="col-md-4">
                                           <div class="card card-member">
                                               <div class="content">
-                                                  <div class="avatar avatar-danger">
+                                                  <div class="avatar ">
                                                       <img alt="..." class="img-circle" src="img/faces/okajima.jpg"/>
                                                   </div>
                                                   <div class="description">
@@ -679,7 +699,7 @@
                                       <div class="col-md-4">
                                           <div class="card card-member">
                                               <div class="content">
-                                                  <div class="avatar avatar-danger">
+                                                  <div class="avatar ">
                                                       <img alt="..." class="img-circle" src="img/faces/fukushima.jpg"/>
                                                   </div>
                                                   <div class="description">
@@ -695,7 +715,7 @@
                                       <div class="col-md-4">
                                           <div class="card card-member">
                                               <div class="content">
-                                                  <div class="avatar avatar-danger">
+                                                  <div class="avatar ">
                                                       <img alt="..." class="img-circle" src="img/faces/竹中平蔵.jpg"/>
                                                   </div>
                                                   <div class="description">
@@ -714,7 +734,7 @@
                                       <div class="col-md-4">
                                           <div class="card card-member">
                                               <div class="content">
-                                                  <div class="avatar avatar-danger">
+                                                  <div class="avatar ">
                                                       <img alt="..." class="img-circle" src="img/faces/song_mihyon.jpg"/>
                                                   </div>
                                                   <div class="description">
@@ -758,7 +778,7 @@
                                         <div class="card card-member">
                                             <div class="content">
                                                 <a href= "https://www.microsoft.com/ja-jp/mscorp" target="_blank">
-                                                <div class="avatar avatar-danger" style="max-width:150px">
+                                                <div class="avatar " style="max-width:150px">
                                                     <img alt="..." class="img-circle imgMicrosoft" src="img/faces/microsoft.png"/>
                                                 </div>
                                                 <div class="description">
@@ -773,7 +793,7 @@
                                         <div class="card card-member">
                                             <div class="content" style="height:216px;">
                                             <a href= "https://www.jurists.co.jp/" target="_blank">
-                                                <div class="avatar avatar-danger" style="max-width:150px">
+                                                <div class="avatar " style="max-width:150px">
                                                     <img alt="..." style="padding:42.35px 0" src="img/faces/nishimuraasahi.png"/>
                                                 </div>
                                                 <div class="description">
@@ -788,7 +808,7 @@
                                         <div class="card card-member">
                                             <div class="content">
                                                 <a href= "https://www.hottolink.co.jp/" target="_blank">
-                                                <div class="avatar avatar-danger">
+                                                <div class="avatar ">
                                                     <img alt="..." class="img-circle" src="img/faces/ホットリンク.jpg"/>
                                                 </div>
                                                 <div class="description">
@@ -805,7 +825,7 @@
                                         <div class="card card-member">
                                             <div class="content">
                                                 <a href= "https://staked.co.jp/" target="_blank">
-                                                <div class="avatar avatar-danger">
+                                                <div class="avatar ">
                                                     <img alt="..." class="img-circle" src="img/faces/staked.jpg"/>
                                                 </div>
                                                 <div class="description">
@@ -828,7 +848,7 @@
                                         <div class="card card-member">
                                             <div class="content">
                                             <a href= "https://withid.jp/" target="_blank">
-                                                <div class="avatar avatar-danger">
+                                                <div class="avatar ">
                                                     <img alt="..." class="img-circle" src="img/faces/WithID.jpg"/>
                                                 </div>
                                                 <div class="description">
@@ -843,7 +863,7 @@
                                         <div class="card card-member">
                                             <div class="content">
                                                 <a href= "https://jobrainbow.jp/" target="_blank">
-                                                <div class="avatar avatar-danger" style="padding:42.25px 0">
+                                                <div class="avatar " style="padding:42.25px 0">
                                                     <img alt="..." src="img/faces/jobrainbow_for_white.png"/>
                                                 </div>
                                                 <div class="description">
@@ -858,7 +878,7 @@
                                         <div class="card card-member">
                                             <div class="content">
                                                 <a>
-                                                <div class="avatar avatar-danger">
+                                                <div class="avatar ">
                                                     <img alt="..." src="img/faces/sova.jpg"/>
                                                 </div>
                                                 <div class="description">
