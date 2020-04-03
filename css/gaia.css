@@ -3023,10 +3023,14 @@ footer .info ul{
     padding: 0 !important;
   }
   .section-header .parallax, .section-header .static-image {
-    height: 80vh;
+    /* Kiro Modified */
+    /* height: 80vh; */
+    height: 100vh;
   }
   .section-header .parallax:after, .section-header .static-image:after {
-    height: 80vh;
+    /* Kiro Modified */
+    /* height: 80vh; */
+    height: 100vh;
   }
   .section-header .content {
     top: 50%;
