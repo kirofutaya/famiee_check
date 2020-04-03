@@ -3025,12 +3025,12 @@ footer .info ul{
   .section-header .parallax, .section-header .static-image {
     /* Kiro Modified */
     /* height: 80vh; */
-    height: 100vh;
+    height: 90vh;
   }
   .section-header .parallax:after, .section-header .static-image:after {
     /* Kiro Modified */
     /* height: 80vh; */
-    height: 100vh;
+    height: 90vh;
   }
   .section-header .content {
     top: 50%;
