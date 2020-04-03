@@ -3069,6 +3069,9 @@ footer .info ul{
 
 @media (max-width: 768px) {
   /* kiro追加分（スマホ表示のときのみ何かしたいときはここに） */
+  .top-image{
+    background-image: url('img/balloon2.jpg')!important;
+  }
   .item1, .item2{
     width: auto
   }
