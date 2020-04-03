@@ -13,7 +13,7 @@
     <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#"></head>
     <title>Famiee</title>
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://www.famiee.com/img/sns.jpg">
+    <meta property="og:image" content="https://www.famiee.com/img/sns_balloon.jpg">
     <meta property="og:url" content="https://www.famiee.com/" />
     <meta property="og:title" content="Famiee Project" />
     <meta property="og:description" content="「Famiee」プロジェクトは、LGBTカップルや事実婚カップル等、法的には婚姻関係と認められない多様な家族形態の人たちが、住んでいる地区に関わらず家族関係を証明することができるよう、ブロックチェーン技術を用いたパートナーシップ証明書の発行を目指します。さらに、多様な家族形態の人たちが等しく民間企業の家族向けサービスを受けることができるよう、パートナーシップ証明書を採用する民間企業を増やすための啓蒙活動を行い、これらの活動によって多様な家族形態が当たり前のように認められる社会の実現を目指します。" />
@@ -120,9 +120,8 @@
 
     <div class="section section-header">
         <div class="parallax filter">
-            <div class="image"
-                style="background-image: url('https://user-images.githubusercontent.com/31148191/63639231-d5415480-c6cb-11e9-840b-e4f7def567dd.jpg')">
-            </div>
+          <div class="image"
+              style="background-image: url('img/balloon.jpg')">
             <div class="container">
                 <div class="content">
                     <div class="title-area">
