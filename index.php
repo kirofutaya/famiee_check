@@ -19,7 +19,7 @@
 
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="description" content="「Famiee」プロジェクトは、LGBTカップルや事実婚カップル等、法的には婚姻関係と認められない多様な家族形態の人たちが、住んでいる地区に関わらず家族関係を証明することができるよう、ブロックチェーン技術を用いたパートナーシップ証明書の発行を目指します。さらに、多様な家族形態の人たちが等しく民間企業の家族向けサービスを受けることができるよう、パートナーシップ証明書を採用する民間企業を増やすための啓蒙活動を行い、これらの活動によって多様な家族形態が当たり前のように認められる社会の実現を目指します。">
-    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/gaia.css" rel="stylesheet"/>
 
     <!--OPG Facebook Twitter-->
@@ -40,7 +40,7 @@
     <!-- JavaScript -->
       <!--   core js files    -->
       <script src="js/jquery.min.js" type="text/javascript"></script>
-      <script src="js/bootstrap.js" type="text/javascript"></script>
+      <script src="js/bootstrap.min.js" type="text/javascript"></script>
 
       <!--  js library for devices recognition -->
       <script type="text/javascript" src="js/modernizr.js"></script>
