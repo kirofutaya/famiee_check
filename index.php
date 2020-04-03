@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
+    <!-- LazyLoad --><script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.min.js"></script>
     <meta name=“google-site-verification” content=“NOlXD9YuxOMrQEjZAWUj0nWV3-V7uhnucc3vL12XGks” />
     <!-- <script src="https://unpkg.com/glottologist"></script> -->
 	<link rel="icon" type="image/ico" sizes="64x64" href="img/favicon.ico">
@@ -226,7 +227,7 @@
                                       <div class="content">
                                           <a href= "https://www.istyle.co.jp/" target="_blank">
                                           <div class="avatar " style="padding:0.7rem 0">
-                                              <img alt="..." src="img/faces/istyle_logo.jpg"/>
+                                              <img class="lazyload" loading="lazy" alt="..." src="img/faces/istyle_logo.jpg"/>
                                           </div>
                                           <div class="description">
                                               <h3 class="title" style="font-size: 1.2rem">株式会社アイスタイル 様</h3>
@@ -242,7 +243,7 @@
                                       <div class="content">
                                           <a href= "https://jobrainbow.jp/" target="_blank">
                                           <div style="padding:23.5px 0">
-                                              <img alt="..." style="width:130px"src="img/faces/jobrainbow_for_white.png"/>
+                                              <img class="lazyload" loading="lazy" alt="..." style="width:130px"src="img/faces/jobrainbow_for_white.png"/>
                                           </div>
                                           <div class="description">
                                               <h3 class="title" style="font-size: 1.2rem">株式会社JobRainbow 様</h3>
@@ -258,7 +259,7 @@
                                       <div class="content">
                                           <a href= "https://www.mizuho-fg.co.jp/index.html" target="_blank">
                                           <div style="padding:8px 0;">
-                                              <img alt="..." style="width:150px;"src="img/faces/mizuho.jpg"/>
+                                              <img class="lazyload" loading="lazy" alt="..." style="width:150px;"src="img/faces/mizuho.jpg"/>
                                           </div>
                                           <div class="description">
                                             <h3 class="title" style="font-size:1.1rem">株式会社みずほフィナンシャルグループ 様</h3>
@@ -276,7 +277,7 @@
                                         <div class="content">
                                             <a href= "https://www.netyear.net/" target="_blank">
                                             <div class="avatar " style="padding:4px 0">
-                                                <img alt="..." src="img/faces/netyear.png"/>
+                                                <img class="lazyload" loading="lazy" alt="..." src="img/faces/netyear.png"/>
                                             </div>
                                             <div class="description">
                                                 <h3 class="title" style="font-size: 1.2rem">ネットイヤーグループ株式会社 様</h3>
@@ -292,7 +293,7 @@
                                         <div class="content">
                                             <a href= "https://www.hottolink.co.jp/" target="_blank">
                                             <div style="padding:12px 0">
-                                                <img alt="..." style="width: 100px" src="img/faces/hottolink_logo_L.png"/>
+                                                <img class="lazyload" loading="lazy" alt="..." style="width: 100px" src="img/faces/hottolink_logo_L.png"/>
                                             </div>
                                             <div class="description">
                                                 <h3 class="title" style="font-size: 1.2rem">株式会社ホットリンク 様</h3>
@@ -308,7 +309,7 @@
                                         <div class="content">
                                             <a href="https://www.ibjapan.jp/" target="_blank">
                                             <div style="padding:17px 0">
-                                                <img alt="..." style="width: 100px" src="img/faces/IBJ_logo.png"/>
+                                                <img class="lazyload" loading="lazy" alt="..." style="width: 100px" src="img/faces/IBJ_logo.png"/>
                                             </div>
                                             <div class="description">
                                               <h3 class="title" style="font-size:1.2rem">株式会社IBJ 様</h3>
@@ -327,7 +328,7 @@
                                           <div class="content">
                                               <a href= "https://www.medical-net.com/" target="_blank">
                                               <div>
-                                                  <img alt="..." style="width:110px" src="img/faces/medicalnet_logo.jpg"/>
+                                                  <img class="lazyload" loading="lazy" alt="..." style="width:110px" src="img/faces/medicalnet_logo.jpg"/>
                                               </div>
                                               <div class="description">
                                                   <h3 class="title" style="font-size: 1.2rem">株式会社メディカルネット 様</h3>
@@ -343,7 +344,7 @@
                                           <div class="content">
                                               <a href= "https://raksul.com/" target="_blank">
                                               <div class="avatar " style="padding:29px 0">
-                                                  <img alt="..." src="img/faces/raksul_logo.png"/>
+                                                  <img class="lazyload" loading="lazy" alt="..." src="img/faces/raksul_logo.png"/>
                                               </div>
                                               <div class="description">
                                                   <h3 class="title" style="font-size: 1.2rem">ラクスル株式会社 様</h3>
@@ -359,7 +360,7 @@
                                           <div class="content">
                                               <a href="https://fureasu.jp/" target="_blank">
                                               <div class="avatar " style="padding:32px 0">
-                                                  <img alt="..." src="img/faces/fureasu_logo.png"/>
+                                                  <img class="lazyload" loading="lazy" alt="..." src="img/faces/fureasu_logo.png"/>
                                               </div>
                                               <div class="description">
                                                 <h3 class="title" style="font-size:1.2rem">株式会社フレアス 様</h3>
@@ -378,7 +379,7 @@
                                             <div class="content">
                                                 <a href= "https://www.sompo-japan.co.jp/" target="_blank">
                                                 <div style="padding:24px 0">
-                                                    <img alt="..." style="width: 140px" src="img/faces/sompojapan_logo.png"/>
+                                                    <img class="lazyload" loading="lazy" alt="..." style="width: 140px" src="img/faces/sompojapan_logo.png"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title" style="font-size: 1.2rem">損害保険ジャパン株式会社 様</h3>
@@ -469,7 +470,7 @@
             <ul class="nav nav-text" role="tablist">
                 <li>
                         <div class="image-clients">
-                            <img alt="..." class="img-circle" src="img/faces/uchiyama.jpg"/>
+                            <img loading="lazy" alt="..." class="img-circle lazyload" src="img/faces/uchiyama.jpg"/>
                         </div>
                 </li>
             </ul>
@@ -517,7 +518,7 @@
                                         <div class="card card-member">
                                             <div class="content">
                                                 <div class="avatar ">
-                                                    <img alt="..." class="img-circle" src="img/faces/uchiyama.jpg"/>
+                                                    <img loading="lazy" alt="..." class="img-circle lazyload" src="img/faces/uchiyama.jpg"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title" glot-model="Uchiyama">内山幸樹</h3>
@@ -531,7 +532,7 @@
                                         <div class="card card-member">
                                             <div class="content">
                                                 <div class="avatar ">
-                                                    <img alt="..." class="img-circle" src="img/faces/yanagisawa.jpg"/>
+                                                    <img loading="lazy" alt="..." class="img-circle lazyload" src="img/faces/yanagisawa.jpg"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title" glot-model="yanagisawa">柳沢正和</h3>
@@ -545,7 +546,7 @@
                                         <div class="card card-member">
                                             <div class="content">
                                                 <div class="avatar ">
-                                                    <img alt="..." class="img-circle" src="img/faces/ishiwata.jpg"/>
+                                                    <img loading="lazy" alt="..." class="img-circle lazyload" src="img/faces/ishiwata.jpg"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title" glot-model="ishiwata">石渡広一郎</h3>
@@ -563,7 +564,7 @@
                                         <div class="card card-member">
                                             <div class="content">
                                                 <div class="avatar ">
-                                                    <img alt="..." class="img-circle" src="img/faces/kawa.png"/>
+                                                    <img loading="lazy" alt="..." class="img-circle lazyload" src="img/faces/kawa.png"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title" glot-model="kawa">川大揮</h3>
@@ -578,7 +579,7 @@
                                         <div class="card card-member">
                                             <div class="content">
                                                 <div class="avatar ">
-                                                    <img alt="..." class="img-circle" src="img/faces/sota.jpg"/>
+                                                    <img loading="lazy" alt="..." class="img-circle lazyload" src="img/faces/sota.jpg"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title" glot-model="watanabe">渡辺創太</h3>
@@ -592,7 +593,7 @@
                                         <div class="card card-member">
                                             <div class="content">
                                                 <div class="avatar ">
-                                                    <img alt="..." class="img-circle" src="img/faces/nice.jpg"/>
+                                                    <img loading="lazy" alt="..." class="img-circle lazyload" src="img/faces/nice.jpg"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title" glot-model="nice">村上乃須</h3>
@@ -610,7 +611,7 @@
                                         <div class="card card-member">
                                             <div class="content">
                                                 <div class="avatar ">
-                                                    <img alt="..." class="img-circle" src="img/faces/fumino.png"/>
+                                                    <img loading="lazy" alt="..." class="img-circle lazyload" src="img/faces/fumino.png"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title" glot-model="sugiyama">杉山文野</h3>
@@ -625,7 +626,7 @@
                                         <div class="card card-member">
                                             <div class="content">
                                                 <div class="avatar ">
-                                                    <img alt="..." class="img-circle" src="img/faces/mai.jpg"/>
+                                                    <img loading="lazy" alt="..." class="img-circle lazyload" src="img/faces/mai.jpg"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title" glot-model="mai">藤本真衣</h3>
@@ -640,7 +641,7 @@
                                         <div class="card card-member">
                                             <div class="content pd-b-md-205">
                                                 <div class="avatar ">
-                                                    <img alt="..." class="img-circle" src="img/faces/sugawara.png"/>
+                                                    <img loading="lazy" alt="..." class="img-circle lazyload" src="img/faces/sugawara.png"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title">管原秀太</h3>
@@ -683,7 +684,7 @@
                                           <div class="card card-member">
                                               <div class="content">
                                                   <div class="avatar ">
-                                                      <img alt="..." class="img-circle" src="img/faces/okajima.jpg"/>
+                                                      <img loading="lazy" alt="..." class="img-circle lazyload" src="img/faces/okajima.jpg"/>
                                                   </div>
                                                   <div class="description">
                                                       <h3 class="title" glot-model="okajima">岡島悦子</h3>
@@ -697,7 +698,7 @@
                                           <div class="card card-member">
                                               <div class="content">
                                                   <div class="avatar ">
-                                                      <img alt="..." class="img-circle" src="img/faces/fukushima.jpg"/>
+                                                      <img loading="lazy" alt="..." class="img-circle lazyload" src="img/faces/fukushima.jpg"/>
                                                   </div>
                                                   <div class="description">
                                                       <h3 class="title"glot-model="fukushima" >福島良典</h3>
@@ -713,7 +714,7 @@
                                           <div class="card card-member">
                                               <div class="content">
                                                   <div class="avatar ">
-                                                      <img alt="..." class="img-circle" src="img/faces/竹中平蔵.jpg"/>
+                                                      <img loading="lazy" alt="..." class="img-circle lazyload" src="img/faces/竹中平蔵.jpg"/>
                                                   </div>
                                                   <div class="description">
                                                       <h3 class="title" glot-model="take">竹中平蔵</h3>
@@ -732,7 +733,7 @@
                                           <div class="card card-member">
                                               <div class="content">
                                                   <div class="avatar ">
-                                                      <img alt="..." class="img-circle" src="img/faces/song_mihyon.jpg"/>
+                                                      <img loading="lazy" alt="..." class="img-circle lazyload" src="img/faces/song_mihyon.jpg"/>
                                                   </div>
                                                   <div class="description">
                                                       <h3 class="title" glot-model="song">宋美玄</h3>
@@ -776,7 +777,7 @@
                                             <div class="content">
                                                 <a href= "https://www.microsoft.com/ja-jp/mscorp" target="_blank">
                                                 <div class="avatar " style="max-width:150px">
-                                                    <img alt="..." class="img-circle imgMicrosoft" src="img/faces/microsoft.png"/>
+                                                    <img loading="lazy" alt="..." class="img-circle lazyload imgMicrosoft" src="img/faces/microsoft.png"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title" glot-model="microsoft">日本マイクロソフト</h3>
@@ -791,7 +792,7 @@
                                             <div class="content" style="height:216px;">
                                             <a href= "https://www.jurists.co.jp/" target="_blank">
                                                 <div class="avatar " style="max-width:150px">
-                                                    <img alt="..." style="padding:42.35px 0" src="img/faces/nishimuraasahi.png"/>
+                                                    <img loading="lazy" alt="..." style="padding:42.35px 0" src="img/faces/nishimuraasahi.png"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title">西村あさひ法律事務所</h3>
@@ -806,7 +807,7 @@
                                             <div class="content">
                                                 <a href= "https://www.hottolink.co.jp/" target="_blank">
                                                 <div class="avatar ">
-                                                    <img alt="..." class="img-circle" src="img/faces/ホットリンク.jpg"/>
+                                                    <img loading="lazy" alt="..." class="img-circle lazyload" src="img/faces/ホットリンク.jpg"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title" glot-model="hottolink">ホットリンク</h3>
@@ -823,7 +824,7 @@
                                             <div class="content">
                                                 <a href= "https://staked.co.jp/" target="_blank">
                                                 <div class="avatar ">
-                                                    <img alt="..." class="img-circle" src="img/faces/staked.jpg"/>
+                                                    <img loading="lazy" alt="..." class="img-circle lazyload" src="img/faces/staked.jpg"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title">Staked</h3>
@@ -846,7 +847,7 @@
                                             <div class="content">
                                             <a href= "https://withid.jp/" target="_blank">
                                                 <div class="avatar ">
-                                                    <img alt="..." class="img-circle" src="img/faces/WithID.jpg"/>
+                                                    <img loading="lazy" alt="..." class="img-circle lazyload" src="img/faces/WithID.jpg"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title">withID</h3>
@@ -861,7 +862,7 @@
                                             <div class="content">
                                                 <a href= "https://jobrainbow.jp/" target="_blank">
                                                 <div class="avatar " style="padding:42.25px 0">
-                                                    <img alt="..." src="img/faces/jobrainbow_for_white.png"/>
+                                                    <img loading="lazy" alt="..." class="lazyload" src="img/faces/jobrainbow_for_white.png"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title">JobRainbow</h3>
@@ -876,7 +877,7 @@
                                             <div class="content">
                                                 <a>
                                                 <div class="avatar ">
-                                                    <img alt="..." src="img/faces/sova.jpg"/>
+                                                    <img loading="lazy" alt="..." class="lazyload" src="img/faces/sova.jpg"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title">SoVa</h3>
@@ -1085,6 +1086,12 @@
         </div>
     </footer>
 
+
+
+
+<script>
+    lazyload();
+</script>
 </body>
 
 </html>
