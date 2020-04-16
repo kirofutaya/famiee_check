@@ -1991,9 +1991,22 @@ a,
   padding-top: 0;
 }
 
+.section-movie{
+  padding: 70px 0;
+}
+
+.section-movie .title-area{
+  margin-bottom: 40px;
+}
+
+.section-movie .flex{
+  justify-content:space-between;
+  align-items: center;
+}
+
 .section-movie .flex > div{
   width: 33.33%;
-  padding: 20px;
+  padding: 10px 20px;
   /* これ最後に消す */
   /* background-color: blue; */
 }
