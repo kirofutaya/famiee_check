@@ -1990,16 +1990,20 @@ a,
 .section-privacypolicy{
   padding-top: 0;
 }
-.section-movie .col-md-3{
-  min-height: 200px;
-  background-color: rgba(40,40,40)
-  text-align:center;
-}
 
 .section-movie .flex > div{
-  width: 25%;
-  padding: 5px;
-  background-color: blue;
+  width: 33.33%;
+  padding: 20px;
+  /* これ最後に消す */
+  /* background-color: blue; */
+}
+.section-movie .flex > div h3{
+  font-size: 18px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  background-color: rgb(213,130,53);
+  color: white;
 }
 .section-movie .flex > div video{
   width: 100%;
@@ -3121,9 +3125,12 @@ footer .info ul{
     padding-top: 10px;
   }
 
-
   .footer .container{
     margin-top: 0;
+  }
+
+  .section-movie .flex > div{
+    width: 100%;
   }
 
   /* END kiro追加分 */
