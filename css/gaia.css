@@ -2002,7 +2002,7 @@ a,
   width: 100%;
   padding: 15px;
   margin-bottom: 0;
-  background-color: rgb(213,130,53);
+  background-color: rgba(213,130,53, 1);
   color: white;
 }
 .section-movie .flex > div video{
