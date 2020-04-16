@@ -164,6 +164,16 @@ i {
 　　font-weight: 900;
 　　display: inline-block;
 }
+
+.flex{
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-around;
+}
+.flex *{
+  box-sizing: border-box;
+}
+
 /* End kiro add */
 .title {
   text-align: center;
@@ -1980,6 +1990,22 @@ a,
 .section-privacypolicy{
   padding-top: 0;
 }
+.section-movie .col-md-3{
+  min-height: 200px;
+  background-color: rgba(40,40,40)
+  text-align:center;
+}
+
+.section-movie .flex > div{
+  width: 25%;
+  padding: 5px;
+  background-color: blue;
+}
+.section-movie .flex > div video{
+  width: 100%;
+  height: auto;
+}
+
 /* kiro追加終り */
 
 .section-header,
@@ -2904,6 +2930,7 @@ footer .info ul{
 }
 
 /* END PRESENTATION PAGE */
+
 @media (min-width: 768px) {
   .nav > .social-links {
     margin-left: 15px;
@@ -2964,6 +2991,11 @@ footer .info ul{
   }
 }
 @media (max-width: 992px) {
+/* kiro */
+  .syomeisyo-btn{
+    font-size: 14px;
+  }
+/* End kiro */
   .br-md{
     display: none;
   }
@@ -3074,6 +3106,13 @@ footer .info ul{
 
 @media (max-width: 768px) {
   /* kiro追加分（タブレット表示以下のときのみ何かしたいときはここに） */
+  .flex{
+    flex-direction: column !important;
+  }
+  .flex a.syomeisyo-btn{
+    width: 100% !important;
+    margin:20px 0 !important;
+  }
   .item1, .item2{
     width: auto
   }
@@ -3082,9 +3121,7 @@ footer .info ul{
     padding-top: 10px;
   }
 
-  .syomeisyo-btn{
-    font-size: 14px;
-  }
+
   .footer .container{
     margin-top: 0;
   }
