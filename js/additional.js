@@ -57,7 +57,7 @@ $(function () {
   $titleList.on('click','a', function(event){
     event.preventDefault();
     if (!$(this).hasClass('active')){
-      currentIndex = $(this).index();
+      currentIndex = $(this).parent().index();
       goToSlide(currentIndex);
             // goToSlide(currentIndex);
       updateNav(currentIndex);
