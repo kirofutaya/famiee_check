@@ -1,4 +1,12 @@
 $(function () {
+
+var $win = $(window);
+var windowWidth = 0;
+
+$win.on('load resize', function() {
+  windowWidth = $win.width();
+});
+
 // ローディング
   // ロード終了後にフェードアウト
   $(window).on('load', function(){
@@ -48,9 +56,6 @@ $(function () {
     $('#caption').html(data[0].title);
     movies = $(data);
     movie_len = data.length
-
-    // dev
-    console.log(movie_len);
   });
 
   // タイトルリストがクリックされたとき
@@ -61,10 +66,17 @@ $(function () {
       goToSlide(currentIndex);
             // goToSlide(currentIndex);
       updateNav(currentIndex);
-      console.log(currentIndex);
+    };
+
+    if (windowWidth<=768) {
+      $('body,html').animate({
+            scrollTop: $('#movie-top').offset().top
+        }, 500);
+        return false;
     };
   });
 
+  // Prev or Nextがクリックされた時
   $('.movie-arrow').on('click','a',function(event){
     event.preventDefault();
     if ($(this).hasClass('prev')){
@@ -77,12 +89,16 @@ $(function () {
       goToSlide(currentIndex);
     };
     updateNav(currentIndex);
+
+
   });
 
+  // 動画を差し替える関数
   function goToSlide(index){
     $('#youtube').html(movies[index].url);
     $('#caption').html(movies[index].title);
   }
+  // タブのハイライトを切り替える関数
   function updateNav(index){
     $titleList.find('a').removeClass('active');
     $titleList.find('a').eq(index).addClass('active');
