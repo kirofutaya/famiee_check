@@ -64,11 +64,11 @@
 <body>
 
 <!-- ローディング -->
-<!-- <div class="is-loading2">
- <div class="loading2">
+<div class="loading-bg">
+ <div class="loading-title">
   <p>LOADING</p>
  </div>
-</div> -->
+</div>
 
 <!-- ナビゲーションバー -->
 <nav class="navbar navbar-default navbar-transparent navbar-fixed-top" color-on-scroll="200">
@@ -974,80 +974,19 @@
                 <h3><b>＊ Founding Sponsors ＊</b></h3>
                 <br>
                 <ul class='foundingsupporterList'>
+                  <!-- リストの中身はadditional.jsで生成 -->
                 </ul>
                 <br>
                 <br>
                 <h3><b>＊ 賛同企業・賛同者 ＊</b></h3>
                 <br>
                 <ul class='supporterList'>
+                  <!-- リストの中身はadditional.jsで生成 -->
                 </ul>
             </div>
         </div>
 
-        <script>
-          $(function () {
-            //JSONデータを読み込みます
-              $.getJSON("https://script.google.com/macros/s/AKfycbzEFeNTTuBSWm7Tm_3fMDCAw4dMlvKLe1O6YW23gAOPzD-Lyo4/exec", function (data) {
-                //JSONの中のデータの個数を変数化し、1件以上の場合は出力します（0件の場合返り値が無いため）
-                var infoCount = data.length;
-                //1件以上ある場合
-                if (infoCount >= '1') {
 
-                  var investmentList = [];
-
-                  $(data).each(function () {
-
-                  })
-
-
-                  $(data).each(function () {
-                    if (this.type == "founder") {
-                      switch( this.num ) {
-                        case 1:
-                          $('<li><span class="supporterName weight900">' + this.Name + '</span>' + '<p class="affiliation">' + this.Affiliation + '</p></li>').appendTo('ul.foundingsupporterList');
-                          break;
-
-
-                        case 2:
-                          $('<li><span class="supporterName weight700">' + this.Name + '</span>' + '<p class="affiliation">' + this.Affiliation + '</p></li>').appendTo('ul.foundingsupporterList');
-                          break;
-
-
-                        case 3:
-                          $('<li><span class="supporterName weight600">' + this.Name + '</span>' + '<p class="affiliation">' + this.Affiliation + '</p></li>').appendTo('ul.foundingsupporterList');
-                          break;
-
-
-                        case 4:
-                          $('<li><span class="supporterName weight500">' + this.Name + '</span>' + '<p class="affiliation">' + this.Affiliation + '</p></li>').appendTo('ul.foundingsupporterList');
-                          break;
-
-                        case 5:
-                          $('<li><span class="supporterName weight400">' + this.Name + '</span>' + '<p class="affiliation">' + this.Affiliation + '</p></li>').appendTo('ul.foundingsupporterList');
-                          break;
-
-
-                        case 6:
-                          $('<li><span class="supporterName weight300">' + this.Name + '</span>' + '<p class="affiliation">' + this.Affiliation + '</p></li>').appendTo('ul.foundingsupporterList');
-                          break;
-
-
-                        default:
-                          $('<li><span class="supporterName weight200">' + this.Name + '</span>' + '<p class="affiliation">' + this.Affiliation + '</p></li>').appendTo('ul.foundingsupporterList');
-                          break;
-
-                      };
-
-                    }else if (this.type == "supporter") {
-                      $('<li><span class="supporterName weight200">' + this.Name + '</span>' + '<p class="affiliation">' + this.Affiliation + '</p></li>').appendTo('ul.supporterList');
-                    }
-
-                  })
-
-                }
-              })
-            });
-        </script>
 
     </div>
 </div>
