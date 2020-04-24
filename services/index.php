@@ -8,7 +8,7 @@
     <!-- <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.min.js"></script> -->
     <meta name=“google-site-verification” content=“NOlXD9YuxOMrQEjZAWUj0nWV3-V7uhnucc3vL12XGks” />
     <!-- <script src="https://unpkg.com/glottologist"></script> -->
-	<link rel="icon" type="image/ico" sizes="64x64" href="img/favicon.ico">
+	<link rel="icon" type="image/ico" sizes="64x64" href="../img/favicon.ico">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#"></head>
@@ -21,8 +21,8 @@
 
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="description" content="「Famiee」プロジェクトは、LGBTカップルや事実婚カップル等、法的には婚姻関係と認められない多様な家族形態の人たちが、住んでいる地区に関わらず家族関係を証明することができるよう、ブロックチェーン技術を用いたパートナーシップ証明書の発行を目指します。さらに、多様な家族形態の人たちが等しく民間企業の家族向けサービスを受けることができるよう、パートナーシップ証明書を採用する民間企業を増やすための啓蒙活動を行い、これらの活動によって多様な家族形態が当たり前のように認められる社会の実現を目指します。">
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/gaia.css" rel="stylesheet"/>
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../css/gaia.css" rel="stylesheet"/>
 
     <!--OPG Facebook Twitter-->
     <meta property="fb:app_id" content="1320921668046539" />
@@ -36,25 +36,25 @@
     <!-- <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP:200,300,400,500,600,700,900&display=swap&subset=japanese" rel="stylesheet"> -->
         <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP:400&display=swap&subset=japanese" rel="stylesheet">
     <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet"> -->
-    <link href="css/fonts/pe-icon-7-stroke.css" rel="stylesheet">
+    <link href="../css/fonts/pe-icon-7-stroke.css" rel="stylesheet">
 
 
     <!-- JavaScript -->
       <!--   core js files    -->
-      <script src="js/jquery.min.js" type="text/javascript"></script>
-      <script src="js/bootstrap.min.js" type="text/javascript"></script>
+      <script src="../js/jquery.min.js" type="text/javascript"></script>
+      <script src="../js/bootstrap.min.js" type="text/javascript"></script>
 
       <!--  js library for devices recognition -->
-      <script type="text/javascript" src="js/modernizr.js"></script>
+      <script type="text/javascript" src="../js/modernizr.js"></script>
 
       <!--  script for google maps   -->
       <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script> -->
 
       <!--   file where we handle all the script from the Gaia - Bootstrap Template   -->
-      <script type="text/javascript" src="js/gaia.js"></script>
+      <script type="text/javascript" src="../js/gaia.js"></script>
 
       <!--   additional js files    -->
-      <script type="text/javascript" src="js/additional.js"></script>
+      <script type="text/javascript" src="../js/additional.js"></script>
 
 
       <!-- Language -->
@@ -87,14 +87,14 @@
                   <span class="icon-bar bar2"></span>
                   <span class="icon-bar bar3"></span>
               </button>
-              <a href="index.html" class="navbar-brand">
+              <a href="../" class="navbar-brand">
                   Famiee Project
               </a>
           </div>
           <div class="collapse navbar-collapse">
               <ul class="nav navbar-nav navbar-right navbar-uppercase">
                 <li>
-                  <a href="./">Top</a>
+                  <a href="../">Top</a>
                 </li>
                 <li class="dropdown">
                     <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
@@ -102,18 +102,18 @@
                     </a>
                     <ul class="dropdown-menu dropdown-danger">
                         <li>
-                            <a href="./project">PROJECT</a>
+                            <a href="../project">PROJECT</a>
                         </li>
                         <li>
                             <a href="./services">SERVICES</a>
                         </li>
                         <li>
-                            <a href="./forCompany">FOR COMPANY</a>
+                            <a href="../forCompany">FOR COMPANY</a>
                         </li>
                     </ul>
                 </li>
                 <li>
-                  <a href="./privacypolicy">Privacy Policy</a>
+                  <a href="../privacypolicy">Privacy Policy</a>
                 </li>
                 <li class="dropdown">
                     <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
@@ -159,7 +159,7 @@
 <!-- タイトル -->
 		<div class="section section-privacypolicy">
 				<div class="parallax filter filter-color-black">
-						<div class="image" style="background-image:url('img/header2.jpg')">
+						<div class="image" style="background-image:url('../img/header2.jpg')">
 						</div>
 						<div class="container">
 								<div class="content">
@@ -205,7 +205,7 @@
               <h3 id="caption"><!-- additional.jsで中身を生成（文字） --></h3>
               <div id="youtube"><!-- additional.jsで中身を生成（iframeタグ） --></div>
               <div class="movie-arrow">
-                <p>Prev</p><a href="" class="prev"><img src="img/arrow-back.png"></a><a href="" class="next"><img  src="img/arrow-next.png"></a><p>Next</p>
+                <p>Prev</p><a href="" class="prev"><img src="../img/arrow-back.png"></a><a href="" class="next"><img  src="../img/arrow-next.png"></a><p>Next</p>
               </div>
             </div>
 
@@ -230,7 +230,7 @@
     <div class="section section-small section-get-started">
         <div class="parallax filter">
             <div class="image"
-                style="background-image: url('img/office.jpg')">
+                style="background-image: url('../img/office.jpg')">
             </div>
             <div class="container">
                 <div class="title-area">
@@ -258,19 +258,19 @@
                     <nav>
                         <ul>
                             <li>
-                                <a href="./">Top</a>
+                                <a href="../">Top</a>
                             </li>
                             <li>
-                                <a href="./project">Project</a>
+                                <a href="../project">Project</a>
                             </li>
                             <li>
                                 <a href="./services">Services</a>
                             </li>
                             <li>
-                                <a href="./forCompany">For Company</a>
+                                <a href="../forCompany">For Company</a>
                             </li>
                             <li>
-                                <a href="./privacypolicy">Privacy Policy</a>
+                                <a href="../privacypolicy">Privacy Policy</a>
                             </li>
                         </ul>
                     </nav>
@@ -296,7 +296,7 @@
                             <li>
                                 <a href="https://www.famiee.com#news">News List</a>
                                 <hr class="hr-small">
-                                <a href="20190917news.docx" target="_blank"><b>2019.09.17</b><br>民間によるパートナーシップ証明書検討委員会への参加公募のお知らせ</a>
+                                <a href="https://drive.google.com/open?id=1-30u1z-pWRo-hwx83cTjGgA0rPejZhY1" target="_blank"><b>2019.09.17</b><br>民間によるパートナーシップ証明書検討委員会への参加公募のお知らせ</a>
                                 <hr class="hr-small">
                                 <a href="https://prtimes.jp/main/html/rd/p/000000002.000047881.html" target="_blank"><b>2019.09.02</b><br>福島良典氏が一般社団法人Famieeの技術アドバイザーに就任</a>
                             </li>

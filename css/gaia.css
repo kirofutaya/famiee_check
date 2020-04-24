@@ -1992,21 +1992,30 @@ a,
 }
 
 .section-movie{
-  padding: 70px 0;
+  margin: 50px 0;
 }
+.section.section-movie{
+  padding: 0;
+}
+
 .section-movie .title-area{
   margin-bottom: 40px;
 }
 
-/* .section-movie .flex{
-  justify-content:space-between;
-  align-items: center;
+.slide-area {
+  position: relative;
+  width: 100%;
+  padding-top: 70%;
+  /* padding-top: 56.25%; */
+}
+.slide-area iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100% !important;
+  height: 100% !important;
 }
 
-.section-movie .flex > div{
-  width: 33.33%;
-  padding: 10px 20px;
-} */
 .section-movie .flex h3{
   font-size: 24px;
   width: 100%;
