@@ -87,14 +87,14 @@
                   <span class="icon-bar bar2"></span>
                   <span class="icon-bar bar3"></span>
               </button>
-              <a href="index.html" class="navbar-brand">
+              <a href="../" class="navbar-brand">
                   Famiee Project
               </a>
           </div>
           <div class="collapse navbar-collapse">
               <ul class="nav navbar-nav navbar-right navbar-uppercase">
                 <li>
-                  <a href="./">Top</a>
+                  <a href="../">Top</a>
                 </li>
                 <li class="dropdown">
                     <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
@@ -105,15 +105,15 @@
                             <a href="./project">PROJECT</a>
                         </li>
                         <li>
-                            <a href="./services">SERVICES</a>
+                            <a href="../services">SERVICES</a>
                         </li>
                         <li>
-                            <a href="./forCompany">FOR COMPANY</a>
+                            <a href="../forCompany">FOR COMPANY</a>
                         </li>
                     </ul>
                 </li>
                 <li>
-                  <a href="./privacypolicy">Privacy Policy</a>
+                  <a href="../privacypolicy">Privacy Policy</a>
                 </li>
                 <li class="dropdown">
                     <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
@@ -165,7 +165,7 @@
 								<div class="content">
 										<div class="row">
 												<div class="title-area">
-														<h2 glot-model="partner">説明資料</h2>
+														<h2 glot-model="partner">プロジェクトに関する説明資料</h2>
 												</div>
 										</div>
 								</div>
@@ -258,19 +258,19 @@
                     <nav>
                         <ul>
                             <li>
-                                <a href="./">Top</a>
+                                <a href="../">Top</a>
                             </li>
                             <li>
                                 <a href="./project">Project</a>
                             </li>
                             <li>
-                                <a href="./services">Services</a>
+                                <a href="../services">Services</a>
                             </li>
                             <li>
-                                <a href="./forCompany">For Company</a>
+                                <a href="../forCompany">For Company</a>
                             </li>
                             <li>
-                                <a href="./privacypolicy">Privacy Policy</a>
+                                <a href="../privacypolicy">Privacy Policy</a>
                             </li>
                         </ul>
                     </nav>
@@ -296,7 +296,7 @@
                             <li>
                                 <a href="https://www.famiee.com#news">News List</a>
                                 <hr class="hr-small">
-                                <a href="20190917news.docx" target="_blank"><b>2019.09.17</b><br>民間によるパートナーシップ証明書検討委員会への参加公募のお知らせ</a>
+                                <a href="https://drive.google.com/open?id=1-30u1z-pWRo-hwx83cTjGgA0rPejZhY1" target="_blank"><b>2019.09.17</b><br>民間によるパートナーシップ証明書検討委員会への参加公募のお知らせ</a>
                                 <hr class="hr-small">
                                 <a href="https://prtimes.jp/main/html/rd/p/000000002.000047881.html" target="_blank"><b>2019.09.02</b><br>福島良典氏が一般社団法人Famieeの技術アドバイザーに就任</a>
                             </li>

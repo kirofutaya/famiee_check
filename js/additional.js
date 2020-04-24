@@ -21,13 +21,13 @@ $(window).on('load', function(){
   console.log("ロード完了");
   if(document.URL.match("project")) {
     console.log("ロードプロジェクト");
-    createYoutube("https://script.google.com/macros/s/AKfycbymqc-CQOrcTZX5ZbvoYmcUoVgiR4zk3SEgKgIyy3ZoVWzMlu4/exec");
+    createYoutube("https://script.google.com/a/withid.jp/macros/s/AKfycbwI6iimv0RwvyZ4oSgOw0xBEV_9tKvg3Fes7aKH/exec");
   }else if(document.URL.match("services")){
     console.log("ロードサービス")
-    createYoutube("https://script.google.com/macros/s/AKfycbymqc-CQOrcTZX5ZbvoYmcUoVgiR4zk3SEgKgIyy3ZoVWzMlu4/exec");
+    createYoutube("https://script.google.com/a/withid.jp/macros/s/AKfycbypmBaU8p6ohjQrglFxbvtONBQZ6NGwSYJOODSA/exec");
   }else if(document.URL.match("forCompany")){
     console.log("ロードカンパニー");
-    createYoutube("https://script.google.com/macros/s/AKfycbymqc-CQOrcTZX5ZbvoYmcUoVgiR4zk3SEgKgIyy3ZoVWzMlu4/exec");
+    createYoutube("https://script.google.com/a/withid.jp/macros/s/AKfycbyJQ5dAsvC0kbJvFiNhMBq9agHA9yyvT_RIQGjKHQ/exec");
   }else{
     console.log("ロードその他")
     createSupporterList("https://script.google.com/macros/s/AKfycbzEFeNTTuBSWm7Tm_3fMDCAw4dMlvKLe1O6YW23gAOPzD-Lyo4/exec");
@@ -98,6 +98,7 @@ function onYouTubeIframeAPIReady(index) {
       },
       playerVars:{
         rel:0, //停止時に関連動画の表示を当該チャンネルのものだけにする。
+        // origin: location.protocol + '//' + location.hostname + "/"
       }
     }
    );
@@ -118,6 +119,10 @@ function onPlayerStateChange(event) {
   }
 }
 
+var windowWidth = 0;
+$(window).on('load resize', function(){
+  windowWidth = $(window).width();
+});
 // タイトルリストがクリックされたとき
 $titleList.on('click','a', function(event){
   event.preventDefault();

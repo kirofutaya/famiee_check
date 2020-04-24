@@ -102,10 +102,10 @@
                     </a>
                     <ul class="dropdown-menu dropdown-danger">
                         <li>
-                            <a href="../project">PROJECT</a>
+                            <a href="./project">PROJECT</a>
                         </li>
                         <li>
-                            <a href="./services">SERVICES</a>
+                            <a href="../services">SERVICES</a>
                         </li>
                         <li>
                             <a href="../forCompany">FOR COMPANY</a>
@@ -165,7 +165,7 @@
 								<div class="content">
 										<div class="row">
 												<div class="title-area">
-														<h2 glot-model="partner">説明資料</h2>
+														<h2 glot-model="partner">プロジェクトに関する説明資料</h2>
 												</div>
 										</div>
 								</div>
@@ -261,10 +261,10 @@
                                 <a href="../">Top</a>
                             </li>
                             <li>
-                                <a href="../project">Project</a>
+                                <a href="./project">Project</a>
                             </li>
                             <li>
-                                <a href="./services">Services</a>
+                                <a href="../services">Services</a>
                             </li>
                             <li>
                                 <a href="../forCompany">For Company</a>
