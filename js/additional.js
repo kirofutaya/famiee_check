@@ -44,7 +44,7 @@ $win.on('load resize', function() {
   var movies = {};
   var currentIndex = 0;
   var $titleList = $("#title-list");
-  var movie_len = 0;
+  var movies_len = 0;
 
   // 最初の読み込み
   // $.getJSON("https://script.google.com/macros/s/AKfycbymqc-CQOrcTZX5ZbvoYmcUoVgiR4zk3SEgKgIyy3ZoVWzMlu4/exec", function (data){
@@ -67,12 +67,16 @@ $win.on('load resize', function() {
     $.getJSON("https://script.google.com/macros/s/AKfycbymqc-CQOrcTZX5ZbvoYmcUoVgiR4zk3SEgKgIyy3ZoVWzMlu4/exec", function (data){
       if (data.length >=1){
         $(data).each(function(index){
+          if (index==0){
+              $('<li><a href="" class="active">' + this.title + '</li></a>').appendTo('#title-list');
+          }else{
             $('<li><a href="">' + this.title + '</li></a>').appendTo('#title-list');
+          }
         });
         };
       movies = $(data);
       movies_len = movies.length;
-      console.log(movie_len);
+      console.log(movies_len);
       $('#caption').html(data[0].title);
       onYouTubeIframeAPIReady(0);
       updateNav(0);
@@ -89,6 +93,9 @@ $win.on('load resize', function() {
           videoId: movies[0].id,
           events: {
             'onStateChange': onPlayerStateChange // プレーヤーの状態が変更されたときに実行
+          },
+          playerVars:{
+            rel:0,
           }
          }
        );
@@ -132,11 +139,11 @@ $win.on('load resize', function() {
     event.preventDefault();
     if ($(this).hasClass('prev')){
       currentIndex --;
-      if (currentIndex < 0){ currentIndex = movie_len;};
+      if (currentIndex < 0){ currentIndex = movies_len;};
       goToSlide(currentIndex);
     }else if($(this).hasClass('next')){
       currentIndex ++;
-      if (currentIndex > movie_len){ currentIndex = 0;};
+      if (currentIndex > movies_len){ currentIndex = 0;};
       goToSlide(currentIndex);
     };
     updateNav(currentIndex);
