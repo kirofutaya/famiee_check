@@ -1,4 +1,9 @@
 $(function () {
+  // IFrame Player API
+  var tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/iframe_api";
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
 var $win = $(window);
 var windowWidth = 0;
@@ -42,21 +47,68 @@ $win.on('load resize', function() {
   var movie_len = 0;
 
   // 最初の読み込み
-  $.getJSON("https://script.google.com/macros/s/AKfycbymqc-CQOrcTZX5ZbvoYmcUoVgiR4zk3SEgKgIyy3ZoVWzMlu4/exec", function (data){
-    if (data.length >=1){
-      $(data).each(function(index){
-        if (index==0){
-          $('<li><a href="" class="active">' + this.title + '</li></a>').appendTo('#title-list');
-        }else{
-          $('<li><a href="">' + this.title + '</li></a>').appendTo('#title-list');
+  // $.getJSON("https://script.google.com/macros/s/AKfycbymqc-CQOrcTZX5ZbvoYmcUoVgiR4zk3SEgKgIyy3ZoVWzMlu4/exec", function (data){
+  //   if (data.length >=1){
+  //     $(data).each(function(index){
+  //       if (index==0){
+  //         $('<li><a href="" class="active">' + this.title + '</li></a>').appendTo('#title-list');
+  //       }else{
+  //         $('<li><a href="">' + this.title + '</li></a>').appendTo('#title-list');
+  //       };
+  //     });
+  //   }
+  //   $('#youtube').html(data[0].url);
+  //   $('#caption').html(data[0].title);
+  //   movies = $(data);
+  //   movie_len = data.length
+  // });
+
+    // テスト
+    $.getJSON("https://script.google.com/macros/s/AKfycbymqc-CQOrcTZX5ZbvoYmcUoVgiR4zk3SEgKgIyy3ZoVWzMlu4/exec", function (data){
+      if (data.length >=1){
+        $(data).each(function(index){
+            $('<li><a href="">' + this.title + '</li></a>').appendTo('#title-list');
+        });
         };
-      });
-    }
-    $('#youtube').html(data[0].url);
-    $('#caption').html(data[0].title);
-    movies = $(data);
-    movie_len = data.length
-  });
+      movies = $(data);
+      movies_len = movies.length;
+      console.log(movie_len);
+      $('#caption').html(data[0].title);
+      onYouTubeIframeAPIReady(0);
+      updateNav(0);
+    });
+
+      // 埋め込む関数
+      let ytPlayer;
+      function onYouTubeIframeAPIReady(index) {
+      ytPlayer = new YT.Player(
+       'youtube', // 埋め込む場所の指定
+        {
+          // width: auto, // プレーヤーの幅
+          // height: auto, // プレーヤーの高さ
+          videoId: movies[0].id,
+          events: {
+            'onStateChange': onPlayerStateChange // プレーヤーの状態が変更されたときに実行
+          }
+         }
+       );
+      goToSlide(index);
+     }
+
+
+      function onPlayerStateChange(event) {
+        // 現在のプレーヤーの状態を取得
+        var ytStatus = event.data;
+        // 再生終了したとき
+        if (ytStatus == YT.PlayerState.ENDED) {
+        console.log('再生終了');
+        currentIndex ++;
+        goToSlide(currentIndex);
+        updateNav(currentIndex);
+        console.log(currentIndex);
+        }
+
+      }
 
   // タイトルリストがクリックされたとき
   $titleList.on('click','a', function(event){
@@ -64,7 +116,6 @@ $win.on('load resize', function() {
     if (!$(this).hasClass('active')){
       currentIndex = $(this).parent().index();
       goToSlide(currentIndex);
-            // goToSlide(currentIndex);
       updateNav(currentIndex);
     };
 
@@ -94,8 +145,12 @@ $win.on('load resize', function() {
   });
 
   // 動画を差し替える関数
+  // function goToSlide(index){
+  //   $('#youtube').html(movies[index].url);
+  //   $('#caption').html(movies[index].title);
+  // }
   function goToSlide(index){
-    $('#youtube').html(movies[index].url);
+    ytPlayer.cueVideoById({videoId: movies[index].id});
     $('#caption').html(movies[index].title);
   }
   // タブのハイライトを切り替える関数
