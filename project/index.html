@@ -203,7 +203,11 @@
             <!-- 動画枠 -->
             <div class="movie-wrap" id="movie-wrap">
               <h3 id="caption"><!-- additional.jsで中身を生成（文字） --></h3>
-              <div id="youtube"><!-- additional.jsで中身を生成（iframeタグ） --></div>
+              <div class="yt-wrap">
+                <div class="yt-wrap-inner">
+                  <div id="youtube"><!-- additional.jsで中身を生成（iframeタグ） --></div>
+                </div>
+              </div>
               <div class="movie-arrow">
                 <p>Prev</p><a href="" class="prev"><img src="../img/arrow-back.png"></a><a href="" class="next"><img  src="../img/arrow-next.png"></a><p>Next</p>
               </div>
