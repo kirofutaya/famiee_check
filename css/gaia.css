@@ -413,7 +413,7 @@ body > .navbar-collapse a {
   animation-name: zoomOut;
 }
 
-.loading {
+/* .loading {
   position: fixed;
   top: 0;
   width: 100%;
@@ -445,7 +445,7 @@ body > .navbar-collapse a {
 .loading .loading-container p {
   font-size: 30px;
   margin-bottom: 30px;
-}
+} */
 
 /* BUTTONS */
 .btn-black i {
@@ -2837,6 +2837,7 @@ a,
 .navbar-transparent{
   background: transparent;
 } */
+
 /* loading */
 .loading-bg {
  display: block;
@@ -2862,6 +2863,9 @@ a,
  color: #fff;
  z-index: 9999;
 }
+
+
+
 /* service section */
 .m-0{margin: 0}
 .mt-40{
