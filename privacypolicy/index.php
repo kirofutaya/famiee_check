@@ -69,71 +69,83 @@
 
 <body>
 
-<!-- ナビゲーションバー -->
-<nav class="navbar navbar-default navbar-transparent navbar-fixed-top" color-on-scroll="200">
-    <!-- if you want to keep the navbar hidden you can add this class to the navbar "navbar-burger"-->
-    <div class="container">
-        <div class="navbar-header">
-            <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar bar1"></span>
-                <span class="icon-bar bar2"></span>
-                <span class="icon-bar bar3"></span>
-            </button>
-            <a href="index.html" class="navbar-brand">
-                Famiee Project
-            </a>
-        </div>
-        <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-right navbar-uppercase">
-              <li>
-                <a href="index.html">Top</a>
-              </li>
-              <li>
-                <a href="movie.html">Movie</a>
-              </li>
-              <li>
-                <a href="PrivacyPolicy.html">Privacy Policy</a>
-              </li>
-              <li class="dropdown">
-                  <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
-                      <!-- <i class="fa fa-share-alt"></i>  -->
-                      Post on SNS
-                  </a>
-                  <ul class="dropdown-menu dropdown-danger">
-                      <li>
-                          <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.famiee.com%2F&amp;src=sdkpreparse" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a>
-                      </li>
-                      <li>
-                          <a href="https://twitter.com/share?url=https://www.famiee.com/&text=Famieeプロジェクト" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
-                      </li>
-                  </ul>
-              </li>
-
-            <!-- /////Language Link///// -->
-                <!-- <li class="dropdown">
+  <!-- ナビゲーションバー -->
+  <nav class="navbar navbar-default navbar-transparent navbar-fixed-top" color-on-scroll="200">
+      <!-- if you want to keep the navbar hidden you can add this class to the navbar "navbar-burger"-->
+      <div class="container">
+          <div class="navbar-header">
+              <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar bar1"></span>
+                  <span class="icon-bar bar2"></span>
+                  <span class="icon-bar bar3"></span>
+              </button>
+              <a href="../" class="navbar-brand">
+                  Famiee Project
+              </a>
+          </div>
+          <div class="collapse navbar-collapse">
+              <ul class="nav navbar-nav navbar-right navbar-uppercase">
+                <li>
+                  <a href="../">Top</a>
+                </li>
+                <li class="dropdown">
                     <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
-                        Language
+                        MATERIAL
                     </a>
                     <ul class="dropdown-menu dropdown-danger">
                         <li>
-                            <a href="https://www.famiee.com/en.html">ENGLISH</a>
+                            <a href="../project">PROJECT</a>
                         </li>
                         <li>
-                            <a href="https://www.famiee.com/">JAPANESE</a>
+                            <a href="../services">SERVICES</a>
+                        </li>
+                        <li>
+                            <a href="../forCompany">FOR COMPANY</a>
                         </li>
                     </ul>
-                </li> -->
+                </li>
+                <li>
+                  <a href="./privacypolicy">Privacy Policy</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
+                        <!-- <i class="fa fa-share-alt"></i>  -->
+                        Post on SNS
+                    </a>
+                    <ul class="dropdown-menu dropdown-danger">
+                        <li>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.famiee.com%2F&amp;src=sdkpreparse" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/share?url=https://www.famiee.com/&text=Famieeプロジェクト" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
+                        </li>
+                    </ul>
+                </li>
 
-              <li>
-                  <a href="https://forms.gle/yQdkwVT61gdUBWEr6" target="_blank" glot-model="contact">contact</a>
-              </li>
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-</nav>
+              <!-- /////Language Link///// -->
+                  <!-- <li class="dropdown">
+                      <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
+                          Language
+                      </a>
+                      <ul class="dropdown-menu dropdown-danger">
+                          <li>
+                              <a href="./en.html">ENGLISH</a>
+                          </li>
+                          <li>
+                              <a href="./index.html">JAPANESE</a>
+                          </li>
+                      </ul>
+                  </li> -->
 
+                <li>
+                    <a href="https://forms.gle/yQdkwVT61gdUBWEr6" target="_blank" glot-model="contact">contact</a>
+                </li>
+              </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+      </div>
+  </nav>
 
 
 <!-- タイトル -->
@@ -271,24 +283,29 @@
         </div>
     </div>
 
-
-<!-- footer -->
+    <!-- footer -->
     <footer class="footer footer-big footer-color-black" data-color="black">
         <div class="container">
             <div class="row">
                 <div class="col-md-2 col-sm-3">
                     <div class="info">
-                        <h5 class="title">About</h5>
+                        <h5 class="title">Menu</h5>
                         <nav>
                             <ul>
                                 <li>
-                                    <a href="https://www.famiee.com">Top</a>
+                                    <a href="../">Top</a>
                                 </li>
                                 <li>
-                                    <a href="./movie.html">Movie</a>
+                                    <a href="../project">Project</a>
                                 </li>
                                 <li>
-                                    <a href="./PrivacyPolicy.html">Privacy Policy</a>
+                                    <a href="../services">Services</a>
+                                </li>
+                                <li>
+                                    <a href="../forCompany">For Company</a>
+                                </li>
+                                <li>
+                                    <a href="./privacypolicy">Privacy Policy</a>
                                 </li>
                             </ul>
                         </nav>
@@ -314,7 +331,7 @@
                                 <li>
                                     <a href="https://www.famiee.com#news">News List</a>
                                     <hr class="hr-small">
-                                    <a href="20190917news.docx" target="_blank"><b>2019.09.17</b><br>民間によるパートナーシップ証明書検討委員会への参加公募のお知らせ</a>
+                                    <a href="https://drive.google.com/open?id=1-30u1z-pWRo-hwx83cTjGgA0rPejZhY1" target="_blank"><b>2019.09.17</b><br>民間によるパートナーシップ証明書検討委員会への参加公募のお知らせ</a>
                                     <hr class="hr-small">
                                     <a href="https://prtimes.jp/main/html/rd/p/000000002.000047881.html" target="_blank"><b>2019.09.02</b><br>福島良典氏が一般社団法人Famieeの技術アドバイザーに就任</a>
                                 </li>
