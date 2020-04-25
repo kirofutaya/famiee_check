@@ -878,7 +878,7 @@
                                           <div class="content">
                                           <a href= "https://withid.jp/" target="_blank">
                                               <div class="avatar avatar-danger">
-                                                  <img alt="..." class="img-circle" src="img/faces/withid_new.jpg"/>
+                                                  <img alt="..." class="img-circle" src="img/faces/withid_new.png"/>
                                               </div>
                                               <div class="description">
                                                   <h3 class="title">withID</h3>
