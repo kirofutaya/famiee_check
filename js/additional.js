@@ -116,6 +116,7 @@ function onPlayerStateChange(event) {
   currentIndex ++;
   goToMovie(currentIndex);
   updateNav(currentIndex);
+  ytPlayer.playVideo();
   }
 }
 
