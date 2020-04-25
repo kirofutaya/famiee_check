@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 
 <head>
     <meta charset="utf-8" />
@@ -46,7 +46,7 @@
       <script type="text/javascript" src="js/modernizr.js"></script>
 
       <!--  script for google maps   -->
-      <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+      <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script> -->
 
       <!--   file where we handle all the script from the Gaia - Bootstrap Template   -->
       <script type="text/javascript" src="js/gaia.js"></script>
@@ -64,71 +64,89 @@
 <body>
 
 <!-- ローディング -->
-<!-- <div class="is-loading2">
- <div class="loading2">
+<div class="loading-bg">
+ <div class="loading-title">
   <p>LOADING</p>
  </div>
-</div> -->
+</div>
 
-    <nav class="navbar navbar-default navbar-transparent navbar-fixed-top" color-on-scroll="200">
-        <!-- if you want to keep the navbar hidden you can add this class to the navbar "navbar-burger"-->
-        <div class="container">
-            <div class="navbar-header">
-                <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar bar1"></span>
-                    <span class="icon-bar bar2"></span>
-                    <span class="icon-bar bar3"></span>
-                </button>
-                <a href="https://www.famiee.com/" class="navbar-brand">
-                    Famiee Project
-                </a>
-            </div>
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-right navbar-uppercase">
-                  <li>
-                    <a href="./">Top</a>
-                  </li>
-                  <li>
-                    <a href="./privacypolicy.html">Privacy Policy</a>
-                  </li>
-                    <li class="dropdown">
-                        <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
-                            <i class="fa fa-share-alt"></i> Post on SNS
-                        </a>
-                        <ul class="dropdown-menu dropdown-danger">
-                            <li>
-                                <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.famiee.com%2F&amp;src=sdkpreparse" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/share?url=https://www.famiee.com/&text=Famieeプロジェクト" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
-                            </li>
-                        </ul>
-                    </li>
-
-                <!-- /////Language Link///// -->
-                    <!-- <li class="dropdown">
-                        <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
-                            Language
-                        </a>
-                        <ul class="dropdown-menu dropdown-danger">
-                            <li>
-                                <a href="https://www.famiee.com/en.html">ENGLISH</a>
-                            </li>
-                            <li>
-                                <a href="https://www.famiee.com/">JAPANESE</a>
-                            </li>
-                        </ul>
-                    </li> -->
-
-                    <li>
-                        <a href="https://forms.gle/yQdkwVT61gdUBWEr6" target="_blank" class="btn btn-danger btn-fill" glot-model="contact">contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+<!-- ナビゲーションバー -->
+<nav class="navbar navbar-default navbar-transparent navbar-fixed-top" color-on-scroll="200">
+    <!-- if you want to keep the navbar hidden you can add this class to the navbar "navbar-burger"-->
+    <div class="container">
+        <div class="navbar-header">
+            <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar bar1"></span>
+                <span class="icon-bar bar2"></span>
+                <span class="icon-bar bar3"></span>
+            </button>
+            <a href="./" class="navbar-brand">
+                Famiee Project
+            </a>
         </div>
-    </nav>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right navbar-uppercase">
+              <li>
+                <a href="./">Top</a>
+              </li>
+              <li class="dropdown">
+                  <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
+                      MATERIAL
+                  </a>
+                  <ul class="dropdown-menu dropdown-danger">
+                      <li>
+                          <a href="./project">PROJECT</a>
+                      </li>
+                      <li>
+                          <a href="./services">SERVICES</a>
+                      </li>
+                      <li>
+                          <a href="./forCompany">FOR COMPANY</a>
+                      </li>
+                  </ul>
+              </li>
+              <li>
+                <a href="./privacypolicy">Privacy Policy</a>
+              </li>
+              <li class="dropdown">
+                  <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
+                      <!-- <i class="fa fa-share-alt"></i>  -->
+                      Post on SNS
+                  </a>
+                  <ul class="dropdown-menu dropdown-danger">
+                      <li>
+                          <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.famiee.com%2F&amp;src=sdkpreparse" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a>
+                      </li>
+                      <li>
+                          <a href="https://twitter.com/share?url=https://www.famiee.com/&text=Famieeプロジェクト" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
+                      </li>
+                  </ul>
+              </li>
+
+            <!-- /////Language Link///// -->
+                <!-- <li class="dropdown">
+                    <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
+                        Language
+                    </a>
+                    <ul class="dropdown-menu dropdown-danger">
+                        <li>
+                            <a href="./en.html">ENGLISH</a>
+                        </li>
+                        <li>
+                            <a href="./index.html">JAPANESE</a>
+                        </li>
+                    </ul>
+                </li> -->
+
+              <li>
+                  <a href="https://forms.gle/yQdkwVT61gdUBWEr6" target="_blank" glot-model="contact">contact</a>
+              </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</nav>
 
 
     <div class="section section-header">
@@ -167,7 +185,7 @@
             </div>
 
             <!-- row2 -->
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-md-4">
                     <div class="info-icon">
                         <div class="icon text-danger">
@@ -195,17 +213,33 @@
                         <p class="description text-left" glot-model="NetworkD">Famieeプロジェクトに参画している世界中の企業・団体で、家族としてのサービスを受けられます。</p>
                     </div>
                 </div>
+            </div> -->
+
+
+
+            <div class="title-area" style="margin-bottom:0">
+                <h3>スライドと動画による詳しい説明も<br class="br-sp">ご用意しております</h3>
+                <div class="separator separator-danger">✻</div>
             </div>
 
-            <!-- row3 -->
-            <div class="row">
-              <div class="col-md-4 col-md-offset-4" style="text-align:center;padding:50px 0">
-                  <a href="https://drive.google.com/file/d/1_SXUFI-CeVAkc9pr-s6qnClJCvB10czb/view?usp=sharing" target="_blank" class="btn btn-danger btn-fill syomeisyo-btn">証明書受け入れお願いご提案書はこちら</a>
-              </div>
-
+            <div class="flex" style="margin-top:30px;">
+              <a href="./project" class="btn btn-danger btn-fill syomeisyo-btn" style="text-align:center; width:30%; margin: auto">
+                  プロジェクトの詳しい説明
+              </a>
+              <a href="./services" class="btn btn-danger btn-fill syomeisyo-btn" style="text-align:center; width:30%; margin: auto">
+                  証明書の詳しい説明
+              </a>
+              <a href="./forCompany" class="btn btn-danger btn-fill syomeisyo-btn" style="text-align:center; width:30%; margin: auto">
+                  企業様向けのお願い
+              </a>
+              <!-- <a href="https://drive.google.com/file/d/1_SXUFI-CeVAkc9pr-s6qnClJCvB10czb/view?usp=sharing" target="_blank" class="btn btn-primary btn-fill syomeisyo-btn" style="text-align:center; width:30%; margin: auto">
+                  証明書受け入れご提案書はこちら
+              </a> -->
             </div>
         </div>
     </div>
+
+
 
 <!-- Accepting Company Section -->
 <div class="section section-our-team-freebie">
@@ -282,8 +316,8 @@
                                     <div class="card card-member">
                                         <div class="content">
                                             <a href= "https://www.netyear.net/" target="_blank">
-                                            <div class="avatar " style="padding:4px 0">
-                                                <img class="lazyload" loading="lazy" alt="..." src="img/faces/netyear.png"/>
+                                            <div style="padding:4px 0">
+                                                <img class="lazyload" loading="lazy" style="width:120px;" alt="..." src="img/faces/netyear.png"/>
                                             </div>
                                             <div class="description">
                                                 <h3 class="title" style="font-size: 1.2rem">ネットイヤーグループ株式会社 様</h3>
@@ -298,7 +332,7 @@
                                     <div class="card card-member">
                                         <div class="content">
                                             <a href= "https://www.hottolink.co.jp/" target="_blank">
-                                            <div style="padding:12px 0">
+                                            <div style="padding:14.5px 0">
                                                 <img class="lazyload" loading="lazy" alt="..." style="width: 100px" src="img/faces/hottolink_logo_L.png"/>
                                             </div>
                                             <div class="description">
@@ -314,7 +348,7 @@
                                     <div class="card card-member">
                                         <div class="content">
                                             <a href="https://www.ibjapan.jp/" target="_blank">
-                                            <div style="padding:17px 0">
+                                            <div style="padding:18.4px 0">
                                                 <img class="lazyload" loading="lazy" alt="..." style="width: 100px" src="img/faces/IBJ_logo.png"/>
                                             </div>
                                             <div class="description">
@@ -334,7 +368,7 @@
                                           <div class="content">
                                               <a href= "https://www.medical-net.com/" target="_blank">
                                               <div>
-                                                  <img class="lazyload" loading="lazy" alt="..." style="width:110px" src="img/faces/medicalnet_logo.jpg"/>
+                                                  <img class="lazyload" loading="lazy" alt="..." style="width:126px" src="img/faces/medicalnet_logo.jpg"/>
                                               </div>
                                               <div class="description">
                                                   <h3 class="title" style="font-size: 1.2rem">株式会社メディカルネット 様</h3>
@@ -349,8 +383,8 @@
                                       <div class="card card-member">
                                           <div class="content">
                                               <a href= "https://raksul.com/" target="_blank">
-                                              <div class="avatar " style="padding:29px 0">
-                                                  <img class="lazyload" loading="lazy" alt="..." src="img/faces/raksul_logo.png"/>
+                                              <div style="padding:33.5px 0">
+                                                  <img class="lazyload" loading="lazy" alt="..." style="width:130px" src="img/faces/raksul_logo.png"/>
                                               </div>
                                               <div class="description">
                                                   <h3 class="title" style="font-size: 1.2rem">ラクスル株式会社 様</h3>
@@ -365,8 +399,8 @@
                                       <div class="card card-member">
                                           <div class="content">
                                               <a href="https://fureasu.jp/" target="_blank">
-                                              <div class="avatar " style="padding:32px 0">
-                                                  <img class="lazyload" loading="lazy" alt="..." src="img/faces/fureasu_logo.png"/>
+                                              <div style="padding:37px 0">
+                                                  <img class="lazyload" loading="lazy" alt="..." style="width:130px" src="img/faces/fureasu_logo.png"/>
                                               </div>
                                               <div class="description">
                                                 <h3 class="title" style="font-size:1.2rem">株式会社フレアス 様</h3>
@@ -384,8 +418,8 @@
                                         <div class="card card-member">
                                             <div class="content">
                                                 <a href= "https://www.sompo-japan.co.jp/" target="_blank">
-                                                <div style="padding:24px 0">
-                                                    <img class="lazyload" loading="lazy" alt="..." style="width: 140px" src="img/faces/sompojapan_logo.png"/>
+                                                <div style="padding:19.3px 0">
+                                                    <img class="lazyload" loading="lazy" alt="..." style="width:170px" src="img/faces/sompojapan_logo.png"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title" style="font-size: 1.2rem">損害保険ジャパン株式会社 様</h3>
@@ -394,9 +428,71 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="col-md-4">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <a href= "https://www.monexgroup.jp/jp/index.html" target="_blank">
+                                                <div>
+                                                    <img class="lazyload" loading="lazy" style="width:120px; height:auto;" alt="..." src="img/faces/MG_vrt.svg"/>
+                                                </div>
+                                                <div class="description">
+                                                    <h3 class="title" style="font-size: 1.2rem">マネックスグループ株式会社 様</h3>
+                                                </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <a href= "https://jp.vcube.com/" target="_blank">
+                                                <div style="padding:25.9px 0">
+                                                    <img class="lazyload" loading="lazy" alt="..." style="width:120px" src="img/faces/v-cube.png"/>
+                                                </div>
+                                                <div class="description">
+                                                    <h3 class="title" style="font-size: 1.2rem">株式会社ブイキューブ 様</h3>
+                                                </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
 
                             </div>
                             <!-- END row4 -->
+
+                            <!-- row5 -->
+                            <div class="row">
+                                      <div class="col-md-4">
+                                          <div class="card card-member">
+                                              <div class="content">
+                                                  <a href= "https://www.brainpad.co.jp/" target="_blank">
+                                                  <div style="padding:2.9px 0">
+                                                      <img class="lazyload" loading="lazy" alt="..." style="width:90px" src="img/faces/brainpad.jpg"/>
+                                                  </div>
+                                                  <div class="description">
+                                                      <h3 class="title" style="font-size: 1.2rem">株式会社ブレインパッド 様</h3>
+                                                  </div>
+                                                  </a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <div class="col-md-4">
+                                          <div class="card card-member">
+                                              <div class="content">
+                                                  <a href= "http://miraisozo.co.jp/" target="_blank">
+                                                  <div style="padding:">
+                                                      <img class="lazyload" loading="lazy" alt="..." style="width:115px" src="img/faces/miraisouzou.png"/>
+                                                  </div>
+                                                  <div class="description">
+                                                      <h3 class="title" style="font-size: 1.2rem">株式会社みらい創造機構 様</h3>
+                                                  </div>
+                                                  </a>
+                                              </div>
+                                          </div>
+                                      </div>
+
+                              </div>
+                              <!-- END row5 -->
 
 
 
@@ -622,7 +718,10 @@
                                                 <div class="description">
                                                     <h3 class="title" glot-model="sugiyama">杉山文野</h3>
                                                     <p class="small-text" glot-model="NPO2">NPO法人東京レインボープライド共同代表理事</p>
-                                                    <p class="description text-justify" glot-model="sugiyamaD">フェンシング元女子日本代表。早稲田大学大学院にてセクシュアリティを研究後、トランスジェンダーである自身の体験を織り交ぜた『ダブルハッピネス』を講談社より出版、話題をよんだ。日本初となる渋谷区・同性パートナーシップ条例制定に関わり、現在は渋谷区男女平等・多様性社会推進会議委員も務める。<br class="br-md"><br class="br-md"><br class="br-md"><br class="br-md"><br class="br-md"><br class="br-md"><br class="br-md"><br class="br-md"><br class="br-md"><br class="br-md"></p>
+                                                    <p class="description text-justify" glot-model="sugiyamaD">フェンシング元女子日本代表。早稲田大学大学院にてセクシュアリティを研究後、トランスジェンダーである自身の体験を織り交ぜた『ダブルハッピネス』を講談社より出版、話題をよんだ。日本初となる渋谷区・同性パートナーシップ条例制定に関わり、現在は渋谷区男女平等・多様性社会推進会議委員も務める。<br class="br-md"><br class="br-md"><br class="br-md"><br class="br-md"><br class="br-md"><br class="br-md"><br class="br-md"><br class="br-md"><br class="br-md">
+                                                      <br class="br-md">
+                                                      <br class="br-md">
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -636,7 +735,7 @@
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title" glot-model="mai">藤本真衣</h3>
-                                                    <p class="small-text">Miss Bitcoin</p>
+                                                    <p class="small-text">Gracone CEO<br>Miss Bitcoin</p>
                                                     <p class="description text-justify" glot-model="maiD">MissBitcoinとして世界中で知られる藤本真衣は、2011年から暗号通貨業界に携わり、キャリアの中で多くの成果を上げています。<br><br>暗号通貨とBlockchainをSDGsに活用することに最も関心があり、2017年には寄付プラットフォームKIZUNAを立ち上げ、BINANCE Charity Foundationの大使としても活動しています。<br><br>twitterやyoutubeでブロックチェーン業界全体の普及に務めるKOLとして活躍すると同時に、5つの会社を立ち上げるシリアルアントレプレナーであり、GMOなどの日本の上場会社やLayerXなどの有力IT企業を含む１０社以上の顧問としても活躍している。</p>
                                                 </div>
                                             </div>
@@ -853,7 +952,7 @@
                                             <div class="content">
                                             <a href= "https://withid.jp/" target="_blank">
                                                 <div class="avatar ">
-                                                    <img loading="lazy" alt="..." class="img-circle lazyload" src="img/faces/WithID.jpg"/>
+                                                    <img loading="lazy" style="padding:25px 0" alt="..." class="lazyload" src="img/faces/withid_new.png"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title">withID</h3>
@@ -867,7 +966,7 @@
                                         <div class="card card-member">
                                             <div class="content">
                                                 <a href= "https://jobrainbow.jp/" target="_blank">
-                                                <div class="avatar " style="padding:42.25px 0">
+                                                <div class="avatar"  style="padding:42.25px 0">
                                                     <img loading="lazy" alt="..." class="lazyload" src="img/faces/jobrainbow_for_white.png"/>
                                                 </div>
                                                 <div class="description">
@@ -882,11 +981,48 @@
                                         <div class="card card-member">
                                             <div class="content">
                                                 <a>
-                                                <div class="avatar ">
+                                                <div class="avatar" style="padding:10px">
                                                     <img loading="lazy" alt="..." class="lazyload" src="img/faces/sova.jpg"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title">SoVa</h3>
+                                                </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                  </div>
+
+                                  <!-- row3 -->
+                                  <div class="row">
+
+
+
+                                    <div class="col-md-4">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                            <a href= "https://gracone.co.jp/" target="_blank">
+                                                <div class="avatar" style="padding:10px;">
+                                                    <img loading="lazy" style="height:90px; width:auto;" alt="..." class="lazyload" src="img/faces/gracone.png"/>
+                                                </div>
+                                                <div class="description">
+                                                    <h3 class="title">グラコネ</h3>
+                                                </div>
+                                            </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <a href= "https://www.crien.jp/" target="_blank">
+                                                <div class="avatar" style="padding:10px;">
+                                                    <img loading="lazy" alt="..." class="lazyload" src="img/faces/crien.jpg"/>
+                                                </div>
+                                                <div class="description">
+                                                    <h3 class="title">CRIEN</h3>
                                                 </div>
                                                 </a>
                                             </div>
@@ -906,9 +1042,6 @@
 <!-- ↓This is a Closing Tag for the backgrond color -->
     </div>
 
-    <div class="section section-our-team-freebie">
-      <div>
-    </div>
 
 <!-- Supporter Section -->
 <div class="section">
@@ -920,15 +1053,18 @@
                 <h3><b>＊ Founding Sponsors ＊</b></h3>
                 <br>
                 <ul class='foundingsupporterList'>
+                  <!-- リストの中身はadditional.jsで生成 -->
                 </ul>
                 <br>
                 <br>
                 <h3><b>＊ 賛同企業・賛同者 ＊</b></h3>
                 <br>
                 <ul class='supporterList'>
+                  <!-- リストの中身はadditional.jsで生成 -->
                 </ul>
             </div>
         </div>
+
     </div>
 </div>
 <!-- End Supporter Section -->
@@ -938,7 +1074,7 @@
     <div class="section section-small section-get-started">
         <div class="parallax filter">
             <div class="image"
-                style="background-image: url('img/office.jpg')">
+                style="background-image: url('img/balloon_footer.jpg')">
             </div>
             <div class="container">
                 <div class="title-area">
@@ -962,14 +1098,23 @@
             <div class="row">
                 <div class="col-md-2 col-sm-3">
                     <div class="info">
-                        <h5 class="title">About</h5>
+                        <h5 class="title">Menu</h5>
                         <nav>
                             <ul>
                                 <li>
-                                    <a href="https://www.famiee.com">Home</a>
+                                    <a href="./">Top</a>
                                 </li>
                                 <li>
-                                    <a href="./PrivacyPolicy.html">Privacy Policy</a>
+                                    <a href="./project">Project</a>
+                                </li>
+                                <li>
+                                    <a href="./services">Services</a>
+                                </li>
+                                <li>
+                                    <a href="./forCompany">For Company</a>
+                                </li>
+                                <li>
+                                    <a href="./privacypolicy">Privacy Policy</a>
                                 </li>
                             </ul>
                         </nav>
@@ -995,7 +1140,7 @@
                                 <li>
                                     <a href="https://www.famiee.com#news">News List</a>
                                     <hr class="hr-small">
-                                    <a href="20190917news.docx" target="_blank"><b>2019.09.17</b><br>民間によるパートナーシップ証明書検討委員会への参加公募のお知らせ</a>
+                                    <a href="https://drive.google.com/open?id=1-30u1z-pWRo-hwx83cTjGgA0rPejZhY1" target="_blank"><b>2019.09.17</b><br>民間によるパートナーシップ証明書検討委員会への参加公募のお知らせ</a>
                                     <hr class="hr-small">
                                     <a href="https://prtimes.jp/main/html/rd/p/000000002.000047881.html" target="_blank"><b>2019.09.02</b><br>福島良典氏が一般社団法人Famieeの技術アドバイザーに就任</a>
                                 </li>

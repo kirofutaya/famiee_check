@@ -106,7 +106,7 @@
                     </ul>
                 </li>
                 <li>
-                  <a href="./privacypolicy">Privacy Policy</a>
+                  <a href="./">Privacy Policy</a>
                 </li>
                 <li class="dropdown">
                     <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
@@ -266,7 +266,7 @@
     <div class="section section-small section-get-started">
         <div class="parallax filter">
             <div class="image"
-                style="background-image: url('../img/office.jpg')">
+                style="background-image: url('../img/balloon_footer.jpg')">
             </div>
             <div class="container">
                 <div class="title-area">
@@ -305,7 +305,7 @@
                                     <a href="../forCompany">For Company</a>
                                 </li>
                                 <li>
-                                    <a href="./privacypolicy">Privacy Policy</a>
+                                    <a href="./">Privacy Policy</a>
                                 </li>
                             </ul>
                         </nav>

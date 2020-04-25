@@ -18,18 +18,18 @@ function stopload(){
 
 // ロード時にurlごとに異なるapiを叩く
 $(window).on('load', function(){
-  console.log("ロード完了");
+  //console.log("ロード完了");
   if(document.URL.match("project")) {
-    console.log("ロードプロジェクト");
+    //console.log("ロードプロジェクト");
     createYoutube("https://script.google.com/a/withid.jp/macros/s/AKfycbwI6iimv0RwvyZ4oSgOw0xBEV_9tKvg3Fes7aKH/exec");
   }else if(document.URL.match("services")){
-    console.log("ロードサービス")
+    //console.log("ロードサービス")
     createYoutube("https://script.google.com/a/withid.jp/macros/s/AKfycbypmBaU8p6ohjQrglFxbvtONBQZ6NGwSYJOODSA/exec");
   }else if(document.URL.match("forCompany")){
-    console.log("ロードカンパニー");
+    //console.log("ロードカンパニー");
     createYoutube("https://script.google.com/a/withid.jp/macros/s/AKfycbyJQ5dAsvC0kbJvFiNhMBq9agHA9yyvT_RIQGjKHQ/exec");
   }else{
-    console.log("ロードその他")
+    //console.log("ロードその他")
     createSupporterList("https://script.google.com/macros/s/AKfycbzEFeNTTuBSWm7Tm_3fMDCAw4dMlvKLe1O6YW23gAOPzD-Lyo4/exec");
   }
 });
@@ -148,12 +148,12 @@ $('.movie-arrow').on('click','a',function(event){
     currentIndex --;
     if (currentIndex < 0){ currentIndex = movies_len;};
     goToMovie(currentIndex);
-    console.log(currentIndex)
+    //console.log(currentIndex)
   }else if($(this).hasClass('next')){
     currentIndex ++;
     if (currentIndex > movies_len){ currentIndex = 0;};
     goToMovie(currentIndex);
-    console.log(currentIndex);
+    //console.log(currentIndex);
   };
   updateNav(currentIndex);
 });
@@ -217,7 +217,7 @@ function createSupporterList(api_url){
       }); // end each()
     }; //end if count
   }); //end get json
-  console.log("ちゃんと呼び出された")
+  //console.log("ちゃんと呼び出された")
 }
 
 

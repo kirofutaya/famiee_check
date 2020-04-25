@@ -102,13 +102,13 @@
                     </a>
                     <ul class="dropdown-menu dropdown-danger">
                         <li>
-                            <a href="../project">PROJECT</a>
+                            <a href="./">PROJECT</a>
                         </li>
                         <li>
                             <a href="../services">SERVICES</a>
                         </li>
                         <li>
-                            <a href="./">FOR COMPANY</a>
+                            <a href="../forCompany">FOR COMPANY</a>
                         </li>
                     </ul>
                 </li>
@@ -165,7 +165,7 @@
 								<div class="content">
 										<div class="row">
 												<div class="title-area">
-														<h2 glot-model="partner">企業様向け説明資料</h2>
+														<h2 glot-model="partner">プロジェクトに関する説明資料</h2>
 												</div>
 										</div>
 								</div>
@@ -180,9 +180,9 @@
                   <h2 style="text-align:center">スライド資料</h2>
                   <div class="separator separator-danger">✻</div>
                   <div class="slide-area">
-                    <iframe src="//www.slideshare.net/slideshow/embed_code/key/K7yVaqn3cxuUmu" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+                    <iframe src="//www.slideshare.net/slideshow/embed_code/key/Bb4hiNLcVWwswx" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
                   </div>
-                   <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/FamieeFamiee/20200425" title="20200425企業の方へのお願い" target="_blank">企業の方へのお願い（2020/04/25更新）</a> </strong></div>
+                   <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/FamieeFamiee/20200425famiee" title="20200425Famieeプロジェクト概要資料" target="_blank">Famieeプロジェクト概要資料（2020/04/25更新）</a> </strong> </div>
               </div>
           </div>
 
@@ -203,13 +203,11 @@
             <!-- 動画枠 -->
             <div class="movie-wrap" id="movie-wrap">
               <h3 id="caption"><!-- additional.jsで中身を生成（文字） --></h3>
-
               <div class="yt-wrap">
                 <div class="yt-wrap-inner">
                   <div id="youtube"><!-- additional.jsで中身を生成（iframeタグ） --></div>
                 </div>
               </div>
-
               <div class="movie-arrow">
                 <p>Prev</p><a href="" class="prev"><img src="../img/arrow-back.png"></a><a href="" class="next"><img  src="../img/arrow-next.png"></a><p>Next</p>
               </div>
@@ -237,18 +235,19 @@
   </div>
 
   <div class="flex" style="margin:auto; margin-top:30px; width:80%">
-    <a href="../project" class="btn btn-danger btn-fill syomeisyo-btn" style="text-align:center; width:40%; margin: auto">
+    <!-- <a href="../project" class="btn btn-danger btn-fill syomeisyo-btn" style="text-align:center; width:40%; margin: auto">
         プロジェクトの詳しい説明
-    </a>
+    </a> -->
     <a href="../services" class="btn btn-danger btn-fill syomeisyo-btn" style="text-align:center; width:40%; margin: auto">
         証明書の詳しい説明
     </a>
-    <!-- <a href="../forCompany" class="btn btn-danger btn-fill syomeisyo-btn" style="text-align:center; width:40%; margin: auto">
+    <a href="../forCompany" class="btn btn-danger btn-fill syomeisyo-btn" style="text-align:center; width:40%; margin: auto">
         企業様向けのお願い
-    </a> -->
+    </a>
   </div>
   </div>
 </div>
+
 
 
 
@@ -287,13 +286,13 @@
                                 <a href="../">Top</a>
                             </li>
                             <li>
-                                <a href="../project">Project</a>
+                                <a href="./">Project</a>
                             </li>
                             <li>
                                 <a href="../services">Services</a>
                             </li>
                             <li>
-                                <a href="./">For Company</a>
+                                <a href="../forCompany">For Company</a>
                             </li>
                             <li>
                                 <a href="../privacypolicy">Privacy Policy</a>

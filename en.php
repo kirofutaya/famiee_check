@@ -63,71 +63,94 @@
 
 <body>
 
-    <nav class="navbar navbar-default navbar-transparent navbar-fixed-top" color-on-scroll="200">
-        <!-- if you want to keep the navbar hidden you can add this class to the navbar "navbar-burger"-->
-        <div class="container">
-            <div class="navbar-header">
-                <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar bar1"></span>
-                    <span class="icon-bar bar2"></span>
-                    <span class="icon-bar bar3"></span>
-                </button>
-                <a href="https://www.famiee.com/" class="navbar-brand">
-                    Famiee Project
-                </a>
-            </div>
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-right navbar-uppercase">
-                    <li class="dropdown">
-                        <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
-                            <i class="fa fa-share-alt"></i> Post on SNS
-                        </a>
-                        <ul class="dropdown-menu dropdown-danger">
-                            <li>
-                                <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.famiee.com%2F&amp;src=sdkpreparse" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/share?url=https://www.famiee.com/&text=Famieeプロジェクト" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
-                            </li>
-                        </ul>
-                    </li>
+  <nav class="navbar navbar-default navbar-transparent navbar-fixed-top" color-on-scroll="200">
+      <!-- if you want to keep the navbar hidden you can add this class to the navbar "navbar-burger"-->
+      <div class="container">
+          <div class="navbar-header">
+              <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar bar1"></span>
+                  <span class="icon-bar bar2"></span>
+                  <span class="icon-bar bar3"></span>
+              </button>
+              <a href="index.html" class="navbar-brand">
+                  Famiee Project
+              </a>
+          </div>
+          <div class="collapse navbar-collapse">
+              <ul class="nav navbar-nav navbar-right navbar-uppercase">
+                <li>
+                  <a href="./">Top</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
+                        Explanation
+                    </a>
+                    <ul class="dropdown-menu dropdown-danger">
+                        <li>
+                            <a href="./project">Project</a>
+                        </li>
+                        <li>
+                            <a href="./services">Services</a>
+                        </li>
+                        <li>
+                            <a href="./forCompany">for company</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                  <a href="PrivacyPolicy">Privacy Policy</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
+                        <!-- <i class="fa fa-share-alt"></i>  -->
+                        Post on SNS
+                    </a>
+                    <ul class="dropdown-menu dropdown-danger">
+                        <li>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.famiee.com%2F&amp;src=sdkpreparse" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/share?url=https://www.famiee.com/&text=Famieeプロジェクト" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
+                        </li>
+                    </ul>
+                </li>
+                  <li class="dropdown">
+                      <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
+                          Language
+                      </a>
+                      <ul class="dropdown-menu dropdown-danger">
+                          <li>
+                              <a href="./en.html">ENGLISH</a>
+                          </li>
+                          <li>
+                              <a href="./index.html">JAPANESE</a>
+                          </li>
+                      </ul>
+                  </li>
 
-                    <li class="dropdown">
-                        <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
-                            Language
-                        </a>
-                        <ul class="dropdown-menu dropdown-danger">
-                            <li>
-                                <a href="https://www.famiee.com/en.html">ENGLISH</a>
-                            </li>
-                            <li>
-                                <a href="https://www.famiee.com/">JAPANESE</a>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li>
-                        <a href="https://forms.gle/yQdkwVT61gdUBWEr6" target="_blank" class="btn btn-danger btn-fill" glot-model="contact">contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-    </nav>
+                <li>
+                    <a href="https://forms.gle/yQdkwVT61gdUBWEr6" target="_blank" glot-model="contact">contact</a>
+                </li>
+              </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+      </div>
+  </nav>
 
 
 
     <div class="section section-header">
         <div class="parallax filter">
-          <div class="image"
+          <div class="image top-image"
               style="background-image: url('img/balloon.jpg')">
+            </div>
             <div class="container">
                 <div class="content">
                     <div class="title-area">
                         <h1 class="title-modern">Famiee Project</h1>
                         <p>Mission</p>
-                        <h3>To create an inclusive world that completely embraces diverse forms of family.</h2>
+                        <h3 glot-model="mission">To create an inclusive world that completely embraces diverse forms of family.</h2>
                         <div class="separator line-separator">♦</div>
                     </div>
                 </div>
@@ -135,6 +158,7 @@
             </div>
         </div>
     </div>
+
 
 
     <div class="section">
@@ -297,24 +321,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="modal fade" id="modal_uchiyama" tabindex="-1" role="dialog" aria-labelledby="uchiyamaLabel" aria-hidden="true">
-                                      <div class="modal-dialog modal-dialog-centered" role="document">
-                                        <div class="modal-content">
-                                          <div class="modal-header">
-                                            <h3 class="modal-title" style="color: black" id="uchiyamaLabel">Koki Uchiyama</h3>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            </button>
-                                          </div>
-                                          <div class="modal-body">
-                                            <h5 class="small-text" style="color: black">HottoLink Inc. Chairman & CEO</h5>
-                                            <p class="description">COMING SOON</p>
-                                          </div>
-                                          <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
+
 <!-- 柳沢 -->
                                     <div class="col-md-4">
                                         <div class="card card-member">
@@ -331,24 +338,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="modal fade" id="modal_yanagisawa" tabindex="-1" role="dialog" aria-labelledby="yanagisawaLabel" aria-hidden="true">
-                                      <div class="modal-dialog modal-dialog-centered" role="document">
-                                        <div class="modal-content">
-                                          <div class="modal-header">
-                                            <h3 class="modal-title" style="color: black" id="yanagisawaLabel">Masakazu Yanagisawa</h3>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            </button>
-                                          </div>
-                                          <div class="modal-body">
-                                            <h5 class="small-text" style="color: black">NPO corporation good aging yells</h5>
-                                            <p class="description">COMING SOON</p>
-                                          </div>
-                                          <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
+
 
 
 <!-- 石渡 -->
@@ -379,7 +369,7 @@
                                         <div class="card card-member">
                                             <div class="content">
                                                 <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="img/faces/kawa.jpg"/>
+                                                    <img alt="..." class="img-circle" src="img/faces/kawa.png"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title">Taiki Kawa</h3>
@@ -389,24 +379,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="modal fade" id="modal_kawa" tabindex="-1" role="dialog" aria-labelledby="kawaLabel" aria-hidden="true">
-                                      <div class="modal-dialog modal-dialog-centered" role="document">
-                                        <div class="modal-content">
-                                          <div class="modal-header">
-                                            <h3 class="modal-title" style="color: black" id="kawaLabel">Taiki Kawa</h3>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            </button>
-                                          </div>
-                                          <div class="modal-body">
-                                            <h5 class="small-text" style="color: black">withID,inc. CEO</h5>
-                                            <p class="description text-justify">While studying at the graduate school of Tokyo Institute of Technology, he sensed the possibility of the blockchain, and through the representative of the student organization related to the blockchain and the representative of the Japan of Israeli startup Bancer, he promoted the blockchain in Japan. Recently, he started a platform for identity verification called withID, which is an identity verification platform, because he felt there was a possibility of the right certification and identity verification system using the blockchain. Development member.</p>
-                                          </div>
-                                          <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
+
 
 <!-- 渡辺 -->
                                     <div class="col-md-4">
@@ -423,24 +396,7 @@
                                             </div>
                                         </div>
                                       </div>
-                                        <div class="modal fade" id="modal_watanabe" tabindex="-1" role="dialog" aria-labelledby="watanabeLabel" aria-hidden="true">
-                                          <div class="modal-dialog modal-dialog-centered" role="document">
-                                            <div class="modal-content">
-                                              <div class="modal-header">
-                                                <h3 class="modal-title" style="color: black" id="watanabeLabel">Sota Watanabe</h3>
-                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                </button>
-                                              </div>
-                                              <div class="modal-body">
-                                                <h5 class="small-text" style="color: black">Stake, inc. CEO</h5>
-                                                <p class="description text-left text-justify">He is a blockchain researcher at the university of Tokyo and a Polkadot official ambassador in Tokyo. He previously worked at Chronicled, a blockchain startup in San Francisco.</p>
-                                              </div>
-                                              <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                              </div>
-                                            </div>
-                                          </div>
-                                        </div>
+
 
 
 <!-- 村上 -->
@@ -458,24 +414,7 @@
                                             </div>
                                         </div>
                                       </div>
-                                        <div class="modal fade" id="modal_murakami" tabindex="-1" role="dialog" aria-labelledby="murakamiLabel" aria-hidden="true">
-                                          <div class="modal-dialog modal-dialog-centered" role="document">
-                                            <div class="modal-content">
-                                              <div class="modal-header">
-                                                <h3 class="modal-title" style="color: black" id="murakamiLabel">Nice Murakami</h3>
-                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                </button>
-                                              </div>
-                                              <div class="modal-body">
-                                                <h5 class="small-text" style="color: black">HottoLink Inc. Diversity promotion</h5>
-                                                <p class="description">COMING SOON</p>
-                                              </div>
-                                              <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                              </div>
-                                            </div>
-                                          </div>
-                                        </div>
+
 
                                   </div>
                                   <div class="row">
@@ -496,24 +435,7 @@
                                               </div>
                                           </div>
                                       </div>
-                                            <div class="modal fade" id="modal_sugiyama" tabindex="-1" role="dialog" aria-labelledby="sugiyamaLabel" aria-hidden="true">
-                                              <div class="modal-dialog modal-dialog-centered" role="document">
-                                                <div class="modal-content">
-                                                  <div class="modal-header">
-                                                    <h3 class="modal-title" style="color: black" id="sugiyamaLabel">Fumino Sugiyama</h3>
-                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                    </button>
-                                                  </div>
-                                                  <div class="modal-body">
-                                                    <h5 class="small-text" style="color: black">NPO corporation TOKYO RAINBOW PRIDE Joint Representative Director</h5>
-                                                    <p class="description">COMING SOON</p>
-                                                  </div>
-                                                  <div class="modal-footer">
-                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                                  </div>
-                                                </div>
-                                              </div>
-                                            </div>
+
 
 <!-- 藤本 -->
                                     <div class="col-md-4">
@@ -531,24 +453,7 @@
                                               </div>
                                           </div>
                                       </div>
-                                            <div class="modal fade" id="modal_fujimoto" tabindex="-1" role="dialog" aria-labelledby="fujimotoLabel" aria-hidden="true">
-                                              <div class="modal-dialog modal-dialog-centered" role="document">
-                                                <div class="modal-content">
-                                                  <div class="modal-header">
-                                                    <h3 class="modal-title" style="color: black" id="fujimotoLabel">Mai Fujimoto</h3>
-                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                    </button>
-                                                  </div>
-                                                  <div class="modal-body">
-                                                    <h5 class="small-text" style="color: black">Miss Bitcoin</h5>
-                                                    <p class="description text-left text-justify">More popularly known in the world  as “Miss Bitcoin”, Mai has been involved in Crypto since 2011, making lots of accomplishments during her career.<br><br>She is most interested in using CryptoCurrency and Blockchain for the SDGs.She launched a donation platform called KIZUNA in 2017 and helping BINANCE Charity Foundation as an ambassador.<br><br>She is active as a KOL who works to spread the entire blockchain industry as twitter and youtuber. At the same time, she is a serial entrepreneur that launches five companies, and is also active as an advisor for more than 10 companies including Japanese listed companies.</p>
-                                                  </div>
-                                                  <div class="modal-footer">
-                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                                  </div>
-                                                </div>
-                                              </div>
-                                            </div>
+
 
                                   　　</div>
                     </div>
@@ -568,7 +473,7 @@
                   <div class="content">
                       <div class="row">
                           <div class="title-area">
-                              <h2 glot-model="adviser" >アドバイザー</h2>
+                              <h2 glot-model="adviser" >Adviser</h2>
                               <div class="separator separator-danger">✻</div>
                           </div>
                       </div>
@@ -593,24 +498,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                              <div class="modal fade" id="modal_okajima" tabindex="-1" role="dialog" aria-labelledby="okajimaLabel" aria-hidden="true">
-                                                <div class="modal-dialog modal-dialog-centered" role="document">
-                                                  <div class="modal-content">
-                                                    <div class="modal-header">
-                                                      <h3 class="modal-title" style="color: black" id="okajimaLabel">Etuko Okajima</h3>
-                                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                      </button>
-                                                    </div>
-                                                    <div class="modal-body">
-                                                      <h5 class="small-text" style="color: black">ProNova Inc. CEO</h5>
-                                                      <p class="description">COMING SOON</p>
-                                                    </div>
-                                                    <div class="modal-footer">
-                                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                                    </div>
-                                                  </div>
-                                                </div>
-                                              </div>
+
 
 
 <!-- 福島   -->
@@ -629,24 +517,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                              <div class="modal fade" id="modal_fukushima" tabindex="-1" role="dialog" aria-labelledby="fukushimaLabel" aria-hidden="true">
-                                                <div class="modal-dialog modal-dialog-centered" role="document">
-                                                  <div class="modal-content">
-                                                    <div class="modal-header">
-                                                      <h3 class="modal-title" style="color: black" id="fukushimaLabel">Yoshinori Fukushima</h3>
-                                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                      </button>
-                                                    </div>
-                                                    <div class="modal-body">
-                                                      <h5 class="small-text" style="color: black">LayerX Inc. CEO</h5>
-                                                      <p class="description">COMING SOON</p>
-                                                    </div>
-                                                    <div class="modal-footer">
-                                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                                    </div>
-                                                  </div>
-                                                </div>
-                                              </div>
+
 
 
 <!-- 竹中 -->
@@ -686,24 +557,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                              <div class="modal fade" id="modal_song" tabindex="-1" role="dialog" aria-labelledby="songLabel" aria-hidden="true">
-                                                <div class="modal-dialog modal-dialog-centered" role="document">
-                                                  <div class="modal-content">
-                                                    <div class="modal-header">
-                                                      <h3 class="modal-title" style="color: black" id="songLabel">Song Mihyon</h3>
-                                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                      </button>
-                                                    </div>
-                                                    <div class="modal-body">
-                                                      <h5 class="small-text" style="color: black">Obstetrician, MD, FMF certified ultrasonographer</h5>
-                                                      <p class="description">COMING SOON</p>
-                                                    </div>
-                                                    <div class="modal-footer">
-                                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                                    </div>
-                                                  </div>
-                                                </div>
-                                              </div>
+
 
 
                                     </div>
@@ -715,49 +569,248 @@
           </div>
     </div>
 
-<!-- モーダル置き場 -->
-<!-- ここに置かないと、文字数が多い時、navbarの下に潜ってしまう -->
-
-  <!-- 石渡modal -->
-    <div class="modal fade" id="modal_ishiwata" tabindex="-1" role="dialog" aria-labelledby="ishiwataLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h3 class="modal-title text-center" style="color: black" id="ishiwataLabel">Hiroichiro Ishiwata</h3>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            </button>
-          </div>
-          <div class="modal-body">
-            <h5 class="small-text" style="color: black">Special Assistant to CEO of HottoLink, Inc. Trademark and Patent Attorney</h5>
-            <p class="description text-left text-justify">He worked in a music CD logistics company, entertainment company, and a patent and trademark office. After launching on his own trademark and patent office, he was assigned as an auditor of HottoLink Inc, and currently, he is a special assistant to CEO. He got involved in starting up the Famiee Project for 2 reasons. First, he was interested in blockchain system, which enables human authentication without relying on the authority. Secondly, he is considered about the issue, how intolerant the society is, toward diversity.</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          </div>
-        </div>
+<!-- モーダル -->
+<!-- Uchiyama_modal -->
+<div class="modal fade" id="modal_uchiyama" tabindex="-1" role="dialog" aria-labelledby="uchiyamaLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" style="color: black; text-align:center" id="uchiyamaLabel">Koki Uchiyama</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        </button>
+      </div>
+      <div class="modal-body">
+        <h5 class="small-text" style="color: black">HottoLink Inc. Chairman & CEO</h5>
+        <p class="description" style="text-align:center">COMING SOON</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
     </div>
-
-  <!-- 竹中modal -->
-    <div class="modal fade" id="modal_takenaka" tabindex="-1" role="dialog" aria-labelledby="takenakaLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h3 class="modal-title text-center" style="color: black" id="takenakaLabel">Heizo Takenaka</h3>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            </button>
-          </div>
-          <div class="modal-body">
-            <h5 class="small-text" style="color: black">Special Advisor / Professor Emeritus, Keio University</h5>
-            <p class="description text-left text-justify">PhD in Economics.<br>1981, Visiting Scholar, Harvard and University of Pennsylvania.1990, Associate Professor and 1996, Professor, Policy Management, Keio University.<br>In 2001, Prime Minister Junichiro Koizumi named Professor Takenaka the Minister for Economic/Fiscal Policy, in which position he chaired the Council on Economic and Fiscal Policy and steered macroeconomic policy. In 2002, named the Minister for both Financial Services and Economic/Fiscal Policy.<br>Currently, Professor Emeritus of Keio University, Professor Toyo University and President of academyhills.</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          </div>
-        </div>
+  </div>
+</div>
+<!-- yanagisawa_modal -->
+<div class="modal fade" id="modal_yanagisawa" tabindex="-1" role="dialog" aria-labelledby="yanagisawaLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" style="color: black; text-align:center" id="yanagisawaLabel">Masakazu Yanagisawa</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        </button>
+      </div>
+      <div class="modal-body">
+        <h5 class="small-text" style="color: black">NPO corporation good aging yells</h5>
+        <p class="description" style="text-align:center">COMING SOON</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
     </div>
+  </div>
+</div>
+<!-- Ishiwata_modal -->
+<div class="modal fade" id="modal_ishiwata" tabindex="-1" role="dialog" aria-labelledby="ishiwataLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title text-center" style="color: black" id="ishiwataLabel">Hiroichiro Ishiwata</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        </button>
+      </div>
+      <div class="modal-body">
+        <h5 class="small-text" style="color: black">Special Assistant to CEO of HottoLink, Inc. Trademark and Patent Attorney</h5>
+        <p class="description text-left text-justify">He worked in a music CD logistics company, entertainment company, and a patent and trademark office. After launching on his own trademark and patent office, he was assigned as an auditor of HottoLink Inc, and currently, he is a special assistant to CEO. He got involved in starting up the Famiee Project for 2 reasons. First, he was interested in blockchain system, which enables human authentication without relying on the authority. Secondly, he is considered about the issue, how intolerant the society is, toward diversity.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
+<!-- Kawa_modal -->
+<div class="modal fade" id="modal_kawa" tabindex="-1" role="dialog" aria-labelledby="kawaLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" style="color: black; text-align:center" id="kawaLabel">Taiki Kawa</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        </button>
+      </div>
+      <div class="modal-body">
+        <h5 class="small-text" style="color: black">withID,inc. CEO</h5>
+        <p class="description text-justify">While studying at the graduate school of Tokyo Institute of Technology, he sensed the possibility of the blockchain, and through the representative of the student organization related to the blockchain and the representative of the Japan of Israeli startup Bancer, he promoted the blockchain in Japan. Recently, he started a platform for identity verification called withID, which is an identity verification platform, because he felt there was a possibility of the right certification and identity verification system using the blockchain. Development member.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Watanabe_modal -->
+<div class="modal fade" id="modal_watanabe" tabindex="-1" role="dialog" aria-labelledby="watanabeLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" style="color: black; text-align:center" id="watanabeLabel">Sota Watanabe</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        </button>
+      </div>
+      <div class="modal-body">
+        <h5 class="small-text" style="color: black">Stake, inc. CEO</h5>
+        <p class="description text-left text-justify">He is a blockchain researcher at the university of Tokyo and a Polkadot official ambassador in Tokyo. He previously worked at Chronicled, a blockchain startup in San Francisco.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Murakami_modal -->
+<div class="modal fade" id="modal_murakami" tabindex="-1" role="dialog" aria-labelledby="murakamiLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" style="color: black; text-align:center" id="murakamiLabel">Nice Murakami</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        </button>
+      </div>
+      <div class="modal-body">
+        <h5 class="small-text" style="color: black">HottoLink Inc. Diversity promotion</h5>
+        <p class="description" style="text-align:center">COMING SOON</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Sugiyama_mosal -->
+<div class="modal fade" id="modal_sugiyama" tabindex="-1" role="dialog" aria-labelledby="sugiyamaLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" style="color: black; text-align:center" id="sugiyamaLabel">Fumino Sugiyama</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        </button>
+      </div>
+      <div class="modal-body">
+        <h5 class="small-text" style="color: black">NPO corporation TOKYO RAINBOW PRIDE Joint Representative Director</h5>
+        <p class="description" style="text-align:center">COMING SOON</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Fujimoto_modal -->
+<div class="modal fade" id="modal_fujimoto" tabindex="-1" role="dialog" aria-labelledby="fujimotoLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" style="color: black; text-align:center" id="fujimotoLabel">Mai Fujimoto</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        </button>
+      </div>
+      <div class="modal-body">
+        <h5 class="small-text" style="color: black">Miss Bitcoin</h5>
+        <p class="description text-left text-justify">More popularly known in the world  as “Miss Bitcoin”, Mai has been involved in Crypto since 2011, making lots of accomplishments during her career.<br><br>She is most interested in using CryptoCurrency and Blockchain for the SDGs.She launched a donation platform called KIZUNA in 2017 and helping BINANCE Charity Foundation as an ambassador.<br><br>She is active as a KOL who works to spread the entire blockchain industry as twitter and youtuber. At the same time, she is a serial entrepreneur that launches five companies, and is also active as an advisor for more than 10 companies including Japanese listed companies.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Okajima_modal -->
+<div class="modal fade" id="modal_okajima" tabindex="-1" role="dialog" aria-labelledby="okajimaLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" style="color: black; text-align:center" id="okajimaLabel">Etuko Okajima</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        </button>
+      </div>
+      <div class="modal-body">
+        <h5 class="small-text" style="color: black">ProNova Inc. CEO</h5>
+        <p class="description" style="text-align:center">COMING SOON</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Fukushima_modal -->
+<div class="modal fade" id="modal_fukushima" tabindex="-1" role="dialog" aria-labelledby="fukushimaLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" style="color: black; text-align:center" id="fukushimaLabel">Yoshinori Fukushima</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        </button>
+      </div>
+      <div class="modal-body">
+        <h5 class="small-text" style="color: black">LayerX Inc. CEO</h5>
+        <p class="description" style="text-align:center">COMING SOON</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Song_modal -->
+<div class="modal fade" id="modal_song" tabindex="-1" role="dialog" aria-labelledby="songLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" style="color: black; text-align:center" id="songLabel">Song Mihyon</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        </button>
+      </div>
+      <div class="modal-body">
+        <h5 class="small-text" style="color: black">Obstetrician, MD, FMF certified ultrasonographer</h5>
+        <p class="description" style="text-align:center">COMING SOON</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- 竹中modal -->
+<div class="modal fade" id="modal_takenaka" tabindex="-1" role="dialog" aria-labelledby="takenakaLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title text-center" style="color: black" id="takenakaLabel">Heizo Takenaka</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        </button>
+      </div>
+      <div class="modal-body">
+        <h5 class="small-text" style="color: black">Special Advisor / Professor Emeritus, Keio University</h5>
+        <p class="description text-left text-justify">PhD in Economics.<br>1981, Visiting Scholar, Harvard and University of Pennsylvania.1990, Associate Professor and 1996, Professor, Policy Management, Keio University.<br>In 2001, Prime Minister Junichiro Koizumi named Professor Takenaka the Minister for Economic/Fiscal Policy, in which position he chaired the Council on Economic and Fiscal Policy and steered macroeconomic policy. In 2002, named the Minister for both Financial Services and Economic/Fiscal Policy.<br>Currently, Professor Emeritus of Keio University, Professor Toyo University and President of academyhills.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Supporting Company -->
     <div class="section section-our-team-freebie">
       <div>
         <!-- <div class="parallax filter filter-color-black">
@@ -767,7 +820,7 @@
                 <div class="content">
                     <div class="row">
                         <div class="title-area">
-                            <h2 glot-model="partner">賛同企業</h2>
+                            <h2 glot-model="partner">Supporting Company</h2>
                             <div class="separator separator-danger">✻</div>
                         </div>
                     </div>
@@ -783,7 +836,7 @@
                                                   <img alt="..." class="img-circle imgMicrosoft" src="img/faces/microsoft.png"/>
                                               </div>
                                               <div class="description">
-                                                  <h3 class="title" glot-model="microsoft">日本マイクロソフト</h3>
+                                                  <h3 class="title" glot-model="microsoft">Microsoft Japan Co., Ltd.</h3>
                                               </div>
                                               </a>
                                           </div>
@@ -798,7 +851,7 @@
                                                   <img alt="..." class="img-circle" src="img/faces/ホットリンク.jpg"/>
                                               </div>
                                               <div class="description">
-                                                  <h3 class="title" glot-model="hottolink">ホットリンク</h3>
+                                                  <h3 class="title" glot-model="hottolink">Hotto Link Inc.</h3>
                                               </div>
                                               </a>
                                           </div>
@@ -879,7 +932,7 @@
     <div class="section section-small section-get-started">
         <div class="parallax filter">
             <div class="image"
-                style="background-image: url('img/office.jpg')">
+                style="background-image: url('img/balloon_footer.jpg')">
             </div>
             <div class="container">
                 <div class="title-area">
@@ -898,6 +951,7 @@
 
 
 <!-- footer -->
+
     <footer class="footer footer-big footer-color-black" data-color="black">
         <div class="container">
             <div class="row">
@@ -951,7 +1005,6 @@
                                         <i class="fa fa-twitter"></i> Twitter
                                     </a>
                                 </li>
-                                <!-- Twitter TimeLine -->
                                 <a class="twitter-timeline" data-width="300" data-height="350" href="https://twitter.com/FamieeProject?ref_src=twsrc%5Etfw">Tweets by FamieeProject</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                             </ul>
                         </nav>
@@ -968,7 +1021,7 @@
 </body>
 
 
-<script src="https://unpkg.com/glottologist"></script>
+<!-- <script src="https://unpkg.com/glottologist"></script>
 <script>
 const glot = new Glottologist();
 //glot-modelの属性値が「title」の文章を翻訳
@@ -1363,6 +1416,6 @@ glot.render('en');
         glot.render('zh');
       })
 
-</script>
+</script> -->
 
 </html>
