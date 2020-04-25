@@ -99,7 +99,7 @@
                     </ul>
                 </li>
                 <li>
-                  <a href="PrivacyPolicy">Privacy Policy</a>
+                  <a href="./privacypolicy">Privacy Policy</a>
                 </li>
                 <li class="dropdown">
                     <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
@@ -878,7 +878,7 @@
                                           <div class="content">
                                           <a href= "https://withid.jp/" target="_blank">
                                               <div class="avatar avatar-danger">
-                                                  <img alt="..." class="img-circle" src="img/faces/WithID.jpg"/>
+                                                  <img alt="..." class="img-circle" src="img/faces/withid_new.jpg"/>
                                               </div>
                                               <div class="description">
                                                   <h3 class="title">withID</h3>
