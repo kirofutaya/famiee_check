@@ -490,9 +490,43 @@
                                               </div>
                                           </div>
                                       </div>
+                                      <div class="col-md-4">
+                                          <div class="card card-member">
+                                              <div class="content">
+                                                  <a href= "https://www.salesforce.com/jp/" target="_blank">
+                                                  <div style="padding:">
+                                                      <!-- <img class="lazyload" loading="lazy" alt="..." style="width:115px" src="img/faces/"/> -->
+                                                  </div>
+                                                  <div class="description">
+                                                      <h3 class="title" style="font-size: 1.1rem; padding:40px 0;">株式会社セールスフォース・ドットコム 様</h3>
+                                                  </div>
+                                                  </a>
+                                              </div>
+                                          </div>
+                                      </div>
 
                               </div>
                               <!-- END row5 -->
+
+                              <!-- row6 -->
+                              <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="card card-member">
+                                                <div class="content">
+                                                    <a href= "https://www.asteria.com/jp/" target="_blank">
+                                                    <div style="padding:25px 0">
+                                                        <img class="lazyload" loading="lazy" alt="..." style="width:110px" src="img/faces/Asteria.png"/>
+                                                    </div>
+                                                    <div class="description">
+                                                        <h3 class="title" style="font-size: 1.2rem">アステリア株式会社 様</h3>
+                                                    </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                </div>
+                                <!-- END row6 -->
 
 
 
@@ -869,6 +903,7 @@
                       <div class="row">
                           <div class="title-area">
                               <h2 glot-model="partner">＊ 支援企業・団体 ＊</h2>
+                              <h5 class="subtitle">Famieeの活動に賛同し、人員やその他の<br class="br-sp">リソースを提供していただいています。</h5>
                           </div>
                       </div>
 

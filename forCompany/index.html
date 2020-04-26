@@ -213,7 +213,7 @@
               <div class="movie-arrow">
                 <p>Prev</p><a href="" class="prev"><img src="../img/arrow-back.png"></a><a href="" class="next"><img  src="../img/arrow-next.png"></a><p>Next</p>
               </div>
-              <h6 class="subtitle" style="text-align:center;">※2020年4月14日時点の仕様に基づく説明です。<br class="br-sp">最新仕様は、パワーポイント資料でご確認ください</h6>
+              <h6 class="subtitle" style="text-align:center;">※2020年4月14日時点の仕様に基づく説明です。<br class="br-sp">最新仕様は、スライド資料でご確認ください</h6>
             </div>
 
             <!-- タイトルリスト枠 -->
