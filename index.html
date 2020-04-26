@@ -498,7 +498,7 @@
                                                       <!-- <img class="lazyload" loading="lazy" alt="..." style="width:115px" src="img/faces/"/> -->
                                                   </div>
                                                   <div class="description">
-                                                      <h3 class="title" style="font-size: 1.1rem; padding:40px 0;">株式会社セールスフォース・ドットコム 様</h3>
+                                                      <h3 class="title" style="font-size: 1.1rem; padding:40.15px 0;">株式会社セールスフォース・ドットコム 様</h3>
                                                   </div>
                                                   </a>
                                               </div>
