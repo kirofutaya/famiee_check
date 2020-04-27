@@ -566,7 +566,7 @@
                     <a href="https://prtimes.jp/main/html/rd/p/000000006.000047881.html" target="_blank">
                       <div class="clearfix">
                         <div class="item1">
-                        <time datetime="2019-9-17">2019.09.17</time>
+                        <time datetime="2020-4-27">2020.04.27</time>
                         <div class="news">PR</div>
                         </div>
                         <div class="item2">
