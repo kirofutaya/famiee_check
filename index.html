@@ -524,6 +524,20 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="col-md-4">
+                                            <div class="card card-member">
+                                                <div class="content">
+                                                    <a href= "https://lifull.com/" target="_blank">
+                                                    <div style="padding:17.5px 0">
+                                                        <img class="lazyload" loading="lazy" alt="..." style="width:130px" src="img/faces/lifull.png"/>
+                                                    </div>
+                                                    <div class="description">
+                                                        <h3 class="title" style="font-size: 1.2rem">株式会社LIFULL 様</h3>
+                                                    </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
 
                                 </div>
                                 <!-- END row6 -->
@@ -548,6 +562,19 @@
                 </div>
 
                 <ul class="msr_newslist01">
+                  <!-- <li>
+                    <a href="" target="_blank">
+                      <div class="clearfix">
+                        <div class="item1">
+                        <time datetime="2019-9-17">2019.09.17</time>
+                        <div class="pr">PR</div>
+                        </div>
+                        <div class="item2">
+                        <div class="pr-text">2020年7月より発行する家族関係証明書の第一弾、同性カップル向け「パートナーシップ証明書」を、既に計17社が企業内の福利厚生サービスの申請時の利用に向け、導入準備を開始していることについてプレスリリースを出しました。</div>
+                        </div>
+                      </div>
+                    </a>
+                  </li> -->
                   <li>
                     <a href="https://drive.google.com/open?id=1-30u1z-pWRo-hwx83cTjGgA0rPejZhY1" target="_blank">
                       <div class="clearfix">
@@ -916,8 +943,8 @@
                                         <div class="card card-member">
                                             <div class="content">
                                                 <a href= "https://www.microsoft.com/ja-jp/mscorp" target="_blank">
-                                                <div class="avatar " style="max-width:150px">
-                                                    <img loading="lazy" alt="..." class="img-circle lazyload imgMicrosoft" src="img/faces/microsoft.png"/>
+                                                <div style="padding:13px 0;">
+                                                    <img loading="lazy" alt="..." style="width:150px; padding:0" class="lazyload imgMicrosoft" src="img/faces/microsoft.png"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title" glot-model="microsoft">日本マイクロソフト</h3>
@@ -946,11 +973,11 @@
                                         <div class="card card-member">
                                             <div class="content">
                                                 <a href= "https://www.hottolink.co.jp/" target="_blank">
-                                                <div class="avatar ">
-                                                    <img loading="lazy" alt="..." class="img-circle lazyload" src="img/faces/ホットリンク.jpg"/>
+                                                <div style="">
+                                                    <img loading="lazy" alt="..." class="lazyload" style="width:130px;" src="img/faces/ホットリンク.jpg"/>
                                                 </div>
                                                 <div class="description">
-                                                    <h3 class="title" glot-model="hottolink">ホットリンク</h3>
+                                                    <h3 class="title" glot-model="hottolink" style="margin-top:0.5px">ホットリンク</h3>
                                                 </div>
                                                 </a>
                                             </div>
@@ -1058,6 +1085,21 @@
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title">CRIEN</h3>
+                                                </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <a href= "https://biz.trustdock.io/" target="_blank">
+                                                <div style="padding:38px;">
+                                                    <img loading="lazy" alt="..." style="width:140px" class="lazyload" src="img/faces/trustdock.png"/>
+                                                </div>
+                                                <div class="description">
+                                                    <h3 class="title">TRUSTDOCK</h3>
                                                 </div>
                                                 </a>
                                             </div>
