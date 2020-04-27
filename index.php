@@ -562,24 +562,24 @@
                 </div>
 
                 <ul class="msr_newslist01">
-                  <!-- <li>
+                  <li>
                     <a href="" target="_blank">
                       <div class="clearfix">
                         <div class="item1">
                         <time datetime="2019-9-17">2019.09.17</time>
-                        <div class="pr">PR</div>
+                        <div class="news">PR</div>
                         </div>
                         <div class="item2">
-                        <div class="pr-text">2020年7月より発行する家族関係証明書の第一弾、同性カップル向け「パートナーシップ証明書」を、既に計17社が企業内の福利厚生サービスの申請時の利用に向け、導入準備を開始していることについてプレスリリースを出しました。</div>
+                        <div class="pr-text">みずほフィナンシャルグループなど17社が、同性カップル向け「パートナーシップ証明書」を企業内手続きに利用へ</div>
                         </div>
                       </div>
                     </a>
-                  </li> -->
+                  </li>
                   <li>
                     <a href="https://drive.google.com/open?id=1-30u1z-pWRo-hwx83cTjGgA0rPejZhY1" target="_blank">
                       <div class="clearfix">
                         <div class="item1">
-                        <time datetime="2019-9-17">2019.09.17</time>
+                        <time datetime="2020-4-27">2019.09.17</time>
                         <div class="pr">PR</div>
                         </div>
                         <div class="item2">
@@ -1217,9 +1217,9 @@
                                 <li>
                                     <a href="https://www.famiee.com#news">News List</a>
                                     <hr class="hr-small">
-                                    <a href="https://drive.google.com/open?id=1-30u1z-pWRo-hwx83cTjGgA0rPejZhY1" target="_blank"><b>2019.09.17</b><br>民間によるパートナーシップ証明書検討委員会への参加公募のお知らせ</a>
+                                    <a href="" target="_blank"><b>2020.4.27</b><br>みずほフィナンシャルグループなど17社が、同性カップル向け「パートナーシップ証明書」を企業内手続きに利用へ</a>
                                     <hr class="hr-small">
-                                    <a href="https://prtimes.jp/main/html/rd/p/000000002.000047881.html" target="_blank"><b>2019.09.02</b><br>福島良典氏が一般社団法人Famieeの技術アドバイザーに就任</a>
+                                    <a href="" target="_blank"><b>2019.09.02</b><br>福島良典氏が一般社団法人Famieeの技術アドバイザーに就任</a>
                                 </li>
                             </ul>
                         </nav>
