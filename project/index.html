@@ -180,9 +180,9 @@
                   <h2 style="text-align:center">スライド資料</h2>
                   <div class="separator separator-danger">✻</div>
                   <div class="slide-area">
-                    <iframe src="//www.slideshare.net/slideshow/embed_code/key/AAC8NpTNp6aZXv" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+                    <iframe src="//www.slideshare.net/slideshow/embed_code/key/GOexluGyXP9Sft" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe
                   </div>
-                   <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/FamieeFamiee/famiee-232694037" title="20200425Famieeプロジェクト概要資料" target="_blank">Famieeプロジェクト概要資料（2020/04/26更新）</a> </strong> </div>
+                   <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/FamieeFamiee/famiee-232694615" title="20200425Famieeプロジェクト概要資料" target="_blank">Famieeプロジェクト概要資料（2020/04/26更新）</a> </strong> </div>
               </div>
           </div>
 
