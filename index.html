@@ -563,7 +563,7 @@
 
                 <ul class="msr_newslist01">
                   <li>
-                    <a href="" target="_blank">
+                    <a href="https://prtimes.jp/main/html/rd/p/000000006.000047881.html" target="_blank">
                       <div class="clearfix">
                         <div class="item1">
                         <time datetime="2019-9-17">2019.09.17</time>
@@ -1217,7 +1217,7 @@
                                 <li>
                                     <a href="https://www.famiee.com#news">News List</a>
                                     <hr class="hr-small">
-                                    <a href="" target="_blank"><b>2020.4.27</b><br>みずほフィナンシャルグループなど17社が、同性カップル向け「パートナーシップ証明書」を企業内手続きに利用へ</a>
+                                    <a href="https://prtimes.jp/main/html/rd/p/000000006.000047881.html" target="_blank"><b>2020.4.27</b><br>みずほフィナンシャルグループなど17社が、同性カップル向け「パートナーシップ証明書」を企業内手続きに利用へ</a>
                                     <hr class="hr-small">
                                     <a href="" target="_blank"><b>2019.09.02</b><br>福島良典氏が一般社団法人Famieeの技術アドバイザーに就任</a>
                                 </li>
