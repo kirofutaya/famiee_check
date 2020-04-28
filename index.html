@@ -563,7 +563,7 @@
 
                 <ul class="msr_newslist01">
                   <li>
-                    <a href="https://prtimes.jp/main/html/rd/p/000000006.000047881.html" target="_blank">
+                    <a href="./documents/0427release.pdf" target="_blank">
                       <div class="clearfix">
                         <div class="item1">
                         <time datetime="2020-4-27">2020.04.27</time>
