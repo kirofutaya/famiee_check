@@ -675,6 +675,8 @@
                     <div class="team">
                         <div class="row">
                             <div class="col-md-10 col-md-offset-1">
+
+                              <!-- row1 -->
                                 <div class="row">
 
                                     <div class="col-md-4">
@@ -691,20 +693,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
-                                        <div class="card card-member">
-                                            <div class="content">
-                                                <div class="avatar ">
-                                                    <img loading="lazy" alt="..." class="img-circle lazyload" src="img/faces/yanagisawa.jpg"/>
-                                                </div>
-                                                <div class="description">
-                                                    <h3 class="title" glot-model="yanagisawa">柳沢正和</h3>
-                                                    <p class="small-text" glot-model="NPO" >NPO法人グッドエイジングエールズ</p>
-                                                    <p class="description text-justify" glot-model="yanagisawaD" >LGBT支援の認定NPO法人グッド・エイジング・エールズ所属。学校法人インターナショナル・スクール・オブ・アジア軽井沢（UWC ISAK Japan)評議員、ヒューマン・ライツ・ウォッチ東京委員。work with prideプロジェクトに参画し、企業によるLGBT施策の取り組みを評価する「Pride指標」を立ち上げる。2016年の世界経済フォーラムではLGBTセッションでパネリストを務め、ファイナンシャル・タイムス「世界のLGBTエクゼクティブ100人」にも選出</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+
                                     <div class="col-md-4">
                                         <div class="card card-member">
                                             <div class="content">
@@ -720,8 +709,7 @@
                                         </div>
                                     </div>
 
-                                  </div>
-                                  <div class="row">
+
 
                                     <div class="col-md-4">
                                         <div class="card card-member">
@@ -732,11 +720,16 @@
                                                 <div class="description">
                                                     <h3 class="title" glot-model="kawa">川大揮</h3>
                                                     <p class="small-text" glot-model="withidK">withID株式会社CEO</p>
-                                                    <p class="description text-justify" glot-model="kawaD">東京工業大学大学院在学中からブロックチェーンに可能性を感じブロックチェーンに関わる学生団体の代表やイスラエルのスタートアップBancorの日本代表を通して、日本でのブロックチェーンの普及活動を行う。最近は、ブロックチェーンを用いた権利証明や本人確認の仕組みに可能性を感じ、本人確認プラットホームであるwithIDというIDのプラットホームを立ち上げた。開発メンバー。</p>
+                                                    <p class="description text-justify" glot-model="kawaD">東京工業大学大学院在学中からブロックチェーンに可能性を感じブロックチェーンに関わる学生団体の代表やイスラエルのスタートアップBancorの日本代表を通して、日本でのブロックチェーンの普及活動を行う。最近は、ブロックチェーンを用いた権利証明や本人確認の仕組みに可能性を感じ、本人確認プラットホームであるwithIDというIDのプラットホームを立ち上げた。開発メンバー。</p><br class="hidden-tb ">
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+
+                                  </div>
+
+                                  <!-- row2 -->
+                                  <div class="row">
 
                                     <div class="col-md-4">
                                         <div class="card card-member">
@@ -761,14 +754,11 @@
                                                 <div class="description">
                                                     <h3 class="title" glot-model="nice">村上乃須</h3>
                                                     <p class="small-text" glot-model="hottolinkKKK">株式会社ホットリンク　ダイバーシティ推進担当</p>
-                                                    <p class="description  text-justify" glot-model="niceD">社会課題を解決するための仕組みづくりに強い関心を持ち、「たくさんの家族の形が当たり前に認められ、誰もが家族を持つことができる社会を実現する」というアプローチに共感し、「famiee」の起ち上げに参画。<br><br><br><br></p>
+                                                    <p class="description  text-justify" glot-model="niceD">社会課題を解決するための仕組みづくりに強い関心を持ち、「たくさんの家族の形が当たり前に認められ、誰もが家族を持つことができる社会を実現する」というアプローチに共感し、「famiee」の起ち上げに参画。<br class="hidden-tb "><br class="hidden-tb "><br class="hidden-tb "><br class="hidden-tb "></p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-
-                                  </div>
-                                  <div class="row">
 
                                     <div class="col-md-4">
                                         <div class="card card-member">
@@ -779,14 +769,17 @@
                                                 <div class="description">
                                                     <h3 class="title" glot-model="sugiyama">杉山文野</h3>
                                                     <p class="small-text" glot-model="NPO2">NPO法人東京レインボープライド共同代表理事</p>
-                                                    <p class="description text-justify" glot-model="sugiyamaD">フェンシング元女子日本代表。早稲田大学大学院にてセクシュアリティを研究後、トランスジェンダーである自身の体験を織り交ぜた『ダブルハッピネス』を講談社より出版、話題をよんだ。日本初となる渋谷区・同性パートナーシップ条例制定に関わり、現在は渋谷区男女平等・多様性社会推進会議委員も務める。<br class="br-md"><br class="br-md"><br class="br-md"><br class="br-md"><br class="br-md"><br class="br-md"><br class="br-md"><br class="br-md"><br class="br-md">
-                                                      <br class="br-md">
-                                                      <br class="br-md">
+                                                    <p class="description text-justify" glot-model="sugiyamaD">フェンシング元女子日本代表。早稲田大学大学院にてセクシュアリティを研究後、トランスジェンダーである自身の体験を織り交ぜた『ダブルハッピネス』を講談社より出版、話題をよんだ。日本初となる渋谷区・同性パートナーシップ条例制定に関わり、現在は渋谷区男女平等・多様性社会推進会議委員も務める。<br class="hidden-tb "><br class="hidden-tb ">
                                                     </p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+
+                                  </div>
+
+                                  <!-- row3 -->
+                                  <div class="row">
 
                                     <div class="col-md-4">
                                         <div class="card card-member">
@@ -841,10 +834,27 @@
                           </div>
                       </div>
 
+
+
                       <div class="team">
+                        <!-- row1 -->
                           <div class="row">
                               <div class="col-md-10 col-md-offset-1">
                                   <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <div class="avatar ">
+                                                    <img loading="lazy" alt="..." class="img-circle lazyload" src="img/faces/yanagisawa.jpg"/>
+                                                </div>
+                                                <div class="description">
+                                                    <h3 class="title" glot-model="yanagisawa">柳沢正和</h3>
+                                                    <p class="small-text" glot-model="NPO" >NPO法人グッドエイジングエールズ</p>
+                                                    <p class="description text-justify" glot-model="yanagisawaD" >LGBT支援の認定NPO法人グッド・エイジング・エールズ所属。学校法人インターナショナル・スクール・オブ・アジア軽井沢（UWC ISAK Japan)評議員、ヒューマン・ライツ・ウォッチ東京委員。work with prideプロジェクトに参画し、企業によるLGBT施策の取り組みを評価する「Pride指標」を立ち上げる。2016年の世界経済フォーラムではLGBTセッションでパネリストを務め、ファイナンシャル・タイムス「世界のLGBTエクゼクティブ100人」にも選出</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
 
                                       <div class="col-md-4">
                                           <div class="card card-member">
@@ -855,7 +865,7 @@
                                                   <div class="description">
                                                       <h3 class="title" glot-model="okajima">岡島悦子</h3>
                                                       <p class="small-text" glot-model="puronomaK">株式会社プロノバ 代表取締役社長</p>
-                                                      <p class="description text-justify" glot-model="okajimaD">三菱商事、Harvard Business School(MBA)、マッキンゼー、グロービスの経営陣を経て、2006年に経営チーム強化コンサルティングのプロノバを設立。丸井グループ等、上場企業５社未上場３社の社外取締役を務める。2018年50代で1児の母となったことから多様な働き方や家族のあり方についても啓蒙活動、社会課題解決への貢献を行なっている。<br><br><br><br></p>
+                                                      <p class="description text-justify" glot-model="okajimaD">三菱商事、Harvard Business School(MBA)、マッキンゼー、グロービスの経営陣を経て、2006年に経営チーム強化コンサルティングのプロノバを設立。丸井グループ等、上場企業５社未上場３社の社外取締役を務める。2018年50代で1児の母となったことから多様な働き方や家族のあり方についても啓蒙活動、社会課題解決への貢献を行なっている。<br class="hidden-tb "><br class="hidden-tb "><br class="hidden-tb "><br class="hidden-tb "></p>
                                                   </div>
                                               </div>
                                           </div>
@@ -876,6 +886,14 @@
                                       </div>
 
 
+
+
+                                    </div>
+                                    <!-- END row1 -->
+
+
+                                    <!-- row2 -->
+                                    <div class="row">
                                       <div class="col-md-4">
                                           <div class="card card-member">
                                               <div class="content">
@@ -885,15 +903,11 @@
                                                   <div class="description">
                                                       <h3 class="title" glot-model="take">竹中平蔵</h3>
                                                       <p class="small-text" glot-model="keio">特別アドバイザー / 慶應義塾大学名誉教授</p>
-                                                      <p class="description text-justify" glot-model="takeD">博士（経済学）。ハーバード大学客員准教授、慶應義塾大学総合政策学部教授などを経て、2001年小泉内閣で経済財政政策担当大臣を皮切りに、金融担当大臣、郵政民営化担当大臣兼務、総務大臣を歴任。東洋大学教授、慶應義塾大学名誉教授、アカデミーヒルズ理事長等を兼務。プロジェクト特別アドバイザー。<br><br><br><br></p>
+                                                      <p class="description text-justify" glot-model="takeD">博士（経済学）。ハーバード大学客員准教授、慶應義塾大学総合政策学部教授などを経て、2001年小泉内閣で経済財政政策担当大臣を皮切りに、金融担当大臣、郵政民営化担当大臣兼務、総務大臣を歴任。東洋大学教授、慶應義塾大学名誉教授、アカデミーヒルズ理事長等を兼務。プロジェクト特別アドバイザー。<br class="hidden-tb "><br class="hidden-tb "><br class="hidden-tb "><br class="hidden-tb "><br class="hidden-tb "></p>
                                                   </div>
                                               </div>
                                           </div>
                                       </div>
-
-                                    </div>
-
-                                    <div class="row">
 
                                       <div class="col-md-4">
                                           <div class="card card-member">
@@ -911,6 +925,8 @@
                                       </div>
 
                                   </div>
+                                  <!-- END row2 -->
+
                               </div>
                           </div>
                       </div>
@@ -1028,8 +1044,8 @@
                                         <div class="card card-member">
                                             <div class="content">
                                                 <a href= "https://jobrainbow.jp/" target="_blank">
-                                                <div class="avatar"  style="padding:42.25px 0">
-                                                    <img loading="lazy" alt="..." class="lazyload" src="img/faces/jobrainbow_for_white.png"/>
+                                                <div style="padding:37.75px 0">
+                                                    <img loading="lazy" alt="..." style="width:150px" class="lazyload" src="img/faces/jobrainbow_for_white.png"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title">JobRainbow</h3>
