@@ -220,5 +220,36 @@ function createSupporterList(api_url){
   //console.log("ちゃんと呼び出された")
 }
 
+// Swiper
+var mySwiper = new Swiper ('.swiper-container', {
+  // Optional parameters
+  loop: true,
+  speed: 500,
+  autoHeight: true,
+  slidesPerView: 2,
+  spaceBetween: 30,
+  centeredSlides : true,
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+  breakpoints: {
+    767: {
+      slidesPerView: 1,
+      spaceBetween: 0,
+    }
+  },
+});
+
 
 }); // END tag

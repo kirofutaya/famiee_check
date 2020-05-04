@@ -2122,22 +2122,6 @@ a,
     height: 100%;
 }
 
-/* .movie-wrap #youtube{
-  position:relative;
-  width: 100%;
-}
-.movie-wrap #youtube::before {
-    content:"";
-    display: block;
-    padding-top: 56.25%;
-}
-.movie-wrap #youtube * {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-} */
 
 .movie-wrap .movie-arrow{
   padding: 10px 0;
@@ -2219,6 +2203,65 @@ a,
   background-color: rgba(230,130,53,0.8);
   color: white;
   cursor:default;
+}
+
+/* スライダー */
+.note-title{
+  text-align:center;
+  margin-top:50px;
+}
+.swiper-wrap{
+  position: relative;
+  margin-bottom: 20px;
+  height: auto;
+  width: 100%;
+}
+.swiper-container {
+  width:90%;
+  max-width: 1040px;
+}
+
+.swiper-slide{
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: auto;
+}
+.swiper-slide a {
+  opacity: 1;
+}
+.swiper-slide a:hover {
+  color: rgb(230, 130, 52);
+  opacity: 0.7;
+  transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+}
+
+.note-area {
+  max-width:
+}
+.note-area img{
+  width:100%;
 }
 
 /* kiro追加終り */
@@ -3988,6 +4031,11 @@ body {
 }
 /*          Changes for small display      */
 @media (max-width: 767px) {
+  /* kiro */
+    .swiper-container {
+      width:75%;
+    }
+  /* END Kiro */
   .br-sp{display: block;}
 
   .navbar-transparent {
@@ -4315,5 +4363,9 @@ body {
   /* スマホのみ表示 */
 .top-image{
   background-image: url('../img/balloon2.jpg')!important;
+}
+.swiper-button-prev, .swiper-button-next{
+  height:28px;
+  width: 28px;
 }
 }
