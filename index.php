@@ -19,6 +19,8 @@
 
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="description" content="「Famiee」プロジェクトは、LGBTカップルや事実婚カップル等、法的には婚姻関係と認められない多様な家族形態の人たちが、住んでいる地区に関わらず家族関係を証明することができるよう、ブロックチェーン技術を用いたパートナーシップ証明書の発行を目指します。さらに、多様な家族形態の人たちが等しく民間企業の家族向けサービスを受けることができるよう、パートナーシップ証明書を採用する民間企業を増やすための啓蒙活動を行い、これらの活動によって多様な家族形態が当たり前のように認められる社会の実現を目指します。">
+
+    <link rel="stylesheet" href="swiper/swiper.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/gaia.css" rel="stylesheet"/>
 
@@ -53,6 +55,7 @@
 
       <!--   additional js files    -->
       <script type="text/javascript" src="js/additional.js"></script>
+      <script src="swiper/swiper.min.js"></script>
 
 
       <!-- Language -->
@@ -615,7 +618,44 @@
                     </a>
                   </li>
                 </ul>
-            </div>
+
+              </div>
+
+              <h3 class="note-title">
+                <a href="https://note.com/famiee"><img src="./img/thumnail/note.png"></a>
+                <!-- <p>記事をみるにはサムネイルをクリックしてください</p> -->
+              </h3>
+                  <!-- Slider main container -->
+                  <div class="swiper-wrap">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                              <a href="https://note.com/famiee/n/n5af81a4bce47">
+                                <img alt="..." src="img/thumnail/note_shimoyamada.png"/>
+                              </a>
+                            </div>
+                            <div class="swiper-slide">
+                              <a href="https://note.com/famiee/n/n9382687b775b">
+                                <img alt="..." src="img/thumnail/note_famiee.jpeg"/>
+                              </a>
+                              <p>「Famiee」プロジェクト始動と東京レインボープライド2019での 「カップル宣誓書発行サービス」展示のお知らせ</p>
+                            </div>
+                            <div class="swiper-slide">
+                              <a href="https://note.com/famiee/n/n661b5a101caf">
+                                <img alt="..." src="img/thumnail/note_press.jpg"/>
+                              </a>
+                              <p>Famiee Project サイト公開しました！</p>
+                            </div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination swiper-pagination-white"></div>
+                    </div>
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                  </div>
+
         </div>
     </div>
 <!-- End News Section -->
@@ -1131,6 +1171,7 @@
               </div>
           </div>
 <!-- End Partner Section -->
+
 
 <!-- ↓This is a Closing Tag for the backgrond color -->
     </div>

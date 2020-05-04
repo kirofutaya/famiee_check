@@ -2210,6 +2210,17 @@ a,
   text-align:center;
   margin-top:50px;
 }
+.note-title a{
+  opacity:1;
+}
+.note-title img{
+  width:150px;
+}
+.note-title p{
+  margin:0;
+  padding:0;
+}
+
 .swiper-wrap{
   position: relative;
   margin-bottom: 20px;
@@ -2225,6 +2236,8 @@ a,
   text-align: center;
   font-size: 18px;
   background: #fff;
+  position:relative;
+
 
   /* Center slide text vertically */
   display: -webkit-box;
@@ -2241,9 +2254,24 @@ a,
   align-items: center;
 }
 
+.swiper-slide p{
+  position: absolute;
+  top:0;
+  width:100%;
+  background-color: rgba(65,201,180,0.4);
+  color:black;
+  vertical-align: middle;
+  margin:0;
+  padding: 10px 0;
+  border-radius:5px 5px 0 0;
+}
+
 .swiper-slide img {
   width: 100%;
   height: auto;
+  border: 1px solid rgba(65,201,180,0.4);
+  border-radius: 5px;
+
 }
 .swiper-slide a {
   opacity: 1;
@@ -3255,6 +3283,9 @@ footer .info ul{
 @media (max-width: 992px) {
 /* kiro */
   .syomeisyo-btn{
+    font-size: 14px;
+  }
+  .swiper-slide p{
     font-size: 14px;
   }
 /* End kiro */
@@ -4367,5 +4398,8 @@ body {
 .swiper-button-prev, .swiper-button-next{
   height:28px;
   width: 28px;
+}
+.swiper-slide p{
+  font-size: 12px;
 }
 }
