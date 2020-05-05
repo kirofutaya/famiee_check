@@ -808,7 +808,7 @@
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title" glot-model="sugiyama">杉山文野</h3>
-                                                    <p class="small-text" glot-model="NPO2">NPO法人東京レインボープライド共同代表理事</p>
+                                                    <p class="small-text" glot-model="NPO2">株式会社ニューキャンバス代表取締役</p>
                                                     <p class="description text-justify" glot-model="sugiyamaD">フェンシング元女子日本代表。早稲田大学大学院にてセクシュアリティを研究後、トランスジェンダーである自身の体験を織り交ぜた『ダブルハッピネス』を講談社より出版、話題をよんだ。日本初となる渋谷区・同性パートナーシップ条例制定に関わり、現在は渋谷区男女平等・多様性社会推進会議委員も務める。<br class="hidden-tb "><br class="hidden-tb ">
                                                     </p>
                                                 </div>
