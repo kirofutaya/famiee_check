@@ -8,6 +8,7 @@
     setTimeout(“link()”, 0);
     function link(){
     location.href=’https://famiee.com/project’;
+    console.log("呼び出されました");
     }
   </script>
     <meta charset="utf-8" />
