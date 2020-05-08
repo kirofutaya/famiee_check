@@ -4,8 +4,8 @@
 
 <head>
   <!-- Redirect -->
-  <script type=”text/javascript”>
-    setTimeout(“link()”, 0);
+  <script>
+    setTimeout(link(), 0);
     function link(){
     location.href=’https://famiee.com/project’;
     console.log("呼び出されました");
