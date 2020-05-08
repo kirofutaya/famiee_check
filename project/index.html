@@ -3,15 +3,6 @@
 
 
 <head>
-  <!-- Redirect -->
-  <script>
-    console.log("機能してます");
-    setTimeout(link(), 0);
-    function link(){
-    location.href="https://www.famiee.com/project";
-    console.log("呼び出されました");
-    }
-  </script>
     <meta charset="utf-8" />
     <!-- LazyLoad -->
     <!-- <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.min.js"></script> -->
