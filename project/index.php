@@ -3,6 +3,13 @@
 
 
 <head>
+  <!-- Redirect -->
+  <script type=”text/javascript”>
+    setTimeout(“link()”, 0);
+    function link(){
+    location.href=’https://famiee.com/project’;
+    }
+  </script>
     <meta charset="utf-8" />
     <!-- LazyLoad -->
     <!-- <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.min.js"></script> -->
