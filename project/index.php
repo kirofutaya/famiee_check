@@ -8,7 +8,7 @@
     console.log("機能してます");
     setTimeout(link(), 0);
     function link(){
-    location.href="https://famiee.com/project";
+    location.href="https://www.famiee.com/project";
     console.log("呼び出されました");
     }
   </script>
