@@ -541,6 +541,20 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="col-md-4">
+                                            <div class="card card-member">
+                                                <div class="content">
+                                                    <a href= "https://rease.co.jp/" target="_blank">
+                                                    <div style="padding:23.5px 0">
+                                                        <img class="lazyload" loading="lazy" alt="..." style="width:120px" src="img/faces/rease_logo.jpg"/>
+                                                    </div>
+                                                    <div class="description">
+                                                        <h3 class="title" style="font-size: 1.2rem">リース株式会社 様</h3>
+                                                    </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
 
                                 </div>
                                 <!-- END row6 -->
