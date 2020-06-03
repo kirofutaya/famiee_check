@@ -257,7 +257,7 @@
                     <div class="title-area">
                         <h2 glot-model="partner">利用決定企業様</h2>
                         <div class="separator separator-danger">✻</div>
-                        <h5 class="subtitle">社内の福利厚生手続き等にFamieeの証明書を<br class="br-sp">ご利用していただく予定です。</h5>
+                        <h5 class="subtitle">社内の福利厚生手続き等にFamieeの証明書を<br class="br-sp">ご利用していただく予定です。<br>また企業様によっては社外サービスにおけるご利用もございます。</h5>
                     </div>
                 </div>
 
@@ -558,6 +558,54 @@
 
                                 </div>
                                 <!-- END row6 -->
+                                <!-- row7 -->
+                                <div class="row">
+                                          <div class="col-md-4">
+                                              <div class="card card-member">
+                                                  <div class="content">
+                                                      <a href= "https://www.randcins.jp/" target="_blank">
+                                                      <div style="padding:12px 0">
+                                                          <img class="lazyload" loading="lazy" alt="..." style="width:120px" src="img/faces/randc_logo.jpg"/>
+                                                      </div>
+                                                      <div class="description">
+                                                          <h3 class="title" style="font-size: 1.2rem">R&C株式会社 様</h3>
+                                                      </div>
+                                                      </a>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="col-md-4">
+                                              <div class="card card-member">
+                                                  <div class="content">
+                                                      <a href="" target="_blank">
+                                                      <div style="padding:0 0">
+                                                          <img class="lazyload" loading="lazy" alt="..." style="width:120px" src="img/faces/diverse_partners_logo.jpg"/>
+                                                      </div>
+                                                      <div class="description">
+                                                          <h3 class="title" style="font-size: 1.2rem; margin:0">株式会社ダイバースパートナーズ 様</h3>
+                                                      </div>
+                                                      </a>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="col-md-4">
+                                              <div class="card card-member">
+                                                  <div class="content">
+                                                      <a href= "https://partner-kyosai.org/" target="_blank">
+                                                      <div style="padding:34px 0">
+                                                          <img class="lazyload" loading="lazy" alt="..." style="width:150px" src="img/faces/partner_logo.jpg"/>
+                                                      </div>
+                                                      <div class="description">
+                                                          <h3 class="title" style="font-size: 1.2rem">パートナー共済 様</h3>
+                                                      </div>
+                                                      </a>
+                                                  </div>
+                                              </div>
+                                          </div>
+
+                                  </div>
+                                  <!-- END row7 -->
+
 
 
 
