@@ -577,7 +577,7 @@
                                           <div class="col-md-4">
                                               <div class="card card-member">
                                                   <div class="content">
-                                                      <a href="" target="_blank">
+                                                      <a>
                                                       <div style="padding:0 0">
                                                           <img class="lazyload" loading="lazy" alt="..." style="width:120px" src="img/faces/diverse_partners_logo.jpg"/>
                                                       </div>
