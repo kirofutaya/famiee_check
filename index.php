@@ -605,6 +605,26 @@
 
                                   </div>
                                   <!-- END row7 -->
+                                  <!-- row8 -->
+                                  <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="card card-member">
+                                                    <div class="content">
+                                                        <a href= "https://www.gaiax.co.jp/" target="_blank">
+                                                        <div style="padding:30px 0">
+                                                            <img class="lazyload" loading="lazy" alt="..." style="width:120px" src="img/faces/gaiax_logo.png"/>
+                                                        </div>
+                                                        <div class="description">
+                                                            <h3 class="title" style="font-size: 1.2rem">株式会社ガイアックス 様</h3>
+                                                        </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                    </div>
+                                    <!-- END row8 -->
 
 
 
