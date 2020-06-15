@@ -713,6 +713,11 @@
                         <div class="swiper-wrapper">
                             <!-- Slides -->
                             <div class="swiper-slide">
+                              <a href="https://note.com/famiee/n/n33c8d69f8601">
+                                <img alt="..." src="img/thumnail/note_sugiyama.jpeg"/>
+                              </a>
+                            </div>
+                            <div class="swiper-slide">
                               <a href="https://note.com/famiee/n/n5af81a4bce47">
                                 <img alt="..." src="img/thumnail/note_shimoyamada.png"/>
                               </a>

@@ -2285,6 +2285,10 @@ a,
   -webkit-transition: 0.2s ease-in-out;
 }
 
+.swiper-pagination-bullet-active {
+  opacity: 0.5
+}
+
 .note-area {
   max-width:
 }
