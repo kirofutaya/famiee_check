@@ -611,7 +611,7 @@
                                                 <div class="card card-member">
                                                     <div class="content">
                                                         <a href= "https://www.gaiax.co.jp/" target="_blank">
-                                                        <div style="padding:30px 0">
+                                                        <div style="padding:39px 0">
                                                             <img class="lazyload" loading="lazy" alt="..." style="width:120px" src="img/faces/gaiax_logo.png"/>
                                                         </div>
                                                         <div class="description">
@@ -621,10 +621,56 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                            <div class="col-md-4">
+                                                <div class="card card-member">
+                                                    <div class="content">
+                                                        <a href= "https://sakurug.co.jp/" target="_blank">
+                                                        <div>
+                                                            <img class="lazyload" loading="lazy" alt="..." style="width:180px" src="img/faces/sakurug_logo.jpg"/>
+                                                        </div>
+                                                        <div class="description">
+                                                            <h3 class="title" style="font-size: 1.2rem">株式会社SAKURUG 様</h3>
+                                                        </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="card card-member">
+                                                    <div class="content">
+                                                        <a href= "https://www.edogawa.or.jp/" target="_blank">
+                                                        <div style="padding:14.2px 0;">
+                                                            <img class="lazyload" loading="lazy" alt="..." style="width:90px" src="img/faces/edogawa_logo.png"/>
+                                                        </div>
+                                                        <div class="description">
+                                                            <h3 class="title" style="font-size: 1.2rem">江戸川病院 様</h3>
+                                                        </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
 
 
                                     </div>
                                     <!-- END row8 -->
+                                    <!-- row9 -->
+                                    <div class="row">
+                                              <div class="col-md-4">
+                                                  <div class="card card-member">
+                                                      <div class="content">
+                                                          <a href= "https://www.adish.co.jp/" target="_blank">
+                                                          <div>
+                                                              <img class="lazyload" loading="lazy" alt="..." style="width:70px" src="img/faces/adish_logo.jpg"/>
+                                                          </div>
+                                                          <div class="description">
+                                                              <h3 class="title" style="font-size: 1.2rem">アディッシュ株式会社 様</h3>
+                                                          </div>
+                                                          </a>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                      </div>
+                                      <!-- END row9 -->
 
 
 
