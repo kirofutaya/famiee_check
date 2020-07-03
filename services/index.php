@@ -251,7 +251,7 @@
         <div class="k-tl-area">
           <div class="k-tl-title active">STEP2 証明書の説明</div>
           <div class="k-tl-content">
-            <p class="description">既存パートナーシップ制度に対する位置付けや技術面に関する説明を見る</p>
+            <p class="description">既存パートナーシップ制度に対する位置付けや技術面に関する説明を見る。</p>
           </div>
         </div>
       </a>
