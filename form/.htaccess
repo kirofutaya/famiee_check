@@ -1,4 +1,4 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteRule　/form$ http://docs.google.com/forms/d/e/1FAIpQLScIDZx02iO75AXn2JmcXR11-99TV559xWS6BuqBkvnzI80Prg/viewform/ [R=301,L]
+    RewriteRule ^$ http://docs.google.com/forms/d/e/1FAIpQLScIDZx02iO75AXn2JmcXR11-99TV559xWS6BuqBkvnzI80Prg/viewform/ [R=301,L]
 </IfModule>
