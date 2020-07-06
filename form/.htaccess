@@ -1,4 +1,5 @@
 <IfModule mod_rewrite.c>
+    Options +FollowSymLinks
     RewriteEngine On
     RewriteRule  https://docs.google.com/forms/d/e/1FAIpQLScIDZx02iO75AXn2JmcXR11-99TV559xWS6BuqBkvnzI80Prg/viewform [R=301,L]
 </IfModule>
