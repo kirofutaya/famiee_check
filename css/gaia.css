@@ -3287,6 +3287,13 @@ transform: translate(0, 50%) !important;
 footer .info ul{
   text-align: left
 }
+
+.hidden-tb{
+  display: block;
+}
+.show-tb{
+  display: none;
+}
 /* END Kiro追加 */
 
 
@@ -3496,7 +3503,7 @@ footer .info ul{
     display: none;
   }
   .show-tb{
-    display: block;
+    display: inline;
   }
   .flex{
     flex-direction: column !important;

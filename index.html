@@ -996,7 +996,7 @@
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title" glot-model="nice">村上乃須</h3>
-                                                    <p class="small-text" glot-model="hottolinkKKK">株式会社ホットリンク　ダイバーシティ推進担当</p>
+                                                    <p class="small-text" glot-model="hottolinkKKK">株式会社ホットリンク<br  class="hidden-tb"><span class="show-tb"> </span>ダイバーシティ推進担当</p>
                                                     <p class="description  text-justify" glot-model="niceD">社会課題を解決するための仕組みづくりに強い関心を持ち、「たくさんの家族の形が当たり前に認められ、誰もが家族を持つことができる社会を実現する」というアプローチに共感し、「famiee」の起ち上げに参画。<br class="hidden-tb "><br class="hidden-tb "><br class="hidden-tb "><br class="hidden-tb "></p>
                                                 </div>
                                             </div>
@@ -1032,7 +1032,7 @@
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title" glot-model="mai">藤本真衣</h3>
-                                                    <p class="small-text">Gracone CEO<br>Miss Bitcoin</p>
+                                                    <p class="small-text">Gracone CEO<br class="hidden-tb"><span class="show-tb"> / </span>Miss Bitcoin</p>
                                                     <p class="description text-justify" glot-model="maiD">MissBitcoinとして世界中で知られる藤本真衣は、2011年から暗号通貨業界に携わり、キャリアの中で多くの成果を上げています。<br><br>暗号通貨とBlockchainをSDGsに活用することに最も関心があり、2017年には寄付プラットフォームKIZUNAを立ち上げ、BINANCE Charity Foundationの大使としても活動しています。<br><br>twitterやyoutubeでブロックチェーン業界全体の普及に務めるKOLとして活躍すると同時に、5つの会社を立ち上げるシリアルアントレプレナーであり、GMOなどの日本の上場会社やLayerXなどの有力IT企業を含む１０社以上の顧問としても活躍している。</p>
                                                 </div>
                                             </div>
@@ -1145,8 +1145,9 @@
                                                   </div>
                                                   <div class="description">
                                                       <h3 class="title" glot-model="take">竹中平蔵</h3>
-                                                      <p class="small-text" glot-model="keio">特別アドバイザー / 慶應義塾大学名誉教授</p>
-                                                      <p class="description text-justify" glot-model="takeD">博士（経済学）。ハーバード大学客員准教授、慶應義塾大学総合政策学部教授などを経て、2001年小泉内閣で経済財政政策担当大臣を皮切りに、金融担当大臣、郵政民営化担当大臣兼務、総務大臣を歴任。東洋大学教授、慶應義塾大学名誉教授、アカデミーヒルズ理事長等を兼務。プロジェクト特別アドバイザー。<br class="hidden-tb "><br class="hidden-tb "><br class="hidden-tb "><br class="hidden-tb "><br class="hidden-tb "></p>
+                                                      <p class="small-text" glot-model="keio">特別アドバイザー<br class="hidden-tb "><span class="show-tb"> / </span>慶應義塾大学名誉教授</p>
+                                                      <p class="description text-justify" glot-model="takeD">博士（経済学）。ハーバード大学客員准教授、慶應義塾大学総合政策学部教授などを経て、2001年小泉内閣で経済財政政策担当大臣を皮切りに、金融担当大臣、郵政民営化担当大臣兼務、総務大臣を歴任。東洋大学教授、慶應義塾大学名誉教授、アカデミーヒルズ理事長等を兼務。プロジェクト特別アドバイザー。<br class="hidden-tb "><br class="hidden-tb "><br class="hidden-tb "><br class="hidden-tb "><br class="hidden-tb "><br class="hidden-tb "><br class="hidden-tb "><br class="hidden-tb "><br class="hidden-tb"><br class="hidden-tb ">
+                                                      </p>
                                                   </div>
                                               </div>
                                           </div>
@@ -1160,8 +1161,22 @@
                                                   </div>
                                                   <div class="description">
                                                       <h3 class="title" glot-model="song">宋美玄</h3>
-                                                      <p class="small-text" glot-model="doctor">産婦人科専門医・医学博士・FMF認定超音波医</p>
-                                                      <p class="description text-justify" glot-model="songD">2001年大阪大学医学部医学科卒業。大学卒業後、大阪大学医学部附属病院、りんくう総合医療センターなどを経て川崎医科大学講師就任。2009年ロンドンのFetal Medicine Foundationへ留学。胎児超音波の研鑽を積む。2015年川崎医科大学医学研究科博士課程卒業。周産期医療、女性医療に従事する傍ら、テレビ、インターネット、雑誌、書籍で情報発信を行う。産婦人科医の視点から社会問題の解決、ヘルスリテラシーの向上を目的とし活動中。</p>
+                                                      <p class="small-text" glot-model="doctor">産婦人科専門医・医学博士<br class="hidden-tb ">・FMF認定超音波医</p>
+                                                      <p class="description text-justify" glot-model="songD">2001年大阪大学医学部医学科卒業。大学卒業後、大阪大学医学部附属病院、りんくう総合医療センターなどを経て川崎医科大学講師就任。2009年ロンドンのFetal Medicine Foundationへ留学。胎児超音波の研鑽を積む。2015年川崎医科大学医学研究科博士課程卒業。周産期医療、女性医療に従事する傍ら、テレビ、インターネット、雑誌、書籍で情報発信を行う。産婦人科医の視点から社会問題の解決、ヘルスリテラシーの向上を目的とし活動中。<br class="hidden-tb "><br class="hidden-tb "><br class="hidden-tb "><br class="hidden-tb "><br class="hidden-tb "><br class="hidden-tb "></p>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <div class="col-md-4">
+                                          <div class="card card-member">
+                                              <div class="content">
+                                                  <div class="avatar ">
+                                                      <img loading="lazy" alt="..." class="img-circle lazyload" src="img/faces/tsuji.jpg"/>
+                                                  </div>
+                                                  <div class="description">
+                                                      <h3 class="title">辻愛沙子</h3>
+                                                      <p class="small-text">株式会社arca CEO<br class="hidden-tb"><span class="show-tb"> / </span>Creative Director</p>
+                                                      <p class="description text-justify">社会派クリエイティブを掲げ、「思想と社会性のある事業作り」と「世界観に拘る作品作り」の二つを軸として広告から商品プロデュースまで領域を問わず手がける越境クリエイター。リアルイベント、商品企画、ブランドプロデュースまで、幅広いジャンルでクリエイティブディレクションを手がける。2019年春、女性のエンパワメントやヘルスケアをテーマとした「Ladyknows」プロジェクトを発足。10月に実施したLadyknows Fes 2019では、500円で受診できるワンコイン婦人科健診を実施し話題に。2019年秋より報道番組 news zero にて水曜パートナーとしてレギュラー出演し、作り手と発信者の両軸で社会課題へのアプローチに挑戦している。</p>
                                                   </div>
                                               </div>
                                           </div>
