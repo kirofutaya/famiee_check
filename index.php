@@ -739,7 +739,23 @@
                                                       </div>
                                                   </div>
                                               </div>
+                                              <div class="col-md-4">
+                                                  <div class="card card-member">
+                                                      <div class="content">
+                                                          <a href= "https://www.startiaholdings.com/" target="_blank">
+                                                          <div style="padding:34px 0;">
+                                                              <img class="lazyload" loading="lazy" alt="..." style="width:140px" src="img/faces/startia_logo.png"/>
+                                                          </div>
+                                                          <div class="description">
+                                                              <h3 class="title" style="font-size: 1.2rem">スターティアホールディングス株式会社</h3>
+                                                          </div>
+                                                          </a>
+                                                      </div>
+                                                  </div>
+                                              </div>
                                       </div>
+
+
                                       <!-- END row9 -->
 
 
