@@ -1055,6 +1055,36 @@
                                         </div>
                                     </div>
 
+                                    <div class="col-md-4">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <div class="avatar ">
+                                                    <img loading="lazy" alt="..." class="img-circle lazyload" src="img/faces/hosoda_tomomi.png"/>
+                                                </div>
+                                                <div class="description">
+                                                    <h3 class="title">細田知美</h3>
+                                                    <p class="small-text">PRコミュニケーション コンサルタント</p>
+                                                    <p class="description text-justify">大手PR会社シニアコンサルタント。メディアとの強いエンゲージメントを持ち、メディアとともに新しい形の情報拡散を行いムーブメントを生み出す。日本大学芸術学部卒業後、デザイナーとして活動したのちフランスに5年間在住、異文化に触れながら子育てを行う。アートをベースにしたクリエイティブ思考を生かし、PR視点から個人や企業へのブランディングを行っている。日経XWOMANアンバサダー。</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <div class="avatar ">
+                                                    <img loading="lazy" alt="..." class="img-circle lazyload" src="img/faces/kone.png"/>
+                                                </div>
+                                                <div class="description">
+                                                    <h3 class="title" glot-model="mai">KONE</h3>
+                                                    <!-- <p class="small-text">Gracone CEO<br class="hidden-tb"><span class="show-tb"> / </span>Miss Bitcoin</p> -->
+                                                    <p class="description text-justify">youtubeで「がんこちゃん」としてLGBTQに関する発信活動を行う。多様な家族が認められる社会に共感し、Famiee projectに携わる。</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                     <!-- <div class="col-md-4">
                                         <div class="card card-member">
                                             <div class="content pd-b-md-205">
