@@ -747,7 +747,7 @@
                                                               <img class="lazyload" loading="lazy" alt="..." style="width:140px" src="img/faces/startia_logo.png"/>
                                                           </div>
                                                           <div class="description">
-                                                              <h3 class="title" style="font-size: 1.2rem">スターティアホールディングス株式会社</h3>
+                                                              <h3 class="title" style="font-size: 1.1rem">スターティアホールディングス株式会社 様</h3>
                                                           </div>
                                                           </a>
                                                       </div>
