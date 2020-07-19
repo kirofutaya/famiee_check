@@ -7,14 +7,27 @@ $(window).on('load', function(){
   $('.loading-title').delay(600).fadeOut(300);
 });
 // (duration/1000)秒たったら強制的にフェードアウトをかける
-(function(){
-  var duration = 3000;
-  setTimeout('stopload()',duration);
+$(function(){
+  var duration = 1500;
+  setTimeout(stopload, duration);
 });
 function stopload(){
+ console.log("test");
  $('.loading-bg').delay(900).fadeOut(800);
  $('.loading-title').delay(600).fadeOut(300);
-}
+};
+
+// スクロール時アニメーション起動用
+// $(window).scroll(function (){
+//     $('.fadein').each(function(){
+//         var position = $(this).offset().top;
+//         var scroll = $(window).scrollTop();
+//         var windowHeight = $(window).height();
+//         if (scroll > position - windowHeight + 200){
+//           $(this).addClass('active');
+//         }
+//     });
+// });
 
 // ロード時にurlごとに異なるapiを叩く
 $(window).on('load', function(){

@@ -35,7 +35,7 @@
     <link href='https://fonts.googleapis.com/css?family=Cambo|Poppins:400,600' rel='stylesheet' type='text/css'>
     <!-- <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP:200,300,400,500,600,700,900&display=swap&subset=japanese" rel="stylesheet"> -->
         <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP:400&display=swap&subset=japanese" rel="stylesheet">
-    <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/fonts/pe-icon-7-stroke.css" rel="stylesheet">
 
 
@@ -67,12 +67,12 @@
 <body>
 
 <!-- ローディング -->
-<div class="loading-bg">
+<!-- <div class="loading-bg">
  <div class="loading-title">
   <p>LOADING</p>
   <div class="loader"></div>
  </div>
-</div>
+</div> -->
 
 <!-- ナビゲーションバー -->
 <nav class="navbar navbar-default navbar-transparent navbar-fixed-top" color-on-scroll="200">
@@ -154,163 +154,164 @@
 
 
     <div class="section section-header">
-        <div class="parallax filter">
-          <div class="image top-image"
-              style="background-image: url('img/balloon.jpg')">
-            <!-- <div class="image"
-                style="background-image: url('https://user-images.githubusercontent.com/31148191/63639231-d5415480-c6cb-11e9-840b-e4f7def567dd.jpg')"> -->
-            </div>
-            <div class="container">
+        <div class="parallax filter filter-gradient-rainbow">
+          <div class="image top-image2" style="background-image: url('img/app_background.png')"></div>
+            <div class="container relative">
                 <div class="content">
                     <div class="title-area">
-                        <h1 class="title-modern">Famiee Project</h1>
-                        <p>Mission</p>
-                        <h3 glot-model="mission">多様な家族形態が当たり前のように認められる社会の実現のために</h2>
-                        <div class="separator line-separator">♦</div>
+                      <img src="img/title.png" class="title-logo"></img>
+                      <!-- <div><a href="" style="opacity:1"><img src="img/appstore.svg" class="appstore"></img></a></div> -->
+                      <h3 class="tagline" style="margin-top:60px;">アプリで完結するパートナーシップ証明</h2>
                     </div>
                 </div>
-
+                <div class="scrollbutton">
+                  <div class="pleaseScroll">SCROLL</div>
+                </div>
             </div>
         </div>
     </div>
 
 
     <div class="section">
-        <div class="container">
-
-          <!-- row1 -->
-            <div class="row">
-                <div class="title-area">
-                    <h2 glot-model="service">私達のサービス</h2>
-                    <div class="separator separator-danger">✻</div>
-                    <p class="description text-left" glot-model="what" >私達は現在の法律上では夫婦・親子と認められない世界中の夫婦・親子が、家族としての当たり前の権利やサービスを受けられない、という課題を解決するために、ブロックチェーン技術を使って家族関係証明書を発行することで、彼ら彼女らが家族であることを社会的に認め、また、その証明書を受け入れる企業・団体を増やし、家族向けのサービスを受けられるようにする活動（※）をしています。</p>
-                    <p glot-model="hidden1" class="small text-muted">※・社内での家族向けの福利厚生の対象になる<br class="br-sp">（慶弔休暇、介護休暇、家族手当、etc.）<br>・住宅ローンの際に、夫婦として収入合算して査定される<br>・生命保険の受取人になれる<br>・航空会社のマイルの家族交換サービスの対象に<br>・携帯電話の家族割引の対象に<br>・病院での手術の同意書にサインできる<br>・夫婦用の公営住宅に応募できる　etc</p>
-                </div>
+      <div class="container flex">
+            <div class="side-section">
+              <h2 class="catch-copy fadein"><span class="decorate">戸籍上の性別によらない　</span><br><span class="decorate">民間発行のパートナーシップ証明　</span></h2>
+              <p class="description">
+                あああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+              </p>
             </div>
-
-            <!-- row2 -->
-            <!-- <div class="row">
-                <div class="col-md-4">
-                    <div class="info-icon">
-                        <div class="icon text-danger">
-                            <i class="pe-7s-global"></i>
-                        </div>
-                        <h3 glot-model="global" >グローバル</h3>
-                        <p class="description text-left" glot-model="Access" >認証された情報は自分たちだけが分かる形で保存され世界中のどこからでもアクセスすることができます。</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="info-icon">
-                        <div class="icon text-danger">
-                            <i class="pe-7s-settings"></i>
-                        </div>
-                        <h3 glot-model="Blockchain" >ブロックチェーン</h3>
-                        <p class="description text-left" glot-model="BlockchainD" >改ざん不可能な形で、夫婦・親子関係の存在を証明します。</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="info-icon">
-                        <div class="icon text-danger">
-                            <i class="pe-7s-user-female"></i>
-                        </div>
-                        <h3 glot-model="Network">ネットワーク</h3>
-                        <p class="description text-left" glot-model="NetworkD">Famieeプロジェクトに参画している世界中の企業・団体で、家族としてのサービスを受けられます。</p>
-                    </div>
-                </div>
-            </div> -->
-
-
-
-            <div class="title-area" style="margin-bottom:0">
-                <h3>プロジェクトの詳細と<br class="br-sp">証明書のご利用手順</h3>
-                <div class="separator separator-danger">✻</div>
+            <div class="side-section">
+              <div><img class="lazyload" loading="lazy" alt="..." src="img/balloon.jpg"  style="width:100%;"></div>
             </div>
-
-            <div class="k-tl">
-              <a href="./project" class="process">
-                <div class="k-tl-marker now"></div>
-                <div class="k-tl-area">
-                  <div class="k-tl-title active">STEP1 プロジェクトの説明</div>
-                  <div class="k-tl-content">
-                    <p class="description">プロジェクトの目的や経緯に関する説明を見る。</p>
-                  </div>
+      </div>
+      <div class="container" style="margin-top:20px;">
+        <h3 class="test" style="text-align:center; font-family:sans-serif;">導入企業*</h3>
+        <!-- <div class="separator separator-danger">✻</div> -->
+            <div class="flex" style="align-items:center;">
+              <div class="just-flex"  style="align-items:center;">
+                <div style="width:33%">
+                  <img class="lazyload" loading="lazy" alt="..." src="img/faces/istyle_logo.jpg"/>
                 </div>
-              </a>
-
-              <a href="./services" class="process">
-                <div class="k-tl-marker now"></div>
-                <div class="k-tl-area">
-                  <div class="k-tl-title active">STEP2 証明書の説明</div>
-                  <div class="k-tl-content">
-                    <p class="description">既存パートナーシップ制度に対する位置付けや技術面に関する説明を見る。</p>
-                  </div>
+                <div style="width:33%">
+                  <img class="lazyload" loading="lazy" alt="..." src="img/faces/istyle_logo.jpg"/>
                 </div>
-              </a>
-
-              <a href="./forCompany" class="process">
-                <div class="k-tl-marker now"></div>
-                <div class="k-tl-area">
-                  <div class="k-tl-title active">STEP3 利用に際してのお願い</div>
-                  <div class="k-tl-content">
-                    <p class="description">企業様の人事部、商品・サービス企画部の方へのお願いを見る。</p>
-                  </div>
-                </div>
-              </a>
-
-              <a href="https://forms.gle/ib6MmkULt2euknhEA" target="_blank" data-toggle="modal" data-target="#modal_form">
-                <div class="k-tl-marker now"></div>
-                <div class="k-tl-area">
-                  <div class="k-tl-title active">STEP4 賛同＆受入通知の記入</div>
-                  <div class="k-tl-content">
-                    <p class="description">パートナーシップ証明書に対する賛同＆受入通知をGoogleフォームから一般社団法人Famieeへ送信する。</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-
-            <!-- モーダル -->
-            <!-- Uchiyama_modal -->
-            <div class="modal fade" id="modal_form" tabindex="-1" role="dialog" aria-labelledby="FormLabel" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                  <!-- <div class="modal-header">
-                    <h3 class="modal-title" style="color: black; text-align:center" id="FormLabel">通知</h3>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    </button>
-                  </div> -->
-                  <div class="modal-body">
-                    <!-- <h5 class="small-text" style="color: black">賛同＆受入通知をする前に</h5> -->
-                    <p class="description" style="text-align:center">プロジェクトに関する詳しい説明はご覧になりましたか？</p>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" onclick="location.href='https://forms.gle/ib6MmkULt2euknhEA'" style="margin-bottom:0">はい</button>
-                    <button type="button" class="btn btn-secondary" onclick="location.href='./project'">いいえ</button>
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">戻る</button>
-                  </div>
+                <div style="width:33%">
+                  <img class="lazyload" loading="lazy" alt="..." src="img/faces/istyle_logo.jpg"/>
                 </div>
               </div>
+              <div class="just-flex"  style="align-items:center;">
+                <div style="width:33%">
+                  <img class="lazyload" loading="lazy" alt="..." src="img/faces/crien.jpg"/>
+                </div>
+                <div style="width:33%">
+                  <img class="lazyload" loading="lazy" alt="..." src="img/faces/crien.jpg"/>
+                </div>
+                <div style="width:33%">
+                  <img class="lazyload" loading="lazy" alt="..." src="img/faces/crien.jpg"/>
+                </div>
+              </div>
+          </div>
+
+          <!-- <div class="just-flex">
+            <div style="width:33%">
+              <img class="lazyload" loading="lazy" alt="..." src="img/faces/istyle_logo.jpg"/>
             </div>
-
-
-
-
-
-
-            <!-- <div class="flex" style="margin-top:30px;">
-              <a href="./project" class="btn btn-danger btn-fill syomeisyo-btn" style="text-align:center; width:30%; margin: auto">
-                  プロジェクトの詳しい説明
-              </a>
-              <a href="./services" class="btn btn-danger btn-fill syomeisyo-btn" style="text-align:center; width:30%; margin: auto">
-                  証明書の詳しい説明
-              </a>
-              <a href="./forCompany" class="btn btn-danger btn-fill syomeisyo-btn" style="text-align:center; width:30%; margin: auto">
-                  企業様向けのお願い
-              </a>
-              <a href="https://drive.google.com/file/d/1_SXUFI-CeVAkc9pr-s6qnClJCvB10czb/view?usp=sharing" target="_blank" class="btn btn-primary btn-fill syomeisyo-btn" style="text-align:center; width:30%; margin: auto">
-                  証明書受け入れご提案書はこちら
-              </a>
-            </div> -->
-        </div>
+            <div style="width:33%">
+              <img class="lazyload" loading="lazy" alt="..." src="img/faces/istyle_logo.jpg"/>
+            </div>
+            <div style="width:33%">
+              <img class="lazyload" loading="lazy" alt="..." src="img/faces/istyle_logo.jpg"/>
+            </div>
+          </div>
+          <div class="just-flex">
+            <div style="width:33%">
+              <img class="lazyload" loading="lazy" alt="..." src="img/faces/istyle_logo.jpg"/>
+            </div>
+            <div style="width:33%">
+              <img class="lazyload" loading="lazy" alt="..." src="img/faces/istyle_logo.jpg"/>
+            </div>
+            <div style="width:33%">
+              <img class="lazyload" loading="lazy" alt="..." src="img/faces/istyle_logo.jpg"/>
+            </div>
+          </div>
+          <div class="just-flex">
+            <div style="width:33%">
+              <img class="lazyload" loading="lazy" alt="..." src="img/faces/istyle_logo.jpg"/>
+            </div>
+            <div style="width:33%">
+              <img class="lazyload" loading="lazy" alt="..." src="img/faces/istyle_logo.jpg"/>
+            </div>
+            <div style="width:33%">
+              <img class="lazyload" loading="lazy" alt="..." src="img/faces/istyle_logo.jpg"/>
+            </div>
+          </div>
+          <div class="just-flex">
+            <div style="width:33%">
+              <img class="lazyload" loading="lazy" alt="..." src="img/faces/istyle_logo.jpg"/>
+            </div>
+            <div style="width:33%">
+              <img class="lazyload" loading="lazy" alt="..." src="img/faces/istyle_logo.jpg"/>
+            </div>
+            <div style="width:33%">
+              <img class="lazyload" loading="lazy" alt="..." src="img/faces/istyle_logo.jpg"/>
+            </div>
+          </div>
+          <div class="just-flex">
+            <div style="width:33%">
+              <img class="lazyload" loading="lazy" alt="..." src="img/faces/istyle_logo.jpg"/>
+            </div>
+            <div style="width:33%">
+              <img class="lazyload" loading="lazy" alt="..." src="img/faces/istyle_logo.jpg"/>
+            </div>
+            <div style="width:33%">
+              <img class="lazyload" loading="lazy" alt="..." src="img/faces/istyle_logo.jpg"/>
+            </div>
+          </div>
+          <div class="just-flex">
+            <div style="width:33%">
+              <img class="lazyload" loading="lazy" alt="..." src="img/faces/istyle_logo.jpg"/>
+            </div>
+            <div style="width:33%">
+              <img class="lazyload" loading="lazy" alt="..." src="img/faces/istyle_logo.jpg"/>
+            </div>
+            <div style="width:33%">
+              <img class="lazyload" loading="lazy" alt="..." src="img/faces/istyle_logo.jpg"/>
+            </div>
+          </div>
+          <div class="just-flex">
+            <div style="width:33%">
+              <img class="lazyload" loading="lazy" alt="..." src="img/faces/istyle_logo.jpg"/>
+            </div>
+            <div style="width:33%">
+              <img class="lazyload" loading="lazy" alt="..." src="img/faces/istyle_logo.jpg"/>
+            </div>
+            <div style="width:33%">
+              <img class="lazyload" loading="lazy" alt="..." src="img/faces/istyle_logo.jpg"/>
+            </div>
+          </div>
+          <div class="just-flex">
+            <div style="width:33%">
+              <img class="lazyload" loading="lazy" alt="..." src="img/faces/istyle_logo.jpg"/>
+            </div>
+            <div style="width:33%">
+              <img class="lazyload" loading="lazy" alt="..." src="img/faces/istyle_logo.jpg"/>
+            </div>
+            <div style="width:33%">
+              <img class="lazyload" loading="lazy" alt="..." src="img/faces/istyle_logo.jpg"/>
+            </div>
+          </div>
+          <div class="just-flex">
+            <div style="width:33%">
+              <img class="lazyload" loading="lazy" alt="..." src="img/faces/istyle_logo.jpg"/>
+            </div>
+            <div style="width:33%">
+              <img class="lazyload" loading="lazy" alt="..." src="img/faces/istyle_logo.jpg"/>
+            </div>
+            <div style="width:33%">
+              <img class="lazyload" loading="lazy" alt="..." src="img/faces/istyle_logo.jpg"/>
+            </div>
+          </div> -->
+      </div>
     </div>
 
 
