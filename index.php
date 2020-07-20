@@ -1118,29 +1118,68 @@
                                         </div>
                                     </div>
 
-                                    <!-- <div class="col-md-4">
-                                        <div class="card card-member">
-                                            <div class="content pd-b-md-205">
-                                                <div class="avatar ">
-                                                    <img loading="lazy" alt="..." class="img-circle lazyload" src="img/faces/sugawara.png"/>
-                                                </div>
-                                                <div class="description">
-                                                    <h3 class="title">管原秀太</h3>
-                                                    <p class="small-text">ザンシン株式会社 CEO</p>
-                                                    <p class="description text-justify">2017年、文部科学省主催の国家プロジェクトメンバーとして、シリコンバレーへ渡る。現地でブロックチェーンに関するテクノロジーに可能性を感じ、帰国後、東京大学ブロックチェーン起業家支援プログラムに１期生として参画。同プログラムで最優秀賞を受賞。ブロックチェーン専門のIT企業にて開発経験を積んだのち、ザåンシン株式会社を設立。開発メンバー。</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> -->
-
 
                                 </div>
+
+                                <!-- row4 -->
+                                <div class="row">
+
+                                  <div class="col-md-4">
+                                      <div class="card card-member">
+                                          <div class="content">
+                                              <div class="avatar ">
+                                                  <img loading="lazy" alt="..." class="img-circle lazyload" src="img/faces/sato.jpg"/>
+                                              </div>
+                                              <div class="description">
+                                                  <h3 class="title">佐藤 淳一</h3>
+                                                  <p class="small-text">株式会社CRIEN CEO</p>
+                                                  <p class="description text-justify">株式会社CELLにて10代の頃より多くのモバイルITサービスの開 発/運営を経験。ベンチャーの立ち上げ・メガベンチャー・ス タートアップと経て、現在は今までの経験を活かし新たな角度から、日本の地方創生を支えられるよう株式会社CRIENを立ち上げる。CRIENでは、2つの事業を展開しており、培ってきたITの知見を飲食業界に伝える「飲食店向けITコンシェルジュ」事業と、 研究開発としてSNS/インフルエンサーマーケティング・IoT・AI などをご活用し新規サービスの立ち上げを行なっている。<br>Famiee発起人の内山との出会いからそのミッションに共感しプロジェクトに開発メンバーとして参画。</p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+
+                                  <div class="col-md-4">
+                                      <div class="card card-member">
+                                          <div class="content">
+                                              <div class="avatar ">
+                                                  <img loading="lazy" alt="..." class="img-circle lazyload" src="img/faces/kagami.jpg"/>
+                                              </div>
+                                              <div class="description">
+                                                  <h3 class="title">加賀美サイ</h3>
+                                                  <!-- <p class="small-text">PRコミュニケーション コンサルタント</p> -->
+                                                  <p class="description text-justify" style="padding-top:32.5px">性やジェンダー、発達障害、生きづらさ、親子関係、音楽や文学などのカルチャーについて書いているライター。主にnoteやTwitterでコンテンツを発信している。本業もライター／編集者で、マーケティング関係の会社に勤務。自らのバックグラウンドもあり、Famieeのミッションやサービス、社会におけるゴールに共感。ライティングの経験を活かし、Famieeでは主に記事制作を行っている。<br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"></p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+
+
+                              </div>
+
+
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- <div class="col-md-4">
+            <div class="card card-member">
+                <div class="content pd-b-md-205">
+                    <div class="avatar ">
+                        <img loading="lazy" alt="..." class="img-circle lazyload" src="img/faces/sugawara.png"/>
+                    </div>
+                    <div class="description">
+                        <h3 class="title">管原秀太</h3>
+                        <p class="small-text">ザンシン株式会社 CEO</p>
+                        <p class="description text-justify">2017年、文部科学省主催の国家プロジェクトメンバーとして、シリコンバレーへ渡る。現地でブロックチェーンに関するテクノロジーに可能性を感じ、帰国後、東京大学ブロックチェーン起業家支援プログラムに１期生として参画。同プログラムで最優秀賞を受賞。ブロックチェーン専門のIT企業にて開発経験を積んだのち、ザåンシン株式会社を設立。開発メンバー。</p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
 <!-- End Members Section -->
 
 

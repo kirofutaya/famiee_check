@@ -3068,16 +3068,24 @@ a,
   height: auto;
 }
 .appstore{
+  opacity:1;
+  display:inline-block
+}
+.appstore > img{
   height: 40px;
 }
 .tagline{
   font-family: sans-serif;
+  text-shadow: 1px 2px 3px #808080;
 }
 .catch-copy{
   line-height: 2;
 }
 .decorate{
-  background-color: rgba(213,130,53,0.2);
+  background-color: #ff9129;
+  color: white;
+  font-family: sans-serif;
+  /* background-color: rgba(213,130,53,0.2); */
   padding: 5px;
 }
 
@@ -3087,10 +3095,32 @@ a,
   padding: 0 10px;
 }
 
+.section-feature .side-section .just-flex{
+  width: 100%;
+}
+
+.feature-icon{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 140px;
+  font-size: 60px;
+  border-radius: 50%;
+  /* background-color: rgba(213,130,53,0.2); */
+  border: 5px solid #ff9129;
+  text-align: center;
+  vertical-align: center;
+  color:#ff9129;
+}
+
 .two-lines{
   padding: 0.5em 0;/*上下の余白*/
-  border-top: solid 1.5px black;/*上線*/
-  border-bottom: solid 1.5px black;/*下線*/
+  border-top: solid 2px #ff9129;/*上線*/
+  border-bottom: solid 2px #ff9129;/*下線*/
+  font-weight: bold;
+  color: #ff9129;
 }
 .flex .just-flex{
   width: 50%;
@@ -3119,6 +3149,16 @@ a.btn-line:hover{
   background: rgba(255,255,255,0.1);
 }
 
+.link{
+  opacity: 1;
+  font-size:1.2rem;
+  color:#ff9129;
+}
+.link:after{
+  content:" \f054";
+  font-weight:900;
+  font-family: "Font Awesome 5 Free";
+}
 
 /* 利用フロー *//* Made with http://icomoon.io/ */
 
@@ -3161,17 +3201,18 @@ a.btn-line:hover{
 .cbp_tmtimeline > li .cbp_tmlabel {
 	margin: 0 0 15px 25%;
 	background: rgba(255,145,41,0.5);
-	padding: 1em 2em 2em;
+	padding: 20px 30px 20px;
 	font-size: 1.2em;
 	font-weight: 300;
 	line-height: 1.4;
 	position: relative;
 	border-radius: 5px;
+  color:rgb(50,50,50);
 }
 
 .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel {
 	background: rgba(255,145,41,0.7);
-  color:#fff;
+  color:rgb(50,50,50);
 }
 
 .cbp_tmtimeline > li .cbp_tmlabel h2 {
@@ -3179,11 +3220,24 @@ a.btn-line:hover{
   font-family: sans-serif;
 	margin-top: 0px;
 	padding: 0 0 10px 0;
-	border-bottom: 1px solid rgba(0,0,0,0.4);
+	border-bottom: 1px solid rgba(50,50,50,0.4);
 }
 .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel h2 {
-	border-bottom: 1px solid rgba(255,255,255,0.4);
+	border-bottom: 1px solid rgba(50,50,50,0.4);
 }
+
+.cbp_tmtimeline > li .cbp_tmlabel h2.just-title{
+  padding:0;
+  margin:0;
+  border:none !important;
+}
+
+.cbp_tmtimeline > li .cbp_tmlabel p {
+  font-size: 1.2rem;
+  line-height: 2;
+  color:rgb(60,60,60);
+}
+
 
 /* The triangle */
 .cbp_tmtimeline > li .cbp_tmlabel:after {
@@ -3218,7 +3272,7 @@ a.btn-line:hover{
 	-webkit-font-smoothing: antialiased;
 	position: absolute;
 	color: #fff;
-	background: #ffcb99;
+	background: #fff;
 	border-radius: 50%;
 	box-shadow: 0 0 0 8px #ff9129;
 	text-align: center;
@@ -3294,9 +3348,9 @@ a.btn-line:hover{
       position: absolute;
       top:0;
       left:-50px;
-      transform: translate(-50%, -50%);
+      transform: translate(0, -10px);
       -webkit-transform: translate(0, -10px);
-      -ms-transform: translate(-50%, -50%);
+      -ms-transform: translate(0, -10px);
       font-size: 45px;
       content:"Q.";
   }
@@ -3775,6 +3829,18 @@ footer .info ul{
   .swiper-slide p{
     font-size: 14px;
   }
+  .feature-icon{
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+  }
+  .appstore{
+    display: block;
+    margin: 10px;
+  }
+  .appstore > img{
+    height: 60px
+  }
 /* End kiro */
   .br-md{
     display: none;
@@ -3895,21 +3961,28 @@ footer .info ul{
   .flex{
     flex-direction: column !important;
   }
+  .order1{
+    order:1;
+  }
+  .order2{
+    order:2;
+  }
   .flex .just-flex{
     width: 100%;
   }
   .side-section{
     width: 100%;
   }
-  .column-order1{
-    order:1;
-  }
-  .column-order2{
-    order:2;
+  .icon-box{
+    margin-top: 20px;
   }
   .catch-copy{
     font-size: 1.4rem;
   }
+
+
+
+
   .flex a.syomeisyo-btn{
     width: 100% !important;
     margin:20px 0 !important;
@@ -4903,6 +4976,15 @@ body {
 .title-logo{
   width: 70%;
 }
+.feature-icon{
+  width: 90px;
+  height: 90px;
+  font-size: 35px;
+}
+.cbp_tmtimeline > li .cbp_tmlabel h2{
+  font-size: 1.2rem !important;
+}
+
 .swiper-button-prev, .swiper-button-next{
   height:28px;
   width: 28px;
