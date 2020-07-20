@@ -573,7 +573,7 @@
                         <div class="news">PR</div>
                         </div>
                         <div class="item2">
-                        <div class="pr-text">「news zero」にコメンテーターとして出演しているクリエイティブディレクター辻愛沙子氏が、Famieeのアドバイザーに就任</div>
+                        <div class="pr-text">「news zero」にパートナーとして出演しているクリエイティブディレクター辻愛沙子氏が、Famieeのアドバイザーに就任</div>
                         </div>
                       </div>
                     </a>
