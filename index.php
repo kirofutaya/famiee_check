@@ -37,6 +37,8 @@
         <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP:400&display=swap&subset=japanese" rel="stylesheet">
     <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet"> -->
     <link href="css/fonts/pe-icon-7-stroke.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5ab280140a.js" crossorigin="anonymous"></script>
+
 
 
     <!-- JavaScript -->
@@ -70,6 +72,7 @@
 <div class="loading-bg">
  <div class="loading-title">
   <p>LOADING</p>
+  <div class="loader"></div>
  </div>
 </div>
 
@@ -780,11 +783,37 @@
 
                 <ul class="msr_newslist01">
                   <li>
+                    <a href="./documents/20200720pr.pdf" target="_blank">
+                      <div class="clearfix">
+                        <div class="item1">
+                        <time datetime="2020-7-20">2020.07.20</time>
+                        <div class="news">PR</div>
+                        </div>
+                        <div class="item2">
+                        <div class="pr-text">「news zero」にコメンテーターとして出演しているクリエイティブディレクター辻愛沙子氏が、Famieeのアドバイザーに就任</div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://note.com/famiee/n/n5729f389410a" target="_blank">
+                      <div class="clearfix">
+                        <div class="item1">
+                        <time datetime="2020-7-18">2020.07.18</time>
+                        <div class="pr">Info</div>
+                        </div>
+                        <div class="item2">
+                        <div class="pr-text">Famiee取材シリーズを更新しました。</div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
                     <a href="./documents/0427release.pdf" target="_blank">
                       <div class="clearfix">
                         <div class="item1">
                         <time datetime="2020-4-27">2020.04.27</time>
-                        <div class="news">PR</div>
+                        <div class="pr">PR</div>
                         </div>
                         <div class="item2">
                         <div class="pr-text">みずほフィナンシャルグループなど17社が、同性カップル向け「パートナーシップ証明書」を企業内手続きに利用へ</div>
@@ -845,6 +874,11 @@
                         <div class="swiper-wrapper">
                             <!-- Slides -->
                             <div class="swiper-slide">
+                              <a href="https://note.com/famiee/n/n5729f389410a">
+                                <img alt="..." src="img/thumnail/note_hoshi.png"/>
+                              </a>
+                            </div>
+                            <div class="swiper-slide">
                               <a href="https://note.com/famiee/n/n33c8d69f8601">
                                 <img alt="..." src="img/thumnail/note_sugiyama.jpeg"/>
                               </a>
@@ -854,7 +888,7 @@
                                 <img alt="..." src="img/thumnail/note_shimoyamada.png"/>
                               </a>
                             </div>
-                            <div class="swiper-slide">
+                            <!-- <div class="swiper-slide">
                               <a href="https://note.com/famiee/n/n9382687b775b">
                                 <img alt="..." src="img/thumnail/note_famiee.jpeg"/>
                               </a>
@@ -865,7 +899,7 @@
                                 <img alt="..." src="img/thumnail/note_press.jpg"/>
                               </a>
                               <p>Famiee Project サイト公開しました！</p>
-                            </div>
+                            </div> -->
                         </div>
                         <!-- If we need pagination -->
                         <div class="swiper-pagination swiper-pagination-white"></div>
@@ -1064,7 +1098,7 @@
                                                 <div class="description">
                                                     <h3 class="title">細田知美</h3>
                                                     <p class="small-text">PRコミュニケーション コンサルタント</p>
-                                                    <p class="description text-justify">大手PR会社シニアコンサルタント。メディアとの強いエンゲージメントを持ち、メディアとともに新しい形の情報拡散を行いムーブメントを生み出す。日本大学芸術学部卒業後、デザイナーとして活動したのちフランスに5年間在住、異文化に触れながら子育てを行う。アートをベースにしたクリエイティブ思考を生かし、PR視点から個人や企業へのブランディングを行っている。日経XWOMANアンバサダー。</p>
+                                                    <p class="description text-justify">大手PR会社シニアコンサルタント。メディアとの強いエンゲージメントを持ち、メディアとともに新しい形の情報拡散を行いムーブメントを生み出す。日本大学芸術学部卒業後、デザイナーとして活動したのちフランスに5年間在住、異文化に触れながら子育てを行う。アートをベースにしたクリエイティブ思考を生かし、PR視点から個人や企業へのブランディングを行っている。日経XWOMANアンバサダー。<br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"></p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1078,8 +1112,7 @@
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title" glot-model="mai">KONE</h3>
-                                                    <!-- <p class="small-text">Gracone CEO<br class="hidden-tb"><span class="show-tb"> / </span>Miss Bitcoin</p> -->
-                                                    <p class="description text-justify">youtubeで「がんこちゃん」としてLGBTQに関する発信活動を行う。多様な家族が認められる社会に共感し、Famiee projectに携わる。</p>
+                                                    <p class="description text-justify" style="padding-top:32.5px">youtubeで「がんこちゃん」としてLGBTQに関する発信活動を行う。多様な家族が認められる社会に共感し、Famiee projectに携わる。<br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"></p>
                                                 </div>
                                             </div>
                                         </div>

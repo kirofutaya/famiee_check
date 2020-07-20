@@ -73,6 +73,7 @@
   <div class="loading-bg">
    <div class="loading-title">
     <p>LOADING</p>
+    <div class="loader"></div>
    </div>
   </div>
 
