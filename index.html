@@ -1153,6 +1153,21 @@
                                           </div>
                                       </div>
                                   </div>
+                                  <div class="col-md-4">
+                                      <div class="card card-member">
+                                          <div class="content">
+                                              <div class="avatar ">
+                                                  <img loading="lazy" alt="..." class="img-circle lazyload" src="img/faces/futaya.jpg"/>
+                                              </div>
+                                              <div class="description">
+                                                  <h3 class="title">二谷輝郎</h3>
+                                                  <p class="small-text">withID株式会社COO</p>
+                                                  <p class="description text-justify">東京大学大学院在学中に世界34ヵ国を訪れた際、文化や習慣、人間のあり方など、多様性の大切さを実感。2019年の東京レインボープライドにおいてFamieeに出会い、多様な家族を認めていこうという考え方だけでなく、政治的には解決に時間がかかっていた社会課題を、新しい技術を用いることで民間から主体的に解決していこうという姿勢に賛同。開発担当。<br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"></p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+
 
 
                               </div>
