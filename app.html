@@ -68,12 +68,12 @@
 <body>
 
 <!-- ローディング -->
-<!-- <div class="loading-bg">
+<div class="loading-bg">
  <div class="loading-title">
   <p>LOADING</p>
   <div class="loader"></div>
  </div>
-</div> -->
+</div>
 
 <!-- ナビゲーションバー -->
 <nav class="navbar navbar-default navbar-transparent navbar-fixed-top" color-on-scroll="200">
