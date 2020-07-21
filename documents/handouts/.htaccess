@@ -6,7 +6,7 @@
 
     AuthType     Basic
     AuthName     "Authentication Sample"
-    AuthUserFile https://www.famiee.com/documents/handouts/.htpasswd
+    AuthUserFile /app/documents/handouts/.htpasswd
     require valid-user
 
     <Files ~ "^\.ht">
