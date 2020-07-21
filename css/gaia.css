@@ -3082,11 +3082,27 @@ a,
   line-height: 2;
 }
 .decorate{
-  background-color: #ff9129;
+  /* background-color: #ff9129; */
   color: white;
   font-family: sans-serif;
-  /* background-color: rgba(213,130,53,0.2); */
   padding: 5px;
+  position: relative;
+  z-index:0;
+}
+.decorate:before{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content:"";
+  background-color: #ff9129;
+  height: 100%;
+  width: 0;
+  transition: .5s;
+  z-index: -1;
+}
+.active:before{
+  width: 100%;
 }
 
 

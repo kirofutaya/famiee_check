@@ -18,16 +18,16 @@ function stopload(){
 };
 
 // スクロール時アニメーション起動用
-// $(window).scroll(function (){
-//     $('.fadein').each(function(){
-//         var position = $(this).offset().top;
-//         var scroll = $(window).scrollTop();
-//         var windowHeight = $(window).height();
-//         if (scroll > position - windowHeight + 200){
-//           $(this).addClass('active');
-//         }
-//     });
-// });
+$(window).scroll(function (){
+    $('.decorate').each(function(){
+        var position = $(this).offset().top;
+        var scroll = $(window).scrollTop();
+        var windowHeight = $(window).height();
+        if (scroll > position - windowHeight + 200){
+          $(this).addClass('active');
+        }
+    });
+});
 
 // ロード時にurlごとに異なるapiを叩く
 $(window).on('load', function(){

@@ -1623,11 +1623,11 @@
                         <nav>
                             <ul>
                                 <li>
-                                    <a href="https://www.famiee.com#news">News List</a>
-                                    <hr class="hr-small">
+                                  <a href="https://www.famiee.com#news">News List</a>
+                                  <hr class="hr-small">
+                                    <a href="https://prtimes.jp/main/html/rd/p/000000007.000047881.html" target="_blank"><b>2020.07.20</b><br>「news zero」にパートナーとして出演しているクリエイティブディレクター辻愛沙子氏が、Famieeのアドバイザーに就任</a>
+                                  <hr class="hr-small">
                                     <a href="https://prtimes.jp/main/html/rd/p/000000006.000047881.html" target="_blank"><b>2020.4.27</b><br>みずほフィナンシャルグループなど17社が、同性カップル向け「パートナーシップ証明書」を企業内手続きに利用へ</a>
-                                    <hr class="hr-small">
-                                    <a href="" target="_blank"><b>2019.09.02</b><br>福島良典氏が一般社団法人Famieeの技術アドバイザーに就任</a>
                                 </li>
                             </ul>
                         </nav>
