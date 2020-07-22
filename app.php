@@ -179,7 +179,7 @@
   <div class="container flex">
 
         <div class="side-section">
-          <h2 class="catch-copy fadein"><span class="decorate">政府や自治体によらない　</span><br><span class="decorate">民間発行のパートナーシップ証明　</span></h2>
+          <h2 class="catch-copy"><span class="decorate">政府や自治体によらない　</span><br><span class="decorate">民間発行のパートナーシップ証明　</span></h2>
           <p class="description">
             Famieeアプリを使うことで、一般社団法人Famieeが発行するパートナーシップ証明書を申請・利用することができます。既存の婚姻関係や自治体のパートナーシップ制度と異なり、住んでいる地域や自治体に関わらず同性間でのパートナーシップを証明することができます。また、申請はアプリ内で完結します。
           </p>
@@ -195,14 +195,7 @@
 <!-- Feature section -->
 <div class="section section-feature">
   <div class="container">
-    <h2 class="catch-copy fadein"><span class="decorate">６つの特徴　　</h2>
-    <!-- <div class="flex" style="align-items:center;">
-      <div class="side-section">
-      </div>
-      <div class="side-section">
-        <h2 class="catch-copy fadein"><span class="decorate">６つの特徴　　</h2>
-      </div>
-    </div> -->
+    <h2 class="catch-copy"><span class="decorate">６つの特徴　　</h2>
     <div class="flex" style="align-items:center;">
         <div class="side-section icon-box" style="padding:0">
           <div class="just-flex">
@@ -222,7 +215,6 @@
 
 
     <div class="flex" style="margin-top:40px">
-          <!-- <h2 class="catch-copy fadein"><span class="decorate">６つの特徴　　</h2> -->
           <p class="description side-section" style="margin-bottom:0">
             <strong>1. 居住場所によらず申請可能</strong>　<i class="fas fa-globe"></i><br>
             行政発行のパートナーシップ証明書と事なり、全国のどこに住んでいる同性パートナーでも申請できます。<br><br>
@@ -495,7 +487,7 @@
     <label class="acd-label" for="acd-check5">証明書の申請後にアプリをアンインストールした場合や、端末を紛失した場合、証明書の再発行はできますか？</label>
     <div class="acd-content">
         <p class="description">
-          ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+          証明書発行後であれば、再度同じApple IDでサインインすることで、同じ証明書を利用することができます。
         </p>
     </div>
 
@@ -718,13 +710,13 @@
                     <div class="info">
                         <h5 class="title">Latest News</h5>
                         <nav>
-                            <ul>
-                                <li>
-                                  <a href="https://www.famiee.com#news">News List</a>
-                                  <!-- newslist.jsで生成 -->
-                                  <script src="./js/newslist.js"></script>
-                                </li>
-                            </ul>
+                          <ul>
+                            <li>
+                              <a href="https://www.famiee.com#news">News List</a>
+                              <!-- newslist.jsで生成 -->
+                              <script src="./js/newslist.js"></script>
+                            </li>
+                          </ul>
                         </nav>
                     </div>
                 </div>
