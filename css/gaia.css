@@ -4032,6 +4032,10 @@ footer .info ul{
     width: 100%;
   }
 
+  .modal-content{
+    margin: 20px;
+  }
+
   /* END kiro追加分 */
 
 
