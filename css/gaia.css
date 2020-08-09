@@ -3075,7 +3075,7 @@ a,
   display:inline-block
 }
 .appstore > img{
-  height: 40px;
+  height: 60px;
 }
 .tagline{
   font-family: sans-serif;
@@ -3228,33 +3228,26 @@ a.btn-line:hover{
 .type-title.orange{
   background-color: #ff9129;
 }
-
-#gizagiza a , #gizagiza a:after , #gizagiza a:before , #gizagiza a span {
-  content:"";
-  width:100px;
-  height:100px;
-  background-color:#000;
-  position:absolute;
-  top:0px;
+.badge-star{
+  position: absolute;
+  top:-20px;
+  left:-20px;
+  transform:rotate(-10deg);
 }
-#gizagiza , #gizagiza a , #gizagiza a:after , #gizagiza a:before {
-  -webkit-transform: rotate(22.5deg);
-  -moz-transform: rotate(22.5deg);
+.badge-star > div{
+  position: relative;
 }
-#gizagiza a span {
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  text-align: center;
-  z-index: 999;
-  line-height: 100px;
-  color: #fff;
+.badge-star > div img{
+  width:80px;
 }
-#gizagiza {
-  position:relative;
-  width:100px;
-  height:100px;
-  background-color:#000;
-  margin:20px 0 0 20px ;
+.badge-star > div > div{
+  position: absolute;
+  top:50%;
+  left:50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 
 .certificate-type .type-text{
@@ -3306,6 +3299,17 @@ a.btn-line:hover{
 }
 .modal-document li{
   margin-bottom: 10px;
+}
+
+.download-section{
+  background-color: #ff9129;
+}
+.download-section div {
+  text-align: center;
+}
+.download-section div p{
+  margin: 20px auto;
+  padding: 0;
 }
 
 
@@ -3535,12 +3539,12 @@ a.btn-line:hover{
       position: absolute;
       top:20px;
       left:-50px;
-      transform: translate(-50%, -50%);
+      transform: translate(0, -10px);
       -webkit-transform: translate(0, -10px);
-      -ms-transform: translate(-50%, -50%);
+      -ms-transform: translate(0, -10px);
       font-size: 45px;
       color: #2897ff;
-      font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Poppins";
       font-weight: 700;
       content:"A.";
   }
@@ -5172,4 +5176,29 @@ body {
 .swiper-slide p{
   font-size: 12px;
 }
+
+.acd-label{
+  margin-left: 30px;
+}
+.acd-label:before{
+  left:-30px;
+  transform: translate(0, 5px);
+  -webkit-transform: translate(0, 5px);
+  -ms-transform: translate(0, 5px);
+  font-size: 25px;
+}
+
+.acd-content{
+  margin-left: 30px;
+}
+.acd-content:before{
+  left:-30px;
+  transform: translate(0, 5px);
+  -webkit-transform: translate(0, 5px);
+  -ms-transform: translate(0, 5px);
+  font-size: 25px;
+}
+
+
+
 }
