@@ -389,7 +389,7 @@
       <div class="modal-header">
         <div class="flex">
           <div class="nondeco scene-icon">
-            <div><i class="fas fa-syringe"></i></div>
+            <div style="margin: auto"><i class="fas fa-syringe"></i></div>
             <div>医療</div>
           </div>
           <div style="padding-left:20px;">
@@ -426,7 +426,7 @@
       <div class="modal-header">
         <div class="flex">
           <div class="nondeco scene-icon">
-            <div><i class="fas fa-address-book"></i></div>
+            <div style="margin: auto"><i class="fas fa-address-book"></i></div>
             <div>保険</div>
           </div>
           <div style="padding-left:20px;">
@@ -463,7 +463,7 @@
       <div class="modal-header">
         <div class="flex">
           <div class="nondeco scene-icon">
-            <div><i class="fas fa-credit-card"></i></div>
+            <div style="margin: auto"><i class="fas fa-credit-card"></i></div>
             <div>金融</div>
           </div>
           <div style="padding-left:20px;">
@@ -503,7 +503,7 @@
       <div class="modal-header">
         <div class="flex">
           <div class="nondeco scene-icon">
-            <div><i class="fas fa-mobile-alt"></i></div>
+            <div style="margin: auto"><i class="fas fa-mobile-alt"></i></div>
             <div>通信</div>
           </div>
           <div style="padding-left:20px;">
@@ -536,7 +536,7 @@
       <div class="modal-header">
         <div class="flex">
           <div class="nondeco scene-icon">
-            <div><i class="fas fa-plane-departure"></i></div>
+            <div style="margin: auto"><i class="fas fa-plane-departure"></i></div>
             <div>航空</div>
           </div>
           <div style="padding-left:20px;">
