@@ -68,15 +68,15 @@
 <body>
 
 <!-- ローディング -->
-<!-- <div class="loading-bg">
+<div class="loading-bg">
  <div class="loading-title">
   <p>LOADING</p>
   <div class="loader"></div>
  </div>
-</div> -->
+</div>
 
 <!-- ナビゲーションバー -->
-<nav class="navbar navbar-default navbar-transparent navbar-fixed-top" color-on-scroll="200">
+<nav class="navbar navbar-default navbar-transparent navbar-fixed-top navbar-burger" color-on-scroll="200">
     <!-- if you want to keep the navbar hidden you can add this class to the navbar "navbar-burger"-->
     <div class="container">
         <div class="navbar-header">
@@ -93,9 +93,9 @@
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right navbar-uppercase">
               <li>
-                <a href="./">Top</a>
+                <a href="./">About Project</a>
               </li>
-              <li class="dropdown">
+              <!-- <li class="dropdown">
                   <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
                       MATERIAL
                   </a>
@@ -113,7 +113,7 @@
               </li>
               <li>
                 <a href="./privacypolicy">Privacy Policy</a>
-              </li>
+              </li> -->
               <li class="dropdown">
                   <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
                       <!-- <i class="fa fa-share-alt"></i>  -->
