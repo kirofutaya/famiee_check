@@ -1,0 +1,151 @@
+<!--
+    <div class="flex" style="margin-top:40px">
+          <p class="description side-section" style="margin-bottom:0">
+            <strong>1. 居住場所によらず申請可能</strong>　<i class="fas fa-globe"></i><br>
+            行政発行のパートナーシップ証明書と事なり、全国のどこに住んでいる同性パートナーでも申請できます。<br><br>
+            <strong>2. 引っ越しても使える</strong>　<i class="fas fa-truck"></i><br>
+            行政発行のパートナーシップ証明書と事なり、お住いの市区町村から外に引っ越しをしても、そのままお使いいただけます。<br><br>
+            <strong>3. アプリでいつでも証明可能</strong>　<i class="fas fa-mobile-alt"></i><br>
+            証明書は、スマホのアプリ上にも保存されるので、医療現場などで緊急時のときでも、すぐにお二人の関係を証明できます。（紙での出力も可能性）<br><br>
+          </p>
+          <p class="description side-section">
+            <strong>4. オンラインで完結</strong>　<i class="fas fa-wifi"></i><br>
+            オンラインで申請・取得ができるので、申請時にお二人で出向くことで、第三者に関係が見られる心配がありません。<br><br>
+            <strong>5. 個人情報の保護</strong>　<i class="fas fa-user-shield"></i><br>
+            サーバ上にお二人の個人情報は一切保存されないので*、お二人の関係が万が一にも、Famieeから漏れることはありません。<br>
+            <small>*申請情報や提出書類は、申請から証明書発行までに数日間のみ、Famiee及び本人確認書類確認委託機関のサーバに保存されますが、証明書発行と同時に、削除されます。</small><br><br>
+            <strong>6. 増える利用可能企業</strong>　<i class="fas fa-city"></i><br>
+            企業内での福利厚生・医療・住宅・生命保険など、利用可能なシーンが常に追加されていきます。
+          </p>
+      </div> -->
+
+
+====================
+
+
+
+<div class="section">
+  <div class="container">
+    <h3 class="two-lines" style="text-align:center; font-family:sans-serif;">導入企業例*</h3>
+    <!-- row1 -->
+    <div class="flex" style="align-items:center;">
+          <div class="just-flex"  style="align-items:center;">
+            <div class="company-logo">
+              <img class="lazyload" loading="lazy" alt="..." src="img/faces/istyle_logo.jpg"/>
+            </div>
+            <div class="company-logo">
+              <img class="lazyload" loading="lazy" alt="..." src="img/faces/jobrainbow_for_white.png"/>
+            </div>
+            <div class="company-logo">
+              <img class="lazyload" loading="lazy" alt="..." src="img/faces/mizuho.jpg"/>
+            </div>
+          </div>
+          <div class="just-flex"  style="align-items:center;">
+            <div class="company-logo">
+              <img class="lazyload" loading="lazy" alt="..." src="img/faces/netyear.png"/>
+            </div>
+            <div class="company-logo">
+              <img class="lazyload" loading="lazy" alt="..." src="img/faces/hottolink_logo_L.png"/>
+            </div>
+            <div class="company-logo">
+              <img class="lazyload" loading="lazy" alt="..." src="img/faces/IBJ_logo.png"/>
+            </div>
+          </div>
+      </div>
+
+      <!-- row2 -->
+      <div class="flex" style="align-items:center;">
+            <div class="just-flex"  style="align-items:center;">
+              <div class="company-logo">
+                <img class="lazyload" loading="lazy" alt="..." src="img/faces/medicalnet_logo.jpg"/>
+              </div>
+              <div class="company-logo">
+                <img class="lazyload" loading="lazy" alt="..." src="img/faces/raksul_logo.png"/>
+              </div>
+              <div class="company-logo">
+                <img class="lazyload" loading="lazy" alt="..." src="img/faces/fureasu_logo.png"/>
+              </div>
+            </div>
+            <div class="just-flex"  style="align-items:center;">
+              <div class="company-logo">
+                <img class="lazyload" loading="lazy" alt="..." src="img/faces/sompojapan_logo.png"/>
+              </div>
+              <div class="company-logo">
+                <img class="lazyload" loading="lazy" alt="..." src="img/faces/MG_vrt.svg"/>
+              </div>
+              <div class="company-logo">
+                <img class="lazyload" loading="lazy" alt="..." src="img/faces/v-cube.png"/>
+              </div>
+            </div>
+        </div>
+
+        <!-- row3 -->
+        <div class="flex" style="align-items:center;">
+              <div class="just-flex"  style="align-items:center;">
+                <div style="width:25%" class="company-logo">
+                  <img class="lazyload" loading="lazy" alt="..." src="img/faces/brainpad.jpg"/>
+                </div>
+                <div class="company-logo">
+                  <img class="lazyload" loading="lazy" alt="..." src="img/faces/miraisouzou.png"/>
+                </div>
+                <div class="company-logo">
+                  <img class="lazyload" loading="lazy" alt="..." src="img/faces/Asteria.png"/>
+                </div>
+              </div>
+              <div class="just-flex"  style="align-items:center;">
+                <div class="company-logo">
+                  <img class="lazyload" loading="lazy" alt="..." src="img/faces/lifull.png"/>
+                </div>
+                <div class="company-logo">
+                  <img class="lazyload" loading="lazy" alt="..." src="img/faces/rease_logo.jpg"/>
+                </div>
+                <div class="company-logo">
+                  <img class="lazyload" loading="lazy" alt="..." src="img/faces/randc_logo.jpg"/>
+                </div>
+              </div>
+          </div>
+
+          <!-- row4 -->
+          <div class="flex" style="align-items:center;">
+                <div class="just-flex"  style="align-items:center;">
+                  <div class="company-logo">
+                    <img class="lazyload" loading="lazy" alt="..." src="img/faces/diverse_partners_logo.jpg"/>
+                  </div>
+                  <div class="company-logo">
+                    <img class="lazyload" loading="lazy" alt="..." src="img/faces/partner_logo.jpg"/>
+                  </div>
+                  <div class="company-logo">
+                    <img class="lazyload" loading="lazy" alt="..." src="img/faces/gaiax_logo.png"/>
+                  </div>
+                </div>
+                <div class="just-flex"  style="align-items:center;">
+                  <div style="width:40%"  class="company-logo">
+                    <img class="lazyload" loading="lazy" alt="..." src="img/faces/sakurug_logo.jpg"/>
+                  </div>
+                  <div style="width:20%" class="company-logo">
+                    <img class="lazyload" loading="lazy" alt="..." src="img/faces/edogawa_logo.png"/>
+                  </div>
+                  <div style="width:20%" class="company-logo">
+                    <img class="lazyload" loading="lazy" alt="..." src="img/faces/adish_logo.jpg"/>
+                  </div>
+                </div>
+            </div>
+
+            <!-- row5 -->
+            <div class="flex" style="align-items:center;">
+                  <div class="just-flex"  style="align-items:center;">
+                    <div class="company-logo">
+                      <img class="lazyload" loading="lazy" alt="..." src="img/faces/startia_logo.png"/>
+                    </div>
+                    <div class="company-logo">
+                    </div>
+                    <div class="company-logo">
+                    </div>
+                  </div>
+                  <div class="just-flex"  style="align-items:center;">
+                  </div>
+              </div>
+
+      <p style="text-align:center; font-family:sans-serif; color:gray; margin-top:30px; line-height:1.5;">*掲載されている企業は一部です。<br>また、企業によって証明書を利用できるサービスは異なります</p>
+  </div>
+</div>

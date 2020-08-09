@@ -68,12 +68,12 @@
 <body>
 
 <!-- ローディング -->
-<div class="loading-bg">
+<!-- <div class="loading-bg">
  <div class="loading-title">
   <p>LOADING</p>
   <div class="loader"></div>
  </div>
-</div>
+</div> -->
 
 <!-- ナビゲーションバー -->
 <nav class="navbar navbar-default navbar-transparent navbar-fixed-top" color-on-scroll="200">
@@ -163,7 +163,7 @@
                 <div class="content">
                     <div class="title-area">
                       <img src="img/title.png" class="title-logo"></img>
-                      <h3 class="tagline" style="margin-top:60px;"><strong>アプリで完結する<br class="br-sp">パートナーシップ証明</strong></h3>
+                      <h3 class="tagline" style="margin-top:40px;"><strong>自分たちで決める、家族のカタチ。</strong></h3>
                     </div>
                 </div>
                 <div class="scrollbutton">
@@ -176,197 +176,479 @@
 
 <!-- Intro section -->
 <div class="section">
-  <div class="container flex">
+  <div class="container flex" style="align-items:center;">
 
         <div class="side-section">
-          <h2 class="catch-copy"><span class="decorate">政府や自治体によらない　</span><br><span class="decorate">民間発行のパートナーシップ証明　</span></h2>
+          <h2 class="catch-copy"><span class="decorate">ジェンダーや自治体によらない　</span><br><span class="decorate">民間発行のパートナーシップ証明　</span></h2>
+          <div class="side-section show-tb">
+            <div><img class="lazyload" loading="lazy" alt="..." src="img/certificate.png"  style="width:100%;"></div>
+          </div>
           <p class="description">
-            Famieeアプリを使うことで、一般社団法人Famieeが発行するパートナーシップ証明書を申請・利用することができます。既存の婚姻関係や自治体のパートナーシップ制度と異なり、住んでいる地域や自治体に関わらず同性間でのパートナーシップを証明することができます。また、申請はアプリ内で完結します。
+            ファミーはジェンダーに関わらず利用できる民間発行のパートナーシップ証明書です（現在提供しているサービスは同性向けパートナーシップ証明のみですが、順次拡大していく予定です）。法律や条例によらないため、居住地にかかわらず申請することができ、ファミーを導入している全国の企業やサービスで利用することができます。利用可能企業・サービスは随時拡大していきます。<br><br>
+            申請はオンラインで完結するので、従来のようにパートナーが同時に役所等に出向くことで、第三者に関係が知られる心配もありません。申請時に提出していただく個人情報に関しても、サーバー等には保存されない*ため安全です。<br><br>
+            申請後、証明書はスマートフォンのアプリから利用することができるため、医療現場など緊急時にも活用することができます。紙での出力にも対応しており、企業等に提出が必要な場合や、記念用としてもご利用いただけます。<br><br>
+            <small>* 申請情報や提出書類は、申請から証明書発行までに数日間のみ、Famiee及び本人確認書類確認委託機関のサーバに保存されますが、証明書発行と同時に削除されます。</small>
           </p>
         </div>
 
-        <div class="side-section">
-          <div><img class="lazyload" loading="lazy" alt="..." src="img/famiee_system.png"  style="width:100%;"></div>
+        <div class="side-section hidden-tb">
+          <div><img class="lazyload" loading="lazy" alt="..." src="img/certificate.png"  style="width:100%;"></div>
         </div>
 
   </div>
 </div>
 
-<!-- Feature section -->
+<!-- Scene section -->
 <div class="section section-feature">
   <div class="container">
-    <h2 class="catch-copy"><span class="decorate">６つの特徴　　</h2>
+    <h2 class="catch-copy"><span class="decorate">利用シーン例　</h2>
     <div class="flex" style="align-items:center;">
         <div class="side-section icon-box" style="padding:0">
           <div class="just-flex">
-            <div class="feature-icon"><i class="fas fa-globe"></i></div>
-            <div class="feature-icon"><i class="fas fa-truck"></i></div>
-            <div class="feature-icon"><i class="fas fa-mobile-alt"></i></div>
+            <a class="nondeco scene-icon" data-toggle="modal" data-target="#modal_welfare">
+              <div><i class="fas fa-hand-holding-heart"></i></div>
+              <div>福利厚生</div>
+            </a>
+            <a class="nondeco scene-icon" data-toggle="modal" data-target="#modal_medical">
+              <div><i class="fas fa-syringe"></i></div>
+              <div>医療</div>
+            </a>
+            <a class="nondeco scene-icon" data-toggle="modal" data-target="#modal_insurance">
+              <div><i class="fas fa-address-book"></i></i></div>
+              <div>保険</div>
+            </a>
           </div>
         </div>
         <div class="side-section icon-box" style="padding:0">
           <div  class="just-flex">
-            <div class="feature-icon"><i class="fas fa-wifi"></i></div>
-            <div class="feature-icon"><i class="fas fa-user-shield"></i></div>
-            <div class="feature-icon"><i class="fas fa-city"></i></div>
+            <a class="nondeco scene-icon" data-toggle="modal" data-target="#modal_finace">
+              <div><i class="fas fa-credit-card"></i></div>
+              <div>金融</div>
+            </a>
+            <a class="nondeco scene-icon" data-toggle="modal" data-target="#modal_communication">
+              <div><i class="fas fa-mobile-alt"></i></i></div>
+              <div>通信</div>
+            </a>
+            <a class="nondeco scene-icon" data-toggle="modal" data-target="#modal_airline">
+              <div><i class="fas fa-plane-departure"></i></div>
+              <div>航空</div>
+            </a>
           </div>
         </div>
       </div>
 
+      <p class="description" style="text-align:center">
+        利用シーン例と利用可能企業についての<br class="br-sp">詳細はアイコンをクリック
+      </p>
 
-    <div class="flex" style="margin-top:40px">
-          <p class="description side-section" style="margin-bottom:0">
-            <strong>1. 居住場所によらず申請可能</strong>　<i class="fas fa-globe"></i><br>
-            行政発行のパートナーシップ証明書と事なり、全国のどこに住んでいる同性パートナーでも申請できます。<br><br>
-            <strong>2. 引っ越しても使える</strong>　<i class="fas fa-truck"></i><br>
-            行政発行のパートナーシップ証明書と事なり、お住いの市区町村から外に引っ越しをしても、そのままお使いいただけます。<br><br>
-            <strong>3. アプリでいつでも証明可能</strong>　<i class="fas fa-mobile-alt"></i><br>
-            証明書は、スマホのアプリ上にも保存されるので、医療現場などで緊急時のときでも、すぐにお二人の関係を証明できます。（紙での出力も可能性）<br><br>
-          </p>
-          <p class="description side-section">
-            <strong>4. オンラインで完結</strong>　<i class="fas fa-wifi"></i><br>
-            オンラインで申請・取得ができるので、申請時にお二人で出向くことで、第三者に関係が見られる心配がありません。<br><br>
-            <strong>5. 個人情報の保護</strong>　<i class="fas fa-user-shield"></i><br>
-            サーバ上にお二人の個人情報は一切保存されないので*、お二人の関係が万が一にも、Famieeから漏れることはありません。<br>
-            <small>*申請情報や提出書類は、申請から証明書発行までに数日間のみ、Famiee及び本人確認書類確認委託機関のサーバに保存されますが、証明書発行と同時に、削除されます。</small><br><br>
-            <strong>6. 増える利用可能企業</strong>　<i class="fas fa-city"></i><br>
-            企業内での福利厚生・医療・住宅・生命保険など、利用可能なシーンが常に追加されていきます。
-          </p>
+
+
+<!-- scene-modal -->
+<!-- 福利厚生modal -->
+<div class="modal fade" id="modal_welfare" tabindex="-1" role="dialog" aria-labelledby="welfareLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="flex">
+          <div class="nondeco scene-icon">
+            <div style="margin: auto"><i class="fas fa-hand-holding-heart"></i></div>
+            <div>福利厚生</div>
+          </div>
+          <div style="padding-left:20px;">
+            <p class="description">
+              企業にお勤めの方は、その企業の提供するカップル向け・家族向けの福利厚生サービス*を受けることができます。<br>
+              *慶弔休暇、介護休暇、家族手当、etc
+            </p>
+          </div>
+        </div>
       </div>
+      <div class="modal-body">
+        <h3 style="color: black; font-family:sans-serif; text-align: center">
+          <strong>利用可能企業</strong><br>
+          <small>敬称略順不同</small>
+        </h3>
+        <div class="just-flex" style="align-items:center; flex-wrap:wrap">
+          <div class="company-logo">
+            <img class="lazyload" loading="lazy" alt="..." src="img/faces/istyle_logo.jpg"/>
+            <span>株式会社アイスタイル</span>
+          </div>
+          <div class="company-logo">
+            <img class="lazyload" loading="lazy" alt="..." src="img/faces/jobrainbow_for_white.png"/>
+            <span>株式会社JobRainbow</span>
+          </div>
+          <div class="company-logo">
+            <img class="lazyload" loading="lazy" alt="..." src="img/faces/mizuho.jpg"/>
+            <span>株式会社みずほフィナンシャルグループ</span>
+          </div>
+          <div class="company-logo">
+            <img class="lazyload" loading="lazy" alt="..." src="img/faces/netyear.png"/>
+            <span>ネットイヤーグループ株式会社</span>
+          </div>
+          <div class="company-logo">
+            <img class="lazyload" loading="lazy" alt="..." src="img/faces/hottolink_logo_L.png"/>
+            <span>株式会社ホットリンク</span>
+          </div>
+          <div class="company-logo">
+            <img class="lazyload" loading="lazy" alt="..." src="img/faces/IBJ_logo.png"/>
+            <span>株式会社IBJ</span>
+          </div>
+          <div class="company-logo">
+            <img class="lazyload" loading="lazy" alt="..." src="img/faces/medicalnet_logo.jpg"/>
+            <span>株式会社メディカルネット</span>
+          </div>
+          <div class="company-logo">
+            <img class="lazyload" loading="lazy" alt="..." src="img/faces/raksul_logo.png"/>
+            <span>ラクスル株式会社</span>
+          </div>
+          <div class="company-logo">
+            <img class="lazyload" loading="lazy" alt="..." src="img/faces/fureasu_logo.png"/>
+            <span>株式会社フレアス</span>
+          </div>
+          <div class="company-logo">
+            <img class="lazyload" loading="lazy" alt="..." src="img/faces/sompojapan_logo.png"/>
+            <span>損害保険ジャパン株式会社</span>
+          </div>
+          <div class="company-logo">
+            <img class="lazyload" loading="lazy" alt="..." src="img/faces/MG_vrt.svg"/>
+            <span>マネックスグループ株式会社</span>
+          </div>
+          <div class="company-logo">
+            <img class="lazyload" loading="lazy" alt="..." src="img/faces/v-cube.png"/>
+            <span>株式会社ブイキューブ</span>
+          </div>
+          <div class="company-logo">
+            <img class="lazyload" loading="lazy" alt="..." src="img/faces/brainpad.jpg"/>
+            <span>株式会社ブレインパッド</span>
+          </div>
+          <div class="company-logo">
+            <img class="lazyload" loading="lazy" alt="..." src="img/faces/miraisouzou.png"/>
+            <span>株式会社みらい創造機構</span>
+          </div>
+          <div class="company-logo">
+            <span>株式会社セールスフォースドットコム</span>
+          </div>
+          <div class="company-logo">
+            <img class="lazyload" loading="lazy" alt="..." src="img/faces/Asteria.png"/>
+            <span>アステリア株式会社</span>
+          </div>
+          <div class="company-logo">
+            <img class="lazyload" loading="lazy" alt="..." src="img/faces/lifull.png"/>
+            <span>株式会社LIFFUL</span>
+          </div>
+          <div class="company-logo">
+            <img class="lazyload" loading="lazy" alt="..." src="img/faces/rease_logo.jpg"/>
+            <span>リース株式会社</span>
+          </div>
+          <div class="company-logo">
+            <img class="lazyload" loading="lazy" alt="..." src="img/faces/randc_logo.jpg"/>
+            <span>R&C株式会社</span>
+          </div>
+          <div class="company-logo">
+            <img class="lazyload" loading="lazy" alt="..." src="img/faces/diverse_partners_logo.jpg"/>
+            <span>株式会社ダイバースパートナーズ</span>
+          </div>
+          <div class="company-logo">
+            <img class="lazyload" loading="lazy" alt="..." src="img/faces/partner_logo.jpg"/>
+            <span>パートナー共済</span>
+          </div>
+          <div class="company-logo">
+            <img class="lazyload" loading="lazy" alt="..." src="img/faces/gaiax_logo.png"/>
+            <span>株式会社ガイアックス</span>
+          </div>
+          <div class="company-logo">
+            <img class="lazyload" loading="lazy" alt="..." src="img/faces/sakurug_logo.jpg"/>
+            <span>株式会社SAKURUG</span>
+          </div>
+          <div class="company-logo">
+            <img class="lazyload" loading="lazy" alt="..." src="img/faces/edogawa_logo.png"/>
+            <span>江戸川病院</span>
+          </div>
+          <div class="company-logo">
+            <img class="lazyload" loading="lazy" alt="..." src="img/faces/adish_logo.jpg"/>
+            <span>アディッシュ株式会社</span>
+          </div>
+          <div class="company-logo">
+            <img class="lazyload" loading="lazy" alt="..." src="img/faces/startia_logo.png"/>
+            <span>スターティアホールディングス株式会社</span>
+          </div>
+        </div>
+        <p class="description" style="font-family:sans-serif; text-align: center">詳しくは各企業にお問い合わせください</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 医療modal -->
+<div class="modal fade" id="modal_medical" tabindex="-1" role="dialog" aria-labelledby="medicalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="flex">
+          <div class="nondeco scene-icon">
+            <div><i class="fas fa-syringe"></i></div>
+            <div>医療</div>
+          </div>
+          <div style="padding-left:20px;">
+            <p class="description">
+              緊急時の付き添いや同意の権利などについて、通常の家族と同等の扱いを受けることができます。
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="modal-body">
+        <h3 style="color: black; font-family:sans-serif; text-align: center">
+          <strong>利用可能企業</strong><br>
+          <small>敬称略順不同</small>
+        </h3>
+        <div class="just-flex" style="align-items:center; flex-wrap:wrap">
+          <div class="company-logo">
+            <img class="lazyload" loading="lazy" alt="..." src="img/faces/edogawa_logo.png"/>
+            <span>江戸川病院</span>
+          </div>
+        </div>
+        <p class="description" style="font-family:sans-serif; text-align: center">詳しくは各企業にお問い合わせください</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 保険modal -->
+<div class="modal fade" id="modal_insurance" tabindex="-1" role="dialog" aria-labelledby="insuranceLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="flex">
+          <div class="nondeco scene-icon">
+            <div><i class="fas fa-address-book"></i></div>
+            <div>保険</div>
+          </div>
+          <div style="padding-left:20px;">
+            <p class="description">
+              生命保険・損害保険等の受取人に指定できる等のサービスを受けられます。
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="modal-body">
+        <h3 style="color: black; font-family:sans-serif; text-align: center">
+          <strong>利用可能企業</strong><br>
+          <small>敬称略順不同</small>
+        </h3>
+        <div class="just-flex" style="align-items:center; flex-wrap:wrap">
+          <div class="company-logo">
+            <img class="lazyload" loading="lazy" alt="..." src="img/faces/diverse_partners_logo.jpg"/>
+            <span>株式会社ダイバースパートナーズ</span>
+          </div>
+        </div>
+        <p class="description" style="font-family:sans-serif; text-align: center">詳しくは各企業にお問い合わせください</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 金融modal -->
+<div class="modal fade" id="modal_finace" tabindex="-1" role="dialog" aria-labelledby="finaceLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="flex">
+          <div class="nondeco scene-icon">
+            <div><i class="fas fa-credit-card"></i></div>
+            <div>金融</div>
+          </div>
+          <div style="padding-left:20px;">
+            <p class="description">
+              <strong>・ローン</strong><br>
+              不動産ローンなどを組む際に、パートナーの収入合算で連帯保証・連帯債務等を指定することができます。<br><br>
+              <strong>・クレジット</strong><br>
+              家族カードの作成ができたり、親権者としての同意などができます。
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="modal-body">
+        <h3 style="color: black; font-family:sans-serif; text-align: center">
+          <strong>利用可能企業</strong><br>
+          <small>敬称略順不同</small>
+        </h3>
+        <div class="just-flex" style="align-items:center; flex-wrap:wrap">
+          <div class="company-logo">
+            <img class="lazyload" loading="lazy" alt="..." src="img/faces/rease_logo.jpg"/>
+            <span>リース株式会社</span>
+          </div>
+        </div>
+        <p class="description" style="font-family:sans-serif; text-align: center">詳しくは各企業にお問い合わせください</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 通信modal -->
+<div class="modal fade" id="modal_communication" tabindex="-1" role="dialog" aria-labelledby="communicationLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="flex">
+          <div class="nondeco scene-icon">
+            <div><i class="fas fa-mobile-alt"></i></div>
+            <div>通信</div>
+          </div>
+          <div style="padding-left:20px;">
+            <p class="description">
+              家族割などのサービスを受けることができます。
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="modal-body">
+        <h3 style="color: black; font-family:sans-serif; text-align: center">
+          <strong>利用可能企業</strong><br>
+          <small>敬称略順不同</small>
+        </h3>
+        <div class="just-flex" style="align-items:center; flex-wrap:wrap">
+        </div>
+        <p class="description" style="font-family:sans-serif; text-align: center">COMING SOON</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 航空modal -->
+<div class="modal fade" id="modal_airline" tabindex="-1" role="dialog" aria-labelledby="airlineLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="flex">
+          <div class="nondeco scene-icon">
+            <div><i class="fas fa-plane-departure"></i></div>
+            <div>航空</div>
+          </div>
+          <div style="padding-left:20px;">
+            <p class="description">
+              マイレージの共有などのサービスが受けられます。
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="modal-body">
+        <h3 style="color: black; font-family:sans-serif; text-align: center">
+          <strong>利用可能企業</strong><br>
+          <small>敬称略順不同</small>
+        </h3>
+        <div class="just-flex" style="align-items:center; flex-wrap:wrap"
+        </div>
+        <p class="description" style="font-family:sans-serif; text-align: center">COMING SOON</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 
   </div>
 </div>
 
-<!-- Icon section -->
+<!-- 証明書section -->
 <div class="section">
   <div class="container">
-    <h3 class="two-lines" style="text-align:center; font-family:sans-serif;">導入企業例*</h3>
-    <!-- row1 -->
-    <div class="flex" style="align-items:center;">
-          <div class="just-flex"  style="align-items:center;">
-            <div class="company-logo">
-              <img class="lazyload" loading="lazy" alt="..." src="img/faces/istyle_logo.jpg"/>
-            </div>
-            <div class="company-logo">
-              <img class="lazyload" loading="lazy" alt="..." src="img/faces/jobrainbow_for_white.png"/>
-            </div>
-            <div class="company-logo">
-              <img class="lazyload" loading="lazy" alt="..." src="img/faces/mizuho.jpg"/>
-            </div>
+    <h2 class="catch-copy"><span class="decorate">えらべる３種の証明書　</span></h2>
+    <br class="br-sp">
+    <div class="flex" style="align-items:flex-start">
+      <div class="certificate-type order2">
+        <div class="type-title"><h3>第<span>１</span>種</h3></div>
+        <div class="type-text">
+          <p class="description">
+            オンライン上で本人確認・独身確認・宣誓を行います。また、相続等についてパートナー同士で決めたルールを、権利義務として定めることができます。
+          </p>
+          <div>
+            <a class="nondeco btn-round" data-toggle="modal" data-target="#">
+              近日リリース予定
+            </a>
           </div>
-          <div class="just-flex"  style="align-items:center;">
-            <div class="company-logo">
-              <img class="lazyload" loading="lazy" alt="..." src="img/faces/netyear.png"/>
-            </div>
-            <div class="company-logo">
-              <img class="lazyload" loading="lazy" alt="..." src="img/faces/hottolink_logo_L.png"/>
-            </div>
-            <div class="company-logo">
-              <img class="lazyload" loading="lazy" alt="..." src="img/faces/IBJ_logo.png"/>
-            </div>
-          </div>
+        </div>
       </div>
 
-      <!-- row2 -->
-      <div class="flex" style="align-items:center;">
-            <div class="just-flex"  style="align-items:center;">
-              <div class="company-logo">
-                <img class="lazyload" loading="lazy" alt="..." src="img/faces/medicalnet_logo.jpg"/>
-              </div>
-              <div class="company-logo">
-                <img class="lazyload" loading="lazy" alt="..." src="img/faces/raksul_logo.png"/>
-              </div>
-              <div class="company-logo">
-                <img class="lazyload" loading="lazy" alt="..." src="img/faces/fureasu_logo.png"/>
-              </div>
-            </div>
-            <div class="just-flex"  style="align-items:center;">
-              <div class="company-logo">
-                <img class="lazyload" loading="lazy" alt="..." src="img/faces/sompojapan_logo.png"/>
-              </div>
-              <div class="company-logo">
-                <img class="lazyload" loading="lazy" alt="..." src="img/faces/MG_vrt.svg"/>
-              </div>
-              <div class="company-logo">
-                <img class="lazyload" loading="lazy" alt="..." src="img/faces/v-cube.png"/>
-              </div>
-            </div>
-        </div>
-
-        <!-- row3 -->
-        <div class="flex" style="align-items:center;">
-              <div class="just-flex"  style="align-items:center;">
-                <div style="width:25%" class="company-logo">
-                  <img class="lazyload" loading="lazy" alt="..." src="img/faces/brainpad.jpg"/>
-                </div>
-                <div class="company-logo">
-                  <img class="lazyload" loading="lazy" alt="..." src="img/faces/miraisouzou.png"/>
-                </div>
-                <div class="company-logo">
-                  <img class="lazyload" loading="lazy" alt="..." src="img/faces/Asteria.png"/>
-                </div>
-              </div>
-              <div class="just-flex"  style="align-items:center;">
-                <div class="company-logo">
-                  <img class="lazyload" loading="lazy" alt="..." src="img/faces/lifull.png"/>
-                </div>
-                <div class="company-logo">
-                  <img class="lazyload" loading="lazy" alt="..." src="img/faces/rease_logo.jpg"/>
-                </div>
-                <div class="company-logo">
-                  <img class="lazyload" loading="lazy" alt="..." src="img/faces/randc_logo.jpg"/>
-                </div>
-              </div>
+      <div class="certificate-type order1">
+        <div class="type-title orange">
+          <h3>第<span>２</span>種</h3>
+          <div id="gizagiza">
+            <a><span>リリース済</span></a>
           </div>
+        </div>
+        <div class="type-text orange">
+          <p class="description" style="color:black">
+            <strong>オンライン上で本人確認・独身確認・宣誓を行います。</strong>
+          </p>
+          <div>
+            <a class="nondeco btn-round active" data-toggle="modal" data-target="#modal_document2">
+              申請に必要な条件と書類を確認する
+            </a>
+          </div>
+        </div>
+      </div>
 
-          <!-- row4 -->
-          <div class="flex" style="align-items:center;">
-                <div class="just-flex"  style="align-items:center;">
-                  <div class="company-logo">
-                    <img class="lazyload" loading="lazy" alt="..." src="img/faces/diverse_partners_logo.jpg"/>
-                  </div>
-                  <div class="company-logo">
-                    <img class="lazyload" loading="lazy" alt="..." src="img/faces/partner_logo.jpg"/>
-                  </div>
-                  <div class="company-logo">
-                    <img class="lazyload" loading="lazy" alt="..." src="img/faces/gaiax_logo.png"/>
-                  </div>
-                </div>
-                <div class="just-flex"  style="align-items:center;">
-                  <div style="width:40%"  class="company-logo">
-                    <img class="lazyload" loading="lazy" alt="..." src="img/faces/sakurug_logo.jpg"/>
-                  </div>
-                  <div style="width:20%" class="company-logo">
-                    <img class="lazyload" loading="lazy" alt="..." src="img/faces/edogawa_logo.png"/>
-                  </div>
-                  <div style="width:20%" class="company-logo">
-                    <img class="lazyload" loading="lazy" alt="..." src="img/faces/adish_logo.jpg"/>
-                  </div>
-                </div>
-            </div>
+      <div class="certificate-type order3">
+        <div class="type-title"><h3>第<span>３</span>種</h3></div>
+        <div class="type-text">
+          <p class="description">
+            第三者にお二人の関係を証明してもらいます。証明内容が制限される代わりに、最も簡便に申請することができます。
+          </p>
+          <div>
+            <a class="nondeco btn-round" data-toggle="modal" data-target="#">
+              近日リリース予定
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-            <!-- row5 -->
-            <div class="flex" style="align-items:center;">
-                  <div class="just-flex"  style="align-items:center;">
-                    <div class="company-logo">
-                      <img class="lazyload" loading="lazy" alt="..." src="img/faces/startia_logo.png"/>
-                    </div>
-                    <div class="company-logo">
-                    </div>
-                    <div class="company-logo">
-                    </div>
-                  </div>
-                  <div class="just-flex"  style="align-items:center;">
-                  </div>
-              </div>
-
-      <p style="text-align:center; font-family:sans-serif; color:gray; margin-top:30px; line-height:1.5;">*掲載されている企業は一部です。<br>また、企業によって証明書を利用できるサービスは異なります</p>
+<!-- 必要書類modal -->
+<div class="modal fade modal-document" id="modal_document2" tabindex="-1" role="dialog" aria-labelledby="document2lLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="document2lLabel">
+          必要書類
+        </h3>
+      </div>
+      <div class="modal-body">
+        <ul>
+          <li>次のうちどれか一つ<br>運転免許証、パスポート、顔写真付住⺠基本台帳カード、マイナンバーカード、在留カード</li>
+          <li>⼾籍謄本、⼜は⼾籍抄本</li>
+          <li>独⾝証明書</li>
+          <li>パートナー関係の確認（アプリ上で宣誓）</li>
+          <li>パートナーそれぞれの端末</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
   </div>
 </div>
 
 
 <!-- Flow section -->
-<div class="section">
+<!-- <div class="section">
   <div class="container">
     <h2 style="text-align:center; font-family:sans-serif">ご利用の流れ</h2>
     <div class="separator separator-danger">✻</div>
@@ -438,14 +720,15 @@
       </ul>
 
   </div>
-</div>
+</div> -->
 
 
 <!-- Q&A section -->
-<div class="section">
+<div class="section qa-section">
   <div class="container">
-    <h2 style="text-align:center; font-family:sans-serif">よくある質問</h2>
-    <div class="separator separator-danger">✻</div>
+    <h2 class="catch-copy"><span class="decorate">よくある質問　</span></h2>
+    <!-- <h2 style="text-align:center; font-family:sans-serif">よくある質問</h2>
+    <div class="separator separator-danger">✻</div> -->
     <input id="acd-check1" class="acd-check" type="checkbox">
     <label class="acd-label" for="acd-check1">登録した情報や個人情報はどのように扱われますか？</label>
     <div class="acd-content">
@@ -492,14 +775,20 @@
     </div>
 
     <h5 style="text-align:center; font-family:sans-serif; margin:20px 0;">より詳しい仕様はこちら</h5>
-    <div class="just-flex" style="max-width:400px; margin:auto;">
+      <div style="text-align:center;">
+          <a href="#" target="_blank" class="link">利用ルール</a>
+      </div>
+      <div style="text-align:center; margin-top:5px;">
+          <a href="#" target="_blank" class="link">プライバシーポリシー</a>
+      </div>
+    <!-- <div class="just-flex" style="max-width:400px; margin:auto;">
       <div>
           <a href="#" target="_blank" class="link">利用ルール</a>
       </div>
       <div>
           <a href="#" target="_blank" class="link">プライバシーポリシー</a>
       </div>
-    </div>
+    </div> -->
   </div>
 </div>
 
@@ -558,11 +847,24 @@
 
                 <ul class="msr_newslist01">
                   <li>
+                    <a>
+                      <div class="clearfix">
+                        <div class="item1">
+                        <time datetime="2020-8-7">2020.08.07</time>
+                        <div class="news">Info</div>
+                        </div>
+                        <div class="item2">
+                        <div class="pr-text">導入決定企業が30社を越しました！</div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
                     <a href="./documents/20200720pr.pdf" target="_blank">
                       <div class="clearfix">
                         <div class="item1">
                         <time datetime="2020-7-20">2020.07.20</time>
-                        <div class="news">PR</div>
+                        <div class="pr">PR</div>
                         </div>
                         <div class="item2">
                         <div class="pr-text">「news zero」にパートナーとして出演しているクリエイティブディレクター辻愛沙子氏が、Famieeのアドバイザーに就任</div>
@@ -575,7 +877,7 @@
                       <div class="clearfix">
                         <div class="item1">
                         <time datetime="2020-7-18">2020.07.18</time>
-                        <div class="pr">info</div>
+                        <div class="news">info</div>
                         </div>
                         <div class="item2">
                         <div class="pr-text">Famiee取材シリーズを更新しました。</div>

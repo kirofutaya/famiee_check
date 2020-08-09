@@ -24,10 +24,13 @@ $(window).scroll(function (){
         var scroll = $(window).scrollTop();
         var windowHeight = $(window).height();
         if (scroll > position - windowHeight + 200){
-          $(this).addClass('active');
+            $(this).addClass('active');
         }
     });
 });
+$(window).trigger('scroll');
+
+
 
 // ロード時にurlごとに異なるapiを叩く
 $(window).on('load', function(){
