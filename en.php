@@ -321,26 +321,6 @@
                                         </div>
                                     </div>
 
-
-<!-- 柳沢 -->
-                                    <div class="col-md-4">
-                                        <div class="card card-member">
-                                            <div class="content">
-                                                <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="img/faces/yanagisawa.jpg"/>
-                                                </div>
-                                                <div class="description">
-                                                    <h3 class="title">Masakazu Yanagisawa</h3>
-                                                    <p class="small-text">NPO corporation good aging yells</p>
-                                                    <br class="br-md"><br class="br-md">
-                                                    <a class="btn btn-primary" data-toggle="modal" data-target="#modal_yanagisawa">Profile</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-
 <!-- 石渡 -->
                                     <div class="col-md-4">
                                         <div class="card card-member">
@@ -357,13 +337,6 @@
                                         </div>
                                     </div>
 
-
-                                  </div>
-
-
-
-                                  <div class="row">
-
 <!-- 川 -->
                                     <div class="col-md-4">
                                         <div class="card card-member">
@@ -379,6 +352,15 @@
                                             </div>
                                         </div>
                                     </div>
+
+
+                                  </div>
+
+
+
+                                  <div class="row">
+
+
 
 
 <!-- 渡辺 -->
@@ -416,10 +398,6 @@
                                       </div>
 
 
-                                  </div>
-                                  <div class="row">
-
-
 <!-- 杉山 -->
                                     <div class="col-md-4">
                                         <div class="card card-member">
@@ -435,6 +413,12 @@
                                               </div>
                                           </div>
                                       </div>
+
+
+                                  </div>
+                                  <div class="row">
+
+
 
 
 <!-- 藤本 -->
@@ -482,6 +466,23 @@
                           <div class="col-md-10 col-md-offset-1">
                                   <div class="row">
 
+<!-- 柳沢 -->
+                                    <div class="col-md-4">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <div class="avatar avatar-danger">
+                                                    <img alt="..." class="img-circle" src="img/faces/yanagisawa.jpg"/>
+                                                </div>
+                                                <div class="description">
+                                                    <h3 class="title">Masakazu Yanagisawa</h3>
+                                                    <p class="small-text">NPO corporation good aging yells</p>
+                                                    <br class="br-md"><br class="br-md">
+                                                    <a class="btn btn-primary" data-toggle="modal" data-target="#modal_yanagisawa">Profile</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
 <!-- 岡島 -->
                                       <div class="col-md-4">
                                           <div class="card card-member">
@@ -520,6 +521,10 @@
 
 
 
+                                    </div>
+
+                                    <div class="row">
+
 <!-- 竹中 -->
                                       <div class="col-md-4">
                                           <div class="card card-member">
@@ -535,12 +540,6 @@
                                                 </div>
                                             </div>
                                         </div>
-
-
-
-                                    </div>
-
-                                    <div class="row">
 
 <!-- 宋 -->
                                       <div class="col-md-4">

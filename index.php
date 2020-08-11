@@ -756,10 +756,43 @@
                                                       </div>
                                                   </div>
                                               </div>
+                                              <div class="col-md-4">
+                                                  <div class="card card-member">
+                                                      <div class="content">
+                                                          <a href= "https://www.sophiamedi.co.jp/" target="_blank">
+                                                          <div style="padding:31.5px 0;">
+                                                              <img class="lazyload" loading="lazy" alt="..." style="width:140px" src="img/faces/sophiamedi_logo.jpg"/>
+                                                          </div>
+                                                          <div class="description">
+                                                              <h3 class="title" style="font-size:1.2rem;">ソフィアメディ株式会社　様</h3>
+                                                          </div>
+                                                          </a>
+                                                      </div>
+                                                  </div>
+                                              </div>
                                       </div>
-
-
                                       <!-- END row9 -->
+
+                                      <!-- row9 -->
+                                      <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="card card-member">
+                                                        <div class="content">
+                                                            <a href= "https://prtimes.jp/" target="_blank">
+                                                            <div style="padding:30px 0">
+                                                                <img class="lazyload" loading="lazy" alt="..." style="width:120px;" src="img/faces/prtimes_logo.png"/>
+                                                            </div>
+                                                            <div class="description">
+                                                                <h3 class="title" style="font-size: 1.2rem">株式会社PR TIMES　様</h3>
+                                                            </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                        </div>
+
+
+                                        <!-- END row9 -->
 
 
 
@@ -783,11 +816,24 @@
 
                 <ul class="msr_newslist01">
                   <li>
+                    <a>
+                      <div class="clearfix">
+                        <div class="item1">
+                        <time datetime="2020-8-7">2020.08.07</time>
+                        <div class="news">Info</div>
+                        </div>
+                        <div class="item2">
+                        <div class="pr-text">導入決定企業が30社を越えました！</div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
                     <a href="./documents/20200720pr.pdf" target="_blank">
                       <div class="clearfix">
                         <div class="item1">
                         <time datetime="2020-7-20">2020.07.20</time>
-                        <div class="news">PR</div>
+                        <div class="pr">PR</div>
                         </div>
                         <div class="item2">
                         <div class="pr-text">「news zero」にパートナーとして出演しているクリエイティブディレクター辻愛沙子氏が、Famieeのアドバイザーに就任</div>
@@ -800,7 +846,7 @@
                       <div class="clearfix">
                         <div class="item1">
                         <time datetime="2020-7-18">2020.07.18</time>
-                        <div class="pr">Info</div>
+                        <div class="news">Info</div>
                         </div>
                         <div class="item2">
                         <div class="pr-text">Famiee取材シリーズを更新しました。</div>
@@ -1317,6 +1363,27 @@
 
                                   </div>
                                   <!-- END row2 -->
+
+                                  <!-- row3 -->
+                                  <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <div class="avatar ">
+                                                    <img loading="lazy" alt="..." class="img-circle lazyload" src="img/faces/hibino.jpg"/>
+                                                </div>
+                                                <div class="description">
+                                                    <h3 class="title">日比野佐和子</h3>
+                                                    <p class="small-text">医療法人康梓会Y's サイエンスクリニック広尾統括院長, 大阪大学大学院医学系研究科臨床遺伝子治療学 特任准教授</p>
+                                                    <p class="description text-justify">内科医、皮膚科医、眼科医、日本抗加齢医学会専門医。同志社大学アンチエイジングリサーチセンター講師、森ノ宮医療大学保健医療学部准教授、（財）ルイ・パストゥール医学研究センター基礎研究部アンチエイジング医科学研究室室長などを歴任。現在はアンチエイジング医療における第一人者的な立場として、基礎研究から最新の再生医療の臨床に至るまで幅広く国際的に活躍するとともに、テレビや雑誌等メディアでも注目を集める。
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- END row3 -->
+
 
                               </div>
                           </div>
