@@ -1610,6 +1610,29 @@
 
                                   </div>
 
+                                  <!-- row4 -->
+                                  <div class="row">
+
+
+
+                                    <div class="col-md-4">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                            <a href= "https://prtimes.jp/" target="_blank">
+                                                <div class="avatar">
+                                                    <img loading="lazy" style="padding:44px 0;" alt="..." class="lazyload" src="img/faces/prtimes_logo.png"/>
+                                                </div>
+                                                <div class="description">
+                                                    <h3 class="title">PR TIMES</h3>
+                                                </div>
+                                            </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                  </div>
+
 
 
                       </div>

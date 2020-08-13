@@ -12,7 +12,6 @@ $(function(){
   setTimeout(stopload, duration);
 });
 function stopload(){
- console.log("test");
  $('.loading-bg').delay(900).fadeOut(800);
  $('.loading-title').delay(600).fadeOut(300);
 };
