@@ -778,7 +778,7 @@
                                                 <div class="col-md-4">
                                                     <div class="card card-member">
                                                         <div class="content">
-                                                            <a href= "https://prtimes.jp/" target="_blank">
+                                                            <a href= "https://prtimes.co.jp/" target="_blank">
                                                             <div style="padding:30px 0">
                                                                 <img class="lazyload" loading="lazy" alt="..." style="width:120px;" src="img/faces/prtimes_logo.png"/>
                                                             </div>
