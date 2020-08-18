@@ -773,7 +773,7 @@
                                       </div>
                                       <!-- END row9 -->
 
-                                      <!-- row9 -->
+                                      <!-- row10 -->
                                       <div class="row">
                                                 <div class="col-md-4">
                                                     <div class="card card-member">
@@ -820,7 +820,27 @@
                                         </div>
 
 
-                                        <!-- END row9 -->
+                                        <!-- END row10 -->
+                                        <!-- row11 -->
+                                        <div class="row">
+                                                  <div class="col-md-4">
+                                                      <div class="card card-member">
+                                                          <div class="content">
+                                                              <a href= "https://d-pops.co.jp/" target="_blank">
+                                                              <div style="padding:30px 0">
+                                                                  <img class="lazyload" loading="lazy" alt="..." style="width:140px;" src="img/faces/dpop_logo.jpg"/>
+                                                              </div>
+                                                              <div class="description">
+                                                                  <h3 class="title" style="font-size: 1.2rem">株式会社ディ・ポップス</h3>
+                                                              </div>
+                                                              </a>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                          </div>
+
+
+                                          <!-- END row11 -->
 
 
 
