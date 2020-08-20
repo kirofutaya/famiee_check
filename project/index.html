@@ -113,7 +113,7 @@
                     </ul>
                 </li>
                 <li>
-                  <a href="../privacypolicy.docx">Privacy Policy</a>
+                  <a href="../privacypolicy">Privacy Policy</a>
                 </li>
                 <li class="dropdown">
                     <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
@@ -338,7 +338,7 @@
                                 <a href="../forCompany">For Company</a>
                             </li>
                             <li>
-                                <a href="../privacypolicy.docx">Privacy Policy</a>
+                                <a href="../privacypolicy">Privacy Policy</a>
                             </li>
                         </ul>
                     </nav>
