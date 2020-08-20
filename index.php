@@ -113,7 +113,7 @@
                   </ul>
               </li>
               <li>
-                <a href="./privacypolicy">Privacy Policy</a>
+                <a href="./privacypolicy.docx">Privacy Policy</a>
               </li>
               <li class="dropdown">
                   <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
@@ -831,7 +831,7 @@
                                                                   <img class="lazyload" loading="lazy" alt="..." style="width:140px;" src="img/faces/dpop_logo.jpg"/>
                                                               </div>
                                                               <div class="description">
-                                                                  <h3 class="title" style="font-size: 1.2rem">株式会社ディ・ポップス</h3>
+                                                                  <h3 class="title" style="font-size: 1.2rem">株式会社ディ・ポップス 様</h3>
                                                               </div>
                                                               </a>
                                                           </div>
@@ -1737,7 +1737,7 @@
                                     <a href="./forCompany">For Company</a>
                                 </li>
                                 <li>
-                                    <a href="./privacypolicy">Privacy Policy</a>
+                                    <a href="./privacypolicy.docx">Privacy Policy</a>
                                 </li>
                             </ul>
                         </nav>
