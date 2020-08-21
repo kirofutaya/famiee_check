@@ -160,7 +160,7 @@
         <!-- <div class="parallax filter filter-gradient-rainbow"> -->
           <div class="image top-image2" style="background-image: url('img/app_background.png')"></div>
             <div class="container relative">
-                <div class="content">
+                <div class="content content2">
                     <div class="title-area">
                       <img src="img/title.png" class="title-logo"></img>
                       <h3 class="tagline" style="margin-top:40px;"><strong>自分たちで決める、家族のカタチ。</strong></h3>
@@ -775,10 +775,10 @@
 
     <h5 style="text-align:center; font-family:sans-serif; margin:20px 0;">より詳しい仕様はこちら</h5>
       <div style="text-align:center;">
-          <a href="#" target="_blank" class="link">利用ルール</a>
+          <a href="./rule" target="_blank" class="link">利用ルール</a>
       </div>
       <div style="text-align:center; margin-top:5px;">
-          <a href="#" target="_blank" class="link">プライバシーポリシー</a>
+          <a href="./privacypolicy" target="_blank" class="link">プライバシーポリシー</a>
       </div>
     <!-- <div class="just-flex" style="max-width:400px; margin:auto;">
       <div>
