@@ -12,13 +12,13 @@
     <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#"></head>
     <title>Famiee</title>
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://www.famiee.com/img/sns_balloon.jpg">
-    <meta property="og:url" content="https://www.famiee.com/" />
-    <meta property="og:title" content="Famiee Project" />
-    <meta property="og:description" content="「Famiee」プロジェクトは、LGBTカップルや事実婚カップル等、法的には婚姻関係と認められない多様な家族形態の人たちが、住んでいる地区に関わらず家族関係を証明することができるよう、ブロックチェーン技術を用いたパートナーシップ証明書の発行を目指します。さらに、多様な家族形態の人たちが等しく民間企業の家族向けサービスを受けることができるよう、パートナーシップ証明書を採用する民間企業を増やすための啓蒙活動を行い、これらの活動によって多様な家族形態が当たり前のように認められる社会の実現を目指します。" />
+    <meta property="og:image" content="https://www.famiee.com/img/sns_app.jpg">
+    <meta property="og:url" content="https://www.famiee.com/app.html" />
+    <meta property="og:title" content="Famieeアプリ" />
+    <meta property="og:description" content="Famiee（ファミー）はジェンダーに関わらず利用できる民間発行のパートナーシップ証明書です。法律や条例によらないため、居住地にかかわらず申請することができ、Famieeを導入している全国の企業やサービスで利用することができます。" />
 
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-    <meta name="description" content="「Famiee」プロジェクトは、LGBTカップルや事実婚カップル等、法的には婚姻関係と認められない多様な家族形態の人たちが、住んでいる地区に関わらず家族関係を証明することができるよう、ブロックチェーン技術を用いたパートナーシップ証明書の発行を目指します。さらに、多様な家族形態の人たちが等しく民間企業の家族向けサービスを受けることができるよう、パートナーシップ証明書を採用する民間企業を増やすための啓蒙活動を行い、これらの活動によって多様な家族形態が当たり前のように認められる社会の実現を目指します。">
+    <meta name="description" content="Famiee（ファミー）はジェンダーに関わらず利用できる民間発行のパートナーシップ証明書です。法律や条例によらないため、居住地にかかわらず申請することができ、Famieeを導入している全国の企業やサービスで利用することができます。">
 
     <link rel="stylesheet" href="swiper/swiper.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet" />
@@ -179,15 +179,19 @@
   <div class="container flex" style="align-items:center;">
 
         <div class="side-section">
-          <h2 class="catch-copy"><span class="decorate">ジェンダーや自治体によらない　</span><br><span class="decorate">民間発行のパートナーシップ証明　</span></h2>
+          <h2 class="catch-copy">
+            <span class="decorate">ジェンダーや自治体によらない　</span>
+            <br><br>
+            <span class="decorate">民間発行のパートナーシップ証明　</span>
+          </h2>
           <div class="side-section show-tb">
             <div><img class="lazyload" loading="lazy" alt="..." src="img/certificate.png"  style="width:100%;"></div>
           </div>
           <p class="description">
-            ファミーはジェンダーに関わらず利用できる民間発行のパートナーシップ証明書です（現在提供しているサービスは同性向けパートナーシップ証明のみですが、順次拡大していく予定です）。法律や条例によらないため、居住地にかかわらず申請することができ、ファミーを導入している全国の企業やサービスで利用することができます。利用可能企業・サービスは随時拡大していきます。<br><br>
-            申請はオンラインで完結するので、従来のようにパートナーが同時に役所等に出向くことで、第三者に関係が知られる心配もありません。申請時に提出していただく個人情報に関しても、サーバー等には保存されない*ため安全です。<br><br>
+            Famiee（ファミー）は、住んでいる場所やジェンダーに関わらず利用できる民間発行のパートナーシップ証明書です（現在提供しているサービスは同性向けパートナーシップ証明のみですが、順次拡大していく予定です）。Famieeを導入している全国の企業やサービスで利用することができます。利用可能企業・サービスは随時拡大していきます。<br><br>
+            申請はオンライン（スマートフォンのアプリ）で完結するので、従来のようにパートナーが同時に役所等に出向くことで、第三者に関係が知られる心配もありません。申請時に提出していただく個人情報に関しても、サーバー等には保存されない*ため安全です。<br><br>
             申請後、証明書はスマートフォンのアプリから利用することができるため、医療現場など緊急時にも活用することができます。紙での出力にも対応しており、企業等に提出が必要な場合や、記念用としてもご利用いただけます。<br><br>
-            <small>* 申請情報や提出書類は、申請から証明書発行までに数日間のみ、Famiee及び本人確認書類確認委託機関のサーバに保存されますが、証明書発行と同時に削除されます。</small>
+            * 申請情報や提出書類は、申請から証明書発行までの数日間のみ、Famiee及び本人確認書類確認委託機関のサーバに保存されますが、証明書発行と同時に削除されます。
           </p>
         </div>
 
@@ -371,6 +375,26 @@
           <div class="company-logo">
             <img class="lazyload" loading="lazy" alt="..." src="img/faces/startia_logo.png"/>
             <span>スターティアホールディングス株式会社</span>
+          </div>
+          <div class="company-logo">
+            <img class="lazyload" loading="lazy" alt="..." src="img/faces/sophiamedi_logo.jpg"/>
+            <span>ソフィアメディ株式会社</span>
+          </div>
+          <div class="company-logo">
+            <img class="lazyload" loading="lazy" alt="..." src="img/faces/prtimes_logo.png"/>
+            <span>株式会社PR TIMES</span>
+          </div>
+          <div class="company-logo">
+            <img class="lazyload" loading="lazy" alt="..." src="img/faces/elements_logo.png"/>
+            <span>株式会社ELEMENTS</span>
+          </div>
+          <div class="company-logo">
+            <img class="lazyload" loading="lazy" alt="..." src="img/faces/advancer_logo.png"/>
+            <span>アドバンサー株式会社</span>
+          </div>
+          <div class="company-logo">
+            <img class="lazyload" loading="lazy" alt="..." src="img/faces/dpop_logo.jpg"/>
+            <span>株式会社ディ・ポップス</span>
           </div>
         </div>
         <p class="description" style="font-family:sans-serif; text-align: center">詳しくは各企業にお問い合わせください</p>
@@ -574,9 +598,9 @@
             オンライン上で本人確認・独身確認・宣誓を行います。また、相続等についてパートナー同士で決めたルールを、権利義務として定めることができます。
           </p>
           <div>
-            <a class="nondeco btn-round" data-toggle="modal" data-target="#">
-              近日リリース予定
-            </a>
+            <button class="nondeco btn-round" data-toggle="modal" data-target="#">
+              リリース時期未定
+            </button>
           </div>
         </div>
       </div>
@@ -596,9 +620,9 @@
             <strong>オンライン上で本人確認・独身確認・宣誓を行います。</strong>
           </p>
           <div>
-            <a class="nondeco btn-round active" data-toggle="modal" data-target="#modal_document2">
+            <button class="nondeco btn-round active" data-toggle="modal" data-target="#modal_document2">
               申請に必要な条件と書類を確認する
-            </a>
+            </button>
           </div>
         </div>
       </div>
@@ -610,9 +634,9 @@
             第三者にお二人の関係を証明してもらいます。証明内容が制限される代わりに、最も簡便に申請することができます。
           </p>
           <div>
-            <a class="nondeco btn-round" data-toggle="modal" data-target="#">
-              近日リリース予定
-            </a>
+            <button class="nondeco btn-round" data-toggle="modal" data-target="#">
+              リリース時期未定
+            </button>
           </div>
         </div>
       </div>
@@ -798,7 +822,7 @@
   <div class="container">
     <div>
       <h2 style="text-align:center; font-family:sans-serif; color:white"><strong>アプリをダウンロード</strong></h2>
-      <p style="color:white">証明書の申請・利用はアプリからできます。<br>Android版は近日リリース予定です。</p>
+      <p style="color:white">証明書の申請・利用はアプリからできます。<br>Android版はリリース時期未定です。</p>
       <a href="" class="appstore"><img src="img/appstore.svg"></img></a>
     </div>
   </div>

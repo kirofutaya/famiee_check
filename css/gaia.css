@@ -3082,17 +3082,17 @@ a,
   text-shadow: 1px 2px 3px #808080;
 }
 .catch-copy{
-  line-height: 2;
 }
 .decorate{
-  /* background-color: #ff9129; */
   color: white;
   font-family: sans-serif;
   padding: 5px;
   position: relative;
   z-index:0;
+  display: inline-block;
 }
-.decorate:before{
+.decorate::before{
+  content:'';
   display: block;
   position: absolute;
   top: 0;
@@ -3100,11 +3100,11 @@ a,
   content:"";
   background-color: #ff9129;
   height: 100%;
-  width: 0;
+  width: 100%;
   transition: .5s;
   z-index: -1;
 }
-.active:before{
+.decorate.active::before{
   width: 100%;
 }
 
@@ -3228,6 +3228,7 @@ a.btn-line:hover{
 .type-title.orange{
   background-color: #ff9129;
 }
+
 .badge-star{
   position: absolute;
   top:-20px;
@@ -3252,7 +3253,7 @@ a.btn-line:hover{
 
 .certificate-type .type-text{
   padding: 20px;
-  height: 230px;
+  min-height: 230px;
   border:1px solid #777777;
   border-top:none;
 }
@@ -3269,12 +3270,14 @@ a.btn-line:hover{
   padding:20px 0;
 }
 
+
 .btn-round{
-  padding: 10px 20px;
+  padding: 10px 20px!important;
   border-radius: 50%;
   color: white;
   background-color: #777777;
   font-weight: bold;
+  border:none;
 }
 .btn-round:hover{
   cursor: default;
@@ -4187,6 +4190,7 @@ footer .info ul{
   }
   .certificate-type .type-text{
     height: auto;
+    min-height: 0;
   }
   .certificate-type .type-text p{
     min-height: 0px;
