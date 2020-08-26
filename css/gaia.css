@@ -3079,7 +3079,7 @@ a,
 }
 .tagline{
   font-family: sans-serif;
-  text-shadow: 1px 2px 3px #808080;
+  text-shadow: 2px 4px 5px #808080;
 }
 .catch-copy{
 }
@@ -3100,7 +3100,7 @@ a,
   content:"";
   background-color: #ff9129;
   height: 100%;
-  width: 100%;
+  width: 0%;
   transition: .5s;
   z-index: -1;
 }
@@ -3253,7 +3253,7 @@ a.btn-line:hover{
 
 .certificate-type .type-text{
   padding: 20px;
-  min-height: 230px;
+  min-height: 286px;
   border:1px solid #777777;
   border-top:none;
 }

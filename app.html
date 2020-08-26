@@ -15,10 +15,10 @@
     <meta property="og:image" content="https://www.famiee.com/img/sns_app.jpg">
     <meta property="og:url" content="https://www.famiee.com/app.html" />
     <meta property="og:title" content="Famieeアプリ" />
-    <meta property="og:description" content="Famiee（ファミー）はジェンダーに関わらず利用できる民間発行のパートナーシップ証明書です。法律や条例によらないため、居住地にかかわらず申請することができ、Famieeを導入している全国の企業やサービスで利用することができます。" />
+    <meta property="og:description" content="Famiee（ファミー）はジェンダーに関わらず利用できる民間発行のパートナーシップ証明書です。法律や条例によらないため、居住地にかかわらず申請することができ、Famieeの証明書を受け入れている全国の企業やサービスで利用することができます。" />
 
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-    <meta name="description" content="Famiee（ファミー）はジェンダーに関わらず利用できる民間発行のパートナーシップ証明書です。法律や条例によらないため、居住地にかかわらず申請することができ、Famieeを導入している全国の企業やサービスで利用することができます。">
+    <meta name="description" content="Famiee（ファミー）はジェンダーに関わらず利用できる民間発行のパートナーシップ証明書です。法律や条例によらないため、居住地にかかわらず申請することができ、Famieeの証明書を受け入れている全国の企業やサービスで利用することができます。">
 
     <link rel="stylesheet" href="swiper/swiper.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet" />
@@ -188,9 +188,9 @@
             <div><img class="lazyload" loading="lazy" alt="..." src="img/certificate.png"  style="width:100%;"></div>
           </div>
           <p class="description">
-            Famiee（ファミー）は、住んでいる場所やジェンダーに関わらず利用できる民間発行のパートナーシップ証明書です（現在提供しているサービスは同性向けパートナーシップ証明のみですが、順次拡大していく予定です）。Famieeを導入している全国の企業やサービスで利用することができます。利用可能企業・サービスは随時拡大していきます。<br><br>
-            申請はオンライン（スマートフォンのアプリ）で完結するので、従来のようにパートナーが同時に役所等に出向くことで、第三者に関係が知られる心配もありません。申請時に提出していただく個人情報に関しても、サーバー等には保存されない*ため安全です。<br><br>
-            申請後、証明書はスマートフォンのアプリから利用することができるため、医療現場など緊急時にも活用することができます。紙での出力にも対応しており、企業等に提出が必要な場合や、記念用としてもご利用いただけます。<br><br>
+            Famiee（ファミー）は、住んでいる場所やジェンダーに関わらず利用できる民間発行のパートナーシップ証明書です（現在提供しているサービスは同性向けパートナーシップ証明のみですが、順次拡大していく予定です）。Famieeの証明書を受け入れている全国の企業やサービスで利用することができます。利用可能企業・サービスは随時拡大していきます。<br><br>
+            申請はオンライン（スマートフォンのアプリ）で完結するので、従来のようにパートナーが二人で役所等に出向くことで、第三者に関係が知られる心配もありません。申請時に提出していただく個人情報に関しても、サーバー等には保存されない*ため安全です。<br><br>
+            申請後、証明書はスマートフォンのアプリで表示することができるため、医療現場など緊急時にも活用することができます。紙での出力にも対応しており、企業等に提出が必要な場合や、記念用としてもご利用いただけます。<br><br>
             * 申請情報や提出書類は、申請から証明書発行までの数日間のみ、Famiee及び本人確認書類確認委託機関のサーバに保存されますが、証明書発行と同時に削除されます。
           </p>
         </div>
@@ -261,8 +261,7 @@
           </div>
           <div style="padding-left:20px;">
             <p class="description">
-              企業にお勤めの方は、その企業の提供するカップル向け・家族向けの福利厚生サービス*を受けることができます。<br>
-              *慶弔休暇、介護休暇、家族手当、etc
+              企業にお勤めの方は、その企業の社員などに向けた提供する家族向けの福利厚生サービス（慶弔休暇・介護休暇・家族手当など）を受けることができます。
             </p>
           </div>
         </div>
@@ -352,10 +351,10 @@
             <img class="lazyload" loading="lazy" alt="..." src="img/faces/diverse_partners_logo.jpg"/>
             <span>株式会社ダイバースパートナーズ</span>
           </div>
-          <div class="company-logo">
+          <!-- <div class="company-logo">
             <img class="lazyload" loading="lazy" alt="..." src="img/faces/partner_logo.jpg"/>
             <span>パートナー共済</span>
-          </div>
+          </div> -->
           <div class="company-logo">
             <img class="lazyload" loading="lazy" alt="..." src="img/faces/gaiax_logo.png"/>
             <span>株式会社ガイアックス</span>
@@ -418,7 +417,7 @@
           </div>
           <div style="padding-left:20px;">
             <p class="description">
-              緊急時の付き添いや同意の権利などについて、通常の家族と同等の扱いを受けることができます。
+              インフォームドコンセントへの同席・ＩＣＵへの入室・同意書（手術、輸血など）へのサインなどにおいて、家族として認められます。 
             </p>
           </div>
         </div>
@@ -455,7 +454,7 @@
           </div>
           <div style="padding-left:20px;">
             <p class="description">
-              生命保険・損害保険等の受取人に指定できる等のサービスを受けられます。
+              生命保険・損害保険等の受取人の指定時に家族として認められます。
             </p>
           </div>
         </div>
@@ -493,7 +492,7 @@
           <div style="padding-left:20px;">
             <p class="description">
               <strong>・ローン</strong><br>
-              不動産ローンなどを組む際に、パートナーの収入合算で連帯保証・連帯債務等を指定することができます。<br><br>
+              不動産ローンなどを組む際に、パートナーの収入を合算できたり、連帯保証・連帯債務等を指定することができます。<br><br>
               <strong>・クレジット</strong><br>
               家族カードの作成ができたり、親権者としての同意などができます。
             </p>
@@ -565,7 +564,7 @@
           </div>
           <div style="padding-left:20px;">
             <p class="description">
-              マイレージの共有などのサービスが受けられます。
+              マイレージの共有などができます。
             </p>
           </div>
         </div>
@@ -588,18 +587,21 @@
 <!-- 証明書section -->
 <div class="section">
   <div class="container">
-    <h2 class="catch-copy"><span class="decorate">えらべる３種の証明書　</span></h2>
+    <h2 class="catch-copy"><span class="decorate">選べる３種の証明書　</span></h2>
     <br class="br-sp">
+    <p class="description">
+      現在は同性向けパートナーシップ証明書のみ。異性向けパートナーシップ証明書は今後リリース予定。
+    </p>
     <div class="flex" style="align-items:flex-start">
       <div class="certificate-type order2">
         <div class="type-title"><h3>第<span>１</span>種</h3></div>
         <div class="type-text">
           <p class="description">
-            オンライン上で本人確認・独身確認・宣誓を行います。また、相続等についてパートナー同士で決めたルールを、権利義務として定めることができます。
+            お二人の契約締結によって、パートナー関係を確認します。<br>相続や扶養義務等のパートナー間の権利・義務について、お二人で柔軟に決められます。
           </p>
           <div>
             <button class="nondeco btn-round" data-toggle="modal" data-target="#">
-              リリース時期未定
+              今後リリース予定
             </button>
           </div>
         </div>
@@ -617,7 +619,7 @@
         </div>
         <div class="type-text orange">
           <p class="description" style="color:black">
-            <strong>オンライン上で本人確認・独身確認・宣誓を行います。</strong>
+            <strong>お二人の宣誓によって、パートナー関係を確認します。</strong>
           </p>
           <div>
             <button class="nondeco btn-round active" data-toggle="modal" data-target="#modal_document2">
@@ -631,11 +633,11 @@
         <div class="type-title"><h3>第<span>３</span>種</h3></div>
         <div class="type-text">
           <p class="description">
-            第三者にお二人の関係を証明してもらいます。証明内容が制限される代わりに、最も簡便に申請することができます。
+            友人や知人などの証人によって、パートナー関係を確認します。
           </p>
           <div>
             <button class="nondeco btn-round" data-toggle="modal" data-target="#">
-              リリース時期未定
+              今後リリース予定
             </button>
           </div>
         </div>
@@ -648,6 +650,24 @@
 <div class="modal fade modal-document" id="modal_document2" tabindex="-1" role="dialog" aria-labelledby="document2lLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="document2lLabel">
+          必要要件
+        </h3>
+      </div>
+      <div class="modal-body">
+        <ul>
+          <li>２０歳以上であること。</li>
+          <li>配偶者がいないこと及び相手方当事者以外の者とのパートナーシップがないこと。</li>
+          <li>近親者でないこと</li>
+          <li>戸籍上の同性であること。</li>
+          <!-- <li>次のうちどれか一つ<br>運転免許証、パスポート、顔写真付住⺠基本台帳カード、マイナンバーカード、在留カード</li>
+          <li>⼾籍謄本、⼜は⼾籍抄本</li>
+          <li>独⾝証明書</li>
+          <li>パートナー関係の確認（アプリ上で宣誓）</li>
+          <li>パートナーそれぞれの端末</li> -->
+        </ul>
+      </div>
       <div class="modal-header">
         <h3 class="modal-title" id="document2lLabel">
           必要書類
@@ -752,6 +772,31 @@
     <h2 class="catch-copy"><span class="decorate">よくある質問　</span></h2>
     <!-- <h2 style="text-align:center; font-family:sans-serif">よくある質問</h2>
     <div class="separator separator-danger">✻</div> -->
+
+    <input id="acd-check2" class="acd-check" type="checkbox">
+    <label class="acd-label" for="acd-check2">証明書に有効期限はありますか？</label>
+    <div class="acd-content">
+        <p class="description">有効期限はありません。ただし、証明書には関係確認日が記載されています。企業などに証明書を提出される際には、「関係確認日が3ヶ月以内のもの」などの注意書きがないかご確認ください。そのような条件がある場合は、アプリのメニューから「関係の継続確認」をしていただくことで、関係確認日が更新された証明書が取得できます。</p>
+    </div>
+
+    <input id="acd-check6" class="acd-check" type="checkbox">
+    <label class="acd-label" for="acd-check6">パートナーが同居している必要はありますか？</label>
+    <div class="acd-content">
+        <p class="description">同居している必要はありません。パートナーそれぞれの住所に関わらず、証明書の取得を行うことができ取得後も有効です。</p>
+    </div>
+
+    <input id="acd-check7" class="acd-check" type="checkbox">
+    <label class="acd-label" for="acd-check7">日本国籍ではなくても利用できますか？</label>
+    <div class="acd-content">
+        <p class="description">ご利用いただけます。</p>
+    </div>
+
+    <input id="acd-check8" class="acd-check" type="checkbox">
+    <label class="acd-label" for="acd-check8">証明書の記載に通称名は利用できますか？</label>
+    <div class="acd-content">
+        <p class="description">ご利用いただけます。証明書は、通称名のみ記載のものと、通称名と戸籍名の両方を記載のものの両方をご利用いただけます。提出先企業等によっては、戸籍名が記載されている証明書が必要な場合もございますので、確認をお願いいたします。</p>
+    </div>
+
     <input id="acd-check1" class="acd-check" type="checkbox">
     <label class="acd-label" for="acd-check1">登録した情報や個人情報はどのように扱われますか？</label>
     <div class="acd-content">
@@ -762,21 +807,6 @@
           ・TrustDockの本人確認が終了し入力情報を符号化しブロックチェーンに登録した後、入力情報をFamieeのサーバーから削除いたします。これは、登録ユーザーのプライバシーを保護するためです。<br><br>
           ・符号化後情報は、ブロックチェーン上に残り続けます。本アプリに「パートナーシップ関係」が登録されているか否かを確認する際は、符号化後情報を用います。<br><br>
           ・ユーザーIDのみ、Famieeのサーバーで保管いたします。
-        </p>
-    </div>
-
-    <input id="acd-check2" class="acd-check" type="checkbox">
-    <label class="acd-label" for="acd-check2">証明書に有効期限はありますか？</label>
-    <div class="acd-content">
-        <p class="description">証明書を発行してから一年後に、アプリを通じてパートナーそれぞれに対して関係継続確認がされます。継続が確認されなかった場合、確認されるまで証明書は無効になります。</p>
-    </div>
-
-    <input id="acd-check3" class="acd-check" type="checkbox">
-    <label class="acd-label" for="acd-check3">一般社団法人Famieeが解散した場合はどのようになりますか？</label>
-    <div class="acd-content">
-        <p class="description">
-          (1)新規のパートナーシップ証明書の受付はできなくなります。<br>
-          (2)既に発行した証明書における二人の関係継続確認、住所変更、氏名変更（eg. 性別変更に伴う戸籍上の氏名を変更するような場合に相当）はできなくなります。
         </p>
     </div>
 
@@ -794,6 +824,15 @@
     <div class="acd-content">
         <p class="description">
           証明書発行後であれば、再度同じApple IDでサインインすることで、同じ証明書を利用することができます。
+        </p>
+    </div>
+
+    <input id="acd-check3" class="acd-check" type="checkbox">
+    <label class="acd-label" for="acd-check3">一般社団法人Famieeが解散した場合はどのようになりますか？</label>
+    <div class="acd-content">
+        <p class="description">
+          (1)新規のパートナーシップ証明書の受付はできなくなります。<br>
+          (2)既に発行した証明書における二人の関係継続確認、住所変更、氏名変更（eg. 性別変更に伴う戸籍上の氏名を変更するような場合に相当）はできなくなります。
         </p>
     </div>
 
@@ -822,7 +861,7 @@
   <div class="container">
     <div>
       <h2 style="text-align:center; font-family:sans-serif; color:white"><strong>アプリをダウンロード</strong></h2>
-      <p style="color:white">証明書の申請・利用はアプリからできます。<br>Android版はリリース時期未定です。</p>
+      <p style="color:white">証明書の申請・利用はアプリからできます。<br>Android版は今後リリース予定です。</p>
       <a href="" class="appstore"><img src="img/appstore.svg"></img></a>
     </div>
   </div>
