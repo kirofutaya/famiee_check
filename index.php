@@ -1266,6 +1266,27 @@
 
                               </div>
 
+                              <div class="row">
+
+                                <div class="col-md-4">
+                                    <div class="card card-member">
+                                        <div class="content">
+                                            <div class="avatar ">
+                                                <img loading="lazy" alt="..." class="img-circle lazyload" src="img/faces/hirakawa.jpg"/>
+                                            </div>
+                                            <div class="description">
+                                                <h3 class="title">平川大</h3>
+                                                <p class="small-text">株式会社メディカルネット<br>代表取締役会長CEO</p>
+                                                <p class="description text-justify">大学卒業後、外資系ITベンダーなどでPG・SE、製造業や通信・通販・メディア業界を担当するプリセールスやソリューション営業経験し、その後株式会社メディカルネットにて社会的課題を解決するアプローチで数々の事業を展開。上場後は新規事業や各種アライアンス・M&Aを手掛け、グループ経営として社会的課題を解決するアプローチを継続拡大。また、個人としても医療・ヘルスケア領域にて社会貢献活動を開始。発起人内山の想いに共感し、Famieeに参画。</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+
 
 
                             </div>
