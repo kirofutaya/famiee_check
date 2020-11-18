@@ -1044,7 +1044,7 @@
 
 
 <!-- Members Section -->
-    <div class="section section-our-team-freebie">
+    <div class="section section-our-team-freebie" id="members">
       <div class="parallax filter filter-color-black">
           <div class="image" style="background-color:#ffe500">
           </div>
@@ -1074,7 +1074,7 @@
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title" glot-model="Uchiyama">内山幸樹</h3>
-                                                    <p class="small-text" glot-model="hottolinkK" >株式会社ホットリンク 代表取締役会長</p>
+                                                    <p class="small-text" glot-model="hottolinkK" >株式会社ホットリンク 代表取締役</p>
                                                     <p class="description text-justify" glot-model="UchiyamaD" >東京大学大学院博士課程在学中に日本最初期の検索エンジンの開発に関り、以降２０年以上に渡り、ビッグデータ・AI・検索技術をベースにしたビジネスを多く立ち上げ、世界規模で展開。上場経験後、日本初の全寮制インターナショナル・ハイスクール UWC ISAKの立ち上げに関り、プロジェクトメンバーの柳沢らとの出会いで、自らの経験・知識・人脈が会社経営以外の社会課題解決にも少なからず力を発揮する事に気づき、様々な社会貢献活動を開始</p>
                                                 </div>
                                             </div>
@@ -1118,7 +1118,7 @@
                                   <!-- row2 -->
                                   <div class="row">
 
-                                    <div class="col-md-4">
+                                    <!-- <div class="col-md-4">
                                         <div class="card card-member">
                                             <div class="content">
                                                 <div class="avatar ">
@@ -1131,7 +1131,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
+
                                     <div class="col-md-4">
                                         <div class="card card-member">
                                             <div class="content">
@@ -1141,7 +1142,7 @@
                                                 <div class="description">
                                                     <h3 class="title" glot-model="nice">村上乃須</h3>
                                                     <p class="small-text" glot-model="hottolinkKKK">株式会社ホットリンク<br  class="hidden-tb"><span class="show-tb"> </span>ダイバーシティ推進担当</p>
-                                                    <p class="description  text-justify" glot-model="niceD">社会課題を解決するための仕組みづくりに強い関心を持ち、「たくさんの家族の形が当たり前に認められ、誰もが家族を持つことができる社会を実現する」というアプローチに共感し、「famiee」の起ち上げに参画。<br class="hidden-tb "><br class="hidden-tb "><br class="hidden-tb "><br class="hidden-tb "></p>
+                                                    <p class="description  text-justify" glot-model="niceD">社会課題を解決するための仕組みづくりに強い関心を持ち、「たくさんの家族の形が当たり前に認められ、誰もが家族を持つことができる社会を実現する」というアプローチに共感し、「famiee」の起ち上げに参画。<br class="hidden-tb "><br class="hidden-tb "><br class="hidden-tb "><br class="hidden-tb "><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"></p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1156,17 +1157,12 @@
                                                 <div class="description">
                                                     <h3 class="title" glot-model="sugiyama">杉山文野</h3>
                                                     <p class="small-text" glot-model="NPO2">株式会社ニューキャンバス代表取締役</p>
-                                                    <p class="description text-justify" glot-model="sugiyamaD">フェンシング元女子日本代表。早稲田大学大学院にてセクシュアリティを研究後、トランスジェンダーである自身の体験を織り交ぜた『ダブルハッピネス』を講談社より出版、話題をよんだ。日本初となる渋谷区・同性パートナーシップ条例制定に関わり、現在は渋谷区男女平等・多様性社会推進会議委員も務める。<br class="hidden-tb "><br class="hidden-tb "><br class="hidden-tb ">
+                                                    <p class="description text-justify" glot-model="sugiyamaD">フェンシング元女子日本代表。早稲田大学大学院にてセクシュアリティを研究後、トランスジェンダーである自身の体験を織り交ぜた『ダブルハッピネス』を講談社より出版、話題をよんだ。日本初となる渋谷区・同性パートナーシップ条例制定に関わり、現在は渋谷区男女平等・多様性社会推進会議委員も務める。<br class="hidden-tb "><br class="hidden-tb "><br class="hidden-tb "><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb">
                                                     </p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-
-                                  </div>
-
-                                  <!-- row3 -->
-                                  <div class="row">
 
                                     <div class="col-md-4">
                                         <div class="card card-member">
@@ -1182,6 +1178,11 @@
                                             </div>
                                         </div>
                                     </div>
+
+                                  </div>
+
+                                  <!-- row3 -->
+                                  <div class="row">
 
                                     <div class="col-md-4">
                                         <div class="card card-member">
@@ -1212,12 +1213,6 @@
                                         </div>
                                     </div>
 
-
-                                </div>
-
-                                <!-- row4 -->
-                                <div class="row">
-
                                   <div class="col-md-4">
                                       <div class="card card-member">
                                           <div class="content">
@@ -1227,11 +1222,17 @@
                                               <div class="description">
                                                   <h3 class="title">佐藤 淳一</h3>
                                                   <p class="small-text">株式会社CRIEN CEO</p>
-                                                  <p class="description text-justify">株式会社CELLにて10代の頃より多くのモバイルITサービスの開 発/運営を経験。ベンチャーの立ち上げ・メガベンチャー・ス タートアップと経て、現在は今までの経験を活かし新たな角度から、日本の地方創生を支えられるよう株式会社CRIENを立ち上げる。CRIENでは、2つの事業を展開しており、培ってきたITの知見を飲食業界に伝える「飲食店向けITコンシェルジュ」事業と、 研究開発としてSNS/インフルエンサーマーケティング・IoT・AI などをご活用し新規サービスの立ち上げを行なっている。<br>Famiee発起人の内山との出会いからそのミッションに共感しプロジェクトに開発メンバーとして参画。</p>
+                                                  <p class="description text-justify">株式会社CELLにて10代の頃より多くのモバイルITサービスの開 発/運営を経験。ベンチャーの立ち上げ・メガベンチャー・ス タートアップと経て、現在は今までの経験を活かし新たな角度から、日本の地方創生を支えられるよう株式会社CRIENを立ち上げる。CRIENでは、2つの事業を展開しており、培ってきたITの知見を飲食業界に伝える「飲食店向けITコンシェルジュ」事業と、 研究開発としてSNS/インフルエンサーマーケティング・IoT・AI などをご活用し新規サービスの立ち上げを行なっている。<br>Famiee発起人の内山との出会いからそのミッションに共感しプロジェクトに開発メンバーとして参画。<br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"></p>
                                               </div>
                                           </div>
                                       </div>
                                   </div>
+
+                                </div>
+
+                                <!-- row4 -->
+                                <div class="row">
+
 
                                   <div class="col-md-4">
                                       <div class="card card-member">
@@ -1262,25 +1263,40 @@
                                       </div>
                                   </div>
 
+                                  <div class="col-md-4">
+                                      <div class="card card-member">
+                                          <div class="content">
+                                              <div class="avatar ">
+                                                  <img loading="lazy" alt="..." class="img-circle lazyload" src="img/faces/hirakawa.jpg"/>
+                                              </div>
+                                              <div class="description">
+                                                  <h3 class="title">平川大</h3>
+                                                  <p class="small-text">株式会社メディカルネット<br>代表取締役会長CEO</p>
+                                                  <p class="description text-justify">大学卒業後、外資系ITベンダーなどでPG・SE、製造業や通信・通販・メディア業界を担当するプリセールスやソリューション営業経験し、その後株式会社メディカルネットにて社会的課題を解決するアプローチで数々の事業を展開。上場後は新規事業や各種アライアンス・M&Aを手掛け、グループ経営として社会的課題を解決するアプローチを継続拡大。また、個人としても医療・ヘルスケア領域にて社会貢献活動を開始。発起人内山の想いに共感し、Famieeに参画。<br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"></p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
 
+                                </div>
 
-                              </div>
+                                <!-- row5 -->
+                                <div class="row">
+                                  <div class="col-md-4">
+                                      <div class="card card-member">
+                                          <div class="content">
+                                              <div class="avatar ">
+                                                  <img loading="lazy" alt="..." class="img-circle lazyload" src="img/faces/kurioka.jpg"/>
+                                              </div>
+                                              <div class="description">
+                                                  <h3 class="title">栗岡大介</h3>
+                                                  <p class="small-text">社会起業家</p>
+                                                  <p class="description text-justify">米国・韓国・ドミニカ共和国など各国へ留学後、国内証券・運用会社で営業・企業調査業務を経験。2020年8月に独立し、人口8,000名の北海道・東川町と東京との2拠点での事業をスタート。日本の社会課題を自治体、国内企業や海外企業と協力することで解決を目指す。社会課題が顕在化し、「衣・食・住」から「医・職・住」に人々のニーズが変わる中で、規模よりもスピードと実装を最優先し多岐にわたる事業に携わる。</p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
 
-                              <div class="row">
-
-                                <div class="col-md-4">
-                                    <div class="card card-member">
-                                        <div class="content">
-                                            <div class="avatar ">
-                                                <img loading="lazy" alt="..." class="img-circle lazyload" src="img/faces/hirakawa.jpg"/>
-                                            </div>
-                                            <div class="description">
-                                                <h3 class="title">平川大</h3>
-                                                <p class="small-text">株式会社メディカルネット<br>代表取締役会長CEO</p>
-                                                <p class="description text-justify">大学卒業後、外資系ITベンダーなどでPG・SE、製造業や通信・通販・メディア業界を担当するプリセールスやソリューション営業経験し、その後株式会社メディカルネットにて社会的課題を解決するアプローチで数々の事業を展開。上場後は新規事業や各種アライアンス・M&Aを手掛け、グループ経営として社会的課題を解決するアプローチを継続拡大。また、個人としても医療・ヘルスケア領域にて社会貢献活動を開始。発起人内山の想いに共感し、Famieeに参画。</p>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
 
 
@@ -1294,7 +1310,6 @@
                     </div>
                 </div>
             </div>
-        </div>
 
         <!-- <div class="col-md-4">
             <div class="card card-member">
@@ -1314,7 +1329,7 @@
 
 
 <!-- Adviser Section -->
-        <div class="parallax filter filter-color-black">
+        <div class="parallax filter filter-color-black" id="advisors">
             <div class="image" style="background-color:#ffe500">
             </div>
               <div class="container">
@@ -1450,6 +1465,21 @@
                                             </div>
                                         </div>
                                     </div>
+
+                                    <div class="col-md-4">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <div class="avatar ">
+                                                    <img loading="lazy" alt="..." class="img-circle lazyload" src="img/faces/okumoto.jpg"/>
+                                                </div>
+                                                <div class="description">
+                                                    <h3 class="title">奥本直子</h3>
+                                                    <p class="small-text">アンバー・ブリッジ・パートナーズ CEO</p>
+                                                    <p class="description text-justify">ボストン大学大学院修士。米マイクロソフト、米Yahoo!本社でのバイスプレジデントを経て、シリコンバレーでのベンチャーキャピタルファンドの立ち上げを始め、日米をまたがる事業の戦略コンサルティングや、グローバル企業のボードメンバー・アドバイザーを務める。Well-beingをテクノロジーでサポートするTransformative Techの推進に尽力。<br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <!-- END row3 -->
 
@@ -1460,10 +1490,11 @@
                   </div>
               </div>
           </div>
+
 <!-- End Adviser Section -->
 
 <!-- Partner Section -->
-          <div class="parallax filter filter-color-black">
+          <div class="parallax filter filter-color-black" id="partners">
             <div class="image" style="background-color:#ffe500">
             </div>
               <!-- <div class="image" style="background-image:url('img/header2.jpg')">
@@ -1671,6 +1702,18 @@
                                         </div>
                                     </div>
 
+                                    <div class="col-md-4">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                            <a target="_blank">
+                                                <div class="description" style="padding:50px 0">
+                                                    <h3 class="title">エニーアップ</h3>
+                                                </div>
+                                            </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
 
                                   </div>
 
@@ -1680,6 +1723,8 @@
                   </div>
               </div>
           </div>
+
+              </div>
 <!-- End Partner Section -->
 
 
@@ -1688,7 +1733,7 @@
 
 
 <!-- Supporter Section -->
-<div class="section">
+<div class="section" id="sponsors">
     <div class="container">
         <div class="row">
             <div class="title-area">
@@ -1699,7 +1744,7 @@
                 <ul class='foundingsupporterList'>
                   <!-- リストの中身はadditional.jsで生成 -->
                 </ul>
-                <br>
+                <br id="supporters">
                 <br>
                 <h3><b>＊ 賛同企業・賛同者 ＊</b></h3>
                 <br>
