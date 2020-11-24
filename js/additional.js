@@ -16,15 +16,15 @@ function stopload(){
  $('.loading-title').delay(600).fadeOut(300);
 };
 
-// ページ内スクロール
-$('a[href^=#]').click(function(){
-		var speed = 500;
-		var href= $(this).attr("href");
-		var target = $(href == "#" || href == "" ? 'html' : href);
-		var position = target.offset().top;
-		$("html, body").animate({scrollTop:position}, speed, "swing");
-		return false;
-});
+// // ページ内スクロール
+// $('a[href^=#]').click(function(){
+// 		var speed = 500;
+// 		var href= $(this).attr("href");
+// 		var target = $(href == "#" || href == "" ? 'html' : href);
+// 		var position = target.offset().top;
+// 		$("html, body").animate({scrollTop:position}, speed, "swing");
+// 		return false;
+// });
 
 // スクロール時アニメーション起動用
 $(window).scroll(function (){
@@ -43,7 +43,7 @@ $(window).trigger('scroll');
 
 // ロード時にurlごとに異なるapiを叩く
 $(window).on('load', function(){
-  //console.log("ロード完了");
+  // console.log("ロード完了");
   if(document.URL.match("project")) {
     //console.log("ロードプロジェクト");
     createYoutube("https://script.google.com/a/withid.jp/macros/s/AKfycbwI6iimv0RwvyZ4oSgOw0xBEV_9tKvg3Fes7aKH/exec");
