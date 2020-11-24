@@ -16,7 +16,7 @@ function stopload(){
  $('.loading-title').delay(600).fadeOut(300);
 };
 
-ページ内スクロール
+// ページ内スクロール
 $('a[href^=#]').click(function(){
 		var speed = 500;
 		var href= $(this).attr("href");
@@ -58,7 +58,6 @@ $(window).on('load', function(){
     createSupporterList("https://script.google.com/macros/s/AKfycbzEFeNTTuBSWm7Tm_3fMDCAw4dMlvKLe1O6YW23gAOPzD-Lyo4/exec");
   }
 });
-
 
 // ロード時にapiを叩いてyoutubeを埋め込む関数
 function createYoutube(api_url){
