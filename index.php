@@ -837,6 +837,20 @@
                                                           </div>
                                                       </div>
                                                   </div>
+                                                  <div class="col-md-4">
+                                                      <div class="card card-member">
+                                                          <div class="content">
+                                                              <a href= "https://www.panasonic.com/jp/corporate/cns.html" target="_blank">
+                                                              <div style="padding:0">
+                                                                  <img class="lazyload" loading="lazy" alt="..." style="width:140px;" src="img/faces/panasonic.JPG"/>
+                                                              </div>
+                                                              <div class="description">
+                                                                  <h3 class="title" style="font-size: 1.2rem">パナソニック株式会社　<br>コネクティッドソリューションズ社 様</h3>
+                                                              </div>
+                                                              </a>
+                                                          </div>
+                                                      </div>
+                                                  </div>
                                           </div>
 
 
@@ -1773,8 +1787,11 @@
                 </div>
 
                 <div class="button-get-started">
-                    <a href="https://forms.gle/yQdkwVT61gdUBWEr6" target="_blank" class="btn btn-danger btn-fill" glot-model="contact">コンタクト
+                    <a href="https://forms.gle/N1bCJUp9kcFnFB9g6" target="_blank" class="btn btn-danger btn-fill" glot-model="contact">コンタクト
                     </a>
+                    <!-- 以前のURL↓
+                    <a href="https://forms.gle/yQdkwVT61gdUBWEr6" target="_blank" class="btn btn-danger btn-fill" glot-model="contact">コンタクト
+                    </a> -->
                 </div>
             </div>
         </div>
