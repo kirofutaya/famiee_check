@@ -1207,7 +1207,7 @@
                                                 <div class="description">
                                                     <h3 class="title">細田知美</h3>
                                                     <p class="small-text">PRコミュニケーション コンサルタント</p>
-                                                    <p class="description text-justify">大手PR会社シニアコンサルタント。メディアとの強いエンゲージメントを持ち、メディアとともに新しい形の情報拡散を行いムーブメントを生み出す。日本大学芸術学部卒業後、デザイナーとして活動したのちフランスに5年間在住、異文化に触れながら子育てを行う。アートをベースにしたクリエイティブ思考を生かし、PR視点から個人や企業へのブランディングを行っている。日経XWOMANアンバサダー。<br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"></p>
+                                                    <p class="description text-justify">（株）電通パブリックリレーションズ・シニアコンサルタント。<br>メディアとの強いエンゲージメントを持ち、メディアとともに新しい形の情報拡散を行いムーブメントを生み出す。日本大学芸術学部卒業後、デザイナーとして活動したのちフランスに5年間在住、異文化に触れながら子育てを経験。アートをベースにしたクリエイティブ思考を生かし、PR視点から企業や個人へのブランディングコンサルおよびPR施策を行っている。日経XWOMAN・日経ARIAアンバサダー。FamieeのPRコミュニケーションを担当。<br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"></p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1221,7 +1221,7 @@
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title" glot-model="mai">KONE</h3>
-                                                    <p class="description text-justify" style="padding-top:32.5px">youtubeで「がんこちゃん」としてLGBTQに関する発信活動を行う。多様な家族が認められる社会に共感し、Famiee projectに携わる。<br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"></p>
+                                                    <p class="description text-justify" style="padding-top:32.5px">youtubeで「がんこちゃん」としてLGBTQに関する発信活動を行う。多様な家族が認められる社会に共感し、Famiee projectに携わる。<br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"></p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1236,7 +1236,7 @@
                                               <div class="description">
                                                   <h3 class="title">佐藤 淳一</h3>
                                                   <p class="small-text">株式会社CRIEN CEO</p>
-                                                  <p class="description text-justify">株式会社CELLにて10代の頃より多くのモバイルITサービスの開 発/運営を経験。ベンチャーの立ち上げ・メガベンチャー・ス タートアップと経て、現在は今までの経験を活かし新たな角度から、日本の地方創生を支えられるよう株式会社CRIENを立ち上げる。CRIENでは、2つの事業を展開しており、培ってきたITの知見を飲食業界に伝える「飲食店向けITコンシェルジュ」事業と、 研究開発としてSNS/インフルエンサーマーケティング・IoT・AI などをご活用し新規サービスの立ち上げを行なっている。<br>Famiee発起人の内山との出会いからそのミッションに共感しプロジェクトに開発メンバーとして参画。<br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"></p>
+                                                  <p class="description text-justify">株式会社CELLにて10代の頃より多くのモバイルITサービスの開 発/運営を経験。ベンチャーの立ち上げ・メガベンチャー・ス タートアップと経て、現在は今までの経験を活かし新たな角度から、日本の地方創生を支えられるよう株式会社CRIENを立ち上げる。CRIENでは、2つの事業を展開しており、培ってきたITの知見を飲食業界に伝える「飲食店向けITコンシェルジュ」事業と、 研究開発としてSNS/インフルエンサーマーケティング・IoT・AI などをご活用し新規サービスの立ち上げを行なっている。<br>Famiee発起人の内山との出会いからそのミッションに共感しプロジェクトに開発メンバーとして参画。</p>
                                               </div>
                                           </div>
                                       </div>
@@ -1257,7 +1257,7 @@
                                               <div class="description">
                                                   <h3 class="title">加賀美サイ</h3>
                                                   <!-- <p class="small-text">PRコミュニケーション コンサルタント</p> -->
-                                                  <p class="description text-justify" style="padding-top:32.5px">性やジェンダー、発達障害、生きづらさ、親子関係、音楽や文学などのカルチャーについて書いているライター。主にnoteやTwitterでコンテンツを発信している。本業もライター／編集者で、マーケティング関係の会社に勤務。自らのバックグラウンドもあり、Famieeのミッションやサービス、社会におけるゴールに共感。ライティングの経験を活かし、Famieeでは主に記事制作を行っている。<br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"></p>
+                                                  <p class="description text-justify" style="padding-top:32.5px">性やジェンダー、発達障害、生きづらさ、親子関係、音楽や文学などのカルチャーについて書いているライター。主にnoteやTwitterでコンテンツを発信している。本業もライター／編集者で、マーケティング関係の会社に勤務。自らのバックグラウンドもあり、Famieeのミッションやサービス、社会におけるゴールに共感。ライティングの経験を活かし、Famieeでは主に記事制作を行っている。<br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"></p>
                                               </div>
                                           </div>
                                       </div>
@@ -1271,7 +1271,7 @@
                                               <div class="description">
                                                   <h3 class="title">二谷輝郎</h3>
                                                   <p class="small-text">withID株式会社COO</p>
-                                                  <p class="description text-justify">東京大学大学院在学中に世界34ヵ国を訪れた際、文化や習慣、人間のあり方など、多様性の大切さを実感。2019年の東京レインボープライドにおいてFamieeに出会い、多様な家族を認めていこうという考え方だけでなく、政治的には解決に時間がかかっていた社会課題を、新しい技術を用いることで民間から主体的に解決していこうという姿勢に賛同。開発担当。<br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"></p>
+                                                  <p class="description text-justify">東京大学大学院在学中に世界34ヵ国を訪れた際、文化や習慣、人間のあり方など、多様性の大切さを実感。2019年の東京レインボープライドにおいてFamieeに出会い、多様な家族を認めていこうという考え方だけでなく、政治的には解決に時間がかかっていた社会課題を、新しい技術を用いることで民間から主体的に解決していこうという姿勢に賛同。開発担当。<br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"></p>
                                               </div>
                                           </div>
                                       </div>
@@ -1286,7 +1286,7 @@
                                               <div class="description">
                                                   <h3 class="title">平川大</h3>
                                                   <p class="small-text">株式会社メディカルネット<br>代表取締役会長CEO</p>
-                                                  <p class="description text-justify">大学卒業後、外資系ITベンダーなどでPG・SE、製造業や通信・通販・メディア業界を担当するプリセールスやソリューション営業経験し、その後株式会社メディカルネットにて社会的課題を解決するアプローチで数々の事業を展開。上場後は新規事業や各種アライアンス・M&Aを手掛け、グループ経営として社会的課題を解決するアプローチを継続拡大。また、個人としても医療・ヘルスケア領域にて社会貢献活動を開始。発起人内山の想いに共感し、Famieeに参画。<br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"><br class="hidden-tb"></p>
+                                                  <p class="description text-justify">大学卒業後、外資系ITベンダーなどでPG・SE、製造業や通信・通販・メディア業界を担当するプリセールスやソリューション営業経験し、その後株式会社メディカルネットにて社会的課題を解決するアプローチで数々の事業を展開。上場後は新規事業や各種アライアンス・M&Aを手掛け、グループ経営として社会的課題を解決するアプローチを継続拡大。また、個人としても医療・ヘルスケア領域にて社会貢献活動を開始。発起人内山の想いに共感し、Famieeに参画。</p>
                                               </div>
                                           </div>
                                       </div>
@@ -1720,8 +1720,23 @@
                                         <div class="card card-member">
                                             <div class="content">
                                             <a target="_blank">
-                                                <div class="description" style="padding:50px 0">
+                                                <div class="description" style="padding:52.5px 0">
                                                     <h3 class="title">エニーアップ</h3>
+                                                </div>
+                                            </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                            <a href= "https://www.dentsu-pr.co.jp/" target="_blank">
+                                                <div>
+                                                    <img loading="lazy" style="width: 140px; padding:5px 0;" alt="..." class="lazyload" src="img/faces/dentsu_pr.png"/>
+                                                </div>
+                                                <div class="description">
+                                                    <h3 class="title">電通パブリックリレーションズ</h3>
                                                 </div>
                                             </a>
                                             </div>
