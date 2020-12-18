@@ -851,6 +851,21 @@
                                                           </div>
                                                       </div>
                                                   </div>
+
+                                                  <div class="col-md-4">
+                                                      <div class="card card-member">
+                                                          <div class="content">
+                                                              <a href= "https://www.0101maruigroup.co.jp/" target="_blank">
+                                                              <div style="padding:0">
+                                                                  <img class="lazyload" loading="lazy" alt="..." style="width:90px;" src="img/faces/marui_logo.jpg"/>
+                                                              </div>
+                                                              <div class="description">
+                                                                  <h3 class="title" style="font-size: 1.2rem">株式会社丸井グループ 様</h3>
+                                                              </div>
+                                                              </a>
+                                                          </div>
+                                                      </div>
+                                                  </div>
                                           </div>
 
 
