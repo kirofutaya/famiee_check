@@ -259,7 +259,7 @@
                 </div>
               </a>
 
-              <a href="https://forms.gle/ib6MmkULt2euknhEA" target="_blank" data-toggle="modal" data-target="#modal_form">
+              <a href="https://forms.gle/vnKweGCsTKWvDfrn8" target="_blank" data-toggle="modal" data-target="#modal_form">
                 <div class="k-tl-marker now"></div>
                 <div class="k-tl-area">
                   <div class="k-tl-title active">STEP4 賛同＆受入通知の記入</div>
@@ -285,7 +285,7 @@
                     <p class="description" style="text-align:center">プロジェクトに関する詳しい説明はご覧になりましたか？</p>
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" onclick="location.href='https://forms.gle/ib6MmkULt2euknhEA'" style="margin-bottom:0">はい</button>
+                    <button type="button" class="btn btn-secondary" onclick="location.href='https://forms.gle/vnKweGCsTKWvDfrn8'" style="margin-bottom:0">はい</button>
                     <button type="button" class="btn btn-secondary" onclick="location.href='./project'">いいえ</button>
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">戻る</button>
                   </div>

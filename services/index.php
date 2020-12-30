@@ -266,7 +266,7 @@
         </div>
       </a>
 
-      <a href="https://forms.gle/ib6MmkULt2euknhEA" target="_blank">
+      <a href="https://forms.gle/vnKweGCsTKWvDfrn8" target="_blank">
         <div class="k-tl-marker"></div>
         <div class="k-tl-area">
           <div class="k-tl-title">STEP4 賛同＆受入通知の記入</div>
