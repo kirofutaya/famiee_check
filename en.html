@@ -130,7 +130,7 @@
                   </li>
 
                 <li>
-                    <a href="https://forms.gle/yQdkwVT61gdUBWEr6" target="_blank" glot-model="contact">contact</a>
+                    <a href="https://forms.gle/4ZWMGhWzNGWU5wsv7" target="_blank" glot-model="contact">contact</a>
                 </li>
               </ul>
           </div>
@@ -941,7 +941,7 @@
                 </div>
 
                 <div class="button-get-started">
-                    <a href="https://forms.gle/yQdkwVT61gdUBWEr6" target="_blank" class="btn btn-danger btn-fill">CONTACT
+                    <a href="https://forms.gle/4ZWMGhWzNGWU5wsv7" target="_blank" class="btn btn-danger btn-fill">CONTACT
                     </a>
                 </div>
             </div>
