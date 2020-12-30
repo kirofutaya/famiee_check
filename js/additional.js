@@ -46,17 +46,21 @@ $(window).on('load', function(){
   // console.log("ロード完了");
   if(document.URL.match("project")) {
     //console.log("ロードプロジェクト");
-    createYoutube("https://script.google.com/a/withid.jp/macros/s/AKfycbwI6iimv0RwvyZ4oSgOw0xBEV_9tKvg3Fes7aKH/exec");
+    // createYoutube("https://script.google.com/a/withid.jp/macros/s/AKfycbwI6iimv0RwvyZ4oSgOw0xBEV_9tKvg3Fes7aKH/exec");
+    createYoutube("https://script.google.com/macros/s/AKfycbwL8UK5Ts5vYvnywKSRRWB__GCoYiIn_L4UNypn9TfC4wtJ37fCR-zD/exec");
   }else if(document.URL.match("services")){
     //console.log("ロードサービス")
-    createYoutube("https://script.google.com/a/withid.jp/macros/s/AKfycbypmBaU8p6ohjQrglFxbvtONBQZ6NGwSYJOODSA/exec");
+    // createYoutube("https://script.google.com/a/withid.jp/macros/s/AKfycbypmBaU8p6ohjQrglFxbvtONBQZ6NGwSYJOODSA/exec");
+    createYoutube("https://script.google.com/macros/s/AKfycbzKVu5__b5R8CRZJ7uMRYmxbYlNUsFW133Rrda1PdwlhXlpsBR3L7Vo/exec");
   }else if(document.URL.match("forCompany")){
     //console.log("ロードカンパニー");
-    createYoutube("https://script.google.com/a/withid.jp/macros/s/AKfycbyJQ5dAsvC0kbJvFiNhMBq9agHA9yyvT_RIQGjKHQ/exec");
+    // createYoutube("https://script.google.com/a/withid.jp/macros/s/AKfycbyJQ5dAsvC0kbJvFiNhMBq9agHA9yyvT_RIQGjKHQ/exec");
+    createYoutube("https://script.google.com/macros/s/AKfycbxwANWcUtGkVCyHB_54EfYLNiDntXSQvMbDdci9PkLnvzr-vo2quv7w/exec");
   }else{
     //console.log("ロードその他")
-    createSupporterList("https://script.google.com/macros/s/AKfycbzEFeNTTuBSWm7Tm_3fMDCAw4dMlvKLe1O6YW23gAOPzD-Lyo4/exec");
-  }
+    // createSupporterList("https://script.google.com/macros/s/AKfycbzEFeNTTuBSWm7Tm_3fMDCAw4dMlvKLe1O6YW23gAOPzD-Lyo4/exec");
+    createSupporterList("https://script.google.com/macros/s/AKfycbzRo1fz-O-nsvysmSFGkl4TnYE5xu7Qlw_PZ4vA2wtqPNXoTkTCCxUV_A/exec");
+  }s
 });
 
 // ロード時にapiを叩いてyoutubeを埋め込む関数
