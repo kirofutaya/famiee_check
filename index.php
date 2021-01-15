@@ -870,6 +870,27 @@
 
 
                                           <!-- END row11 -->
+                                          <!-- row11 -->
+                                          <div class="row">
+                                                    <div class="col-md-4">
+                                                        <div class="card card-member">
+                                                            <div class="content">
+                                                                <a href= "https://www.housecom.co.jp/" target="_blank">
+                                                                <div>
+                                                                    <img class="lazyload" loading="lazy" alt="..." style="width:140px;" src="img/faces/hc-logo.png"/>
+                                                                </div>
+                                                                <div class="description">
+                                                                    <h3 class="title" style="font-size: 1.2rem">ハウスコム株式会社 様</h3>
+                                                                </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                            </div>
+
+
+                                            <!-- END row11 -->
 
 
 
