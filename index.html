@@ -925,6 +925,19 @@
 
                 <ul class="msr_newslist01">
                   <li>
+                    <a href="https://note.com/famiee/n/n3bc9b9500d04" target="_blank">
+                      <div class="clearfix">
+                        <div class="item1">
+                        <time datetime="2020-10-26">2020.10.26</time>
+                        <div class="news">Info</div>
+                        </div>
+                        <div class="item2">
+                        <div class="pr-text">J-WAVEにFamiee代表理事の内山幸樹が出演しました。「STEP ONE」という番組内の「BEHIND THE SCENE」というワンコーナーにて、Famieeの活動内容やサービス内容などを紹介させて頂きました。</div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                 <li>
                     <a>
                       <div class="clearfix">
                         <div class="item1">
@@ -1028,6 +1041,12 @@
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
                             <!-- Slides -->
+                            <div class="swiper-slide">
+                              <a href="https://note.com/famiee/n/n3bc9b9500d04">
+                                <img alt="..." src="img/thumnail/note_jwave.jpeg"/>
+                              </a>
+                              <p>J-WAVEにFamiee代表理事の内山幸樹が出演しました。</p>
+                            </div>
                             <div class="swiper-slide">
                               <a href="https://note.com/famiee/n/n5729f389410a">
                                 <img alt="..." src="img/thumnail/note_hoshi.png"/>

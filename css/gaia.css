@@ -2251,14 +2251,14 @@ a,
 
 .swiper-slide p{
   position: absolute;
-  top:0;
+  bottom:0;
   width:100%;
-  background-color: rgba(65,201,180,0.4);
+  background-color: rgba(230,130,52,0.9);
   color:black;
   vertical-align: middle;
   margin:0;
   padding: 10px 0;
-  border-radius:5px 5px 0 0;
+  border-radius:0px 0px 5px 5px;
 }
 
 .swiper-slide img {
