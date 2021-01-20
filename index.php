@@ -886,6 +886,17 @@
                                                             </div>
                                                         </div>
                                                     </div>
+                                                    <div class="col-md-4">
+                                                        <div class="card card-member">
+                                                            <div class="content">
+                                                                <a href= "http://www.hakuzenkai.jp/" target="_blank">
+                                                                <div class="description">
+                                                                    <h3 class="title" style="font-size: 1.2rem; padding:70.15px 0;">医療法人 博善会 様</h3>
+                                                                </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
 
                                             </div>
 
