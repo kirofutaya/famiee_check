@@ -897,6 +897,20 @@
                                                             </div>
                                                         </div>
                                                     </div>
+                                                    <div class="col-md-4">
+                                                        <div class="card card-member">
+                                                            <div class="content">
+                                                                <a href= "https://akaruku.co.jp/" target="_blank">
+                                                                <div style="padding:0">
+                                                                    <img class="lazyload" loading="lazy" alt="..." style="width:140px;" src="img/faces/akaruku_logo.png"/>
+                                                                </div>
+                                                                <div class="description">
+                                                                    <h3 class="title" style="font-size: 1.2rem;">株式会社アカルク 様</h3>
+                                                                </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
 
                                             </div>
 
