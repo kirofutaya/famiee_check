@@ -933,6 +933,21 @@
                                                           </div>
                                                       </div>
 
+                                                      <div class="col-md-4">
+                                                          <div class="card card-member">
+                                                              <div class="content">
+                                                                  <a href= "https://leading-tech.jp/" target="_blank">
+                                                                  <div>
+                                                                      <img class="lazyload" loading="lazy" alt="..." style="width:220px;padding:29.5px 0" src="img/faces/leadingtech_logo.png"/>
+                                                                  </div>
+                                                                  <div class="description">
+                                                                      <h3 class="title" style="font-size: 1.2rem">リーディングテック株式会社 様</h3>
+                                                                  </div>
+                                                                  </a>
+                                                              </div>
+                                                          </div>
+                                                      </div>
+
 
                                               </div>
 
