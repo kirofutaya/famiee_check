@@ -923,7 +923,7 @@
                                                               <div class="content">
                                                                   <a href= "https://www.tsunagu.co.jp/" target="_blank">
                                                                   <div>
-                                                                      <img class="lazyload" loading="lazy" alt="..." style="width:220px;padding:15px 0" src="img/faces/tsunagu.jpg"/>
+                                                                      <img class="lazyload" loading="lazy" alt="..." style="width:220px;padding:31px 0" src="img/faces/tsunagu.jpg"/>
                                                                   </div>
                                                                   <div class="description">
                                                                       <h3 class="title" style="font-size: 1.2rem">株式会社ツナグ・ソリューションズ 様</h3>
@@ -938,7 +938,7 @@
                                                               <div class="content">
                                                                   <a href= "https://leading-tech.jp/" target="_blank">
                                                                   <div>
-                                                                      <img class="lazyload" loading="lazy" alt="..." style="width:220px;padding:29.5px 0" src="img/faces/leadingtech_logo.png"/>
+                                                                      <img class="lazyload" loading="lazy" alt="..." style="width:220px;padding:45.5px 0" src="img/faces/leadingtech_logo.png"/>
                                                                   </div>
                                                                   <div class="description">
                                                                       <h3 class="title" style="font-size: 1.2rem">リーディングテック株式会社 様</h3>
@@ -948,11 +948,50 @@
                                                           </div>
                                                       </div>
 
+                                                      <div class="col-md-4">
+                                                          <div class="card card-member">
+                                                              <div class="content">
+                                                                  <a href= "https://www.jal.co.jp/jp/ja/" target="_blank">
+                                                                  <div>
+                                                                      <img class="lazyload" loading="lazy" alt="..." style="width:80px;padding:30px 0" src="img/faces/jal_logo.png"/>
+                                                                  </div>
+                                                                  <div class="description">
+                                                                      <h3 class="title" style="font-size: 1.2rem">日本航空株式会社 様</h3>
+                                                                  </div>
+                                                                  </a>
+                                                              </div>
+                                                          </div>
+                                                      </div>
+
+
 
                                               </div>
 
 
                                               <!-- END row12 -->
+                                              <!-- row12 -->
+                                              <div class="row">
+                                                        <div class="col-md-4">
+                                                            <div class="card card-member">
+                                                                <div class="content">
+                                                                    <a href= "https://kmw.jp/" target="_blank">
+                                                                    <div>
+                                                                        <img class="lazyload" loading="lazy" alt="..." style="width:150px;padding:31px 0" src="img/faces/knowledge_merchants_works_logo.png"/>
+                                                                    </div>
+                                                                    <div class="description">
+                                                                        <h3 class="title" style="font-size: 1rem">ナレッジ・マーチャントワークス株式会社 様</h3>
+                                                                    </div>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+
+
+                                                </div>
+
+
+                                                <!-- END row12 -->
 
 
 
