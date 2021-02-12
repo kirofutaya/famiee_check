@@ -985,6 +985,20 @@
                                                                 </div>
                                                             </div>
                                                         </div>
+                                                        <div class="col-md-4">
+                                                            <div class="card card-member">
+                                                                <div class="content">
+                                                                    <a href= "https://www.sato-hospital.gr.jp/" target="_blank">
+                                                                    <div>
+                                                                        <img class="lazyload" loading="lazy" alt="..." style="width:160px; padding:11px 0;" src="img/faces/sato_hospital_logo.jpeg"/>
+                                                                    </div>
+                                                                    <div class="description">
+                                                                        <h3 class="title" style="font-size: 1.2rem">産科婦人科舘出張　佐藤病院 様</h3>
+                                                                    </div>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
 
 
 
@@ -1014,6 +1028,19 @@
                 </div>
 
                 <ul class="msr_newslist01">
+                  <li>
+                     <a>
+                       <div class="clearfix">
+                         <div class="item1">
+                         <time datetime="2021-2-12">2021.02.12</time>
+                         <div class="news">Info</div>
+                         </div>
+                         <div class="item2">
+                         <div class="pr-text">導入決定企業が40社を越えました！</div>
+                         </div>
+                       </div>
+                     </a>
+                   </li>
                   <li>
                     <a href="https://note.com/famiee/n/n3bc9b9500d04" target="_blank">
                       <div class="clearfix">
